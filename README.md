@@ -1,18 +1,16 @@
 # Summary
 
-Corpws Cystrawennol y Gymraeg
+UD Welsh-CCG (Corpws Cystrawennol y Gymraeg) is a treebank of Welsh,
+annotated according to the Universal Dependencies guidelines.
+
 
 # Introduction
 
-The UD Welch-CCG treebank has been manually annotated according to the Universal Dependencies guidelines. The tokenisation guidelines. The initial morphological annotation comes from a POS tagger trained on [Cronfa Electronig y Gymraeg](https://www.bangor.ac.uk/canolfanbedwyr/ceg.php.en), trained with [UDPipe](http://ufal.mff.cuni.cz/udpipe) using Word embeddings trained on the Welsh Wikipedia (pages larger then 500 characters). We also used the [Eurfa Dictionary](http://eurfa.org.uk/) during the training phase of UDpipe.
-
-All lemmas, UPOS, XPOS, heads and deprels have been manually validated.
-
-## Text Sources
-
-The main part of the annotated sentences come from the Welsh Wikipedia. Some sentences have been taken from the Corpus of the Welsh Assembly, websites of Welsh speaking organisations (Cymdeithas yr Iaith Gymraeg, University of Wales), News (y Golwg, local Welsh language newspapers, BBC Cymru) and Welsh language blogs.
-
-A few sentences are taken from Welsh Grammars (Gramaded Cymraeg Cyfoes, Gareth King, Modenr Welsh).
+The main part of the annotated sentences come from the Welsh Wikipedia. 
+Some sentences have been taken from the Corpus of the Welsh Assembly, 
+from websites of Welsh speaking organisations (Cymdeithas yr Iaith Gymraeg, University of Wales), 
+News (y Golwg, local Welsh language newspapers, BBC Cymru) and Welsh language blogs.
+A few example sentences are taken from Welsh Grammars (Gramaded Cymraeg Cyfoes: Gareth King, Modern Welsh).
 
 # Acknowledgements
 
