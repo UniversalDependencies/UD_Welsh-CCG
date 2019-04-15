@@ -4330,12 +4330,12 @@
 
 # sent_id = 229
 # text = Mae Nest wedi bod yn dda.
-1	Mae	bod	AUX	aux	Number=Sing|Person=3|Polarity=Aff|Tense=Present	6	cop	_	_
-2	Nest	dod	VERB	verb	Mutation=NM|Number=Sing|Person=2|Tense=Past	6	nsubj	_	_
-3	wedi	wedi	AUX	perf	_	4	aux	_	_
-4	bod	bod	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	1	xcomp	_	_
+1	Mae	bod	VERB	verb	Number=Sing|Person=3|Polarity=Aff|Tense=Present	0	root	_	_
+2	Nest	dod	VERB	verb	Mutation=NM|Number=Sing|Person=2|Tense=Past	1	nsubj	_	_
+3	wedi	wedi	AUX	perf	_	6	aux	_	_
+4	bod	bod	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	6	cop	_	_
 5	yn	yn	PART	pred	_	6	case:pred	_	_
-6	dda	da	ADJ	adj	Mutation=SM	0	root	_	SpaceAfter=No
+6	dda	da	ADJ	adj	Mutation=SM	1	xcomp	_	SpaceAfter=No
 7	.	.	PUNCT	punct	_	6	punct	_	SpacesAfter=\n
 
 # sent_id = 230
@@ -9833,12 +9833,12 @@
 
 # sent_id = 489
 # text = Mae 2018 wedi bod yn flwyddyn gyda mwy na'i siâr o bontydd.
-1	Mae	bod	AUX	aux	Number=Sing|Person=3|Polarity=Aff|Tense=Present	6	cop	_	_
-2	2018	2018	NUM	num	_	6	nsubj	_	_
-3	wedi	wedi	AUX	perf	_	4	aux	_	_
-4	bod	bod	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	1	xcomp	_	_
+1	Mae	bod	VERB	verb	Number=Sing|Person=3|Polarity=Aff|Tense=Present	0	root	_	_
+2	2018	2018	NUM	num	_	1	nsubj	_	_
+3	wedi	wedi	AUX	perf	_	6	aux	_	_
+4	bod	bod	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	6	cop	_	_
 5	yn	yn	PART	pred	_	6	case:pred	_	_
-6	flwyddyn	blwyddyn	NOUN	noun	Gender=Fem|Mutation=SM|Number=Sing	0	root	_	_
+6	flwyddyn	blwyddyn	NOUN	noun	Gender=Fem|Mutation=SM|Number=Sing	1	xcomp	_	_
 7	gyda	gyda	ADP	prep	_	8	case	_	_
 8	mwy	mawr	ADJ	cmp	_	6	acl	_	_
 9	na	na	ADP	prep	_	11	case	_	SpaceAfter=No
@@ -12134,15 +12134,15 @@
 # text = Yn ein hamser ni mae arlunwyr eraill wedi bod yn enwog.
 1	Yn	yn	ADP	prep	_	3	case	_	_
 2	ein	ein	PRON	dep	Number=Plur|Person=1|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
-3	hamser	amser	NOUN	noun	Gender=Masc|Mutation=AM|Number=Sing	11	obl	_	_
+3	hamser	amser	NOUN	noun	Gender=Masc|Mutation=AM|Number=Sing	5	obl	_	_
 4	ni	ni	PRON	indep	Number=Plur|Person=1|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
-5	mae	bod	AUX	aux	Number=Sing|Person=3|Polarity=Aff|Tense=Present	11	cop	_	_
-6	arlunwyr	arlunydd	NOUN	noun	Gender=Masc|Number=Sing	11	nsubj	_	_
+5	mae	bod	VERB	verb	Number=Sing|Person=3|Polarity=Aff|Tense=Present	0	root	_	_
+6	arlunwyr	arlunydd	NOUN	noun	Gender=Masc|Number=Sing	5	nsubj	_	_
 7	eraill	eraill	ADJ	adj	Number=Plur	6	amod	_	_
-8	wedi	wedi	AUX	perf	_	9	aux	_	_
-9	bod	bod	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	5	xcomp	_	_
+8	wedi	wedi	AUX	perf	_	11	aux	_	_
+9	bod	bod	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	11	cop	_	_
 10	yn	yn	PART	pred	_	11	case:pred	_	_
-11	enwog	enwog	ADJ	adj	_	0	root	_	SpaceAfter=No
+11	enwog	enwog	ADJ	adj	_	5	xcomp	_	SpaceAfter=No
 12	.	.	PUNCT	punct	_	11	punct	_	SpacesAfter=\n
 
 # sent_id = 581
