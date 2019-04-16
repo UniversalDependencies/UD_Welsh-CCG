@@ -726,7 +726,7 @@
 4	fawr	mawr	ADJ	adj	Mutation=SM	5	amod	_	_
 5	ddim	dim	NOUN	noun	Gender=Masc|Mutation=SM|Number=Sing	0	root	_	_
 6	cyswllt	cyswllt	NOUN	noun	Gender=Masc|Number=Sing	5	nmod	_	_
-7	wedi	wedi	AUX	perf	_	8	aux	_	_
+7	wedi	wedi	AUX	perf	_	12	aux	_	_
 8	bod	bod	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	12	cop	_	_
 9	rhwng	rhwng	ADP	prep	_	12	case	_	_
 10	y	y	DET	art	_	12	det	_	_
@@ -2565,7 +2565,7 @@
 1	A	a	PART	int	_	2	advmod	_	_
 2	gytunwch	cytuno	VERB	verb	Mutation=SM|Number=Plur|Person=2|Tense=Present	0	root	_	_
 3	fod	bod	NOUN	verbnoun	Mutation=SM|Number=Sing|VerbForm=Vnoun	6	cop	_	_
-4	hyn	hyn	PRON	dem	Number=Plur|PronType=Dem	3	nsubj	_	_
+4	hyn	hyn	PRON	dem	Number=Plur|PronType=Dem	6	nsubj	_	_
 5	yn	yn	PART	pred	_	6	case:pred	_	_
 6	well	da	ADJ	cmp	_	2	ccomp	_	_
 7	o	o	ADP	prep	_	8	case	_	_
@@ -8503,7 +8503,7 @@
 1	Mae	bod	VERB	verb	Number=Sing|Person=3|Polarity=Aff|Tense=Present	0	root	_	SpaceAfter=No
 2	'r	y	DET	art	_	3	det	_	_
 3	Llywodraeth	llywodraeth	NOUN	noun	Gender=Fem|Number=Sing	1	nsubj	_	_
-4	wedi	wedi	AUX	perf	_	5	aux	_	_
+4	wedi	wedi	AUX	perf	_	6	aux	_	_
 5	bod	bod	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	6	cop	_	_
 6	cystal	da	ADJ	eq	Number=Sing	1	xcomp	_	_
 7	â	â	ADP	prep	_	9	case	_	SpaceAfter=No
@@ -9501,7 +9501,7 @@
 3	gwleidyddol	gwleidyddol	ADJ	adj	Mutation=SM	2	amod	_	_
 4	cyffrous	cyffrous	ADJ	adj	_	2	amod	_	SpaceAfter=No
 5	,	,	PUNCT	punct	_	8	punct	_	_
-6	dyma	dyma	ADV	adv	_	8	cop	_	_
+6	dyma	dyma	ADV	adv	_	8	advmod	_	_
 7	eich	eich	PRON	dep	Number=Plur|Person=2|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
 8	cyfle	cyfle	NOUN	noun	Gender=Masc|Number=Sing	0	root	_	_
 9	chi	chi	PRON	indep	Number=Plur|Person=2|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
@@ -10394,8 +10394,8 @@
 2	llawer	llawer	NOUN	noun	Gender=Masc|Number=Sing	1	nsubj	_	_
 3	o	o	ADP	prep	_	4	case	_	_
 4	sôn	sôn	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	2	nmod	_	_
-5	wedi	wedi	AUX	perf	_	6	aux	_	_
-6	bod	bod	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	8	aux	_	_
+5	wedi	wedi	AUX	perf	_	8	aux	_	_
+6	bod	bod	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	8	cop	_	_
 7	am	am	ADP	prep	_	8	case	_	_
 8	benderfyniad	penderfyniad	NOUN	noun	Gender=Masc|Mutation=SM|Number=Sing	4	acl	_	_
 9	Llywodraeth	Llywodraeth	NOUN	noun	Gender=Fem|Number=Sing	8	nmod	_	_
@@ -10435,7 +10435,7 @@
 24	ei	ei	PRON	dep	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	25	obj	_	_
 25	gyflwyno	cyflwyno	NOUN	verbnoun	Mutation=SM|Number=Sing|VerbForm=Vnoun	23	ccomp	_	_
 26	fesul	fesul	ADJ	adj	Gender=Masc|Number=Sing	27	amod	_	_
-27	cam	cam	NOUN	noun	Gender=Masc|Number=Sing	25	advmod	_	_
+27	cam	cam	NOUN	noun	Gender=Masc|Number=Sing	25	obl	_	_
 28	yma	yma	ADV	adv	_	25	advmod	_	_
 29	yng	yn	ADP	prep	_	30	case	_	_
 30	Ngwynedd	Gwynedd	PROPN	place	Gender=Masc|Mutation=NM|Number=Sing	25	obl	_	SpaceAfter=No
@@ -11336,7 +11336,7 @@
 3	nid	ni	PART	neg	_	5	advmod	_	_
 4	yn	yn	PART	pred	_	5	case:pred	_	_
 5	unig	unig	ADJ	adj	_	2	ccomp	_	_
-6	bod	bod	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	12	aux	_	_
+6	bod	bod	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	12	cop	_	_
 7	y	y	DET	art	_	8	det	_	_
 8	disgyblion	disgybl	NOUN	noun	Gender=Masc|Number=Plur	12	nsubj	_	_
 9	yn	yn	PART	pred	_	12	case:pred	_	_
