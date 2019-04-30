@@ -19,7 +19,7 @@ A few example sentences are taken from Welsh Grammars (Gramaded Cymraeg Cyfoes: 
 Data available since: UD v2.4
 License: CC BY-SA 4.0
 Includes text: yes
-Genre: grammar-examples wiki nonfiction fiction news poetry
+Genre: grammar-examples wiki nonfiction fiction news
 Lemmas: converted from manual
 UPOS: converted from manual
 XPOS: manual native
@@ -27,6 +27,6 @@ Features: converted from manual
 Relations: manual native
 Contributors: Heinecke, Johannes; Tyers, Francis; 
 Contributing: elsewhere
-Contact: johannes.heinecke@orange.com, ftyers@hse.ru
+Contact: johannes.heinecke@orange.com
 ===============================================================================
 </pre>
