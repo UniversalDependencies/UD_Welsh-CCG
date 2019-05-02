@@ -191,7 +191,7 @@
 1	Cafodd	cael	VERB	verb	Number=Sing|Person=3|Tense=Past	0	root	_	_
 2	Dylan	Dylan	PROPN	person	_	1	nsubj	_	_
 3	Thomas	Thomas	PROPN	person	_	2	flat:name	_	_
-4	ei	ei	PRON	dep	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+4	ei	ei	PRON	dep	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	obj	_	_
 5	wahardd	gwahardd	NOUN	verbnoun	Mutation=SM|Number=Sing|VerbForm=Vnoun	1	ccomp	_	_
 6	o	o	ADP	prep	_	8	case	_	SpaceAfter=No
 7	'r	y	DET	art	_	8	det	_	_
@@ -4003,7 +4003,7 @@
 6	caiff	cael	VERB	verb	Number=Sing|Person=3|Tense=Present	4	ccomp	_	_
 7	yr	y	DET	art	_	8	det	_	_
 8	arian	arian	NOUN	noun	Gender=Masc|Number=Sing	6	nsubj	_	_
-9	ei	ei	PRON	dep	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+9	ei	ei	PRON	dep	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	obj	_	_
 10	wario	gwario	NOUN	verbnoun	Mutation=SM|Number=Sing|VerbForm=Vnoun	6	ccomp	_	SpaceAfter=No
 11	,	,	PUNCT	punct	_	14	punct	_	_
 12	ac	ac	CCONJ	cconj	_	14	cc	_	_
@@ -4528,7 +4528,7 @@
 # text = Mae o heb fynd eto.
 1	Mae	bod	VERB	verb	Number=Sing|Person=3|Polarity=Aff|Tense=Present	0	root	_	_
 2	o	e	PRON	indep	Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	nsubj	_	_
-3	heb	eb	AUX	perf	Mutation=AM	4	aux	_	_
+3	heb	heb	AUX	ante	_	4	aux	_	_
 4	fynd	mynd	NOUN	verbnoun	Mutation=SM|Number=Sing|VerbForm=Vnoun	1	xcomp	_	_
 5	eto	eto	ADV	adv	_	4	advmod	_	SpaceAfter=No
 6	.	.	PUNCT	punct	_	1	punct	_	SpacesAfter=\n
@@ -4904,7 +4904,7 @@
 18	rhaid	rhaid	NOUN	noun	Gender=Masc|Number=Sing	0	root	_	_
 19	i	i	ADP	prep	_	20	case	_	_
 20	ni	ni	PRON	indep	Number=Plur|Person=1|PronType=Prs	18	obl	_	_
-21	ei	ei	PRON	dep	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	22	nmod:poss	_	_
+21	ei	ei	PRON	dep	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	22	obj	_	_
 22	defnyddio	defnyddio	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	18	acl	_	_
 23	ar	ar	ADP	prep	_	25	case	_	_
 24	draws	draws	NOUN	noun	Gender=Fem|Number=Sing	23	fixed	_	_
@@ -5077,7 +5077,7 @@
 16	–	–	PUNCT	punct	_	17	punct	_	_
 17	a	a	CCONJ	cconj	_	18	cc	_	_
 18	dwi	bod	VERB	verb	Number=Sing|Person=1|Polarity=Neg|Tense=Present	1	conj	_	_
-19	di	di	AUX	perf	_	20	aux	_	_
+19	di	wedi	AUX	ante	_	20	aux	_	_
 20	cael	cael	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	18	xcomp	_	_
 21	wythnos	wythnos	NOUN	noun	Gender=Fem|Number=Sing	20	obj	_	_
 22	lle	lle	ADV	adv	_	24	advmod	_	_
