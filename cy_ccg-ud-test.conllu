@@ -3710,16 +3710,18 @@
 3	y	y	DET	art	_	4	det	_	_
 4	gwir	gwir	NOUN	noun	Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No
 5	,	,	PUNCT	punct	_	6	punct	_	_
-6	dwi	bod	VERB	verb	Number=Sing|Person=1|Tense=Pres	0	root	_	_
-7	wedi	wedi	AUX	ante	_	8	aux	_	_
-8	bod	bod	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	6	xcomp	_	_
-9	yn	yn	AUX	impf	_	11	aux	_	_
-10	ei	ei	PRON	dep	Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	obj	_	_
-11	dilyn	dilyn	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	8	xcomp	_	_
-12	yn	yn	PART	pred	_	13	case:pred	_	_
-13	gymharol	cymharol	ADJ	pos	Degree=Pos|Mutation=SM	11	advcl	_	_
-14	agos	agos	ADJ	pos	Degree=Pos	13	amod	_	SpaceAfter=No
-15	.	.	PUNCT	punct	_	6	punct	_	SpacesAfter=\s\n
+6-7	dwi	_	_	_	_	_	_	_	_
+6	dw	bod	VERB	verb	Number=Sing|Person=1	0	root	_	_
+7	i	i	PRON	indep	Number=Sing|Person=1	6	nsubj	_	_
+8	wedi	wedi	AUX	ante	_	9	aux	_	_
+9	bod	bod	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	6	xcomp	_	_
+10	yn	yn	AUX	impf	_	12	aux	_	_
+11	ei	ei	PRON	dep	Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	obj	_	_
+12	dilyn	dilyn	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	9	xcomp	_	_
+13	yn	yn	PART	pred	_	14	case:pred	_	_
+14	gymharol	cymharol	ADJ	pos	Degree=Pos|Mutation=SM	12	advcl	_	_
+15	agos	agos	ADJ	pos	Degree=Pos	14	amod	_	SpaceAfter=No
+16	.	.	PUNCT	punct	_	6	punct	_	SpacesAfter=\s\n
 
 # sent_id = 196
 # text = Nos Lun diwetha mi es i i gyfarfod Cymdeithas Cymry Penbedw efo criw o ddysgwyr Cilgwri i gyflwyno'r sgets a wnaethon ni yn Eisteddfod y Dysgwyr yn ôl ym mis Mawrth.
@@ -5076,20 +5078,22 @@
 15	ysbryd	ysbryd	NOUN	noun	Gender=Masc|Number=Sing	12	conj	_	_
 16	–	–	PUNCT	punct	_	17	punct	_	_
 17	a	a	CCONJ	cconj	_	18	cc	_	_
-18	dwi	bod	VERB	verb	Number=Sing|Person=1|Tense=Pres	1	conj	_	_
-19	di	wedi	AUX	ante	_	20	aux	_	_
-20	cael	cael	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	18	xcomp	_	_
-21	wythnos	wythnos	NOUN	noun	Gender=Fem|Number=Sing	20	obj	_	_
-22	lle	lle	ADV	adv	_	24	advmod	_	_
-23-24	roedd	_	_	_	_	_	_	_	_
-23	yr	y	PART	aff	_	24	advmod	_	_
-24	oedd	bod	VERB	verb	Number=Sing|Person=3|Tense=Imp	21	acl	_	_
-25	y	y	DET	art	_	26	det	_	_
-26	pair	Pair	PROPN	person	_	24	nsubj	_	_
-27	ddiwylliannol	diwylliannol	ADJ	pos	Degree=Pos|Mutation=SM	26	amod	_	_
-28	yn	yn	ADP	prep	_	29	case	_	_
-29	gorlifo	gorlifo	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	24	xcomp	_	SpaceAfter=No
-30	.	.	PUNCT	punct	_	18	punct	_	SpacesAfter=\n
+18-19	dwi	_	_	_	_	_	_	_	_
+18	dw	bod	VERB	verb	Number=Sing|Person=1|Tense=Pres	1	conj	_	_
+19	i	i	PRON	indep	Number=Sing|Person=1	18	nsubj	_	_
+20	di	wedi	AUX	ante	_	21	aux	_	_
+21	cael	cael	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	18	xcomp	_	_
+22	wythnos	wythnos	NOUN	noun	Gender=Fem|Number=Sing	21	obj	_	_
+23	lle	lle	ADV	adv	_	25	advmod	_	_
+24-25	roedd	_	_	_	_	_	_	_	_
+24	yr	y	PART	aff	_	25	advmod	_	_
+25	oedd	bod	VERB	verb	Number=Sing|Person=3|Tense=Imp	22	acl	_	_
+26	y	y	DET	art	_	27	det	_	_
+27	pair	Pair	PROPN	person	_	25	nsubj	_	_
+28	ddiwylliannol	diwylliannol	ADJ	pos	Degree=Pos|Mutation=SM	27	amod	_	_
+29	yn	yn	ADP	prep	_	30	case	_	_
+30	gorlifo	gorlifo	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	25	xcomp	_	SpaceAfter=No
+31	.	.	PUNCT	punct	_	18	punct	_	SpacesAfter=\n
 
 # sent_id = 269
 # text = Mae'n amlwg y dylem gael mynediad dirwystr i arian sy'n perthyn i ni.
@@ -8571,20 +8575,22 @@
 
 # sent_id = 447
 # text = Heddiw, dwi angen swnio'n gall am un alwad efo cyhoeddwr mawr.
-1	Heddiw	heddiw	ADV	adv	Gender=Masc|Number=Sing	4	advmod	_	SpaceAfter=No
-2	,	,	PUNCT	punct	_	4	punct	_	_
-3	dwi	bod	AUX	aux	Number=Sing|Person=1|Tense=Pres	4	cop	_	_
-4	angen	angen	NOUN	noun	Gender=Masc|Number=Sing	0	root	_	_
-5	swnio	swnio	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	4	acl	_	SpaceAfter=No
-6	'n	yn	PART	pred	_	7	case:pred	_	_
-7	gall	call	ADJ	pos	Degree=Pos|Mutation=SM	5	advmod	_	_
-8	am	am	ADP	prep	_	10	case	_	_
-9	un	un	NUM	num	_	10	nummod	_	_
-10	alwad	galwad	NOUN	noun	Gender=Masc|Mutation=SM|Number=Sing	5	obl	_	_
-11	efo	efo	ADP	prep	_	12	case	_	_
-12	cyhoeddwr	cyhoeddwr	NOUN	noun	Gender=Masc|Number=Sing	10	nmod	_	_
-13	mawr	mawr	ADJ	pos	Degree=Pos	12	amod	_	SpaceAfter=No
-14	.	.	PUNCT	punct	_	4	punct	_	SpacesAfter=\n
+1	Heddiw	heddiw	ADV	adv	Gender=Masc|Number=Sing	5	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	punct	_	5	punct	_	_
+3-4	dwi	_	_	_	_	_	_	_	_
+3	dw	bod	AUX	aux	Number=Sing|Person=1	5	cop	_	_
+4	i	i	PRON	indep	Number=Sing|Person=1	5	nsubj	_	_
+5	angen	angen	NOUN	noun	Gender=Masc|Number=Sing	0	root	_	_
+6	swnio	swnio	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	5	acl	_	SpaceAfter=No
+7	'n	yn	PART	pred	_	8	case:pred	_	_
+8	gall	call	ADJ	pos	Degree=Pos|Mutation=SM	6	advmod	_	_
+9	am	am	ADP	prep	_	11	case	_	_
+10	un	un	NUM	num	_	11	nummod	_	_
+11	alwad	galwad	NOUN	noun	Gender=Masc|Mutation=SM|Number=Sing	6	obl	_	_
+12	efo	efo	ADP	prep	_	13	case	_	_
+13	cyhoeddwr	cyhoeddwr	NOUN	noun	Gender=Masc|Number=Sing	11	nmod	_	_
+14	mawr	mawr	ADJ	pos	Degree=Pos	13	amod	_	SpaceAfter=No
+15	.	.	PUNCT	punct	_	5	punct	_	SpacesAfter=\n
 
 # sent_id = 448
 # text = Chwe mlynedd yn ôl ces gyflwyniad i'r byd hwn am gyfnod sylweddol iawn.
