@@ -14,6 +14,11 @@ A few example sentences are taken from Welsh Grammars (Gramaded Cymraeg Cyfoes: 
 
 # Acknowledgements
 
+# Changelog
+
+2019-05-15 v2.4
+  * initial version
+
 <pre>
 === Machine-readable metadata (DO NOT REMOVE!) ================================
 Data available since: UD v2.4
