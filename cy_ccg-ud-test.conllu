@@ -2199,9 +2199,9 @@
 8	i	i	ADP	prep	_	9	mark	_	_
 9	gefnogi	cefnogi	NOUN	verbnoun	Mutation=SM|Number=Sing|VerbForm=Vnoun	7	ccomp	_	_
 10	oddeutu	oddeutu	ADP	prep	_	11	case	_	_
-11	41	41	NUM	num	_	13	nummod	_	_
+11	41	41	NUM	num	_	9	obj	_	_
 12	o	o	ADP	prep	_	13	case	_	_
-13	brosiectau	prosiect	NOUN	noun	Gender=Masc|Mutation=SM|Number=Plur	9	obj	_	_
+13	brosiectau	prosiect	NOUN	noun	Gender=Masc|Mutation=SM|Number=Plur	11	nmod	_	_
 14	mewn	mewn	ADP	prep	_	16	case	_	_
 15	16	16	NUM	num	_	16	nummod	_	_
 16	awdurdod	awdurdod	NOUN	noun	Gender=Masc|Number=Sing	13	nmod	_	_
@@ -2246,9 +2246,9 @@
 21	at	at	ADP	prep	_	22	case	_	_
 22	gyrraedd	cyrraedd	NOUN	verbnoun	Mutation=SM|Number=Sing|VerbForm=Vnoun	19	acl	_	_
 23	y	y	DET	art	_	24	det	_	_
-24	filiwn	miliwn	NUM	num	Gender=Fem|Mutation=SM|Number=Sing	26	nummod	_	_
+24	filiwn	miliwn	NUM	num	Gender=Fem|Mutation=SM|Number=Sing	22	obj	_	_
 25	o	o	ADP	prep	_	26	case	_	_
-26	siaradwyr	siaradwr	NOUN	noun	Gender=Masc|Number=Plur	22	obj	_	_
+26	siaradwyr	siaradwr	NOUN	noun	Gender=Masc|Number=Plur	24	nmod	_	_
 27	Cymraeg	Cymraeg	ADJ	pos	Degree=Pos	26	amod	_	SpaceAfter=No
 28	”	”	PUNCT	punct	_	19	punct	_	SpaceAfter=No
 29	.	.	PUNCT	punct	_	6	punct	_	SpacesAfter=\n
@@ -4214,7 +4214,7 @@
 # sent_id = 219
 # text = Cymerwch gwpanaid o de cyn i chi fynd.
 1	Cymerwch	cymryd	VERB	verb	Mood=Imp|Number=Plur|Person=2	0	root	_	_
-2	gwpanaid	cwpan	NOUN	noun	Gender=Masc|Mutation=SM|Number=Sing	1	obj	_	_
+2	gwpanaid	cwpan	NOUN	noun	Gender=Masc|Mutation=SM|Number=Plur	1	obj	_	_
 3	o	o	ADP	prep	_	4	case	_	_
 4	de	de	NOUN	noun	Gender=Masc|Number=Sing	2	nmod	_	_
 5	cyn	cyn	ADP	prep	_	8	mark	_	_
@@ -6409,7 +6409,7 @@
 4	o	o	ADP	prep	_	5	case	_	_
 5	gynnydd	cynnydd	NOUN	noun	Gender=Masc|Mutation=SM|Number=Sing	3	nmod	_	_
 6	ar	ar	ADP	prep	_	7	case	_	_
-7	feinciau	bainc	NOUN	noun	Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
+7	feinciau	bainc	NOUN	noun	Gender=Fem|Number=Plur	2	obl	_	SpaceAfter=No
 8	'r	y	DET	art	_	9	det	_	_
 9	Ceidwadwyr	ceidwadwyr	NOUN	noun	Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
 10	.	.	PUNCT	punct	_	2	punct	_	SpacesAfter=\n
@@ -9131,7 +9131,7 @@
 1	Mynydd	mynydd	NOUN	noun	Gender=Masc|Number=Sing	0	root	_	_
 2	yn	yn	ADP	prep	_	4	case	_	_
 3	y	y	DET	art	_	4	det	_	_
-4	Carneddau	Carnedd	NOUN	noun	Gender=Fem|Number=Sing	1	nmod	_	_
+4	Carneddau	Carnedd	NOUN	noun	Gender=Fem|Number=Plur	1	nmod	_	_
 5	yn	yn	ADP	prep	_	6	case	_	_
 6	Eryri	Eryri	NOUN	noun	Gender=Fem|Number=Sing	4	nmod	_	_
 7	yw	bod	AUX	aux	Number=Sing|Person=3|Tense=Pres	1	cop	_	_
@@ -10368,7 +10368,7 @@
 
 # sent_id = 509
 # text = Er gwaethaf yr hinsawdd ariannol hynod o anodd sy'n wynebu gwasanaethau cyhoeddus, mae Cyngor Gwynedd yn dal i lwyddo i gyflwyno gwelliannau.
-1	Er	er	ADP	prep	_	4	advmod	_	_
+1	Er	er	ADP	prep	_	4	case	_	_
 2	gwaethaf	drwg	ADJ	sup	Degree=Sup	1	fixed	_	_
 3	yr	y	DET	art	_	4	det	_	_
 4	hinsawdd	hinsawdd	NOUN	noun	Gender=Fem|Number=Sing	15	advcl	_	_
@@ -12014,7 +12014,7 @@
 16	gwahaniaethau	gwahaniaeth	NOUN	noun	Gender=Masc|Number=Plur	15	obj	_	_
 17	rhwng	rhwng	ADP	prep	_	19	case	_	_
 18	eu	eu	PRON	dep	Number=Plur|Person=3|Poss=Yes|PronType=Prs	19	nmod:poss	_	_
-19	hesboniadau	esboniad	NOUN	noun	Gender=Masc|Mutation=AM|Number=Sing	16	nmod	_	_
+19	hesboniadau	esboniad	NOUN	noun	Gender=Masc|Mutation=AM|Number=Plur	16	nmod	_	_
 20	nhw	hwy	PRON	indep	Number=Plur|Person=3|Poss=Yes|PronType=Prs	19	nmod:poss	_	_
 21	am	am	ADP	prep	_	23	case	_	_
 22	y	y	DET	art	_	23	det	_	_
@@ -12468,7 +12468,7 @@
 3	wnaeth	gwneud	VERB	verb	Mutation=SM|Number=Sing|Person=3|Tense=Past	1	acl:relcl	_	_
 4	y	y	DET	art	_	5	det	_	_
 5	fath	math	NOUN	noun	Gender=Masc|Mutation=SM|Number=Sing	3	nsubj	_	_
-6	chwyldro	chwyldroi	NOUN	noun	Gender=Masc|Number=Sing	5	nmod	_	_
+6	chwyldro	chwyldro	NOUN	noun	Gender=Masc|Number=Sing	5	nmod	_	_
 7	sylfaenol	sylfaenol	ADJ	pos	Degree=Pos	6	amod	_	_
 8	yn	yn	PART	pred	_	9	case:pred	_	_
 9	bosibl	posibl	ADJ	pos	Degree=Pos|Mutation=SM	3	advmod	_	SpaceAfter=No
