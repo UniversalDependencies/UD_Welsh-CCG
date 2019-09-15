@@ -14,10 +14,31 @@ A few example sentences are taken from Welsh Grammars (Gramaded Cymraeg Cyfoes: 
 
 # Acknowledgements
 
+If you use this treebank in your work, please cite:
+
+```
+@inproceedings{heinecke2019,
+  author = {Heinecke, Johannes and Tyers, Francis M.},
+  title = {{Development of a Universal Dependencies treebank for Welsh}},
+  year = {2019},
+  booktitle = {{Proceedings of the Celtic Language Technology Workshop}},
+  publisher = {European Association for Machine Translation},
+  address = {Dublin},
+  pages = {21--31},
+  url = {https://www.aclweb.org/anthology/W19-6904},
+}
+```
+
 # Changelog
 
 2019-05-15 v2.4
   * initial version
+2019-05-30
+  * mutations corrected (or feature Mutation=)
+2019-09-15
+  * lemma for conjunction "ac" normalised to "a", number + "o" + noun  corrected
+
+
 
 <pre>
 === Machine-readable metadata (DO NOT REMOVE!) ================================
