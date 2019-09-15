@@ -7616,7 +7616,7 @@
 6	.	.	PUNCT	punct	_	1	punct	_	SpacesAfter=\n
 
 # sent_id = 398
-# text = Cawsom sgwrs gyda Leanne Wood AC am gwmnïau cydweithredol ac economi Gwlad y Basg , cyn ein digwyddiad.
+# text = Cawsom sgwrs gyda Leanne Wood AC am gwmnïau cydweithredol ac economi Gwlad y Basg, cyn ein digwyddiad.
 1	Cawsom	cael	VERB	verb	Number=Plur|Person=1|Tense=Past	0	root	_	_
 2	sgwrs	sgwrs	NOUN	noun	Gender=Fem|Number=Sing	1	obj	_	_
 3	gyda	gyda	ADP	prep	_	4	case	_	_
@@ -7630,7 +7630,7 @@
 11	economi	economi	NOUN	noun	Gender=Masc|Number=Sing	8	conj	_	_
 12	Gwlad	gwlad	NOUN	noun	Gender=Fem|Number=Sing	11	nmod	_	_
 13	y	y	DET	art	_	14	det	_	_
-14	Basg	Basg	NOUN	noun	Gender=Fem|Number=Sing	12	nmod	_	_
+14	Basg	Basg	NOUN	noun	Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
 15	,	,	PUNCT	punct	_	18	punct	_	_
 16	cyn	cyn	ADP	prep	_	18	case	_	_
 17	ein	ein	PRON	dep	Number=Plur|Person=1|Poss=Yes|PronType=Prs	18	nmod:poss	_	_
