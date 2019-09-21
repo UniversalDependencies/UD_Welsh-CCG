@@ -885,7 +885,7 @@
 6	astudio	astudio	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	2	xcomp	_	_
 7	llenyddiaeth	llenyddiaeth	NOUN	noun	Gender=Fem|Number=Sing	6	obj	_	_
 8	o	o	ADP	prep	_	9	case	_	_
-9	gwbl	cwbl	ADJ	pos	Degree=Pos|Mutation=SM	6	obl	_	SpaceAfter=No
+9	gwbl	cwbl	ADJ	pos	Degree=Pos|Mutation=SM	6	advcl	_	SpaceAfter=No
 10	.	.	PUNCT	punct	_	2	punct	_	SpacesAfter=\n
 
 # sent_id = 42
@@ -7764,10 +7764,10 @@
 10	amrywio	amrywio	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	8	xcomp	_	_
 11	o	o	ADP	prep	_	13	case	_	SpaceAfter=No
 12	'r	y	DET	art	_	13	det	_	_
-13	da	da	ADJ	pos	Degree=Pos	10	obl	_	_
+13	da	da	NOUN	noun	Number=Sing	10	obl	_	_
 14	i	i	ADP	prep	_	16	case	_	SpaceAfter=No
 15	'r	y	DET	art	_	16	det	_	_
-16	ardderchog	ardderchog	ADJ	pos	Degree=Pos|Number=Sing	10	obl	_	SpaceAfter=No
+16	ardderchog	ardderchog	NOUN	noun	Degree=Pos|Number=Sing	10	obl	_	SpaceAfter=No
 17	.	.	PUNCT	punct	_	8	punct	_	SpacesAfter=\n
 
 # sent_id = 404
@@ -8319,7 +8319,7 @@
 16	rhannol	rhannol	ADJ	pos	Degree=Pos	21	advmod	_	_
 17	oherwydd	oherwydd	ADP	prep	_	21	case	_	_
 18	mai	mai	CCONJ	cconj	_	21	mark	_	_
-19	Saesneg	saesneg	ADJ	pos	Degree=Pos	21	nsubj	_	_
+19	Saesneg	saesneg	NOUN	noun	_	21	nsubj	_	_
 20	yw	bod	AUX	aux	Number=Sing|Person=3|Tense=Pres	21	cop	_	_
 21	cyfrwng	cyfrwng	NOUN	noun	Gender=Masc|Number=Sing	7	advcl	_	_
 22	addysg	addysg	NOUN	noun	Gender=Fem|Number=Sing	21	nmod	_	_
@@ -8795,7 +8795,7 @@
 4	na	na	PART	neg	_	5	advmod	_	_
 5	rhoi	rhoi	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	11	advcl	_	SpaceAfter=No
 6	'r	y	DET	art	_	7	det	_	_
-7	Gymraeg	Cymraeg	ADJ	pos	Degree=Pos|Mutation=SM	5	obj	_	_
+7	Gymraeg	Cymraeg	NOUN	noun	Degree=Pos|Mutation=SM	5	obj	_	_
 8	yn	yn	PART	pred	_	9	case:pred	_	_
 9	gyntaf	cyntaf	ADV	adv	Mutation=SM	5	advmod	_	SpaceAfter=No
 10	,	,	PUNCT	punct	_	11	punct	_	_
@@ -8806,7 +8806,7 @@
 15	â	â	ADP	prep	_	16	case	_	_
 16	rhoi	rhoi	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	14	xcomp	_	SpaceAfter=No
 17	'r	y	DET	art	_	18	det	_	_
-18	Gymraeg	Cymraeg	ADJ	pos	Degree=Pos|Mutation=SM	16	obj	_	_
+18	Gymraeg	Cymraeg	NOUN	noun	Degree=Pos|Mutation=SM	16	obj	_	_
 19	o	o	ADP	prep	_	20	case	_	_
 20	gwbl	cwbl	ADJ	pos	Degree=Pos|Mutation=SM	16	advcl	_	SpaceAfter=No
 21	.	.	PUNCT	punct	_	11	punct	_	SpacesAfter=\s\n
@@ -10962,7 +10962,7 @@
 
 # sent_id = 531
 # text =  Saesneg yw cyfrwng y gyfrol, ond cynigir enghreifftiau buddiol i egluro'r gramadeg yn gryno ac yn effeithiol.
-1	Saesneg	Saesneg	ADJ	pos	Degree=Pos	3	nsubj	_	_
+1	Saesneg	Saesneg	NOUN	noun	Degree=Pos|Number=Sing	3	nsubj	_	_
 2	yw	bod	AUX	aux	Number=Sing|Person=3|Tense=Pres	3	cop	_	_
 3	cyfrwng	cyfrwng	NOUN	noun	Gender=Masc|Number=Sing	0	root	_	_
 4	y	y	DET	art	_	5	det	_	_
@@ -11341,14 +11341,14 @@
 2	sicrhau	sicrhau	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	1	xcomp	_	_
 3	nid	ni	PART	neg	_	5	advmod	_	_
 4	yn	yn	PART	pred	_	5	case:pred	_	_
-5	unig	unig	ADJ	pos	Degree=Pos	2	ccomp	_	_
+5	unig	unig	ADJ	pos	Degree=Pos	2	advcl	_	_
 6	bod	bod	AUX	verbnoun	Number=Sing|VerbForm=Vnoun	12	cop	_	_
 7	y	y	DET	art	_	8	det	_	_
 8	disgyblion	disgybl	NOUN	noun	Gender=Masc|Number=Plur	12	nsubj	_	_
 9	yn	yn	PART	pred	_	12	case:pred	_	_
 10	gyfan	cyfan	ADJ	pos	Degree=Pos|Gender=Masc|Mutation=SM|Number=Sing	12	advmod	_	_
 11	gwbl	cwbl	ADJ	pos	Degree=Pos|Mutation=SM	12	advmod	_	_
-12	ddwyieithog	dwyieithog	ADJ	pos	Degree=Pos|Mutation=SM	5	ccomp	_	_
+12	ddwyieithog	dwyieithog	ADJ	pos	Degree=Pos|Mutation=SM	2	ccomp	_	_
 13	pan	pan	SCONJ	sconj	_	14	mark	_	_
 14	fyddant	bod	VERB	verb	Mutation=SM|Number=Sing|Person=3|Tense=Fut	1	advcl	_	_
 15	yn	yn	AUX	impf	_	16	aux	_	_
@@ -11607,7 +11607,7 @@
 4	wedi	wedi	AUX	ante	_	5	aux	_	_
 5	ymateb	ymateb	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	1	xcomp	_	_
 6	yn	yn	PART	pred	_	7	case:pred	_	_
-7	hael	hael	ADJ	pos	Degree=Pos	5	ccomp	_	_
+7	hael	hael	ADJ	pos	Degree=Pos	5	advcl	_	_
 8	a	a	CCONJ	cconj	_	10	cc	_	_
 9	gyda	gyda	ADP	prep	_	10	case	_	_
 10	brwdfrydedd	brwdfrydedd	NOUN	noun	Gender=Masc|Number=Sing	7	conj	_	_
@@ -11731,7 +11731,7 @@
 5	Angharad	Angharad	PROPN	person	_	1	nsubj	_	_
 6	Jones	Jones	PROPN	person	_	5	flat:name	_	_
 7	a	a	CCONJ	cconj	_	9	cc	_	_
-8	Saesneg	Saesneg	ADJ	pos	Degree=Pos	9	nsubj	_	_
+8	Saesneg	Saesneg	NOUN	noun	Degree=Pos|Number=Sing	9	nsubj	_	_
 9	oedd	bod	VERB	verb	Number=Sing|Person=3|Tense=Imp	1	conj	_	_
 10	ei	ei	PRON	dep	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
 11	hiaith	iaith	NOUN	noun	Gender=Fem|Mutation=AM|Number=Sing	9	ccomp	_	_
@@ -12601,7 +12601,7 @@
 5	i	i	ADP	prep	_	6	mark	_	_
 6	greu	creu	NOUN	verbnoun	Mutation=SM|Number=Sing|VerbForm=Vnoun	4	ccomp	_	_
 7	tywysogaeth	tywysogaeth	NOUN	noun	Gender=Fem|Number=Sing	6	obj	_	_
-8	Gymreig	cymreig	ADJ	pos	Degree=Pos|Mutation=SM|Number=Sing	7	nsubj	_	_
+8	Gymreig	cymreig	ADJ	pos	Degree=Pos|Mutation=SM|Number=Sing	7	amod	_	_
 9	oedd	bod	AUX	aux	Number=Sing|Person=3|Tense=Imp	11	cop	_	_
 10	yn	yn	PART	pred	_	11	case:pred	_	_
 11	rhydd	rhydd	ADJ	pos	Degree=Pos|Number=Sing	6	advcl	_	_
