@@ -2771,7 +2771,7 @@
 6	fy	fy	PRON	dep	Number=Sing|Person=1|PronType=Prs	7	obj	_	_
 7	nhynnu	tynnu	NOUN	verbnoun	Mutation=NM|Number=Sing|VerbForm=Vnoun	5	ccomp	_	_
 8	i	i	ADP	prep	_	9	mark	_	_
-9	sôn	sôn	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	7	xcomp	_	_
+9	sôn	sôn	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	7	ccomp	_	_
 10	am	am	ADP	prep	_	12	case	_	_
 11	fy	fy	PRON	dep	Number=Sing|Person=1|Poss=Yes|PronType=Prs	12	nmod:poss	_	_
 12	marn	barn	NOUN	noun	Gender=Fem|Mutation=NM|Number=Sing	9	obl	_	_
@@ -3315,7 +3315,7 @@
 2	cyfres	cyfres	NOUN	noun	Gender=Fem|Number=Sing	1	obj	_	_
 3	o	o	ADP	prep	_	4	case	_	_
 4	wrthryfeloedd	gwrthryfel	NOUN	noun	Mutation=SM|Number=Plur	2	nmod	_	_
-5	yn	yn	PART	pred	_	7	case:pred	_	_
+5	yn	yn	ADP	prep	_	7	case	_	_
 6	erbyn	erbyn	ADP	prep	_	5	fixed	_	_
 7	llywodraeth	llywodraeth	NOUN	noun	Gender=Fem|Number=Sing	4	nmod	_	_
 8	y	y	DET	art	_	9	det	_	_
@@ -4063,7 +4063,7 @@
 # text = Rydyn ni'n mynd i Gaerdydd heno achos bod Cymru'n chwarae pêl-droed yn erbyn Lloegr.
 1-2	Rydyn	_	_	_	_	_	_	_	_
 1	yr	y	PART	aff	_	2	advmod	_	_
-2	ydyn	bod	VERB	verb	Number=Sing|Person=3|Tense=Pres	0	root	_	_
+2	ydyn	bod	VERB	verb	Number=Plur|Person=1|Tense=Pres	0	root	_	_
 3	ni	ni	PRON	indep	Number=Plur|Person=1|PronType=Prs	2	nsubj	_	SpaceAfter=No
 4	'n	yn	AUX	impf	_	5	aux	_	_
 5	mynd	mynd	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	2	xcomp	_	_
@@ -4076,7 +4076,7 @@
 12	'n	yn	AUX	impf	_	13	aux	_	_
 13	chwarae	chwarae	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	10	xcomp	_	_
 14	pêl-droed	pêl-droed	NOUN	noun	Gender=Fem|Number=Sing	13	obj	_	_
-15	yn	yn	PART	pred	_	17	case:pred	_	_
+15	yn	yn	ADP	prep	_	17	case	_	_
 16	erbyn	erbyn	ADP	prep	_	15	fixed	_	_
 17	Lloegr	Lloegr	PROPN	place	_	13	obl	_	SpaceAfter=No
 18	.	.	PUNCT	punct	_	10	punct	_	SpacesAfter=\n
@@ -4541,7 +4541,7 @@
 1	nid	ni	PART	neg	_	2	advmod	_	_
 2	ydy	bod	VERB	verb	Number=Sing|Person=3|Tense=Pres	0	root	_	_
 3	nhw	hwy	PRON	indep	Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
-4	heb	heb	AUX	perf	_	5	aux	_	_
+4	heb	heb	AUX	ante	_	5	aux	_	_
 5	benderfynu	penderfynu	NOUN	verbnoun	Mutation=SM|Number=Sing|VerbForm=Vnoun	2	xcomp	_	SpaceAfter=No
 6	.	.	PUNCT	punct	_	2	punct	_	SpacesAfter=\n
 
@@ -4549,7 +4549,7 @@
 # text = Papur newydd heb ei agor.
 1	Papur	papur	NOUN	noun	Gender=Masc|Number=Sing	0	root	_	_
 2	newydd	newydd	ADJ	pos	Degree=Pos	1	amod	_	_
-3	heb	heb	AUX	perf	_	5	aux	_	_
+3	heb	heb	AUX	ante	_	5	aux	_	_
 4	ei	mynd	VERB	verb	Number=Sing|Person=2|Tense=Fut	5	obj	_	_
 5	agor	agor	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	1	acl	_	SpaceAfter=No
 6	.	.	PUNCT	punct	_	1	punct	_	SpacesAfter=\n
@@ -5000,9 +5000,9 @@
 24	greu	creu	NOUN	verbnoun	Mutation=SM|Number=Sing|VerbForm=Vnoun	17	advcl	_	_
 25	celf	celf	NOUN	noun	Gender=Fem|Number=Sing	24	obj	_	_
 26	chwyldroadol	chwyldroadol	ADJ	pos	Degree=Pos|Gender=Fem|Number=Sing	25	amod	_	_
-27	wrth	wrth	ADP	prep	_	28	case	_	_
-28	gwrs	cwrs	NOUN	noun	Gender=Masc|Mutation=SM|Number=Sing	17	obl	_	SpaceAfter=No
-29	!	!	PUNCT	punct	_	28	punct	_	SpacesAfter=\n
+27	wrth	wrth	ADP	prep	_	17	advcl	_	_
+28	gwrs	cwrs	NOUN	noun	Gender=Masc|Mutation=SM|Number=Sing	27	fixed	_	SpaceAfter=No
+29	!	!	PUNCT	punct	_	17	punct	_	SpacesAfter=\n
 
 # sent_id = 266
 # text = Wedi ennill gradd ddosbarth cyntaf, dychwelodd i Gymru i ddilyn gyrfa fel awdures a chantores.
@@ -5570,12 +5570,12 @@
 # text = Efallai nad ydyn nhw'n mynd i allu siarad Cymraeg fel y maen nhw yma [yng Nghymru], ond mae yna ryw had wedi'i blannu.
 1	Efallai	efallai	ADV	adv	_	3	advmod	_	_
 2	nad	na	PART	neg	_	3	advmod	_	_
-3	ydyn	bod	VERB	verb	Number=Sing|Person=3|Tense=Pres	0	root	_	_
+3	ydyn	bod	VERB	verb	Number=Plur|Person=1|Tense=Pres	0	root	_	_
 4	nhw	hwy	PRON	indep	Number=Plur|Person=3|PronType=Prs	3	nsubj	_	SpaceAfter=No
 5	'n	yn	AUX	impf	_	6	aux	_	_
 6	mynd	mynd	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	3	xcomp	_	_
 7	i	i	ADP	prep	_	8	mark	_	_
-8	allu	gallu	NOUN	verbnoun	Mutation=SM|Number=Sing|VerbForm=Vnoun	6	acl	_	_
+8	allu	gallu	NOUN	verbnoun	Mutation=SM|Number=Sing|VerbForm=Vnoun	6	advcl	_	_
 9	siarad	siarad	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	8	xcomp	_	_
 10	Cymraeg	Cymraeg	NOUN	noun	Gender=Fem|Number=Sing	9	obj	_	_
 11	fel	fel	CCONJ	cconj	_	13	cc	_	_
@@ -6646,7 +6646,7 @@
 11	y	y	DET	art	_	12	det	_	_
 12	cyfryngau	cyfrwng	NOUN	noun	Gender=Masc|Number=Plur	7	conj	_	_
 13	ac	a	CCONJ	cconj	_	17	cc	_	_
-14	wrth	wrth	ADP	prep	_	17	case	_	_
+14	wrth	wrth	ADP	prep	_	17	advmod	_	_
 15	gwrs	cwrs	NOUN	noun	Gender=Masc|Mutation=SM|Number=Sing	14	fixed	_	SpaceAfter=No
 16	,	,	PUNCT	punct	_	17	punct	_	_
 17	beirdd	bardd	NOUN	noun	Gender=Masc|Number=Plur	7	conj	_	SpaceAfter=No
@@ -11677,7 +11677,7 @@
 1	A	a	PART	int	_	2	advmod	_	_
 2	tydi	bod	VERB	verb	Number=Sing|Person=3|Tense=Pres	0	root	_	_
 3	o	e	PRON	indep	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
-4	heb	heb	AUX	perf	_	7	aux	_	_
+4	heb	heb	AUX	ante	_	7	aux	_	_
 5	fod	bod	AUX	verbnoun	Mutation=SM|Number=Sing|VerbForm=Vnoun	7	cop	_	_
 6	yn	yn	PART	pred	_	7	case:pred	_	_
 7	help	help	NOUN	noun	Number=Sing	2	xcomp	_	_
