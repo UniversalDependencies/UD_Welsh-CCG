@@ -199,7 +199,7 @@
 9	am	am	ADP	prep	_	10	case	_	_
 10	helpu	helpu	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	5	obl	_	_
 11	ei	ei	PRON	dep	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	nmod:poss	_	_
-12	hunan	hunan	PRON	refl	PronType=Rcp	10	obl	_	_
+12	hunan	hun	PRON	refl	Number=Sing|PronType=Rcp	10	obl	_	_
 13	i	i	ADP	prep	_	15	case	_	SpaceAfter=No
 14	'r	y	DET	art	_	15	det	_	_
 15	cwrw	cwrw	NOUN	noun	Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
@@ -436,7 +436,7 @@
 14	yn	yn	AUX	impf	_	15	aux	_	_
 15	clywed	clywed	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	13	xcomp	_	_
 16	eich	eich	PRON	dep	Number=Plur|Person=2|Poss=Yes|PronType=Prs	17	nmod:poss	_	_
-17	hun	hun	PRON	refl	PronType=Rcp	15	obj	_	SpaceAfter=No
+17	hun	hun	PRON	refl	Number=Sing|PronType=Rcp	15	obj	_	SpaceAfter=No
 18	.	.	PUNCT	punct	_	1	punct	_	SpacesAfter=\n
 
 # sent_id = 18
@@ -476,7 +476,7 @@
 7	wedi	wedi	AUX	ante	_	8	aux	_	_
 8	ymrwymo	ymrwymo	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	4	xcomp	_	_
 9	ei	ei	PRON	dep	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
-10	hun	hun	PRON	refl	PronType=Rcp	8	obj	_	_
+10	hun	hun	PRON	refl	Number=Sing|PronType=Rcp	8	obj	_	_
 11	bellach	pell	ADJ	cmp	Degree=Cmp|Mutation=SM	8	advmod	_	_
 12	i	i	ADP	prep	_	13	mark	_	_
 13	gomisiynu	comisiynu	NOUN	verbnoun	Mutation=SM|Number=Sing|VerbForm=Vnoun	8	xcomp	_	SpaceAfter=No
@@ -4955,7 +4955,7 @@
 25	i	i	ADP	prep	_	26	mark	_	_
 26	fynegi	mynegi	NOUN	verbnoun	Mutation=SM|Number=Sing|VerbForm=Vnoun	23	acl	_	SpaceAfter=No
 27	'n	ein	PRON	dep	Number=Plur|Person=1|Poss=Yes|PronType=Prs	28	nmod:poss	_	_
-28	hunain	hunan	PRON	refl	Number=Plur|PronType=Rcp	26	obj	_	SpaceAfter=No
+28	hunain	hun	PRON	refl	Number=Plur|PronType=Rcp	26	obj	_	SpaceAfter=No
 29	.	.	PUNCT	punct	_	8	punct	_	SpacesAfter=\s\n
 
 # sent_id = 264
@@ -5967,7 +5967,7 @@
 16	,	,	PUNCT	punct	_	17	punct	_	_
 17	Yeats	Yeats	PROPN	person	Gender=Masc|Number=Sing	15	conj	_	_
 18	ei	ei	PRON	dep	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	19	nmod:poss	_	_
-19	hun	hun	PRON	refl	PronType=Rcp	17	nmod	_	_
+19	hun	hun	PRON	refl	Number=Sing|PronType=Rcp	17	nmod	_	_
 20	a	a	CCONJ	cconj	_	21	cc	_	_
 21	George	George	PROPN	person	Gender=Masc|Number=Sing	15	conj	_	_
 22	Bernard	Bernard	PROPN	person	Gender=Masc|Number=Sing	21	flat:name	_	_
@@ -6327,7 +6327,7 @@
 5	'r	y	DET	art	_	6	det	_	_
 6	digwyddiad	digwyddiad	NOUN	noun	Gender=Masc|Number=Sing	3	obl	_	_
 7	eich	eich	PRON	dep	Number=Plur|Person=2|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
-8	hun	hun	PRON	refl	PronType=Rcp	6	nmod	_	SpaceAfter=No
+8	hun	hun	PRON	refl	Number=Sing|PronType=Rcp	6	nmod	_	SpaceAfter=No
 9	,	,	PUNCT	punct	_	10	punct	_	_
 10	hyd	hyd	NOUN	noun	Gender=Masc|Number=Sing	3	advmod	_	_
 11	yn	yn	ADP	prep	_	10	fixed	_	_
@@ -7332,7 +7332,7 @@
 35	eu	eu	PRON	dep	Number=Plur|Person=3|Poss=Yes|PronType=Prs	36	nmod:poss	_	_
 36	plasdai	plasdŷ	NOUN	noun	Gender=Masc|Number=Plur	32	conj	_	_
 37	eu	eu	PRON	dep	Number=Plur|Person=3|Poss=Yes|PronType=Prs	38	nmod:poss	_	_
-38	hunain	hunain	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	36	nmod	_	_
+38	hunain	hun	PRON	refl	Number=Plur|PronType=Rcp	36	nmod	_	_
 39	gan	gan	ADP	prep	_	40	case	_	_
 40	diwtoriaid	tiwtor	NOUN	noun	Gender=Masc|Mutation=SM|Number=Plur	26	nmod:agent	_	_
 41	proffesiynol	proffesiynol	ADJ	pos	Degree=Pos|Gender=Masc|Number=Sing	40	amod	_	SpaceAfter=No
@@ -8178,7 +8178,7 @@
 3	wedi	wedi	AUX	ante	_	4	aux	_	_
 4	lladd	lladd	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	1	xcomp	_	_
 5	eu	eu	PRON	dep	Number=Plur|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
-6	hunain	hunain	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	4	obj	_	SpaceAfter=No
+6	hunain	hun	PRON	refl	Number=Plur|PronType=Rcp	4	obj	_	SpaceAfter=No
 7	.	.	PUNCT	punct	_	1	punct	_	SpacesAfter=\n\n
 
 # sent_id = 432
@@ -11651,7 +11651,7 @@
 19	ar	ar	ADP	prep	_	20	case	_	_
 20	ben	pen	NOUN	noun	Gender=Masc|Mutation=SM|Number=Sing	18	obl	_	_
 21	fy	fy	PRON	dep	Number=Sing|Person=1|Poss=Yes|PronType=Prs	22	nmod:poss	_	_
-22	hun	hun	PRON	refl	PronType=Rcp	20	nmod	_	SpaceAfter=No
+22	hun	hun	PRON	refl	Number=Sing|PronType=Rcp	20	nmod	_	SpaceAfter=No
 23	.	.	PUNCT	punct	_	13	punct	_	SpacesAfter=\s\n
 
 # sent_id = 560
@@ -14151,7 +14151,7 @@
 36	eu	eu	PRON	dep	Number=Plur|Person=3|Poss=Yes|PronType=Prs	37	nmod:poss	_	_
 37	plant	plentyn	NOUN	noun	Gender=Masc|Number=Plur	35	obj	_	_
 38	eu	eu	PRON	dep	Number=Plur|Person=3|Poss=Yes|PronType=Prs	39	nmod:poss	_	_
-39	hunain	hunan	PRON	refl	Number=Plur|PronType=Rcp	35	obj	_	SpaceAfter=No
+39	hunain	hun	PRON	refl	Number=Plur|PronType=Rcp	35	obj	_	SpaceAfter=No
 40	.	.	PUNCT	punct	_	20	punct	_	SpacesAfter=\n
 
 # sent_id = 712
@@ -14521,7 +14521,7 @@
 12	ei	ei	PRON	dep	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	13	nmod:poss	_	_
 13	phen	pen	NOUN	noun	Gender=Masc|Mutation=AM|Number=Sing	7	advcl	_	_
 14	ei	ei	PRON	dep	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
-15	hun	hun	PRON	refl	PronType=Rcp	13	nmod	_	SpaceAfter=No
+15	hun	hun	PRON	refl	Number=Sing|PronType=Rcp	13	nmod	_	SpaceAfter=No
 16	.	.	PUNCT	punct	_	1	punct	_	SpacesAfter=\n
 
 # sent_id = 728
@@ -18975,7 +18975,7 @@
 13	gerdd	cerdd	NOUN	noun	Gender=Fem|Mutation=SM|Number=Sing	11	nmod	_	_
 14	amdano	am	ADP	cprep	Gender=Masc|Number=Sing|Person=3	13	nmod	_	SpaceAfter=No
 15	'i	ei	PRON	dep	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	16	nmod:poss	_	_
-16	hun	hun	PRON	refl	PronType=Rcp	14	nmod	_	_
+16	hun	hun	PRON	refl	Number=Sing|PronType=Rcp	14	nmod	_	_
 17	yn	yn	PART	pred	_	18	case:pred	_	_
 18	eglwys	eglwys	NOUN	noun	Gender=Fem|Number=Sing	13	nmod	_	_
 19	Llanbadarn	Llanbadarn	PROPN	place	Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
