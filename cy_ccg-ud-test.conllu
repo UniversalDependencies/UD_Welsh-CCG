@@ -820,7 +820,7 @@
 1	Adfeilion	adfail	NOUN	noun	Gender=Masc|Number=Plur	0	root	_	_
 2	yn	yn	PART	pred	_	3	case:pred	_	_
 3	unig	unig	ADJ	pos	Degree=Pos	1	advmod	_	_
-4	a	a	PRON	rel	PronType=Rel	5	nsubj	_	_
+4	a	a	PRON	rel	PronType=Rel	5	obj	_	_
 5	welir	gweld	VERB	verb	Mood=Ind|Mutation=SM|Person=0|Tense=Fut	1	acl:relcl	_	_
 6	yno	yno	ADV	adv	_	5	advmod	_	_
 7	heddiw	heddiw	ADV	adv	_	5	advmod	_	SpaceAfter=No
@@ -4031,7 +4031,7 @@
 
 # sent_id = 208
 # text = Pan fydd rhagor o wybodaeth ar gael i'w rhannu, a ddaw'r Dirprwy Weinidog yn ei hôl i'r Siambr i roi adroddiad ehangach?
-1	Pan	pan	SCONJ	sconj	_	2	cc	_	_
+1	Pan	pan	SCONJ	sconj	_	2	mark	_	_
 2	fydd	bod	AUX	aux	Mood=Ind|Mutation=SM|Number=Sing|Person=3|Tense=Fut	0	root	_	_
 3	rhagor	rhagor	NOUN	noun	Gender=Masc|Number=Sing	2	nsubj	_	_
 4	o	o	ADP	prep	_	5	case	_	_
@@ -4611,7 +4611,7 @@
 24	"	"	PUNCT	punct	_	20	punct	_	SpaceAfter=No
 25	,	,	PUNCT	punct	_	28	punct	_	_
 26	a	a	CCONJ	cconj	_	28	cc	_	_
-27	phan	pan	SCONJ	sconj	Mutation=AM	28	cc	_	_
+27	phan	pan	SCONJ	sconj	Mutation=AM	28	mark	_	_
 28	aeth	mynd	VERB	verb	Mood=Ind|Number=Sing|Person=3|Tense=Past	36	advcl	_	_
 29	ati	at	ADP	cprep	Gender=Fem|Number=Sing|Person=3	28	obl	_	_
 30	i	i	ADP	prep	_	31	mark	_	_
@@ -5872,7 +5872,7 @@
 
 # sent_id = 311
 # text = Pan fu ef farw, rhannwyd ei deyrnas rhwng ei feibion, ond gallodd ei ŵyr, Hywel Dda, ffurfio teyrnas Deheubarth trwy uno teyrnasoedd llai'r de-orllewin, ac erbyn 942 roedd yn frenin ar y rhan fwyaf o Gymru.
-1	Pan	pan	SCONJ	sconj	_	4	cc	_	_
+1	Pan	pan	SCONJ	sconj	_	4	mark	_	_
 2	fu	bod	AUX	aux	Mood=Ind|Mutation=SM|Number=Sing|Person=3|Tense=Past	4	cop	_	_
 3	ef	e	PRON	indep	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
 4	farw	marw	ADJ	pos	Degree=Pos|Mutation=SM|Number=Sing|VerbForm=Vnoun	6	advcl	_	SpaceAfter=No
@@ -5925,7 +5925,7 @@
 3	hyd	hyd	ADP	prep	_	4	case	_	_
 4	1990	1990	NUM	num	_	1	obl	_	SpaceAfter=No
 5	,	,	PUNCT	punct	_	7	punct	_	_
-6	pan	pan	SCONJ	sconj	_	7	cc	_	_
+6	pan	pan	SCONJ	sconj	_	7	mark	_	_
 7	ad-unwyd	ad-uno	VERB	verb	Mood=Ind|Person=0|Tense=Past	1	advcl	_	_
 8	y	y	DET	art	_	9	det	_	_
 9	wlad	gwlad	NOUN	noun	Gender=Fem|Mutation=SM|Number=Sing	7	obj	_	SpaceAfter=No
@@ -6018,7 +6018,7 @@
 # text = Yr hyn a wneir fel rheol yw i ddau berson fynd i mewn i'r guddfan ac un yn dod allan, fel bod yr adar yn credu fod pawb wedi mynd.
 1	Yr	y	DET	art	_	2	det	_	_
 2	hyn	hyn	PRON	dem	Number=Plur|PronType=Dem	0	root	_	_
-3	a	a	PRON	rel	PronType=Rel	4	nsubj	_	_
+3	a	a	PRON	rel	PronType=Rel	4	obj	_	_
 4	wneir	gwneud	VERB	verb	Mood=Ind|Mutation=SM|Person=0|Tense=Fut	2	acl:relcl	_	_
 5	fel	fel	ADP	prep	_	6	case	_	_
 6	rheol	rheol	NOUN	noun	Gender=Fem|Number=Sing	4	obl	_	_
@@ -6336,7 +6336,7 @@
 
 # sent_id = 331
 # text = Pan ddewch adref ar ôl bod i'r archfarchnad, mae'n rhaid ichi waredu'r gwastraff.
-1	Pan	pan	SCONJ	sconj	_	2	cc	_	_
+1	Pan	pan	SCONJ	sconj	_	2	mark	_	_
 2	ddewch	dod	VERB	verb	Mood=Ind|Mutation=SM|Number=Plur|Person=2|Tense=Fut	0	root	_	_
 3	adref	adref	ADV	adv	_	2	advmod	_	_
 4	ar	ar	ADP	prep	_	5	case	_	_
@@ -9274,7 +9274,7 @@
 29	ymestyn	ymestyn	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	28	nmod	_	_
 30	y	y	DET	art	_	31	det	_	_
 31	cefn	cefn	NOUN	noun	Gender=Masc|Number=Sing	28	nmod	_	_
-32	pan	pan	CCONJ	cconj	_	33	cc	_	_
+32	pan	pan	CCONJ	cconj	_	33	mark	_	_
 33	fo	bod	VERB	verb	Mood=Sub|Mutation=SM|Number=Sing|Person=3|Tense=Pres	27	advcl	_	SpaceAfter=No
 34	'r	y	DET	art	_	35	det	_	_
 35	corff	corff	NOUN	noun	Gender=Masc|Number=Sing	33	nsubj	_	_
@@ -11863,7 +11863,7 @@
 3	"	"	PUNCT	punct	_	4	punct	_	SpaceAfter=No
 4	addysgwyd	addysgu	VERB	verb	Mood=Ind|Person=0|Tense=Past	1	ccomp	_	_
 5	fy	fy	PRON	dep	Number=Sing|Person=1|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
-6	nghenhedlaeth	cenhedlaeth	NOUN	noun	Gender=Fem|Mutation=NM|Number=Sing	4	nsubj	_	_
+6	nghenhedlaeth	cenhedlaeth	NOUN	noun	Gender=Fem|Mutation=NM|Number=Sing	4	obj	_	_
 7	i	i	PRON	indep	Number=Sing|Person=1|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
 8	o	o	ADP	prep	_	9	case	_	_
 9	actorion	actor	NOUN	noun	Gender=Masc|Number=Plur	6	nmod	_	_
@@ -16142,7 +16142,7 @@
 4	Gymraeg	Cymraeg	ADJ	pos	Degree=Pos|Gender=Fem|Mutation=SM	2	amod	_	_
 5	a	a	CCONJ	cconj	_	6	cc	_	_
 6	Chernyweg	Cernyweg	ADJ	pos	Degree=Pos|Gender=Fem|Mutation=AM|Number=Sing	4	conj	_	_
-7	a	a	PRON	rel	PronType=Rel	8	nsubj	_	_
+7	a	a	PRON	rel	PronType=Rel	8	obj	_	_
 8	fagwyd	magu	VERB	verb	Mood=Ind|Mutation=SM|Person=0|Tense=Past	2	acl:relcl	_	_
 9	yn	yn	ADP	prep	_	10	case	_	_
 10	Despenser	Despenser	PROPN	place	Gender=Masc|Number=Sing	8	obl	_	_
