@@ -3,11 +3,11 @@ commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Date:   Sat Apr 21 19:02:58 2018 +0200
 Evaluating the following revision of UD_Welsh-CCG:
-commit 9f9e5063f86a4d8c46ee5f2bbe9f06ea060671ec
+commit 3506a54efa7235c6c90574a8752b743c4fd95be6
+Merge: 7b6cd0c 7887344
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri May 10 13:45:30 2019 +0200
-Size: counted 10662 of 10662 words (nodes).
-Size: min(0, log((N/1000)**2)) = 4.73337203680114.
+Size: counted 16989 of 16989 words (nodes).
+Size: min(0, log((N/1000)**2)) = 5.66513215159955.
 Size: maximum value 13.815511 is for 1000000 words or more.
 Split: Did not find more than 10000 training words.
 Split: Did not find at least 10000 development words.
@@ -15,12 +15,12 @@ Split: Found at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 0.8.
 Universal POS tags: 15 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 0.8.
-Features: 5885 out of 10662 total words have one or more features.
+Features: 9440 out of 16989 total words have one or more features.
 Features: source of annotation (from README) factor is 0.8.
-Universal relations: 28 out of 37 found in the corpus.
+Universal relations: 29 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
-Udapi: found 1575 bugs.
-Udapi: worst expected case (threshold) is one bug per 10 words. There are 10662 words.
+Udapi: found 2440 bugs.
+Udapi: worst expected case (threshold) is one bug per 10 words. There are 16989 words.
 Genres: found 5 out of 17 known.
 validate.py --lang cy --max-err=10 UD_Welsh-CCG/cy_ccg-ud-test.conllu
 *** PASSED ***
@@ -28,11 +28,11 @@ Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
 (weight=0.0769230769230769) * (score{genres}=0.294117647058824) = 0.0226244343891403
 (weight=0.0769230769230769) * (score{lemmas}=0.8) = 0.0615384615384615
-(weight=0.256410256410256) * (score{size}=0.342612892729648) = 0.0878494596742688
+(weight=0.256410256410256) * (score{size}=0.410055938782064) = 0.105142548405657
 (weight=0.0512820512820513) * (score{split}=0.34) = 0.0174358974358974
 (weight=0.0769230769230769) * (score{tags}=0.705882352941177) = 0.0542986425339367
 (weight=0.307692307692308) * (score{udapi}=0.01) = 0.00307692307692308
-(weight=0.0769230769230769) * (score{udeprels}=0.756756756756757) = 0.0582120582120582
-(TOTAL score=0.366574338399148) * (availability=1) * (validity=1) = 0.366574338399148
+(weight=0.0769230769230769) * (score{udeprels}=0.783783783783784) = 0.0602910602910603
+(TOTAL score=0.385946429209538) * (availability=1) * (validity=1) = 0.385946429209538
 STARS = 2
-UD_Welsh-CCG	0.366574338399148	2
+UD_Welsh-CCG	0.385946429209538	2
