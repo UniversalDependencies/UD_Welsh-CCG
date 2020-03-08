@@ -9781,35 +9781,37 @@
 # sent_id = 487
 # text = Nid agweddau ar wahân mo rhain, yn bodoli mewn gwagleoedd, ond yn hytrach y seilwaith sydd ei hangen arnom wrth i ni gyrchu'r nod uchelgeisiol hwn.
 1	Nid	ni	PART	neg	_	2	advmod	_	_
-2	agweddau	agwedd	NOUN	noun	Gender=Fem|Number=Plur	9	nsubj	_	_
+2	agweddau	agwedd	NOUN	noun	Gender=Fem|Number=Plur	10	nsubj	_	_
 3	ar	ar	ADP	prep	_	4	case	_	_
 4	wahân	Wahân	PROPN	person	_	2	nmod	_	_
-5	mo	dim	PART	neg	_	2	advmod	_	_
-6	rhain	rhain	PRON	dem	Number=Sing|PronType=Dem|VerbForm=Vnoun	2	nsubj	_	SpaceAfter=No
-7	,	,	PUNCT	punct	_	9	punct	_	_
-8	yn	yn	AUX	impf	_	9	aux	_	_
-9	bodoli	bodoli	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	0	root	_	_
-10	mewn	mewn	ADP	prep	_	11	case	_	_
-11	gwagleoedd	gwagle	NOUN	noun	Gender=Masc|Number=Plur	9	obl	_	SpaceAfter=No
-12	,	,	PUNCT	punct	_	15	punct	_	_
-13	ond	ond	CCONJ	cconj	_	15	cc	_	_
-14	yn	yn	PART	pred	_	15	case:pred	_	_
-15	hytrach	hytrach	ADJ	pos	Degree=Pos	17	advmod	_	_
-16	y	y	DET	art	_	17	det	_	_
-17	seilwaith	seilwaith	NOUN	noun	Gender=Masc|Number=Sing	9	acl	_	_
-18	sydd	bod	AUX	aux	Mood=Ind|Number=Sing|Person=3|Relative=Rel|Tense=Pres	20	cop	_	_
-19	ei	ei	PRON	dep	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	20	nmod:poss	_	_
-20	hangen	angen	NOUN	noun	Gender=Masc|Mutation=AM|Number=Sing	17	acl:relcl	_	_
-21	arnom	ar	ADP	cprep	Number=Plur|Person=1	20	nmod	_	_
-22	wrth	wrth	ADP	prep	_	24	case	_	_
-23	i	i	ADP	prep	_	22	fixed	_	_
-24	ni	ni	PRON	indep	Number=Plur|Person=1|PronType=Prs	25	nsubj	_	_
-25	gyrchu	cyrchu	NOUN	verbnoun	Mutation=SM|Number=Sing|VerbForm=Vnoun	20	acl	_	SpaceAfter=No
-26	'r	y	DET	art	_	27	det	_	_
-27	nod	dod	NOUN	noun	Gender=Masc|Mutation=NM|Number=Sing	25	obj	_	_
-28	uchelgeisiol	uchelgeisiol	ADJ	pos	Degree=Pos|Gender=Masc|Number=Sing	27	amod	_	_
-29	hwn	hwn	PRON	dem	Gender=Masc|PronType=Dem	27	det	_	SpaceAfter=No
-30	.	.	PUNCT	punct	_	9	punct	_	SpacesAfter=\n
+5-6	mo	_	_	_	_	_	_	_	_
+5	dim	dim	NOUN	noun	Gender=Masc|Number=Sing	2	nmod	_	_
+6	o	o	PART	neg	_	7	advmod	_	_
+7	rhain	rhain	PRON	dem	Number=Sing|PronType=Dem|VerbForm=Vnoun	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	punct	_	10	punct	_	_
+9	yn	yn	AUX	impf	_	10	aux	_	_
+10	bodoli	bodoli	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	0	root	_	_
+11	mewn	mewn	ADP	prep	_	12	case	_	_
+12	gwagleoedd	gwagle	NOUN	noun	Gender=Masc|Number=Plur	10	obl	_	SpaceAfter=No
+13	,	,	PUNCT	punct	_	16	punct	_	_
+14	ond	ond	CCONJ	cconj	_	16	cc	_	_
+15	yn	yn	PART	pred	_	16	case:pred	_	_
+16	hytrach	hytrach	ADJ	pos	Degree=Pos	18	advmod	_	_
+17	y	y	DET	art	_	18	det	_	_
+18	seilwaith	seilwaith	NOUN	noun	Gender=Masc|Number=Sing	10	acl	_	_
+19	sydd	bod	AUX	aux	Mood=Ind|Number=Sing|Person=3|Relative=Rel|Tense=Pres	21	cop	_	_
+20	ei	ei	PRON	dep	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	21	nmod:poss	_	_
+21	hangen	angen	NOUN	noun	Gender=Masc|Mutation=AM|Number=Sing	18	acl:relcl	_	_
+22	arnom	ar	ADP	cprep	Number=Plur|Person=1	21	nmod	_	_
+23	wrth	wrth	ADP	prep	_	25	case	_	_
+24	i	i	ADP	prep	_	23	fixed	_	_
+25	ni	ni	PRON	indep	Number=Plur|Person=1|PronType=Prs	26	nsubj	_	_
+26	gyrchu	cyrchu	NOUN	verbnoun	Mutation=SM|Number=Sing|VerbForm=Vnoun	21	acl	_	SpaceAfter=No
+27	'r	y	DET	art	_	28	det	_	_
+28	nod	dod	NOUN	noun	Gender=Masc|Mutation=NM|Number=Sing	26	obj	_	_
+29	uchelgeisiol	uchelgeisiol	ADJ	pos	Degree=Pos|Gender=Masc|Number=Sing	28	amod	_	_
+30	hwn	hwn	PRON	dem	Gender=Masc|PronType=Dem	28	det	_	SpaceAfter=No
+31	.	.	PUNCT	punct	_	10	punct	_	SpacesAfter=\n
 
 # sent_id = 488
 # text = Pont, pontydd a mwy o bontydd.
