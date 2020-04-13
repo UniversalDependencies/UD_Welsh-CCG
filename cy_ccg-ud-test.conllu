@@ -1505,7 +1505,7 @@
 13	Sir	sir	NOUN	noun	Gender=Fem|Number=Sing	8	acl	_	_
 14	Feirionydd	Meirionydd	PROPN	place	Mutation=SM	13	flat	_	SpaceAfter=No
 15	,	,	PUNCT	punct	_	17	punct	_	_
-16	lle	lle	NOUN	noun	Gender=Masc|Number=Sing	17	obl	_	_
+16	lle	lle	ADV	adv	Gender=Masc|Number=Sing	17	advmod	_	_
 17	cafodd	cael	VERB	verb	Mood=Ind|Number=Sing|Person=3|Tense=Past	13	acl	_	_
 18	ei	ei	PRON	dep	Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	obj	_	_
 19	eni	geni	NOUN	verbnoun	Mutation=SM|Number=Sing|VerbForm=Vnoun	17	ccomp	_	_
@@ -2919,7 +2919,7 @@
 16	chyfrifon	cyfrif	NOUN	noun	Gender=Masc|Mutation=AM|Number=Plur	5	obl	_	_
 17	o	o	ADP	prep	_	18	case	_	_
 18	lemata	lema	NOUN	noun	Gender=Masc|Number=Plur	16	nmod	_	_
-19	lle	lle	NOUN	noun	Gender=Masc|Number=Sing	20	obl	_	_
+19	lle	lle	ADV	adv	_	20	advmod	_	_
 20	mae	bod	VERB	verb	Mood=Ind|Number=Sing|Person=3|Tense=Pres	18	acl	_	_
 21	pob	pob	ADJ	pos	Degree=Pos	22	amod	_	_
 22	arwydd	arwydd	NOUN	noun	Gender=Masc|Number=Sing	20	nsubj	_	_
@@ -13496,7 +13496,7 @@
 24	oedd	bod	VERB	verb	Mood=Ind|Number=Sing|Person=3|Tense=Imp	22	acl	_	_
 25	nifer	nifer	NOUN	noun	Gender=Masc|Number=Sing	24	nsubj	_	_
 26	o	o	ADP	prep	_	27	case	_	_
-27	fudiadau	fudiadau	NOUN	noun	Gender=Masc|Number=Sing	25	nmod	_	_
+27	fudiadau	mudiadau	NOUN	noun	Gender=Masc|Mutation=SM|Number=Sing	25	nmod	_	_
 28	annibyniaeth	annibyniaeth	NOUN	noun	Gender=Masc|Number=Sing	27	nmod	_	_
 29	eraill	eraill	ADJ	pos	Degree=Pos|Number=Plur	28	amod	_	_
 30	wedi	wedi	AUX	ante	_	31	aux	_	_
