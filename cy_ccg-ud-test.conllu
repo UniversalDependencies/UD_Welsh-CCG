@@ -615,7 +615,7 @@
 9	i	i	ADP	prep	_	10	mark	_	_
 10	adennill	adennill	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	4	acl	_	_
 11	pŵer	pŵer	NOUN	noun	Gender=Masc|Number=Sing	10	obl	_	_
-12	wedi	wedi	AUX	ante	_	14	aux	_	_
+12	wedi	wedi	SCONJ	sconj	_	14	mark	_	_
 13	iddo	i	ADP	cprep	Gender=Masc|Number=Sing|Person=3	14	nsubj	_	_
 14	ddianc	dianc	NOUN	verbnoun	Mutation=SM|Number=Sing|VerbForm=Vnoun	10	advcl	_	_
 15	oddi	oddi	ADP	prep	_	17	case	_	_
@@ -2135,8 +2135,8 @@
 # sent_id = 118
 # text = Fodd bynnag, bum mis ers ei hagor, mae'r awdurdod wedi bygwth troi rhai o'r perchnogion busnes allan, onibai eu bod yn arwyddo cytundebau erbyn 17:00 ddydd Mercher.
 # en = anyway, five months since its opening, the authority has threatenend to turn (throw) some business owners out, unless they sign the agreement by 5pm on Wednesday
-1	Fodd	modd	ADV	adv	Mutation=SM	10	advmod	_	_
-2	bynnag	bynnag	ADV	adv	_	1	compound	_	SpaceAfter=No
+1	Fodd	modd	NOUN	noun	Gender=Masc|Mutation=SM|Number=Sing	10	advmod	_	_
+2	bynnag	bynnag	ADV	adv	_	1	fixed	_	SpaceAfter=No
 3	,	,	PUNCT	punct	_	4	punct	_	_
 4	bum	pump	NUM	num	Mutation=SM	5	nummod	_	_
 5	mis	mis	NOUN	noun	Gender=Masc|Number=Sing	10	obl	_	_
@@ -4173,7 +4173,7 @@
 4	tŷ	tŷ	NOUN	noun	Gender=Masc|Number=Sing	6	nsubj	_	SpaceAfter=No
 5	'n	yn	PART	pred	_	6	case:pred	_	_
 6	wag	gwag	ADJ	pos	Degree=Pos|Mutation=SM	0	root	_	_
-7	wedi	wedi	AUX	ante	_	10	aux	_	_
+7	wedi	wedi	SCONJ	sconj	_	10	mark	_	_
 8	i	i	ADP	prep	_	9	case	_	_
 9	bawb	pawb	NOUN	noun	Gender=Masc|Mutation=SM|Number=Sing	10	nsubj	_	_
 10	adael	gadael	NOUN	verbnoun	Mutation=SM|Number=Sing|VerbForm=Vnoun	6	advcl	_	SpaceAfter=No
@@ -8776,8 +8776,8 @@
 # sent_id = 454
 # text = Ond yn hytrach na rhoi'r Gymraeg yn gyntaf, penderfynodd y Cyngor peidio â rhoi'r Gymraeg o gwbl.
 1	Ond	ond	CCONJ	cconj	_	5	cc	_	_
-2	yn	yn	PART	pred	_	3	case:pred	_	_
-3	hytrach	hytrach	ADJ	pos	Degree=Pos	5	advmod	_	_
+2	yn	yn	ADP	prep	_	5	case	_	_
+3	hytrach	hytrach	ADJ	pos	Degree=Pos	2	fixed	_	_
 4	na	na	PART	neg	_	5	advmod	_	_
 5	rhoi	rhoi	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	11	advcl	_	SpaceAfter=No
 6	'r	y	DET	art	_	7	det	_	_
@@ -8836,7 +8836,7 @@
 15	llynedd	llynedd	NOUN	noun	Gender=Fem|Number=Sing	11	obl	_	SpaceAfter=No
 16	,	,	PUNCT	punct	_	24	punct	_	_
 17	ac	a	CCONJ	cconj	_	24	cc	_	_
-18	wedi	wedi	AUX	ante	_	24	aux	_	_
+18	wedi	wedi	SCONJ	sconj	_	24	mark	_	_
 19	i	i	ADP	prep	_	20	case	_	_
 20	gais	cais	NOUN	noun	Gender=Masc|Mutation=SM|Number=Sing	24	nsubj	_	_
 21	am	am	ADP	prep	_	22	case	_	_
@@ -9793,10 +9793,10 @@
 10	bodoli	bodoli	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	0	root	_	_
 11	mewn	mewn	ADP	prep	_	12	case	_	_
 12	gwagleoedd	gwagle	NOUN	noun	Gender=Masc|Number=Plur	10	obl	_	SpaceAfter=No
-13	,	,	PUNCT	punct	_	16	punct	_	_
-14	ond	ond	CCONJ	cconj	_	16	cc	_	_
-15	yn	yn	PART	pred	_	16	case:pred	_	_
-16	hytrach	hytrach	ADJ	pos	Degree=Pos	18	advmod	_	_
+13	,	,	PUNCT	punct	_	18	punct	_	_
+14	ond	ond	CCONJ	cconj	_	18	cc	_	_
+15	yn	yn	ADP	prep	_	18	advmod	_	_
+16	hytrach	hytrach	ADJ	pos	Degree=Pos	15	fixed	_	_
 17	y	y	DET	art	_	18	det	_	_
 18	seilwaith	seilwaith	NOUN	noun	Gender=Masc|Number=Sing	10	acl	_	_
 19	sydd	bod	AUX	aux	Mood=Ind|Number=Sing|Person=3|Relative=Rel|Tense=Pres	21	cop	_	_
@@ -18915,11 +18915,11 @@
 26	yn	yn	ADP	prep	_	28	case	_	_
 27	y	y	DET	art	_	28	det	_	_
 28	gynulleidfa	cynulleidfa	NOUN	noun	Gender=Fem|Mutation=SM|Number=Sing	22	obl	_	_
-29	yn	yn	PART	pred	_	30	case:pred	_	_
-30	hytrach	hytrach	ADJ	pos	Degree=Pos	28	amod	_	_
+29	yn	yn	ADP	prep	_	33	case	_	_
+30	hytrach	hytrach	ADJ	pos	Degree=Pos	29	fixed	_	_
 31	na	na	ADP	prep	_	33	case	_	SpaceAfter=No
 32	'r	y	DET	art	_	33	det	_	_
-33	gwasanaeth	gwasanaeth	NOUN	noun	Gender=Masc|Number=Sing	30	obl	_	SpaceAfter=No
+33	gwasanaeth	gwasanaeth	NOUN	noun	Gender=Masc|Number=Sing	28	nmod	_	SpaceAfter=No
 34	.	.	PUNCT	punct	_	11	punct	_	SpacesAfter=\n
 
 # sent_id = 903
