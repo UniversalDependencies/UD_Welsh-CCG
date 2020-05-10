@@ -5,7 +5,7 @@
 2	o	o	ADP	prep	_	4	case	_	SpaceAfter=No
 3	'r	y	DET	art	_	4	det	_	_
 4	gangen	cangen	NOUN	noun	Gender=Fem|Mutation=SM|Number=Sing	1	nmod	_	_
-5	Frythonaidd	Frythonaidd	ADJ	pos	Degree=Pos	4	amod	_	_
+5	Frythonaidd	Brythonaidd	ADJ	pos	Degree=Pos|Mutation=SM	4	amod	_	_
 6	o	o	ADP	prep	_	8	case	_	SpaceAfter=No
 7	'r	y	DET	art	_	8	det	_	_
 8	ieithoedd	iaith	NOUN	noun	Gender=Fem|Number=Plur	4	nmod	_	_
@@ -178,9 +178,9 @@
 15	pêl-droed	pêl-droed	NOUN	noun	Gender=Fem|Number=Sing	14	nsubj	_	_
 16	yn	yn	AUX	impf	_	17	aux	_	_
 17	denu	denu	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	14	xcomp	_	_
-18	mwy	mawr	ADJ	cmp	Degree=Cmp	20	amod	_	_
-19	o	o	ADP	prep	_	18	fixed	_	_
-20	wylwyr	gwyliwr	NOUN	noun	Gender=Masc|Mutation=SM|Number=Plur	17	obl	_	_
+18	mwy	mawr	ADJ	cmp	Degree=Cmp	17	obl	_	_
+19	o	o	ADP	prep	_	20	case	_	_
+20	wylwyr	gwyliwr	NOUN	noun	Gender=Masc|Mutation=SM|Number=Plur	18	nmod	_	_
 21	i	i	ADP	prep	_	23	case	_	SpaceAfter=No
 22	'r	y	DET	art	_	23	det	_	_
 23	maes	maes	NOUN	noun	Gender=Masc|Number=Sing	20	nmod	_	SpaceAfter=No
@@ -444,7 +444,7 @@
 1	Mae	bod	AUX	aux	Mood=Ind|Number=Sing|Person=3|Tense=Pres	3	cop	_	SpaceAfter=No
 2	'n	yn	PART	pred	_	3	case:pred	_	_
 3	rhaid	rhaid	NOUN	noun	Gender=Masc|Number=Sing	0	root	_	_
-4	cael	cael	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	3	nmod	_	_
+4	cael	cael	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	3	acl	_	_
 5	rhywbeth	rhywbeth	NOUN	noun	Gender=Masc|Number=Sing	4	obj	_	SpaceAfter=No
 6	,	,	PUNCT	punct	_	10	punct	_	_
 7	neu	neu	CCONJ	cconj	_	10	cc	_	_
@@ -518,7 +518,7 @@
 3	rhaid	rhaid	NOUN	noun	Gender=Masc|Number=Sing	0	root	_	_
 4	i	i	ADP	prep	_	5	case	_	_
 5	ti	ti	PRON	indep	Number=Sing|Person=2|PronType=Prs	6	nsubj	_	_
-6	ddod	dod	NOUN	verbnoun	Mutation=SM|Number=Sing|VerbForm=Vnoun	3	nmod	_	_
+6	ddod	dod	NOUN	verbnoun	Mutation=SM|Number=Sing|VerbForm=Vnoun	3	acl	_	_
 7	cyn	cyn	ADP	prep	_	8	case	_	_
 8	yfory	yfory	ADV	adv	_	6	advmod	_	SpaceAfter=No
 9	.	.	PUNCT	punct	_	3	punct	_	SpacesAfter=\n
@@ -615,7 +615,7 @@
 9	i	i	ADP	prep	_	10	mark	_	_
 10	adennill	adennill	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	4	acl	_	_
 11	pŵer	pŵer	NOUN	noun	Gender=Masc|Number=Sing	10	obl	_	_
-12	wedi	wedi	AUX	ante	_	14	aux	_	_
+12	wedi	wedi	SCONJ	sconj	_	14	mark	_	_
 13	iddo	i	ADP	cprep	Gender=Masc|Number=Sing|Person=3	14	nsubj	_	_
 14	ddianc	dianc	NOUN	verbnoun	Mutation=SM|Number=Sing|VerbForm=Vnoun	10	advcl	_	_
 15	oddi	oddi	ADP	prep	_	17	case	_	_
@@ -754,16 +754,16 @@
 3	iaith	iaith	NOUN	noun	Gender=Fem|Number=Sing	2	nmod	_	_
 4	wedi	wedi	AUX	ante	_	5	aux	_	_
 5	galw	galw	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	1	xcomp	_	_
-6	am	am	ADP	prep	_	9	case	_	_
-7	fwy	mawr	ADJ	cmp	Degree=Cmp|Mutation=SM	9	amod	_	_
-8	o	o	ADP	prep	_	7	fixed	_	_
-9	gamau	cam	NOUN	noun	Gender=Masc|Mutation=SM|Number=Plur	5	obl	_	_
+6	am	am	ADP	prep	_	7	case	_	_
+7	fwy	mawr	ADJ	cmp	Degree=Cmp|Mutation=SM	5	obl	_	_
+8	o	o	ADP	prep	_	9	case	_	_
+9	gamau	cam	NOUN	noun	Gender=Masc|Mutation=SM|Number=Plur	7	nmod	_	_
 10	i	i	ADP	prep	_	11	mark	_	_
 11	sicrhau	sicrhau	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	9	acl	_	_
 12	bod	bod	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	11	obj	_	_
-13	mwy	mawr	ADJ	cmp	Degree=Cmp	15	amod	_	_
+13	mwy	mawr	ADJ	cmp	Degree=Cmp	12	nsubj	_	_
 14	o	o	ADP	prep	_	15	case	_	_
-15	elfennau	elfen	NOUN	noun	Gender=Fem|Number=Plur	12	nsubj	_	_
+15	elfennau	elfen	NOUN	noun	Gender=Fem|Number=Plur	13	nmod	_	_
 16	Cymraeg	Cymraeg	ADJ	pos	Degree=Pos	15	amod	_	_
 17	wedi	wedi	AUX	ante	_	19	aux	_	SpaceAfter=No
 18	'u	eu	PRON	dep	Number=Plur|Person=3|PronType=Prs	19	obj	_	_
@@ -779,7 +779,7 @@
 1	Daw	dod	VERB	verb	Mood=Ind|Number=Sing|Person=3|Tense=Fut	0	root	_	_
 2	hyn	hyn	PRON	dem	Number=Plur|PronType=Dem	1	nsubj	_	_
 3	wrth	wrth	ADP	prep	_	5	case	_	_
-4	i	i	ADP	prep	_	5	case	_	_
+4	i	i	ADP	prep	_	3	fixed	_	_
 5	Lywodraeth	llywodraeth	NOUN	noun	Gender=Fem|Mutation=SM|Number=Sing	1	obl	_	_
 6	Cymru	Cymru	PROPN	place	Gender=Fem|Number=Sing	5	nmod	_	_
 7	ddatblygu	datblygu	NOUN	verbnoun	Mutation=SM|Number=Sing|VerbForm=Vnoun	5	acl	_	_
@@ -1401,8 +1401,8 @@
 
 # sent_id = 80
 # text = Dim ond Kate na enillodd wobr.
-1	Dim	dim	ADV	adv	_	2	advmod	_	_
-2	ond	ond	CCONJ	cconj	_	3	advmod	_	_
+1	Dim	dim	ADV	adv	_	3	advmod	_	_
+2	ond	ond	CCONJ	cconj	_	1	fixed	_	_
 3	Kate	Kate	PROPN	person	_	0	root	_	_
 4	na	na	PART	neg	_	5	advmod	_	_
 5	enillodd	ennill	VERB	verb	Mood=Ind|Number=Sing|Person=3|Tense=Past	3	acl:relcl	_	_
@@ -1505,7 +1505,7 @@
 13	Sir	sir	NOUN	noun	Gender=Fem|Number=Sing	8	acl	_	_
 14	Feirionydd	Meirionydd	PROPN	place	Mutation=SM	13	flat	_	SpaceAfter=No
 15	,	,	PUNCT	punct	_	17	punct	_	_
-16	lle	lle	NOUN	noun	Gender=Masc|Number=Sing	17	obl	_	_
+16	lle	lle	ADV	adv	Gender=Masc|Number=Sing	17	advmod	_	_
 17	cafodd	cael	VERB	verb	Mood=Ind|Number=Sing|Person=3|Tense=Past	13	acl	_	_
 18	ei	ei	PRON	dep	Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	obj	_	_
 19	eni	geni	NOUN	verbnoun	Mutation=SM|Number=Sing|VerbForm=Vnoun	17	ccomp	_	_
@@ -1832,9 +1832,9 @@
 # sent_id = 104
 # text = Mae mwy o fyfyrwyr yn astudio trwy gyfrwng y Gymraeg ym Mangor nag yn unrhyw un o'r prifysgolion eraill yng Nghymru.
 1	Mae	bod	VERB	verb	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
-2	mwy	mawr	ADJ	cmp	Degree=Cmp	4	nsubj	_	_
-3	o	o	ADP	prep	_	2	fixed	_	_
-4	fyfyrwyr	myfyriwr	NOUN	noun	Gender=Masc|Mutation=SM|Number=Plur	1	nsubj	_	_
+2	mwy	mawr	ADJ	cmp	Degree=Cmp	1	nsubj	_	_
+3	o	o	ADP	prep	_	4	case	_	_
+4	fyfyrwyr	myfyriwr	NOUN	noun	Gender=Masc|Mutation=SM|Number=Plur	2	nmod	_	_
 5	yn	yn	AUX	impf	_	6	aux	_	_
 6	astudio	astudio	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	1	xcomp	_	_
 7	trwy	trwy	ADP	prep	_	8	case	_	_
@@ -2135,8 +2135,8 @@
 # sent_id = 118
 # text = Fodd bynnag, bum mis ers ei hagor, mae'r awdurdod wedi bygwth troi rhai o'r perchnogion busnes allan, onibai eu bod yn arwyddo cytundebau erbyn 17:00 ddydd Mercher.
 # en = anyway, five months since its opening, the authority has threatenend to turn (throw) some business owners out, unless they sign the agreement by 5pm on Wednesday
-1	Fodd	modd	ADV	adv	Mutation=SM	10	advmod	_	_
-2	bynnag	bynnag	ADV	adv	_	1	compound	_	SpaceAfter=No
+1	Fodd	modd	NOUN	noun	Gender=Masc|Mutation=SM|Number=Sing	10	advmod	_	_
+2	bynnag	bynnag	ADV	adv	_	1	fixed	_	SpaceAfter=No
 3	,	,	PUNCT	punct	_	4	punct	_	_
 4	bum	pump	NUM	num	Mutation=SM	5	nummod	_	_
 5	mis	mis	NOUN	noun	Gender=Masc|Number=Sing	10	obl	_	_
@@ -2506,7 +2506,7 @@
 2	hynny	hynny	PRON	dem	Number=Plur|PronType=Dem	4	obl	_	SpaceAfter=No
 3	,	,	PUNCT	punct	_	4	punct	_	_
 4	rhaid	rhaid	NOUN	noun	Gender=Masc|Number=Sing	0	root	_	_
-5	cofio	cofio	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	4	nmod	_	_
+5	cofio	cofio	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	4	acl	_	_
 6	hefyd	hefyd	ADV	adv	_	5	advmod	_	_
 7	am	am	ADP	prep	_	9	case	_	_
 8	y	y	DET	art	_	9	det	_	_
@@ -2581,11 +2581,11 @@
 17	rhaid	rhaid	NOUN	noun	Gender=Masc|Number=Sing	14	ccomp	_	_
 18	i	i	ADP	prep	_	20	case	_	_
 19	bob	pob	ADJ	pos	Degree=Pos|Mutation=SM	20	amod	_	_
-20	plentyn	plentyn	NOUN	noun	Gender=Masc|Number=Sing	17	nmod	_	_
-21	allu	gallu	NOUN	verbnoun	Mutation=SM|Number=Sing|VerbForm=Vnoun	20	acl	_	_
+20	plentyn	plentyn	NOUN	noun	Gender=Masc|Number=Sing	21	nsubj	_	_
+21	allu	gallu	NOUN	verbnoun	Mutation=SM|Number=Sing|VerbForm=Vnoun	17	acl	_	_
 22	darllen	darllen	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	21	xcomp	_	_
-23	hyd	hyd	ADP	prep	_	22	case	_	_
-24	at	at	ADP	prep	_	26	case	_	_
+23	hyd	hyd	ADP	prep	_	26	case	_	_
+24	at	at	ADP	prep	_	23	fixed	_	_
 25	ryw	rhyw	ADJ	pos	Degree=Pos|Mutation=SM	26	amod	_	_
 26	lefel	lefel	NOUN	noun	Gender=Fem|Number=Sing	22	obl	_	_
 27	amhenodol	amhenodol	ADJ	pos	Degree=Pos	26	amod	_	_
@@ -2699,14 +2699,14 @@
 1	Rhaid	rhaid	NOUN	noun	Gender=Masc|Number=Sing	0	root	_	_
 2	i	i	ADP	prep	_	4	case	_	SpaceAfter=No
 3	'r	y	DET	art	_	4	det	_	_
-4	byrddau	bwrdd	NOUN	noun	Gender=Masc|Number=Plur	1	nmod	_	_
+4	byrddau	bwrdd	NOUN	noun	Gender=Masc|Number=Plur	8	nsubj	_	_
 5	iechyd	iechyd	NOUN	noun	Gender=Masc|Number=Sing	4	nmod	_	_
 6	lleol	lleol	ADJ	pos	Degree=Pos	5	amod	_	_
 7	newydd	newydd	AUX	ante	_	8	aux	_	_
 8	fynd	mynd	NOUN	verbnoun	Mutation=SM|Number=Sing|VerbForm=Vnoun	1	acl	_	_
 9	i	i	ADP	prep	_	11	mark	_	SpaceAfter=No
 10	'r	y	DET	art	_	11	det	_	_
-11	afael	cael	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	8	xcomp	_	_
+11	afael	gafael	NOUN	verbnoun	Mutation=SM|Number=Sing|VerbForm=Vnoun	8	xcomp	_	_
 12	â	â	ADP	prep	_	13	case	_	_
 13	llawer	llawer	NOUN	noun	Gender=Masc|Number=Sing	11	obj	_	_
 14	iawn	iawn	ADV	adv	_	13	advmod	_	_
@@ -2746,8 +2746,8 @@
 11	busnesau	busnes	NOUN	noun	Gender=Masc|Number=Plur	10	nmod	_	_
 12	wedi	wedi	AUX	ante	_	13	aux	_	_
 13	saethu	saethu	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	8	xcomp	_	_
-14	i	i	ADP	prep	_	15	case	_	_
-15	fyny	fyny	ADV	adv	_	13	advmod	_	SpaceAfter=No
+14	i	i	ADP	prep	_	13	advmod	_	_
+15	fyny	fyny	ADV	adv	_	14	fixed	_	SpaceAfter=No
 16	.	.	PUNCT	punct	_	8	punct	_	SpacesAfter=\n
 
 # sent_id = 147
@@ -2919,7 +2919,7 @@
 16	chyfrifon	cyfrif	NOUN	noun	Gender=Masc|Mutation=AM|Number=Plur	5	obl	_	_
 17	o	o	ADP	prep	_	18	case	_	_
 18	lemata	lema	NOUN	noun	Gender=Masc|Number=Plur	16	nmod	_	_
-19	lle	lle	NOUN	noun	Gender=Masc|Number=Sing	20	obl	_	_
+19	lle	lle	ADV	adv	_	20	advmod	_	_
 20	mae	bod	VERB	verb	Mood=Ind|Number=Sing|Person=3|Tense=Pres	18	acl	_	_
 21	pob	pob	ADJ	pos	Degree=Pos	22	amod	_	_
 22	arwydd	arwydd	NOUN	noun	Gender=Masc|Number=Sing	20	nsubj	_	_
@@ -3688,7 +3688,7 @@
 7	golygu	golygu	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	3	xcomp	_	_
 8	nad	na	PART	neg	_	9	advmod	_	_
 9	oes	bod	AUX	aux	Mood=Ind|Number=Sing|Person=3|Tense=Pres	7	ccomp	_	_
-10	gen	gen	ADP	prep	_	11	case	_	_
+10	gen	gan	ADP	prep	_	11	case	_	_
 11	i	i	PRON	indep	Number=Sing|Person=1|PronType=Prs	9	obl	_	_
 12	farn	barn	NOUN	noun	Gender=Fem|Mutation=SM|Number=Sing	9	nsubj	_	_
 13	ar	ar	ADP	prep	_	15	case	_	_
@@ -3833,9 +3833,9 @@
 
 # sent_id = 200
 # text = Yn ddigon naturiol mae bwyta yn rhan bwysig o bob gwyliau a phob taith tramor.
-1	Yn	yn	PART	pred	_	2	case:pred	_	_
-2	ddigon	digon	ADV	adv	Mutation=SM	7	advmod	_	_
-3	naturiol	naturiol	ADJ	pos	Degree=Pos	2	amod	_	_
+1	Yn	yn	PART	pred	_	3	case:pred	_	_
+2	ddigon	digon	ADV	adv	Mutation=SM	3	advmod	_	_
+3	naturiol	naturiol	ADJ	pos	Degree=Pos	7	amod	_	_
 4	mae	bod	AUX	aux	Mood=Ind|Number=Sing|Person=3|Tense=Pres	7	cop	_	_
 5	bwyta	bwyta	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	7	nsubj	_	_
 6	yn	yn	PART	pred	_	7	case:pred	_	_
@@ -4173,7 +4173,7 @@
 4	tŷ	tŷ	NOUN	noun	Gender=Masc|Number=Sing	6	nsubj	_	SpaceAfter=No
 5	'n	yn	PART	pred	_	6	case:pred	_	_
 6	wag	gwag	ADJ	pos	Degree=Pos|Mutation=SM	0	root	_	_
-7	wedi	wedi	AUX	ante	_	10	aux	_	_
+7	wedi	wedi	SCONJ	sconj	_	10	mark	_	_
 8	i	i	ADP	prep	_	9	case	_	_
 9	bawb	pawb	NOUN	noun	Gender=Masc|Mutation=SM|Number=Sing	10	nsubj	_	_
 10	adael	gadael	NOUN	verbnoun	Mutation=SM|Number=Sing|VerbForm=Vnoun	6	advcl	_	SpaceAfter=No
@@ -4203,8 +4203,8 @@
 1	Gwelais	gweld	VERB	verb	Mood=Ind|Number=Sing|Person=1|Tense=Past	0	root	_	_
 2	i	i	PRON	indep	Number=Sing|Person=1	1	nsubj	_	_
 3	ddamwain	damwain	NOUN	verbnoun	Mutation=SM|Number=Sing|VerbForm=Vnoun	1	obj	_	_
-4	wrth	wrth	ADP	prep	_	7	mark	_	_
-5	i	i	ADP	prep	_	6	case	_	_
+4	wrth	wrth	ADP	prep	_	6	case	_	_
+5	i	i	ADP	prep	_	4	fixed	_	_
 6	fi	i	PRON	indep	Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
 7	fynd	mynd	NOUN	verbnoun	Mutation=SM|Number=Sing|VerbForm=Vnoun	1	advcl	_	_
 8	adref	adref	ADV	adv	_	7	advmod	_	_
@@ -4495,7 +4495,7 @@
 6	y	y	PART	aff	_	7	advmod	_	_
 7	mae	bod	VERB	verb	Mood=Ind|Number=Sing|Person=3|Tense=Pres	5	acl:relcl	_	_
 8	canu	canu	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	7	nsubj	_	_
-9	ynddynt	yn	ADP	prep	_	7	case	_	SpaceAfter=No
+9	ynddynt	yn	ADP	cprep	Number=Plur|Person=3	7	obl	_	SpaceAfter=No
 10	.	.	PUNCT	punct	_	7	punct	_	SpacesAfter=\n
 
 # sent_id = 243
@@ -4905,11 +4905,11 @@
 17	'n	yn	PART	pred	_	18	case:pred	_	_
 18	rhaid	rhaid	NOUN	noun	Gender=Masc|Number=Sing	0	root	_	_
 19	i	i	ADP	prep	_	20	case	_	_
-20	ni	ni	PRON	indep	Number=Plur|Person=1|PronType=Prs	18	obl	_	_
+20	ni	ni	PRON	indep	Number=Plur|Person=1|PronType=Prs	22	nsubj	_	_
 21	ei	ei	PRON	dep	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	22	obj	_	_
 22	defnyddio	defnyddio	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	18	acl	_	_
 23	ar	ar	ADP	prep	_	25	case	_	_
-24	draws	draws	NOUN	noun	Gender=Fem|Number=Sing	23	fixed	_	_
+24	draws	traws	NOUN	noun	Gender=Fem|Mutation=SM|Number=Sing	23	fixed	_	_
 25	pob	pob	ADJ	pos	Degree=Pos	26	amod	_	_
 26	cyfrwng	cyfrwng	NOUN	noun	Gender=Masc|Number=Sing	22	obl	_	SpaceAfter=No
 27	,	,	PUNCT	punct	_	28	punct	_	_
@@ -5362,8 +5362,8 @@
 9	Lewis	Lewis	PROPN	person	_	8	flat:name	_	_
 10	Jones	Jones	PROPN	person	_	8	flat:name	_	SpaceAfter=No
 11	,	,	PUNCT	punct	_	13	punct	_	_
-12	a	a	PRON	rel	PronType=Rel	13	nsubj	_	_
-13	aned	aned	NOUN	noun	Gender=Fem|Number=Sing	7	acl:relcl	_	_
+12	a	a	PRON	rel	PronType=Rel	13	obj	_	_
+13	aned	geni	VERB	verb	Mood=Ind|Person=0|Tense=Past	7	acl:relcl	_	_
 14	yn	yn	ADP	prep	_	15	case	_	_
 15	Wrecsam	Wrecsam	NOUN	noun	Gender=Fem|Number=Sing	13	obl	_	SpaceAfter=No
 16	.	.	PUNCT	punct	_	1	punct	_	SpacesAfter=\n
@@ -5804,8 +5804,8 @@
 14	castell	castell	NOUN	noun	Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
 15	,	,	PUNCT	punct	_	16	punct	_	_
 16	ond	ond	CCONJ	cconj	_	28	cc	_	_
-17	yn	yn	ADP	prep	_	18	case	_	_
-18	lle	lle	ADV	adv	_	19	advmod	_	_
+17	yn	yn	ADP	prep	_	19	case	_	_
+18	lle	lle	NOUN	noun	Gender=Masc|Number=Sing	17	fixed	_	_
 19	datrys	datrys	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	28	advcl	_	_
 20	y	y	DET	art	_	21	det	_	_
 21	problemau	problem	NOUN	noun	Gender=Masc|Number=Plur	19	obj	_	_
@@ -6306,7 +6306,7 @@
 5	fod	bod	AUX	verbnoun	Mutation=SM|Number=Sing|VerbForm=Vnoun	7	cop	_	_
 6	yn	yn	PART	pred	_	7	case:pred	_	_
 7	rhaid	rhaid	NOUN	noun	Gender=Masc|Number=Sing	2	ccomp	_	_
-8	iddynt	i	ADP	prep	_	7	mark	_	_
+8	iddynt	i	ADP	cprep	Number=Plur|Person=3	9	nsubj	_	_
 9	dalu	talu	NOUN	verbnoun	Mutation=SM|Number=Sing|VerbForm=Vnoun	7	acl	_	_
 10	am	am	ADP	prep	_	11	case	_	_
 11	foddion	modd	NOUN	noun	Gender=Masc|Mutation=SM|Number=Plur	9	obl	_	SpaceAfter=No
@@ -6349,8 +6349,8 @@
 11	mae	bod	AUX	aux	Mood=Ind|Number=Sing|Person=3|Tense=Pres	13	cop	_	SpaceAfter=No
 12	'n	yn	PART	pred	_	13	case:pred	_	_
 13	rhaid	rhaid	NOUN	noun	Gender=Masc|Number=Sing	2	conj	_	_
-14	ichi	i	ADP	cprep	Number=Plur|Person=2	13	nmod	_	_
-15	waredu	gwaredu	NOUN	verbnoun	Mutation=SM|Number=Sing|VerbForm=Vnoun	13	nmod	_	SpaceAfter=No
+14	ichi	i	ADP	cprep	Number=Plur|Person=2	15	nsubj	_	_
+15	waredu	gwaredu	NOUN	verbnoun	Mutation=SM|Number=Sing|VerbForm=Vnoun	13	acl	_	SpaceAfter=No
 16	'r	y	DET	art	_	17	det	_	_
 17	gwastraff	gwastraff	NOUN	noun	Gender=Masc|Number=Sing	15	obj	_	SpaceAfter=No
 18	.	.	PUNCT	punct	_	13	punct	_	SpacesAfter=\s\n
@@ -6726,9 +6726,9 @@
 32	fel	fel	ADP	prep	_	33	case	_	_
 33	cynhaliaeth	cynhaliaeth	NOUN	noun	Gender=Fem|Number=Sing	29	nmod	_	_
 34	-	-	PUNCT	punct	_	29	punct	_	_
-35	er	er	ADP	prep	_	37	case	_	_
-36	mwyn	mwyn	NOUN	noun	Gender=Masc|Number=Sing	35	fixed	_	_
-37	ceisio	ceisio	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	24	advcl	_	_
+35	er	er	ADP	prep	_	36	case	_	_
+36	mwyn	mwyn	NOUN	noun	Gender=Masc|Number=Sing	24	advcl	_	_
+37	ceisio	ceisio	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	36	acl	_	_
 38	tynnu	tynnu	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	37	xcomp	_	_
 39	sylw	sylw	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	38	obl	_	_
 40	pobl	pobl	NOUN	noun	Gender=Fem|Number=Sing	39	obj	_	_
@@ -6742,7 +6742,7 @@
 48	credu	credu	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	46	xcomp	_	_
 49	mor	mor	ADV	adv	_	50	advmod	_	_
 50	gryf	cryf	ADJ	pos	Degree=Pos|Gender=Masc|Mutation=SM|Number=Sing	48	advmod	_	_
-51	ynddo	yn	ADP	prep	_	48	case	_	SpaceAfter=No
+51	ynddo	yn	ADP	cprep	Gender=Masc|Number=Sing|Person=3	48	obl	_	SpaceAfter=No
 52	.	.	PUNCT	punct	_	46	punct	_	SpacesAfter=\n
 
 # sent_id = 346
@@ -6832,7 +6832,7 @@
 3	neb	neb	PRON	pron	PronType=Prs	2	nsubj	_	_
 4	yno	yno	ADV	adv	_	2	advmod	_	_
 5	fel	fel	ADP	prep	_	7	mark	_	_
-6	y	y	DET	art	_	7	det	_	_
+6	y	y	PART	aff	_	7	advmod	_	_
 7	dywedodd	dweud	VERB	verb	Mood=Ind|Number=Sing|Person=3|Tense=Past	2	advcl	_	_
 8	hi	hi	PRON	indep	Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	SpaceAfter=No
 9	.	.	PUNCT	punct	_	2	punct	_	SpacesAfter=\n
@@ -7013,7 +7013,7 @@
 5	oes	bod	AUX	aux	Mood=Ind|Number=Sing|Person=3|Tense=Pres	7	cop	_	_
 6	dim	dim	ADV	adv	_	7	advmod	_	_
 7	arian	arian	NOUN	noun	Gender=Masc|Number=Sing	2	appos	_	_
-8	gen	gen	ADP	prep	_	9	case	_	_
+8	gen	gan	ADP	prep	_	9	case	_	_
 9	i	i	PRON	indep	Number=Sing|Person=1|PronType=Prs	7	nmod	_	SpaceAfter=No
 10	.	.	PUNCT	punct	_	7	punct	_	SpacesAfter=\n
 
@@ -7704,7 +7704,7 @@
 1	Mae	bod	AUX	aux	Mood=Ind|Number=Sing|Person=3|Tense=Pres	3	cop	_	SpaceAfter=No
 2	'n	yn	PART	pred	_	3	case:pred	_	_
 3	bleser	pleser	NOUN	noun	Gender=Masc|Mutation=SM|Number=Sing	0	root	_	_
-4	gen	gen	ADP	prep	_	5	case	_	_
+4	gen	gan	ADP	prep	_	5	case	_	_
 5	i	i	PRON	indep	Number=Sing|Person=1|PronType=Prs	3	nmod	_	_
 6	felly	felly	ADV	adv	_	7	advmod	_	_
 7	gynnig	cynnig	NOUN	verbnoun	Mutation=SM|Number=Sing|VerbForm=Vnoun	3	acl	_	_
@@ -7962,7 +7962,7 @@
 2	fyr	byr	ADJ	pos	Degree=Pos|Gender=Masc|Mutation=SM	4	advmod	_	SpaceAfter=No
 3	:	:	PUNCT	punct	_	2	punct	_	_
 4	rhaid	rhaid	NOUN	noun	Gender=Masc|Number=Sing	0	root	_	_
-5	torri	torri	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	4	nmod	_	SpaceAfter=No
+5	torri	torri	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	4	acl	_	SpaceAfter=No
 6	'r	y	DET	art	_	7	det	_	_
 7	cysylltiad	cysylltiad	NOUN	noun	Gender=Masc|Number=Sing	5	obj	_	_
 8	rhwng	rhwng	ADP	prep	_	10	case	_	_
@@ -8693,8 +8693,8 @@
 21	Saesneg	Saesneg	ADJ	pos	Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	SpaceAfter=No
 22	,	,	PUNCT	punct	_	24	punct	_	_
 23	"	"	PUNCT	punct	_	24	punct	_	SpaceAfter=No
-24	Give	Give	NOUN	noun	Gender=Masc|Number=Sing	20	appos	_	_
-25	Way	way	NOUN	noun	Gender=Masc|Number=Sing	24	fixed	_	SpaceAfter=No
+24	Give	give	VERB	verb	Mood=Imp|Number=Plur|Person=2	20	appos	_	_
+25	Way	way	NOUN	noun	Gender=Masc|Number=Sing	24	obj	_	SpaceAfter=No
 26	"	"	PUNCT	punct	_	24	punct	_	SpaceAfter=No
 27	,	,	PUNCT	punct	_	32	punct	_	_
 28	ac	a	CCONJ	cconj	_	32	cc	_	_
@@ -8702,10 +8702,10 @@
 30	hefyd	hefyd	ADV	adv	_	32	advmod	_	_
 31	yn	yn	PART	pred	_	32	case:pred	_	_
 32	anghyfreithlon	anghyfreithlon	ADJ	pos	Degree=Pos	9	conj	_	SpaceAfter=No
-33	,	,	PUNCT	punct	_	36	punct	_	_
-34	yn	yn	ADP	prep	_	36	case	_	_
-35	ôl	ôl	NOUN	noun	Gender=Masc|Number=Sing	34	fixed	_	_
-36	cadeirydd	cadeirydd	NOUN	noun	Gender=Masc|Number=Sing	32	obl	_	_
+33	,	,	PUNCT	punct	_	35	punct	_	_
+34	yn	yn	ADP	prep	_	35	case	_	_
+35	ôl	ôl	NOUN	noun	Gender=Masc|Number=Sing	32	obl	_	_
+36	cadeirydd	cadeirydd	NOUN	noun	Gender=Masc|Number=Sing	35	nmod	_	_
 37	Cell	cell	NOUN	noun	Gender=Fem|Number=Sing	36	nmod	_	_
 38	Wrecsam	Wrecsam	NOUN	noun	Gender=Fem|Number=Sing	37	nmod	_	_
 39	o	o	ADP	prep	_	40	case	_	_
@@ -8776,8 +8776,8 @@
 # sent_id = 454
 # text = Ond yn hytrach na rhoi'r Gymraeg yn gyntaf, penderfynodd y Cyngor peidio â rhoi'r Gymraeg o gwbl.
 1	Ond	ond	CCONJ	cconj	_	5	cc	_	_
-2	yn	yn	PART	pred	_	3	case:pred	_	_
-3	hytrach	hytrach	ADJ	pos	Degree=Pos	5	advmod	_	_
+2	yn	yn	ADP	prep	_	5	case	_	_
+3	hytrach	hytrach	ADJ	pos	Degree=Pos	2	fixed	_	_
 4	na	na	PART	neg	_	5	advmod	_	_
 5	rhoi	rhoi	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	11	advcl	_	SpaceAfter=No
 6	'r	y	DET	art	_	7	det	_	_
@@ -8836,7 +8836,7 @@
 15	llynedd	llynedd	NOUN	noun	Gender=Fem|Number=Sing	11	obl	_	SpaceAfter=No
 16	,	,	PUNCT	punct	_	24	punct	_	_
 17	ac	a	CCONJ	cconj	_	24	cc	_	_
-18	wedi	wedi	AUX	ante	_	24	aux	_	_
+18	wedi	wedi	SCONJ	sconj	_	24	mark	_	_
 19	i	i	ADP	prep	_	20	case	_	_
 20	gais	cais	NOUN	noun	Gender=Masc|Mutation=SM|Number=Sing	24	nsubj	_	_
 21	am	am	ADP	prep	_	22	case	_	_
@@ -8924,7 +8924,7 @@
 1	Mae	bod	AUX	aux	Mood=Ind|Number=Sing|Person=3|Tense=Pres	2	cop	_	_
 2	rhaid	rhaid	NOUN	noun	Gender=Masc|Number=Sing	0	root	_	_
 3	i	i	ADP	prep	_	4	case	_	_
-4	athrawon	athro	NOUN	noun	Gender=Masc|Number=Plur	2	nmod	_	_
+4	athrawon	athro	NOUN	noun	Gender=Masc|Number=Plur	18	nsubj	_	_
 5	sydd	bod	VERB	verb	Mood=Ind|Number=Sing|Person=3|Relative=Rel|Tense=Pres	4	acl:relcl	_	_
 6	am	am	AUX	post	_	7	aux	_	_
 7	addysgu	addysgu	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	5	xcomp	_	_
@@ -9416,7 +9416,7 @@
 9	o	o	ADP	prep	_	10	case	_	_
 10	sylw	sylw	NOUN	noun	Gender=Masc|Number=Sing	8	nmod	_	_
 11	wrth	wrth	ADP	prep	_	13	case	_	_
-12	i	i	ADP	prep	_	13	case	_	_
+12	i	i	ADP	prep	_	11	fixed	_	_
 13	gerddoriaeth	cerddoriaeth	NOUN	noun	Gender=Fem|Mutation=SM|Number=Sing	10	nmod	_	_
 14	reggae	reggae	NOUN	noun	Gender=Masc|Number=Sing	13	nmod	_	_
 15	gael	cael	NOUN	verbnoun	Mutation=SM|Number=Sing|VerbForm=Vnoun	6	xcomp	_	_
@@ -9592,7 +9592,7 @@
 19	y	y	DET	art	_	20	det	_	_
 20	rhanbarthau	rhanbarth	NOUN	noun	Gender=Masc|Number=Plur	16	nmod	_	SpaceAfter=No
 21	,	,	PUNCT	punct	_	23	punct	_	_
-22	gan	can	ADP	prep	Mutation=SM	23	mark	_	_
+22	gan	gan	ADP	prep	_	23	mark	_	_
 23	annog	annog	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	16	acl	_	_
 24	aelodau	aelod	NOUN	noun	Gender=Masc|Number=Plur	23	obj	_	_
 25	i	i	ADP	prep	_	26	mark	_	_
@@ -9612,7 +9612,7 @@
 39	grwpiau	grwp	NOUN	noun	Gender=Masc|Number=Plur	33	conj	_	_
 40	ymgyrch	ymgyrch	NOUN	noun	Gender=Fem|Number=Sing	39	nmod	_	SpaceAfter=No
 41	,	,	PUNCT	punct	_	43	punct	_	_
-42	gan	can	ADP	prep	Mutation=SM	43	mark	_	_
+42	gan	gan	ADP	prep	_	43	mark	_	_
 43	gynnwys	cynnwys	NOUN	verbnoun	Mutation=SM|Number=Sing|VerbForm=Vnoun	39	acl	_	_
 44	ysgolion	ysgol	NOUN	noun	Gender=Fem|Number=Plur	43	obj	_	_
 45	a	a	CCONJ	cconj	_	46	cc	_	_
@@ -9781,35 +9781,37 @@
 # sent_id = 487
 # text = Nid agweddau ar wahân mo rhain, yn bodoli mewn gwagleoedd, ond yn hytrach y seilwaith sydd ei hangen arnom wrth i ni gyrchu'r nod uchelgeisiol hwn.
 1	Nid	ni	PART	neg	_	2	advmod	_	_
-2	agweddau	agwedd	NOUN	noun	Gender=Fem|Number=Plur	9	nsubj	_	_
+2	agweddau	agwedd	NOUN	noun	Gender=Fem|Number=Plur	10	nsubj	_	_
 3	ar	ar	ADP	prep	_	4	case	_	_
 4	wahân	Wahân	PROPN	person	_	2	nmod	_	_
-5	mo	dim	PART	neg	_	2	advmod	_	_
-6	rhain	rhain	PRON	dem	Number=Sing|PronType=Dem|VerbForm=Vnoun	2	nsubj	_	SpaceAfter=No
-7	,	,	PUNCT	punct	_	9	punct	_	_
-8	yn	yn	AUX	impf	_	9	aux	_	_
-9	bodoli	bodoli	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	0	root	_	_
-10	mewn	mewn	ADP	prep	_	11	case	_	_
-11	gwagleoedd	gwagle	NOUN	noun	Gender=Masc|Number=Plur	9	obl	_	SpaceAfter=No
-12	,	,	PUNCT	punct	_	15	punct	_	_
-13	ond	ond	CCONJ	cconj	_	15	cc	_	_
-14	yn	yn	PART	pred	_	15	case:pred	_	_
-15	hytrach	hytrach	ADJ	pos	Degree=Pos	17	advmod	_	_
-16	y	y	DET	art	_	17	det	_	_
-17	seilwaith	seilwaith	NOUN	noun	Gender=Masc|Number=Sing	9	acl	_	_
-18	sydd	bod	AUX	aux	Mood=Ind|Number=Sing|Person=3|Relative=Rel|Tense=Pres	20	cop	_	_
-19	ei	ei	PRON	dep	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	20	nmod:poss	_	_
-20	hangen	angen	NOUN	noun	Gender=Masc|Mutation=AM|Number=Sing	17	acl:relcl	_	_
-21	arnom	ar	ADP	cprep	Number=Plur|Person=1	20	nmod	_	_
-22	wrth	wrth	ADP	prep	_	25	mark	_	_
-23	i	i	ADP	prep	_	24	case	_	_
-24	ni	ni	PRON	indep	Number=Plur|Person=1|PronType=Prs	25	nsubj	_	_
-25	gyrchu	cyrchu	NOUN	verbnoun	Mutation=SM|Number=Sing|VerbForm=Vnoun	20	acl	_	SpaceAfter=No
-26	'r	y	DET	art	_	27	det	_	_
-27	nod	dod	NOUN	noun	Gender=Masc|Mutation=NM|Number=Sing	25	obj	_	_
-28	uchelgeisiol	uchelgeisiol	ADJ	pos	Degree=Pos|Gender=Masc|Number=Sing	27	amod	_	_
-29	hwn	hwn	PRON	dem	Gender=Masc|PronType=Dem	27	det	_	SpaceAfter=No
-30	.	.	PUNCT	punct	_	9	punct	_	SpacesAfter=\n
+5-6	mo	_	_	_	_	_	_	_	_
+5	dim	dim	NOUN	noun	Gender=Masc|Number=Sing	2	nmod	_	_
+6	o	o	PART	neg	_	7	advmod	_	_
+7	rhain	rhain	PRON	dem	Number=Sing|PronType=Dem|VerbForm=Vnoun	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	punct	_	10	punct	_	_
+9	yn	yn	AUX	impf	_	10	aux	_	_
+10	bodoli	bodoli	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	0	root	_	_
+11	mewn	mewn	ADP	prep	_	12	case	_	_
+12	gwagleoedd	gwagle	NOUN	noun	Gender=Masc|Number=Plur	10	obl	_	SpaceAfter=No
+13	,	,	PUNCT	punct	_	18	punct	_	_
+14	ond	ond	CCONJ	cconj	_	18	cc	_	_
+15	yn	yn	ADP	prep	_	18	advmod	_	_
+16	hytrach	hytrach	ADJ	pos	Degree=Pos	15	fixed	_	_
+17	y	y	DET	art	_	18	det	_	_
+18	seilwaith	seilwaith	NOUN	noun	Gender=Masc|Number=Sing	10	acl	_	_
+19	sydd	bod	AUX	aux	Mood=Ind|Number=Sing|Person=3|Relative=Rel|Tense=Pres	21	cop	_	_
+20	ei	ei	PRON	dep	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	21	nmod:poss	_	_
+21	hangen	angen	NOUN	noun	Gender=Masc|Mutation=AM|Number=Sing	18	acl:relcl	_	_
+22	arnom	ar	ADP	cprep	Number=Plur|Person=1	21	nmod	_	_
+23	wrth	wrth	ADP	prep	_	25	case	_	_
+24	i	i	ADP	prep	_	23	fixed	_	_
+25	ni	ni	PRON	indep	Number=Plur|Person=1|PronType=Prs	26	nsubj	_	_
+26	gyrchu	cyrchu	NOUN	verbnoun	Mutation=SM|Number=Sing|VerbForm=Vnoun	21	acl	_	SpaceAfter=No
+27	'r	y	DET	art	_	28	det	_	_
+28	nod	dod	NOUN	noun	Gender=Masc|Mutation=NM|Number=Sing	26	obj	_	_
+29	uchelgeisiol	uchelgeisiol	ADJ	pos	Degree=Pos|Gender=Masc|Number=Sing	28	amod	_	_
+30	hwn	hwn	PRON	dem	Gender=Masc|PronType=Dem	28	det	_	SpaceAfter=No
+31	.	.	PUNCT	punct	_	10	punct	_	SpacesAfter=\n
 
 # sent_id = 488
 # text = Pont, pontydd a mwy o bontydd.
@@ -10533,7 +10535,7 @@
 15	cael	cael	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	13	xcomp	_	_
 16	eich	eich	PRON	dep	Number=Plur|Person=2|Poss=Yes|PronType=Prs	17	obj	_	_
 17	targedu	targedu	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	15	ccomp	_	_
-18	gan	can	ADP	prep	Mutation=SM	19	case	_	_
+18	gan	gan	ADP	prep	_	19	case	_	_
 19	werthwyr	gwerthwr	NOUN	noun	Gender=Masc|Mutation=SM|Number=Plur	17	obl:agent	_	_
 20	digywilydd	digywilydd	ADJ	pos	Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	SpaceAfter=No
 21	,	,	PUNCT	punct	_	22	punct	_	_
@@ -10688,7 +10690,7 @@
 8	a	a	CCONJ	cconj	_	9	cc	_	_
 9	neuaddau	neuadd	NOUN	noun	Gender=Fem|Number=Plur	5	conj	_	_
 10	o	o	ADP	prep	_	12	case	_	_
-11	fewn	mewn	ADP	prep	Mutation=SM	12	case	_	_
+11	fewn	mewn	ADP	prep	Mutation=SM	10	fixed	_	_
 12	pellter	pellter	NOUN	noun	Gender=Masc|Number=Sing	1	obl	_	_
 13	cerdded	cerdded	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	12	nmod	_	_
 14	o	o	ADP	prep	_	15	case	_	_
@@ -10849,12 +10851,12 @@
 3	yn	yn	AUX	impf	_	4	aux	_	_
 4	chwarae	chwarae	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	1	xcomp	_	_
 5	'cello	violoncello	NOUN	noun	Gender=Masc|Number=Sing	4	obj	_	_
-6	a	a	CCONJ	cconj	_	7	cc	_	_
+6	a	a	PRON	rel	PronType=Rel	7	obj	_	_
 7	wnaethpwyd	gwneud	VERB	verb	Mood=Ind|Mutation=SM|Person=0|Tense=Past	5	acl:relcl	_	_
 8	iddo	i	ADP	cprep	Gender=Masc|Number=Sing|Person=3	7	obl	_	_
 9	yn	yn	ADP	prep	_	10	case	_	_
 10	2006	2006	NUM	num	_	7	obl	_	_
-11	gan	can	ADP	prep	Mutation=SM	13	case	_	_
+11	gan	gan	ADP	prep	_	13	case	_	_
 12	ei	ei	PRON	dep	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	13	nmod:poss	_	_
 13	daid	taid	NOUN	noun	Gender=Masc|Mutation=SM|Number=Sing	7	obl:agent	_	SpaceAfter=No
 14	,	,	PUNCT	punct	_	15	punct	_	_
@@ -11159,7 +11161,7 @@
 5	ddisgyblion	disgybl	NOUN	noun	Gender=Masc|Mutation=SM|Number=Plur	3	nmod	_	_
 6	ag	ag	CCONJ	cconj	_	7	cc	_	_
 7	anghenion	angen	NOUN	noun	Gender=Masc|Number=Plur	5	conj	_	_
-8	dysgu	dysgu	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	7	nmod	_	_
+8	dysgu	dysgu	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	7	acl	_	_
 9	dwys	dwys	ADJ	pos	Degree=Pos	8	amod	_	_
 10	o	o	ADP	prep	_	12	case	_	_
 11	bob	pob	ADJ	pos	Degree=Pos|Mutation=SM	12	amod	_	_
@@ -11350,7 +11352,7 @@
 29	ac	a	CCONJ	cconj	_	31	cc	_	_
 30	yn	yn	AUX	impf	_	31	aux	_	_
 31	ymfalchïo	ymfalchïo	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	25	conj	_	_
-32	ynddo	yn	ADP	prep	_	31	case	_	SpaceAfter=No
+32	ynddo	yn	ADP	cprep	Gender=Masc|Number=Sing|Person=3	31	obl	_	SpaceAfter=No
 33	.	.	PUNCT	punct	_	1	punct	_	SpacesAfter=\s\n
 
 # sent_id = 548
@@ -11646,7 +11648,7 @@
 14	bod	bod	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	13	acl	_	_
 15	rhaid	rhaid	NOUN	noun	Gender=Masc|Number=Sing	14	acl	_	_
 16	i	i	ADP	prep	_	17	case	_	_
-17	mi	mi	PRON	indep	PronType=Prs	15	nmod	_	_
+17	mi	mi	PRON	indep	PronType=Prs	18	nsubj	_	_
 18	fyw	byw	NOUN	verbnoun	Mutation=SM|Number=Sing|VerbForm=Vnoun	15	acl	_	_
 19	ar	ar	ADP	prep	_	20	case	_	_
 20	ben	pen	NOUN	noun	Gender=Masc|Mutation=SM|Number=Sing	18	obl	_	_
@@ -12236,8 +12238,8 @@
 7	yng	yn	ADP	prep	_	8	case	_	_
 8	Ngheredigion	Ceredigion	PROPN	place	Gender=Masc|Mutation=NM	5	nmod	_	SpaceAfter=No
 9	,	,	PUNCT	punct	_	15	punct	_	_
-10	wrth	wrth	ADP	prep	_	15	mark	_	_
-11	i	i	ADP	prep	_	13	case	_	SpaceAfter=No
+10	wrth	wrth	ADP	prep	_	13	case	_	_
+11	i	i	ADP	prep	_	10	fixed	_	SpaceAfter=No
 12	'r	y	DET	art	_	13	det	_	_
 13	Cyngor	Cyngor	NOUN	noun	Gender=Masc|Number=Sing	15	nsubj	_	_
 14	Sir	Sir	NOUN	noun	Gender=Fem|Number=Sing	13	nmod	_	_
@@ -12944,7 +12946,7 @@
 5	?	?	PUNCT	punct	_	2	punct	_	SpacesAfter=\n
 
 # sent_id = 636
-# text = A wnaeth hi siarad am ei gwaith.
+# text = A wnaeth hi siarad am ei gwaith?
 1	A	a	PART	int	_	2	advmod	_	_
 2	wnaeth	gwneud	VERB	verb	Mood=Ind|Mutation=SM|Number=Sing|Person=3|Tense=Past	0	root	_	_
 3	hi	hi	PRON	indep	Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
@@ -12952,7 +12954,7 @@
 5	am	am	ADP	prep	_	7	case	_	_
 6	ei	ei	PRON	dep	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
 7	gwaith	gwaith	NOUN	noun	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
-8	.	.	PUNCT	punct	_	2	punct	_	SpacesAfter=\n
+8	?	?	PUNCT	punct	_	2	punct	_	SpacesAfter=\n
 
 # sent_id = 637
 # text = Ni fydd ef ddim yn dringo.
@@ -13077,7 +13079,7 @@
 # text = Roedden ni newydd rannu'r cacen.
 1-2	Roedden	_	_	_	_	_	_	_	_
 1	Yr	y	PART	aff	_	2	advmod	_	_
-2	oedden	bod	VERB	verb	Mood=Ind|Number=Sing|Person=1|Tense=Imp	0	root	_	_
+2	oedden	bod	VERB	verb	Mood=Ind|Number=Plur|Person=1|Tense=Imp	0	root	_	_
 3	ni	ni	PRON	indep	Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
 4	newydd	newydd	AUX	ante	_	5	aux	_	_
 5	rannu	rhannu	NOUN	verbnoun	Mutation=SM|Number=Sing|VerbForm=Vnoun	2	xcomp	_	SpaceAfter=No
@@ -13139,13 +13141,14 @@
 7	?	?	PUNCT	punct	_	1	punct	_	SpacesAfter=\n
 
 # sent_id = 655
-# text = Yr ydych amddiffyn yr iaith?
+# text = Yr ydych yn amddiffyn yr iaith?
 1	Yr	y	PART	aff	_	2	advmod	_	_
 2	ydych	bod	VERB	verb	Mood=Ind|Number=Plur|Person=2|Tense=Pres	0	root	_	_
-3	amddiffyn	amddiffyn	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	2	xcomp	_	_
-4	yr	y	DET	art	_	5	det	_	_
-5	iaith	iaith	NOUN	noun	Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No
-6	?	?	PUNCT	punct	_	2	punct	_	SpacesAfter=\n
+3	yn	yn	AUX	impf	_	4	aux	_	_
+4	amddiffyn	amddiffyn	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	2	xcomp	_	_
+5	yr	y	DET	art	_	6	det	_	_
+6	iaith	iaith	NOUN	noun	Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+7	?	?	PUNCT	punct	_	2	punct	_	SpacesAfter=\n
 
 # sent_id = 656
 # text = Rydych chi wedi cyrraedd.
@@ -13493,7 +13496,7 @@
 24	oedd	bod	VERB	verb	Mood=Ind|Number=Sing|Person=3|Tense=Imp	22	acl	_	_
 25	nifer	nifer	NOUN	noun	Gender=Masc|Number=Sing	24	nsubj	_	_
 26	o	o	ADP	prep	_	27	case	_	_
-27	fudiadau	fudiadau	NOUN	noun	Gender=Masc|Number=Sing	25	nmod	_	_
+27	fudiadau	mudiadau	NOUN	noun	Gender=Masc|Mutation=SM|Number=Sing	25	nmod	_	_
 28	annibyniaeth	annibyniaeth	NOUN	noun	Gender=Masc|Number=Sing	27	nmod	_	_
 29	eraill	eraill	ADJ	pos	Degree=Pos|Number=Plur	28	amod	_	_
 30	wedi	wedi	AUX	ante	_	31	aux	_	_
@@ -13579,7 +13582,7 @@
 # sent_id = 691
 # text = Dim ond trwy siarad â'n gilydd ydyn ni wedi llwyddo creu'r byd anhygoel, prydferth a pheryglus tu hwnt yma.
 1	Dim	dim	ADV	adv	_	4	advmod	_	_
-2	ond	ond	CCONJ	cconj	_	4	cc	_	_
+2	ond	ond	CCONJ	cconj	_	1	fixed	_	_
 3	trwy	trwy	ADP	prep	_	4	mark	_	_
 4	siarad	siarad	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	8	advcl	_	_
 5	â	â	ADP	prep	_	7	case	_	SpaceAfter=No
@@ -13705,10 +13708,10 @@
 12	o	o	ADP	prep	_	13	case	_	_
 13	sefydliadau	sefydliad	NOUN	noun	Gender=Masc|Number=Plur	10	nmod	_	_
 14	eraill	eraill	ADJ	pos	Degree=Pos|Number=Plur	13	amod	_	_
-15	ar	ar	ADP	prep	_	16	case	_	_
-16	draws	draws	NOUN	noun	Gender=Fem|Number=Sing	13	nmod	_	_
+15	ar	ar	ADP	prep	_	18	case	_	_
+16	draws	traws	NOUN	noun	Gender=Fem|Mutation=SM|Number=Sing	15	fixed	_	_
 17	y	y	DET	art	_	18	det	_	_
-18	DU	TU	PROPN	place	Gender=Masc|Mutation=SM|Number=Sing	16	nmod	_	Gloss=Teyrnas_Unedig
+18	DU	TU	PROPN	place	Gender=Masc|Mutation=SM|Number=Sing	13	nmod	_	Gloss=Teyrnas_Unedig
 19	ac	ac	CCONJ	cconj	_	20	cc	_	_
 20	Ewrop	Ewrop	PROPN	place	_	18	conj	_	SpaceAfter=No
 21	,	,	PUNCT	punct	_	23	punct	_	_
@@ -14261,7 +14264,7 @@
 15	Thatcher	Thatcher	PROPN	person	Gender=Masc|Number=Sing	14	flat:name	_	_
 16	cymaint	cymaint	ADV	adv	_	13	advmod	_	SpaceAfter=No
 17	,	,	PUNCT	punct	_	20	punct	_	_
-18	gan	can	ADP	prep	Mutation=SM	20	mark	_	_
+18	gan	gan	ADP	prep	_	20	mark	_	_
 19	ei	ei	PRON	dep	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	20	nsubj	_	_
 20	bod	bod	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	13	ccomp	_	_
 21	newydd	newydd	AUX	ante	_	22	aux	_	_
@@ -14448,7 +14451,7 @@
 8	rhoddwr	rhoddwr	NOUN	noun	Gender=Masc|Number=Sing	4	xcomp	_	_
 9	organau	organau	NOUN	noun	Gender=Masc|Number=Sing	8	nmod	_	_
 10	yna	yna	ADV	adv	_	11	advmod	_	_
-11	gallwch	gallu	VERB	verb	Mood=Ind|Number=Sing|Person=2|Tense=Fut	0	root	_	_
+11	gallwch	gallu	VERB	verb	Mood=Ind|Number=Plur|Person=2|Tense=Fut	0	root	_	_
 12	gofrestru	gofrestru	NOUN	noun	Gender=Masc|Number=Sing	11	obj	_	_
 13	penderfyniad	penderfyniad	NOUN	noun	Gender=Masc|Number=Sing	12	nmod	_	_
 14	fel	fel	ADP	prep	_	19	case	_	_
@@ -14537,7 +14540,7 @@
 9	fod	bod	NOUN	verbnoun	Mutation=SM|Number=Sing|VerbForm=Vnoun	7	xcomp	_	_
 10	yn	yn	AUX	impf	_	11	aux	_	_
 11	gymwys	gymwys	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	9	xcomp	_	_
-12	gwblhau	cwblhau	NOUN	verbnoun	Mutation=SM|Number=Sing|VerbForm=Vnoun	11	ccomp	_	_
+12	gwblhau	cwblhau	NOUN	verbnoun	Mutation=SM|Number=Sing|VerbForm=Vnoun	4	acl	_	_
 13	achos	achos	CCONJ	cconj	_	14	cc	_	_
 14	busnes	busnes	NOUN	noun	Gender=Masc|Number=Sing	12	obj	_	_
 15	strategol	strategol	ADJ	pos	Degree=Pos	14	amod	_	_
@@ -14691,7 +14694,7 @@
 # text = Ac wrth i chi jyst yn gweld pan oeddwn newydd symud fy llaw Naid dal cynnig cylch.
 1	Ac	ac	CCONJ	cconj	_	7	cc	_	_
 2	wrth	wrth	ADP	prep	_	4	case	_	_
-3	i	i	ADP	prep	_	4	case	_	_
+3	i	i	ADP	prep	_	2	fixed	_	_
 4	chi	chi	PRON	indep	Number=Plur|Person=2|PronType=Prs	7	nsubj	_	_
 5	jyst	jyst	ADJ	pos	Degree=Pos|Gender=Masc|Number=Sing	7	advmod	_	_
 6	yn	yn	AUX	impf	_	7	aux	_	_
@@ -14729,7 +14732,7 @@
 17	a	a	CCONJ	cconj	_	18	cc	_	_
 18	throsodd	trosodd	ADV	adv	Mutation=AM	16	conj	_	_
 19	o	o	ADP	prep	_	21	case	_	_
-20	dan	tan	ADP	prep	Mutation=SM	21	case	_	_
+20	dan	tan	ADP	prep	Mutation=SM	19	fixed	_	_
 21	danio	tanio	NOUN	verbnoun	Mutation=SM|Number=Sing|VerbForm=Vnoun	14	obl	_	_
 22	trwm	trwm	ADJ	pos	Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	_
 23	gan	gan	ADP	prep	_	24	mark	_	_
@@ -14836,7 +14839,7 @@
 23	i	i	ADP	prep	_	24	case	_	_
 24	arwydd	arwydd	NOUN	noun	Gender=Masc|Number=Sing	20	nmod	_	_
 25	"	"	PUNCT	punct	_	26	punct	_	SpaceAfter=No
-26	Cofiwch	cofio	VERB	verb	Mood=Imp|Number=Sing|Person=2	24	appos	_	_
+26	Cofiwch	cofio	VERB	verb	Mood=Imp|Number=Plur|Person=2	24	appos	_	_
 27	Dryweryn	Dryweryn	NOUN	noun	Gender=Masc|Number=Sing	26	nsubj	_	SpaceAfter=No
 28	"	"	PUNCT	punct	_	26	punct	_	_
 29	ar	ar	ADP	prep	_	30	case	_	_
@@ -14989,9 +14992,9 @@
 9	allan	allan	ADV	adv	_	7	obl	_	_
 10	fel	fel	CCONJ	cconj	_	11	cc	_	_
 11	bod	bod	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	7	conj	_	_
-12	mwy	mawr	ADJ	cmp	Degree=Cmp	14	amod	_	_
+12	mwy	mawr	ADJ	cmp	Degree=Cmp	11	nsubj	_	_
 13	o	o	ADP	prep	_	14	case	_	_
-14	bobol	pobol	NOUN	noun	Gender=Fem|Mutation=SM|Number=Sing	11	nsubj	_	_
+14	bobol	pobol	NOUN	noun	Gender=Fem|Mutation=SM|Number=Sing	12	nmod	_	_
 15	yn	yn	AUX	impf	_	16	aux	_	_
 16	gwybod	gwybod	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	11	xcomp	_	_
 17	am	am	ADP	prep	_	18	case	_	_
@@ -15105,7 +15108,7 @@
 4	siom	siom	NOUN	noun	Gender=Masc|Number=Sing	0	root	_	_
 5	yn	yn	PART	pred	_	6	case:pred	_	_
 6	fwy	mawr	ADJ	cmp	Degree=Cmp|Mutation=SM	4	acl	_	_
-7	nad	na	ADP	prep	_	8	case	_	_
+7	nad	na	PART	neg	_	8	advmod	_	_
 8	dim	dim	NOUN	noun	Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
 9	.	.	PUNCT	punct	_	4	punct	_	SpacesAfter=\n
 
@@ -15368,7 +15371,7 @@
 40	y	y	DET	art	_	41	det	_	_
 41	dyfodol	dyfodol	NOUN	noun	Gender=Masc|Number=Sing	38	nmod	_	_
 42	o	o	ADP	prep	_	44	case	_	_
-43	dan	tan	ADP	prep	Mutation=SM	44	case	_	_
+43	dan	tan	ADP	prep	Mutation=SM	42	fixed	_	_
 44	egwyddor	egwyddor	NOUN	noun	Gender=Fem|Number=Sing	36	obl	_	_
 45	y	y	DET	art	_	46	det	_	_
 46	Côd	Côd	NOUN	noun	Gender=Masc|Number=Sing	44	nmod	_	_
@@ -15416,7 +15419,7 @@
 5	"	"	PUNCT	punct	_	6	punct	_	SpaceAfter=No
 6	rhaid	rhaid	NOUN	noun	Gender=Masc|Number=Sing	3	acl	_	_
 7	i	i	ADP	prep	_	8	case	_	_
-8	bawb	pawb	NOUN	noun	Gender=Masc|Mutation=SM|Number=Sing	6	nmod	_	_
+8	bawb	pawb	NOUN	noun	Gender=Masc|Mutation=SM|Number=Sing	9	nsubj	_	_
 9	symud	symud	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	6	acl	_	_
 10	ymlaen	ymlaen	ADV	adv	_	9	advmod	_	_
 11	efo	efo	ADP	prep	_	13	case	_	SpaceAfter=No
@@ -15871,7 +15874,7 @@
 25	do	to	NOUN	noun	Gender=Masc|Mutation=SM|Number=Sing	23	nmod	_	_
 26	o	o	ADP	prep	_	27	case	_	_
 27	gwbl	cwbl	ADJ	pos	Degree=Pos|Mutation=SM	25	advmod	_	_
-28	uwch	uchel	ADP	prep	_	30	case	_	_
+28	uwch	uchel	ADJ	pos	Degree=Pos	27	amod	_	_
 29	eu	eu	PRON	dep	Number=Plur|Person=3|Poss=Yes|PronType=Prs	30	nmod:poss	_	_
 30	pennau	pen	NOUN	noun	Gender=Masc|Number=Sing	25	nmod	_	SpaceAfter=No
 31	.	.	PUNCT	punct	_	25	punct	_	SpacesAfter=\n
@@ -16050,9 +16053,9 @@
 14	dros	dros	ADP	prep	_	15	case	_	_
 15	£	£	SYM	sym	Gender=Masc|Number=Sing	13	obj	_	SpaceAfter=No
 16	15,000	15,000	NUM	num	_	15	nummod	_	_
-17	hyd	hyd	NOUN	noun	Gender=Masc|Number=Sing	13	obl	_	_
+17	hyd	hyd	ADP	prep	_	19	case	_	_
 18	yn	yn	ADP	prep	_	17	fixed	_	_
-19	hyn	hyn	PRON	dem	Number=Plur|PronType=Dem	17	fixed	_	_
+19	hyn	hyn	PRON	dem	Number=Plur|PronType=Dem	13	obl	_	_
 20	drwy	drwy	ADP	prep	_	21	mark	_	_
 21	werthu	gwerthu	NOUN	verbnoun	Mutation=SM|Number=Sing|VerbForm=Vnoun	13	ccomp	_	_
 22	gwin	gwin	NOUN	noun	Gender=Masc|Number=Sing	21	obj	_	_
@@ -16356,9 +16359,9 @@
 35	i	i	ADP	prep	_	36	case	_	_
 36	ni	ni	PRON	indep	Number=Plur|Person=1|PronType=Prs	37	nsubj	_	_
 37	adeiladu	adeiladu	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	34	acl	_	_
-38	mwy	mawr	ADJ	cmp	Degree=Cmp	40	amod	_	_
+38	mwy	mawr	ADJ	cmp	Degree=Cmp	37	obl	_	_
 39	o	o	ADP	prep	_	40	case	_	_
-40	dai	tŷ	NOUN	noun	Gender=Masc|Mutation=SM|Number=Plur	37	obl	_	SpaceAfter=No
+40	dai	tŷ	NOUN	noun	Gender=Masc|Mutation=SM|Number=Plur	38	nmod	_	SpaceAfter=No
 41	"	"	PUNCT	punct	_	33	punct	_	SpaceAfter=No
 42	.	.	PUNCT	punct	_	33	punct	_	SpacesAfter=\n
 
@@ -16702,7 +16705,7 @@
 # text = Gyfeillion, cofiwch am ddigwyddiad Hacio'r Iaith a gynhelir yn y ‘Steddfod ddydd Llun ar stondin Prifysgol Aberystwyth rhwng 1:30 a 5:00.
 1	Gyfeillion	cyfaill	NOUN	noun	Gender=Masc|Mutation=SM|Number=Plur	3	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	punct	_	3	punct	_	_
-3	cofiwch	cofio	VERB	verb	Mood=Imp|Number=Sing|Person=2	0	root	_	_
+3	cofiwch	cofio	VERB	verb	Mood=Imp|Number=Plur|Person=2	0	root	_	_
 4	am	am	ADP	prep	_	5	case	_	_
 5	ddigwyddiad	digwyddiad	NOUN	noun	Gender=Masc|Mutation=SM|Number=Sing	3	obl	_	_
 6	Hacio	hacio	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	5	nmod	_	SpaceAfter=No
@@ -16923,7 +16926,7 @@
 # text = Roeddem ni'n chwarae nawfed symffoni Dvořák ("From the New World" – addas iawn!) a nifer o ddarnau gan Ravel.
 1-2	Roeddem	_	_	_	_	_	_	_	_
 1	Yr	y	PART	aff	_	2	advmod	_	_
-2	oeddem	bod	VERB	verb	Mood=Ind|Number=Sing|Person=1|Tense=Imp	0	root	_	_
+2	oeddem	bod	VERB	verb	Mood=Ind|Number=Plur|Person=1|Tense=Imp	0	root	_	_
 3	ni	ni	PRON	indep	Number=Plur|Person=1|PronType=Prs	2	nsubj	_	SpaceAfter=No
 4	'n	yn	AUX	impf	_	5	aux	_	_
 5	chwarae	chwarae	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	2	xcomp	_	_
@@ -17167,82 +17170,6 @@
 25	.	.	PUNCT	punct	_	2	punct	_	SpacesAfter=\n
 
 # sent_id = 828
-# text = Mae gan Fangor y stryd fawr hiraf yng Nghymru, gyda chymysg o siopau cenedlaethol a busnesau lleol bychan.
-1	Mae	bod	VERB	verb	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
-2	gan	gan	ADP	prep	_	3	case	_	_
-3	Fangor	Fangor	NOUN	noun	Gender=Masc|Number=Sing	1	obl	_	_
-4	y	y	DET	art	_	5	det	_	_
-5	stryd	stryd	NOUN	noun	Gender=Fem|Number=Sing	1	nsubj	_	_
-6	fawr	mawr	ADJ	pos	Degree=Pos|Mutation=SM	5	amod	_	_
-7	hiraf	hir	ADJ	sup	Degree=Sup	5	acl	_	_
-8	yng	yn	ADP	prep	_	9	case	_	_
-9	Nghymru	Cymru	PROPN	place	Gender=Fem|Mutation=NM|Number=Sing	5	nmod	_	SpaceAfter=No
-10	,	,	PUNCT	punct	_	12	punct	_	_
-11	gyda	gyda	ADP	prep	_	12	case	_	_
-12	chymysg	cymysg	NOUN	noun	Gender=Masc|Mutation=AM|Number=Sing	5	conj	_	_
-13	o	o	ADP	prep	_	14	case	_	_
-14	siopau	siop	NOUN	noun	Gender=Fem|Number=Plur	12	nmod	_	_
-15	cenedlaethol	cenedlaethol	NOUN	noun	Gender=Masc|Number=Sing	14	nmod	_	_
-16	a	a	CCONJ	cconj	_	17	cc	_	_
-17	busnesau	busnes	NOUN	noun	Gender=Masc|Number=Plur	12	conj	_	_
-18	lleol	lleol	ADJ	pos	Degree=Pos	17	amod	_	_
-19	bychan	bychan	ADJ	pos	Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	SpaceAfter=No
-20	.	.	PUNCT	punct	_	1	punct	_	SpacesAfter=\n
-
-# sent_id = 829
-# text = Mae'r mwyafrif o adeiladau'r Brifysgol a neuaddau o fewn pellter cerdded o ganol y ddinas.
-1	Mae	bod	VERB	verb	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	SpaceAfter=No
-2	'r	y	DET	art	_	3	det	_	_
-3	mwyafrif	mwyafrif	NOUN	noun	Gender=Masc|Number=Sing	1	nsubj	_	_
-4	o	o	ADP	prep	_	5	case	_	_
-5	adeiladau	adeilad	NOUN	noun	Gender=Masc|Number=Plur	3	nmod	_	SpaceAfter=No
-6	'r	y	DET	art	_	7	det	_	_
-7	Brifysgol	prifysgol	NOUN	noun	Gender=Fem|Mutation=SM|Number=Sing	5	nmod	_	_
-8	a	a	CCONJ	cconj	_	9	cc	_	_
-9	neuaddau	neuadd	NOUN	noun	Gender=Fem|Number=Plur	5	conj	_	_
-10	o	o	ADP	prep	_	12	case	_	_
-11	fewn	mewn	ADP	prep	Mutation=SM	12	case	_	_
-12	pellter	pellter	NOUN	noun	Gender=Masc|Number=Sing	1	obl	_	_
-13	cerdded	cerdded	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	12	nmod	_	_
-14	o	o	ADP	prep	_	15	case	_	_
-15	ganol	canol	NOUN	noun	Gender=Masc|Mutation=SM|Number=Sing	13	obl	_	_
-16	y	y	DET	art	_	17	det	_	_
-17	ddinas	dinas	NOUN	noun	Gender=Fem|Mutation=SM|Number=Sing	15	nmod	_	SpaceAfter=No
-18	.	.	PUNCT	punct	_	1	punct	_	SpacesAfter=\n
-
-# sent_id = 830
-# text = Ym Mangor, mae Undeb y Myfyrwyr yn cynnig canolbwynt ar gyfer gweithgareddau ac adloniant ac mae ein holl glybiau a chymdeithasau am ddim i ymuno â nhw.
-1	Ym	yn	ADP	prep	_	2	case	_	_
-2	Mangor	Bangor	PROPN	place	Mutation=NM	4	obl	_	SpaceAfter=No
-3	,	,	PUNCT	punct	_	4	punct	_	_
-4	mae	bod	VERB	verb	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
-5	Undeb	undeb	NOUN	noun	Gender=Masc|Number=Sing	4	nsubj	_	_
-6	y	y	DET	art	_	7	det	_	_
-7	Myfyrwyr	myfyriwr	NOUN	noun	Gender=Masc|Number=Plur	5	nmod	_	_
-8	yn	yn	AUX	impf	_	9	aux	_	_
-9	cynnig	cynnig	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	4	xcomp	_	_
-10	canolbwynt	canolbwynt	NOUN	noun	Gender=Masc|Number=Sing	9	obj	_	_
-11	ar	ar	ADP	prep	_	12	case	_	_
-12	gyfer	cyfer	NOUN	noun	Gender=Masc|Mutation=SM|Number=Sing	10	nmod	_	_
-13	gweithgareddau	gweithgaredd	NOUN	noun	Gender=Masc|Number=Plur	12	nmod	_	_
-14	ac	a	CCONJ	cconj	_	15	cc	_	_
-15	adloniant	adloniant	NOUN	noun	Gender=Masc|Number=Sing	12	conj	_	_
-16	ac	a	CCONJ	cconj	_	17	cc	_	_
-17	mae	bae	NOUN	noun	Gender=Masc|Mutation=NM|Number=Sing	4	conj	_	_
-18	ein	ein	PRON	dep	Number=Plur|Person=1|Poss=Yes|PronType=Prs	20	nmod:poss	_	_
-19	holl	holl	ADJ	pos	Degree=Pos	20	amod	_	_
-20	glybiau	clwb	NOUN	noun	Gender=Masc|Mutation=SM|Number=Plur	17	nmod	_	_
-21	a	a	CCONJ	cconj	_	22	cc	_	_
-22	chymdeithasau	cymdeithas	NOUN	noun	Gender=Fem|Mutation=AM|Number=Plur	20	conj	_	_
-23	am	am	ADP	prep	_	26	mark	_	_
-24	ddim	dim	PART	neg	Mutation=SM	26	advmod	_	_
-25	i	i	ADP	prep	_	26	mark	_	_
-26	ymuno	ymuno	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	22	acl	_	_
-27	â	â	ADP	prep	_	28	case	_	_
-28	nhw	hwy	PRON	indep	Number=Plur|Person=3|PronType=Prs	26	obl	_	SpaceAfter=No
-29	.	.	PUNCT	punct	_	4	punct	_	SpacesAfter=\n
-
-# sent_id = 831
 # text = Mae datblygiad newydd o 600 o ystafelloedd wedi agor ym Mhentref Santes Fair, gydag amrywiaeth o lety gan gynnwys fflatiau stiwdio a tai tref, bar caffi, siop, golchdy, ystafelloedd cyffredin a chyfleusterau chwaraeon a ffitrwydd.
 1	Mae	bod	VERB	verb	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
 2	datblygiad	datblygiad	NOUN	noun	Gender=Masc|Number=Sing	1	nsubj	_	_
@@ -17286,7 +17213,7 @@
 40	ffitrwydd	ffitrwydd	NOUN	noun	Gender=Masc|Number=Sing	38	conj	_	SpaceAfter=No
 41	.	.	PUNCT	punct	_	1	punct	_	SpacesAfter=\n
 
-# sent_id = 832
+# sent_id = 829
 # text = Ynys Môn yw un o'r llefydd mwyaf poblogaidd gan ymwelwyr sy'n dod i ogledd Cymru, yn bennaf oherwydd y milltiroedd o draethau a llwybrau arfordirol a cheir yno.
 1	Ynys	Ynys	PROPN	place	Gender=Fem|Number=Sing	4	nsubj	_	_
 2	Môn	Môn	PROPN	place	Gender=Masc|Number=Sing	1	flat:name	_	_
@@ -17321,7 +17248,7 @@
 31	yno	yno	ADV	adv	_	30	advmod	_	SpaceAfter=No
 32	.	.	PUNCT	punct	_	20	punct	_	SpacesAfter=\n
 
-# sent_id = 833
+# sent_id = 830
 # text = Roedd y pwnc penodol y bûm yn gweithio arno o ddiddordeb ar yr un pryd i SHTG ac rydw i wedi gweithredu fel cyswllt, gan rannu gwybodaeth i'r ddau gyfeiriad ac arbed amser.
 1-2	Roedd	_	_	_	_	_	_	_	_
 1	Yr	y	PART	aff	_	4	advmod	_	_
@@ -17364,7 +17291,7 @@
 37	amser	amser	NOUN	noun	Gender=Masc|Number=Sing	36	obj	_	SpaceAfter=No
 38	.	.	PUNCT	punct	_	21	punct	_	SpacesAfter=\n
 
-# sent_id = 834
+# sent_id = 831
 # text = Rydw i wedi dod yn gyfarwydd â rhaglen waith adolygu tystiolaeth Technoleg Iechyd Cymru ac wedi rhannu dysgu y ddwy ffordd ar effaith arfarnu a chynhyrchu Gweithdrefnau Gweithredu Safonol.
 1-2	Rydw	_	_	_	_	_	_	_	_
 1	Yr	y	PART	aff	_	2	advmod	_	_
@@ -17399,7 +17326,7 @@
 30	Safonol	safonol	ADJ	pos	Degree=Pos|Gender=Masc|Number=Sing	29	amod	_	SpaceAfter=No
 31	.	.	PUNCT	punct	_	2	punct	_	SpacesAfter=\n
 
-# sent_id = 835
+# sent_id = 832
 # text = Yn aml mae'r manteision hyn wedi deillio drwy achub ar y cyfle, drwy fod o gwmpas pan fo sgwrs benodol yn digwydd.
 1	Yn	yn	PART	pred	_	2	case:pred	_	_
 2	aml	aml	ADV	adv	_	3	advmod	_	_
@@ -17427,7 +17354,7 @@
 24	digwydd	digwydd	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	20	xcomp	_	SpaceAfter=No
 25	.	.	PUNCT	punct	_	16	punct	_	SpacesAfter=\n
 
-# sent_id = 836
+# sent_id = 833
 # text = Dylech gyflwyno eich cwyn yn ysgrifenedig yn uniongyrchol i'r unigolyn y buoch yn ymdrin â hwy.
 1	Dylech	dylu	VERB	verb	Mood=Ind|Number=Sing|Person=2|Tense=Imp	0	root	_	_
 2	gyflwyno	cyflwyno	NOUN	verbnoun	Mutation=SM|Number=Sing|VerbForm=Vnoun	1	xcomp	_	_
@@ -17448,7 +17375,7 @@
 17	hwy	hwy	PRON	indep	Number=Plur|Person=3|PronType=Prs	15	obl	_	SpaceAfter=No
 18	.	.	PUNCT	punct	_	17	punct	_	_
 
-# sent_id = 837
+# sent_id = 834
 # text = Mae'n bosibl y gallant unioni'r sefyllfa ar unwaith.
 1	Mae	bod	AUX	aux	Mood=Ind|Number=Sing|Person=3|Tense=Pres	3	cop	_	SpaceAfter=No
 2	'n	yn	PART	pred	_	3	case:pred	_	_
@@ -17462,7 +17389,7 @@
 10	unwaith	unwaith	ADV	adv	_	6	advmod	_	SpaceAfter=No
 11	.	.	PUNCT	punct	_	3	punct	_	SpacesAfter=\n
 
-# sent_id = 838
+# sent_id = 835
 # text = Gellir sefyll am drydydd tymor neu fwy.
 1	Gellir	gallu	VERB	verb	Mood=Ind|Person=0|Tense=Fut	0	root	_	_
 2	sefyll	sefyll	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	1	xcomp	_	_
@@ -17473,7 +17400,7 @@
 7	fwy	mawr	ADJ	cmp	Degree=Cmp	5	conj	_	SpaceAfter=No
 8	.	.	PUNCT	punct	_	1	punct	_	SpacesAfter=\n
 
-# sent_id = 839
+# sent_id = 836
 # text = Mae hanner un o ynysoedd yr afon Menai, sy'n eiddo i Brifysgol Bangor, wedi cael ei rhoi ar y farchnad am bris o filiwn o bunnau.
 1	Mae	bod	VERB	verb	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
 2	hanner	hanner	NOUN	noun	Gender=Masc|Number=Sing	1	nsubj	_	_
@@ -17506,7 +17433,7 @@
 29	bunnau	punt	NOUN	noun	Gender=Fem|Mutation=SM|Number=Sing	27	nmod	_	SpaceAfter=No
 30	.	.	PUNCT	punct	_	1	punct	_	SpacesAfter=\n
 
-# sent_id = 840
+# sent_id = 837
 # text = Mae Ynys Faelog oddi ar arfordir de-ddwyrain Ynys Môn ac mae'n un o bedair ynys fechan rhwng trefi Porthaethwy a Biwmares.
 1	Mae	bod	VERB	verb	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
 2	Ynys	ynys	NOUN	noun	Gender=Fem|Number=Sing	1	nsubj	_	_
@@ -17532,7 +17459,7 @@
 22	Biwmares	Biwmares	PROPN	place	Gender=Masc|Number=Sing	20	conj	_	SpaceAfter=No
 23	.	.	PUNCT	punct	_	1	punct	_	SpacesAfter=\n
 
-# sent_id = 841
+# sent_id = 838
 # text = Mae'r darn o'r ynys sydd ar werth wedi bod yn nwylo Prifysgol Bangor ers yr 1970au, a than yn ddiweddar bu'n lleoliad ar gyfer canolfan ymchwil gwyddonol.
 1	Mae	bod	VERB	verb	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	SpaceAfter=No
 2	'r	y	DET	art	_	3	det	_	_
@@ -17568,7 +17495,7 @@
 32	.	.	PUNCT	punct	_	26	punct	_	SpacesAfter=\n
 
 # newdoc id = c15.txt.clean
-# sent_id = 842
+# sent_id = 839
 # text = Eisteddwn ar y bont yn nhref Llanrwst a chofio am brotestwyr Pont Trefechan ym 1963.
 1	Eisteddwn	eistedd	VERB	verb	Mood=Imp|Number=Sing|Person=1	0	root	_	_
 2	ar	ar	ADP	prep	_	4	case	_	_
@@ -17587,7 +17514,7 @@
 15	1963	1963	NUM	num	_	9	obl	_	SpaceAfter=No
 16	.	.	PUNCT	punct	_	1	punct	_	SpacesAfter=\n
 
-# sent_id = 843
+# sent_id = 840
 # text = Safwn ar bont arall, wrth ymyl y maes, yn ysgwyd y strwythur metal fel teyrnged i brotestwyr Hong Kong 2019.
 1	Safwn	sefyll	VERB	verb	Mood=Imp|Number=Sing|Person=1	0	root	_	_
 2	ar	ar	ADP	prep	_	3	case	_	_
@@ -17613,7 +17540,7 @@
 22	2019	2019	NUM	num	_	19	nmod	_	SpaceAfter=No
 23	.	.	PUNCT	punct	_	1	punct	_	SpacesAfter=\n
 
-# sent_id = 844
+# sent_id = 841
 # text = Mae'r naws yn llac ac yn ysgafn ond hefyd yn gyfoethog â chydnabyddiaeth o frwydrau hanesyddol lleol a rhyngwladol.
 1	Mae	bod	AUX	aux	Mood=Ind|Number=Sing|Person=3|Tense=Pres	5	cop	_	SpaceAfter=No
 2	'r	y	DET	art	_	3	det	_	_
@@ -17637,7 +17564,7 @@
 20	rhyngwladol	rhyngwladol	ADJ	pos	Degree=Pos	16	conj	_	SpaceAfter=No
 21	.	.	PUNCT	punct	_	12	punct	_	SpacesAfter=\n
 
-# sent_id = 845
+# sent_id = 842
 # text = Trwy gydol y daith, ry'n ni'n cael ein cymell i ystyried gwahanol ffyrdd o ymyrryd mewn gofodau cyhoeddus er mwyn gorfodi newid, i ystyried sut y gall protest fod yn theatr, a theatr yn brotest, a'r graddau y gall y dychymyg torfol fod yn arf, dim ots beth yw'r frwydr.
 1	Trwy	trwy	ADP	prep	_	2	case	_	_
 2	gydol	cydol	NOUN	noun	Gender=Masc|Mutation=SM|Number=Sing	6	obl	_	_
@@ -17699,7 +17626,7 @@
 58	frwydr	brwydr	NOUN	noun	Gender=Fem|Mutation=SM|Number=Sing	51	appos	_	SpaceAfter=No
 59	.	.	PUNCT	punct	_	30	punct	_	SpacesAfter=\n
 
-# sent_id = 846
+# sent_id = 843
 # text = Ar y maes eleni mae stondin Yes Cymru yn brysur.
 1	Ar	ar	ADP	prep	_	3	case	_	_
 2	y	y	DET	art	_	3	det	_	_
@@ -17713,7 +17640,7 @@
 10	brysur	prysur	ADJ	pos	Degree=Pos|Mutation=SM	0	root	_	SpaceAfter=No
 11	.	.	PUNCT	punct	_	10	punct	_	SpacesAfter=\n
 
-# sent_id = 847
+# sent_id = 844
 # text = Dyma'r Eisteddfod gyntaf ers i sticeri coch y mudiad ddod yn rhan eiconig ac anochel o wead gweledol strydoedd ein dinasoedd a'n ffyrdd gwledig.
 1	Dyma	dyma	ADV	adv	_	3	advmod	_	SpaceAfter=No
 2	'r	y	DET	art	_	3	det	_	_
@@ -17743,7 +17670,7 @@
 26	gwledig	gwledig	ADJ	pos	Degree=Pos|Gender=Masc|Number=Sing	25	amod	_	SpaceAfter=No
 27	.	.	PUNCT	punct	_	3	punct	_	SpacesAfter=\n
 
-# sent_id = 848
+# sent_id = 845
 # text = Ac mae'r mis Awst dryslyd hwn wedi teimlo i mi fel un o lanw a thrai, o newid yn sicr, a llif yn troi.
 1	Ac	ac	CCONJ	cconj	_	2	cc	_	_
 2	mae	bod	VERB	verb	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	SpaceAfter=No
@@ -17774,7 +17701,7 @@
 27	troi	troi	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	20	xcomp	_	SpaceAfter=No
 28	.	.	PUNCT	punct	_	20	punct	_	SpacesAfter=\n
 
-# sent_id = 849
+# sent_id = 846
 # text = Mae John Humphrys yn dweud bod y BBC wedi methu â deall penderfyniad y bobol i bleidleisio o blaid gadael yr Undeb Ewropeaidd.
 1	Mae	bod	VERB	verb	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
 2	John	John	PROPN	person	_	1	nsubj	_	_
@@ -17801,7 +17728,7 @@
 23	Ewropeaidd	Ewropeaidd	ADJ	pos	Degree=Pos|Gender=Masc|Number=Sing	22	amod	_	SpaceAfter=No
 24	.	.	PUNCT	punct	_	1	punct	_	SpacesAfter=\n
 
-# sent_id = 850
+# sent_id = 847
 # text = Mae'r newyddiadurwr o Gymru, sy'n gadael ei rôl yn cyflwyno rhaglen Today ar BBC Radio 4, yn cyhuddo'r Gorfforaeth o fod yn rhagfarnllyd o blaid yr asgell chwith ryddfrydol.
 1	Mae	bod	VERB	verb	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	SpaceAfter=No
 2	'r	y	DET	art	_	3	det	_	_
@@ -17839,7 +17766,7 @@
 34	ryddfrydol	ryddfrydol	NOUN	noun	Gender=Masc|Number=Sing	32	nmod	_	SpaceAfter=No
 35	.	.	PUNCT	punct	_	22	punct	_	SpacesAfter=\n
 
-# sent_id = 851
+# sent_id = 848
 # text = Mae fersiwn newydd Ubuntu yn cael ei ryddhau heddi.
 1	Mae	bod	VERB	verb	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
 2	fersiwn	fersiwn	NOUN	noun	Gender=Masc|Number=Sing	1	nsubj	_	_
@@ -17852,7 +17779,7 @@
 9	heddi	heddiw	ADV	adv	_	8	obj	_	SpaceAfter=No
 10	.	.	PUNCT	punct	_	1	punct	_	SpacesAfter=\n
 
-# sent_id = 852
+# sent_id = 849
 # text = Dydw i wedi ei drio fe eto, ond rydw wedi clywed o newyddion o bobl arall.
 1-2	Dydw	_	_	_	_	_	_	_	_
 1	Nid	ni	PART	neg	_	2	advmod	_	_
@@ -17877,7 +17804,7 @@
 19	arall	arall	ADJ	pos	Degree=Pos	18	amod	_	SpaceAfter=No
 20	.	.	PUNCT	punct	_	12	punct	_	SpacesAfter=\n
 
-# sent_id = 853
+# sent_id = 850
 # text = Yn gyntaf, mae menu sain wedi cael newidiadau er mwyn ddangos Rhythmbox yn canu caneuon mewn menu gyda botomau nôl, canu ac ymlaen.
 1	Yn	yn	PART	pred	_	2	case:pred	_	_
 2	gyntaf	cyntaf	ADV	adv	Mutation=SM	4	advmod	_	SpaceAfter=No
@@ -17906,7 +17833,7 @@
 25	ymlaen	ymlaen	ADV	adv	_	23	advmod	_	SpaceAfter=No
 26	.	.	PUNCT	punct	_	4	punct	_	SpacesAfter=\n
 
-# sent_id = 854
+# sent_id = 851
 # text = Hefyd, mae gosodwr Ubuntu yn gosod Ubuntu pan ti'n rhoi gwybodaeth i Ubuntu.
 1	Hefyd	hefyd	ADV	adv	_	3	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	punct	_	3	punct	_	_
@@ -17925,7 +17852,7 @@
 15	Ubuntu	Ubuntu	PROPN	work	Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
 16	.	.	PUNCT	punct	_	3	punct	_	SpacesAfter=\n
 
-# sent_id = 855
+# sent_id = 852
 # text = Does dim aros am y tudalenau gwybodaeth i gwpla cyn i ti allu dechrau'r gosod!
 1-2	Does	_	_	_	_	_	_	_	_
 1	Nid	ni	PART	neg	_	3	advmod	_	_
@@ -17947,7 +17874,7 @@
 17	gosod	gosod	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	15	xcomp	_	SpaceAfter=No
 18	!	!	PUNCT	punct	_	3	punct	_	SpacesAfter=\n
 
-# sent_id = 856
+# sent_id = 853
 # text = Mae gosodwr yn rhoi siawns i di lawrlwytho updates a galluogi MP3 codecs i gael ei osod.
 1	Mae	bod	VERB	verb	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
 2	gosodwr	gosodwr	NOUN	noun	Gender=Masc|Number=Sing	1	nsubj	_	_
@@ -17968,7 +17895,7 @@
 17	osod	gosod	NOUN	verbnoun	Mutation=SM|Number=Sing|VerbForm=Vnoun	15	ccomp	_	SpaceAfter=No
 18	.	.	PUNCT	punct	_	1	punct	_	SpacesAfter=\n
 
-# sent_id = 857
+# sent_id = 854
 # text = Mae'n edrych yn hyfryd i osod ac bydda i'n ei thrio hi nes mlaen!
 1	Mae	bod	VERB	verb	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	SpaceAfter=No
 2	'n	yn	AUX	impf	_	3	aux	_	_
@@ -17985,10 +17912,10 @@
 13	thrio	trio	NOUN	verbnoun	Mutation=AM|Number=Sing|VerbForm=Vnoun	9	xcomp	_	_
 14	hi	hi	PRON	indep	Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	expl	_	_
 15	nes	nes	ADJ	pos	Degree=Pos|Mood=Ind|Number=Sing|Person=1|Tense=Past	13	advmod	_	_
-16	mlaen	ymlaen	ADV	adv	_	15	fixed	_	SpaceAfter=No
+16	mlaen	ymlaen	ADV	adv	_	15	advmod	_	SpaceAfter=No
 17	!	!	PUNCT	punct	_	9	punct	_	SpacesAfter=\n
 
-# sent_id = 858
+# sent_id = 855
 # text = Dwi'n teimlo'r pwysau i gario mlaen ond teimlo'r pwysau i gael eraill i wneud hefyd.
 1-2	Dwi	_	_	_	_	_	_	_	SpaceAfter=No
 1	Dw	bod	VERB	verb	Mood=Ind|Number=Sing|Person=1|Tense=Pres	0	root	_	_
@@ -18012,7 +17939,7 @@
 19	hefyd	hefyd	ADV	adv	_	15	advmod	_	SpaceAfter=No
 20	.	.	PUNCT	punct	_	1	punct	_	SpacesAfter=\n
 
-# sent_id = 859
+# sent_id = 856
 # text = A fydd criw Aber yn cario ymlaen?
 1	A	a	PART	int	_	2	advmod	_	_
 2	fydd	bod	VERB	verb	Mood=Ind|Mutation=SM|Number=Sing|Person=3|Tense=Fut	0	root	_	_
@@ -18023,7 +17950,7 @@
 7	ymlaen	ymlaen	ADV	adv	_	6	advmod	_	SpaceAfter=No
 8	?	?	PUNCT	punct	_	2	punct	_	SpacesAfter=\n
 
-# sent_id = 860
+# sent_id = 857
 # text = Byddai'n braf meddwl hynny.
 1	Byddai	bod	AUX	aux	Mood=Cnd|Number=Sing|Person=3|Tense=Imp	3	cop	_	SpaceAfter=No
 2	'n	yn	PART	pred	_	3	case:pred	_	_
@@ -18032,7 +17959,7 @@
 5	hynny	hynny	PRON	dem	Number=Plur|PronType=Dem	4	obj	_	SpaceAfter=No
 6	.	.	PUNCT	punct	_	3	punct	_	SpacesAfter=\n
 
-# sent_id = 861
+# sent_id = 858
 # text = Fydd y gyfres pan gaiff ei darlledu yn ysgogi eraill i wneud run fath?
 1	Fydd	bod	VERB	verb	Mood=Ind|Mutation=SM|Number=Sing|Person=3|Tense=Fut	0	root	_	_
 2	y	y	DET	art	_	3	det	_	_
@@ -18050,7 +17977,7 @@
 14	fath	bath	NOUN	noun	Gender=Masc|Mutation=SM|Number=Sing	13	nmod	_	SpaceAfter=No
 15	?	?	PUNCT	punct	_	1	punct	_	SpacesAfter=\n
 
-# sent_id = 862
+# sent_id = 859
 # text = Byddai'n braf meddwl hynny hefyd.
 1	Byddai	bod	AUX	aux	Mood=Cnd|Number=Sing|Person=3|Tense=Imp	3	cop	_	SpaceAfter=No
 2	'n	yn	PART	pred	_	3	case:pred	_	_
@@ -18060,7 +17987,7 @@
 6	hefyd	hefyd	ADV	adv	_	3	advmod	_	SpaceAfter=No
 7	.	.	PUNCT	punct	_	3	punct	_	SpacesAfter=\n
 
-# sent_id = 863
+# sent_id = 860
 # text = Gellir gofyn: pam mae hi'n "gyfrol cenedl" i ni'r Cymry?
 1	Gellir	gallu	VERB	verb	Mood=Ind|Person=0|Tense=Fut	0	root	_	_
 2	gofyn	gofyn	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	1	xcomp	_	SpaceAfter=No
@@ -18079,7 +18006,7 @@
 15	Cymry	Cymro	NOUN	noun	Gender=Masc|Number=Plur	13	appos	_	SpaceAfter=No
 16	?	?	PUNCT	punct	_	1	punct	_	SpacesAfter=\n
 
-# sent_id = 864
+# sent_id = 861
 # text = Yr ateb: am ei bod yn cynnwys o'i mewn yr ymgais gyntaf erioed i ysgrifennu hanes pobl yn yr ynys hon, a ninnau'r Cymry wedyn drwy'r canrifoedd wedi cymryd mai ni yw disgynyddion neu etifeddion y bobl yr adroddir eu hanes.
 1	Yr	y	DET	art	_	2	det	_	_
 2	ateb	ateb	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	0	root	_	SpaceAfter=No
@@ -18129,7 +18056,7 @@
 46	hanes	hanes	NOUN	noun	Gender=Masc|Number=Sing	44	obj	_	SpaceAfter=No
 47	.	.	PUNCT	punct	_	38	punct	_	SpacesAfter=\n
 
-# sent_id = 865
+# sent_id = 862
 # text = A ydych chi'n ansicr neu'n ddihyder pan fydd angen i chi ysgrifennu yn Gymraeg, yn enwedig yn eich gwaith?
 1	A	a	PART	int	_	5	advmod	_	_
 2	ydych	bod	AUX	aux	Mood=Ind|Number=Plur|Person=2|Tense=Pres	5	cop	_	_
@@ -18155,7 +18082,7 @@
 22	gwaith	gwaith	NOUN	noun	Gender=Fem|Number=Sing	19	obl	_	SpaceAfter=No
 23	?	?	PUNCT	punct	_	5	punct	_	SpacesAfter=\n
 
-# sent_id = 866
+# sent_id = 863
 # text = A ydych chi'n ansicr o'r cywair neu'r ieithwedd briodol wrth siarad neu ysgrifennu yn Gymraeg?
 1	A	a	PART	int	_	5	advmod	_	_
 2	ydych	bod	AUX	aux	Mood=Ind|Number=Plur|Person=2|Tense=Pres	5	cop	_	_
@@ -18177,7 +18104,7 @@
 18	Gymraeg	Cymraeg	ADJ	pos	Degree=Pos|Mutation=SM	16	advmod	_	SpaceAfter=No
 19	?	?	PUNCT	punct	_	5	punct	_	SpacesAfter=\n
 
-# sent_id = 867
+# sent_id = 864
 # text = A ydych yn teimlo nad yw eich Cymraeg chi'n "ddigon da"?
 1	A	a	PART	int	_	2	advmod	_	_
 2	ydych	bod	VERB	verb	Mood=Ind|Number=Plur|Person=2|Tense=Pres	0	root	_	_
@@ -18195,7 +18122,7 @@
 14	"	"	PUNCT	punct	_	13	punct	_	SpaceAfter=No
 15	?	?	PUNCT	punct	_	2	punct	_	SpacesAfter=\s\n
 
-# sent_id = 868
+# sent_id = 865
 # text = Os ydych chi wedi ateb "ydw" i unrhyw un o'r cwestiynau uchod, yna mae'n debyg y byddai cwrs Sgiliau Iaith yn ddefnyddiol i chi.
 1	Os	os	SCONJ	sconj	_	2	mark	_	_
 2	ydych	bod	VERB	verb	Mood=Ind|Number=Plur|Person=2|Tense=Pres	0	root	_	_
@@ -18228,7 +18155,7 @@
 29	chi	chi	PRON	indep	Number=Plur|Person=2|PronType=Prs	27	obl	_	SpaceAfter=No
 30	.	.	PUNCT	punct	_	2	punct	_	SpacesAfter=\n
 
-# sent_id = 869
+# sent_id = 866
 # text = Mae Canolfan Bedwyr yn darparu nifer o gyrsiau sgiliau iaith i'ch helpu i ddod yn fwy hyderus wrth ddefnyddio'r Gymraeg ar lafar ac yn ysgrifenedig.
 1	Mae	bod	VERB	verb	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
 2	Canolfan	canolfan	NOUN	noun	Gender=Masc|Number=Sing	1	nsubj	_	_
@@ -18259,7 +18186,7 @@
 27	ysgrifenedig	ysgrifenedig	NOUN	noun	Gender=Masc|Number=Sing	24	conj	_	SpaceAfter=No
 28	.	.	PUNCT	punct	_	1	punct	_	SpacesAfter=\n
 
-# sent_id = 870
+# sent_id = 867
 # text = Ddôn nhw byth mewn tacsi.
 1	Ddôn	dod	VERB	verb	Mood=Ind|Mutation=SM|Number=Sing|Person=3|Tense=Past	0	root	_	_
 2	nhw	hwy	PRON	indep	Number=Plur|Person=3|PronType=Prs	1	nsubj	_	_
@@ -18268,7 +18195,7 @@
 5	tacsi	tacsi	NOUN	noun	Gender=Masc|Number=Sing	1	obl	_	SpaceAfter=No
 6	.	.	PUNCT	punct	_	1	punct	_	SpacesAfter=\n
 
-# sent_id = 871
+# sent_id = 868
 # text = Ddof i byth yma eto.
 1	Ddof	dod	VERB	verb	Mood=Ind|Mutation=SM|Number=Sing|Person=1|Tense=Fut	0	root	_	_
 2	i	i	PRON	indep	Person=1	1	nsubj	_	_
@@ -18277,7 +18204,7 @@
 5	eto	eto	ADV	adv	_	1	advmod	_	SpaceAfter=No
 6	.	.	PUNCT	punct	_	1	punct	_	SpacesAfter=\n
 
-# sent_id = 872
+# sent_id = 869
 # text = Ddoi di byth ar y bws.
 1	Ddoi	dod	VERB	verb	Mood=Ind|Mutation=SM|Number=Sing|Person=2|Tense=Fut	0	root	_	_
 2	di	ti	PRON	indep	Number=Sing|Person=2|PronType=Prs	1	nsubj	_	_
@@ -18287,7 +18214,7 @@
 6	bws	bws	NOUN	noun	Gender=Masc|Number=Sing	1	obl	_	SpaceAfter=No
 7	.	.	PUNCT	punct	_	1	punct	_	SpacesAfter=\n
 
-# sent_id = 873
+# sent_id = 870
 # text = Ddaw hi byth ar y trên eto.
 1	Ddaw	dod	VERB	verb	Mood=Ind|Mutation=SM|Number=Sing|Person=3|Tense=Fut	0	root	_	_
 2	hi	hi	PRON	indep	Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	nsubj	_	_
@@ -18298,46 +18225,46 @@
 7	eto	eto	ADV	adv	_	1	advmod	_	SpaceAfter=No
 8	.	.	PUNCT	punct	_	1	punct	_	SpacesAfter=\n
 
-# sent_id = 874
+# sent_id = 871
 # text = Ddaw hi?
 1	Ddaw	dod	VERB	verb	Mood=Ind|Mutation=SM|Number=Sing|Person=3|Tense=Fut	0	root	_	_
 2	hi	hi	PRON	indep	Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	nsubj	_	SpaceAfter=No
 3	?	?	PUNCT	punct	_	1	punct	_	SpacesAfter=\n
 
-# sent_id = 875
+# sent_id = 872
 # text = Na ddaw.
 1	Na	na	PART	neg	_	2	advmod	_	_
 2	ddaw	dod	VERB	verb	Mood=Ind|Mutation=SM|Number=Sing|Person=3|Tense=Fut	0	root	_	SpaceAfter=No
 3	.	.	PUNCT	punct	_	2	punct	_	SpacesAfter=\n
 
-# sent_id = 876
+# sent_id = 873
 # text = Ddewch chi hefyd?
 1	Ddewch	dod	VERB	verb	Mood=Ind|Mutation=SM|Number=Plur|Person=2|Tense=Fut	0	root	_	_
 2	chi	chi	PRON	indep	Number=Plur|Person=2|PronType=Prs	1	nsubj	_	_
 3	hefyd	hefyd	ADV	adv	_	1	advmod	_	SpaceAfter=No
 4	?	?	PUNCT	punct	_	1	punct	_	SpacesAfter=\n
 
-# sent_id = 877
+# sent_id = 874
 # text = Na ddof.
 1	Na	na	PART	neg	_	2	advmod	_	_
 2	ddof	dod	VERB	verb	Mood=Ind|Mutation=SM|Number=Sing|Person=1|Tense=Fut	0	root	_	SpaceAfter=No
 3	.	.	PUNCT	punct	_	2	punct	_	SpacesAfter=\n
 
-# sent_id = 878
+# sent_id = 875
 # text = Nac ydw i.
 1	Nac	nac	PART	neg	_	2	advmod	_	_
 2	ydw	bod	VERB	verb	Mood=Ind|Number=Sing|Person=1|Tense=Pres	0	root	_	_
 3	i	i	PRON	indep	Number=Sing|Person=1	2	nsubj	_	SpaceAfter=No
 4	.	.	PUNCT	punct	_	2	punct	_	SpacesAfter=\n
 
-# sent_id = 879
+# sent_id = 876
 # text = Na fyddaf i.
 1	Na	na	PART	neg	_	2	advmod	_	_
 2	fyddaf	bod	VERB	verb	Mood=Ind|Mutation=SM|Number=Sing|Person=1|Tense=Fut	0	root	_	_
 3	i	i	PRON	indep	Number=Sing|Person=1	2	nsubj	_	SpaceAfter=No
 4	.	.	PUNCT	punct	_	2	punct	_	SpacesAfter=\n
 
-# sent_id = 880
+# sent_id = 877
 # text = Dewch yn llu i gyfarfod Cell Penfro yn Nhafarn y Pembroke Yeoman
 1	Dewch	dod	VERB	verb	Mood=Imp|Number=Plur|Person=2	0	root	_	_
 2	yn	yn	ADP	prep	_	3	case	_	_
@@ -18352,7 +18279,7 @@
 11	Pembroke	Pembroke	PROPN	place	Gender=Masc|Number=Sing	9	nmod	_	_
 12	Yeoman	Yeoman	PROPN	place	Gender=Masc|Number=Sing	11	flat:name	_	SpacesAfter=\n
 
-# sent_id = 881
+# sent_id = 878
 # text = Mi fyddwn yn trafod materion pwysig sy'n effeithio'r Sir, gan hefyd drafod y cyfarfod ynglŷn â thai yng Nghrymych!
 1	Mi	mi	PART	aff	_	2	advmod	_	_
 2	fyddwn	bod	VERB	verb	Mood=Ind|Mutation=SM|Number=Plur|Person=1|Tense=Fut	0	root	_	_
@@ -18378,7 +18305,7 @@
 22	Nghrymych	Crymych	PROPN	place	Mutation=NM|Number=Sing	20	nmod	_	SpaceAfter=No
 23	!	!	PUNCT	punct	_	15	punct	_	SpacesAfter=\n
 
-# sent_id = 882
+# sent_id = 879
 # text = Edrychwn ymlaen at weld chi yno!
 1	Edrychwn	edrych	VERB	verb	Mood=Imp|Number=Sing|Person=1	0	root	_	_
 2	ymlaen	ymlaen	ADV	adv	_	1	advmod	_	_
@@ -18388,7 +18315,7 @@
 6	yno	yno	ADV	adv	_	4	advmod	_	SpaceAfter=No
 7	!	!	PUNCT	punct	_	1	punct	_	SpacesAfter=\n
 
-# sent_id = 883
+# sent_id = 880
 # text = Cynhelir ein Cyfarfod Blynyddol 2019 am 2 o'r gloch ar ddydd Sadwrn, 22ain o Fehefin, yn Y Ganolfan Uwchefrydiau Cymreig a Cheltaidd, drws nesaf i'r Llyfrgell Genedlaethol yn Aberystwyth.
 1	Cynhelir	cynnal	VERB	verb	Mood=Ind|Person=0|Tense=Fut	0	root	_	_
 2	ein	ein	PRON	dep	Number=Plur|Person=1|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
@@ -18426,7 +18353,7 @@
 34	Aberystwyth	Aberystwyth	PROPN	place	_	21	nmod	_	SpaceAfter=No
 35	.	.	PUNCT	punct	_	1	punct	_	SpacesAfter=\n
 
-# sent_id = 884
+# sent_id = 881
 # text = Edrychwn ymlaen yn fawr i wrando ar anerchiad y Llywydd, y Prifardd Myrddin ap Dafydd, ac yr ydym yn ddiolchgar iddo am sicrhau amser yn nyddiadur prysur yr Archdderwydd i ymweld â Chyfeillion GPC, sydd yn ymfalchïo yn ei benodiad i'r swydd ac yn ei longyfarch yn fawr.
 1	Edrychwn	edrych	VERB	verb	Mood=Imp|Number=Sing|Person=1	0	root	_	_
 2	ymlaen	ymlaen	ADV	adv	_	1	advmod	_	_
@@ -18482,7 +18409,7 @@
 52	fawr	mawr	ADJ	pos	Degree=Pos|Mutation=SM	50	advmod	_	SpaceAfter=No
 53	.	.	PUNCT	punct	_	22	punct	_	SpacesAfter=\n
 
-# sent_id = 885
+# sent_id = 882
 # text = Heddiw, fues i ym Mhwyllgor Plant a Phobl Ifanc Cynulliad Cenedlaethol Cymru i roi diweddariad iddynt ar y cynnydd gyda diwygio'r cwricwlwm.
 1	Heddiw	heddiw	ADV	adv	Gender=Masc|Number=Sing	3	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	punct	_	3	punct	_	_
@@ -18500,7 +18427,7 @@
 14	i	i	ADP	prep	_	15	mark	_	_
 15	roi	rhoi	NOUN	verbnoun	Mutation=SM|Number=Sing|VerbForm=Vnoun	7	acl	_	_
 16	diweddariad	diweddariad	NOUN	noun	Gender=Masc|Number=Sing	15	obj	_	_
-17	iddynt	i	ADP	prep	_	15	obl	_	_
+17	iddynt	i	ADP	cprep	Number=Plur|Person=3	15	obl	_	_
 18	ar	ar	ADP	prep	_	20	case	_	_
 19	y	y	DET	art	_	20	det	_	_
 20	cynnydd	cynnydd	NOUN	noun	Gender=Masc|Number=Sing	16	nmod	_	_
@@ -18510,7 +18437,7 @@
 24	cwricwlwm	cwricwlwm	NOUN	noun	Gender=Masc|Number=Sing	22	obj	_	SpaceAfter=No
 25	.	.	PUNCT	punct	_	3	punct	_	SpacesAfter=\n
 
-# sent_id = 886
+# sent_id = 883
 # text = Maen nhw'n chwarae rhan allweddol yn y gwaith o'm dal i, fel y Gweinidog Addysg, i gyfrif ac ar graffu ar ddatblygiad ein cwricwlwm.
 1	Maen	bod	VERB	verb	Mood=Ind|Number=Plur|Person=3|Tense=Pres	0	root	_	_
 2	nhw	hwy	PRON	indep	Number=Plur|Person=3|PronType=Prs	1	nsubj	_	SpaceAfter=No
@@ -18542,7 +18469,7 @@
 28	cwricwlwm	cwricwlwm	NOUN	noun	Gender=Masc|Number=Sing	26	nmod	_	SpaceAfter=No
 29	.	.	PUNCT	punct	_	1	punct	_	SpacesAfter=\n
 
-# sent_id = 887
+# sent_id = 884
 # text = Byddaf yn cyhoeddi adroddiad ar yr ymarfer adborth a'r hyn y bwriadwn ei wneud fel canlyniad yn ddiweddarach yn yr Hydref.
 1	Byddaf	bod	AUX	aux	Mood=Ind|Number=Sing|Person=1|Tense=Fut	0	root	_	_
 2	yn	yn	AUX	impf	_	3	aux	_	_
@@ -18568,7 +18495,7 @@
 22	Hydref	hydref	NOUN	noun	Gender=Masc|Number=Sing	15	obl	_	SpaceAfter=No
 23	.	.	PUNCT	punct	_	1	punct	_	SpacesAfter=\n
 
-# sent_id = 888
+# sent_id = 885
 # text = Ond rwyf am rannu syniadau cynnar gyda chi, yn ogystal â chyd-aelodau o'r Cynulliad.
 1	Ond	ond	CCONJ	cconj	_	2	cc	_	_
 2	rwyf	bod	VERB	verb	Mood=Ind|Number=Sing|Person=1|Tense=Pres	0	root	_	_
@@ -18588,7 +18515,7 @@
 16	Cynulliad	cynulliad	NOUN	noun	Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
 17	.	.	PUNCT	punct	_	2	punct	_	SpacesAfter=\n
 
-# sent_id = 889
+# sent_id = 886
 # text = Mae'n siŵr y bydd y beirdd sydd wrthi heddiw yn tystio i hynny'n fwy croyw nag y gallwn i.
 1	Mae	bod	AUX	aux	Mood=Ind|Number=Sing|Person=3|Tense=Pres	3	cop	_	SpaceAfter=No
 2	'n	yn	PART	pred	_	3	case:pred	_	_
@@ -18613,7 +18540,7 @@
 21	i	i	PRON	indep	Number=Sing|Person=1	20	nsubj	_	SpaceAfter=No
 22	.	.	PUNCT	punct	_	5	punct	_	SpacesAfter=\n
 
-# sent_id = 890
+# sent_id = 887
 # text = Gwnaeth fwy na neb, dybiwn i, i greu ymdeimlad o gymuned o feirdd.
 1	Gwnaeth	gwneud	VERB	verb	Mood=Ind|Number=Sing|Person=3|Tense=Past	6	ccomp	_	_
 2	fwy	mawr	ADJ	cmp	Degree=Cmp|Mutation=SM	1	obj	_	_
@@ -18632,7 +18559,7 @@
 15	feirdd	bardd	NOUN	noun	Gender=Masc|Mutation=SM|Number=Sing	13	nmod	_	SpaceAfter=No
 16	.	.	PUNCT	punct	_	6	punct	_	SpacesAfter=\n
 
-# sent_id = 891
+# sent_id = 888
 # text = Roedd ei gyfnod o ddeuddeg mlynedd ar hugain yn Feuryn yn rhan allweddol o hynny, ac rwyf wedi clywed droeon gan gyfeillion o feirdd am y wefr amhrisiadwy a gaent o dderbyn canmoliaeth Gerallt yn y Talwrn.
 1-2	Roedd	_	_	_	_	_	_	_	_
 1	Yr	y	PART	aff	_	13	advmod	_	_
@@ -18678,7 +18605,7 @@
 40	Talwrn	talwrn	NOUN	noun	Gender=Fem|Number=Sing	35	obl	_	SpaceAfter=No
 41	.	.	PUNCT	punct	_	20	punct	_	SpacesAfter=\n
 
-# sent_id = 892
+# sent_id = 889
 # text = Bu hefyd yn un o sylfaenwyr y Gymdeithas Cerdd Dafod, gan gydolygu'r cylchgrawn Barddas rhwng 1976 a 1983.
 1	Bu	bod	AUX	aux	Mood=Ind|Number=Sing|Person=3|Tense=Past	4	cop	_	_
 2	hefyd	hefyd	ADV	adv	_	4	advmod	_	_
@@ -18702,7 +18629,7 @@
 20	1983	1983	NUM	num	_	18	conj	_	SpaceAfter=No
 21	.	.	PUNCT	punct	_	13	punct	_	SpacesAfter=\n
 
-# sent_id = 893
+# sent_id = 890
 # text = A braint yw cael nodi yma iddo fod yn un o Gymrodyr yr Academi Gymreig.
 1	A	a	CCONJ	cconj	_	4	cc	_	_
 2	braint	braint	NOUN	noun	Gender=Fem|Number=Sing	4	nsubj	_	_
@@ -18721,7 +18648,7 @@
 15	Gymreig	cymreig	ADJ	pos	Degree=Pos|Mutation=SM|Number=Sing	14	amod	_	SpaceAfter=No
 16	.	.	PUNCT	punct	_	5	punct	_	SpacesAfter=\n
 
-# sent_id = 894
+# sent_id = 891
 # text = Fel sawl un arall, clywais yn gyntaf am farwolaeth Gerallt drwy gyfrwng trydariad.
 1	Fel	fel	ADP	prep	_	3	case	_	_
 2	sawl	sawl	PRON	pron	PronType=Int	3	det	_	_
@@ -18739,9 +18666,9 @@
 14	trydariad	trydariad	NOUN	noun	Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
 15	.	.	PUNCT	punct	_	6	punct	_	SpacesAfter=\n
 
-# sent_id = 895
+# sent_id = 892
 # text = A thros y munudau, yr oriau a'r dyddiau wedi hynny fe lanwyd y trydarfyd Cymraeg â llinellau a chwpledi o'i waith.
-1	A	a	CCONJ	cconj	_	2	advmod	_	_
+1	A	a	CCONJ	cconj	_	4	cc	_	_
 2	thros	tros	ADP	prep	Mutation=AM	4	case	_	_
 3	y	y	DET	art	_	4	det	_	_
 4	munudau	munud	NOUN	noun	Gender=Masc|Number=Plur	14	advcl	_	SpaceAfter=No
@@ -18767,7 +18694,7 @@
 24	waith	gwaith	NOUN	noun	Gender=Masc|Mutation=SM|Number=Sing	21	nmod	_	SpaceAfter=No
 25	.	.	PUNCT	punct	_	14	punct	_	SpacesAfter=\n
 
-# sent_id = 896
+# sent_id = 893
 # text = Aeth unigolion o bob math o wahanol gefndiroedd ati i rannu'r darnau hynny o waith Gerallt a oedd wedi eu serio ar eu cof - ni allaf feddwl am unrhyw fardd arall y mae ei eiriau ar gof a chadw yng nghalon y genedl yn y modd hwn.
 1	Aeth	mynd	VERB	verb	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 2	unigolion	unigolyn	NOUN	noun	Gender=Masc|Number=Plur	1	nsubj	_	_
@@ -18820,7 +18747,7 @@
 49	hwn	hwn	PRON	dem	Gender=Masc|PronType=Dem	48	det	_	SpaceAfter=No
 50	.	.	PUNCT	punct	_	35	punct	_	SpacesAfter=\n
 
-# sent_id = 897
+# sent_id = 894
 # text = Ei gerdd enwocaf, o bosib, yw "Fy Ngwlad", ac yn ddiweddar clywais glip radio o Dafydd Iwan yn ei darllen gerbron cynulleidfa fawr yn Eisteddfod yr Urdd Aberystwyth 1969.
 1	Ei	ei	PRON	dep	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
 2	gerdd	cerdd	NOUN	noun	Gender=Fem|Mutation=SM|Number=Sing	0	root	_	_
@@ -18858,7 +18785,7 @@
 34	1969	1969	NUM	num	_	30	nmod	_	SpaceAfter=No
 35	.	.	PUNCT	punct	_	25	punct	_	SpacesAfter=\n
 
-# sent_id = 898
+# sent_id = 895
 # text = Bu farw ar 20 Tachwedd 1558.
 1	Bu	bod	VERB	verb	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 2	farw	marw	NOUN	verbnoun	Mutation=SM|Number=Sing|VerbForm=Vnoun	1	xcomp	_	_
@@ -18868,7 +18795,7 @@
 6	1558	1558	NUM	num	_	5	nmod	_	SpaceAfter=No
 7	.	.	PUNCT	punct	_	1	punct	_	SpacesAfter=\n
 
-# sent_id = 899
+# sent_id = 896
 # text = Bu farw dau yn y protestiadau.
 1	Bu	bod	AUX	aux	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 2	farw	marw	NOUN	verbnoun	Mutation=SM|Number=Sing|VerbForm=Vnoun	1	xcomp	_	_
@@ -18878,7 +18805,7 @@
 6	protestiadau	protestiad	NOUN	noun	Gender=Masc|Number=Plur	2	obl	_	SpaceAfter=No
 7	.	.	PUNCT	punct	_	1	punct	_	SpacesAfter=\n
 
-# sent_id = 900
+# sent_id = 897
 # text = Canodd Iolo Goch farwnad i Ddafydd.
 1	Canodd	canu	VERB	verb	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 2	Iolo	Iolo	PROPN	person	Gender=Masc|Number=Sing	1	nsubj	_	_
@@ -18888,7 +18815,7 @@
 6	Ddafydd	Dafydd	PROPN	person	Gender=Masc|Mutation=SM|Number=Sing	1	obl	_	SpaceAfter=No
 7	.	.	PUNCT	punct	_	1	punct	_	SpacesAfter=\n
 
-# sent_id = 901
+# sent_id = 898
 # text = Ceisiodd gyflawni hunanladdiad mwy nag unwaith.
 1	Ceisiodd	ceisio	VERB	verb	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 2	gyflawni	cyflawni	NOUN	verbnoun	Mutation=SM|Number=Sing|VerbForm=Vnoun	1	xcomp	_	_
@@ -18898,7 +18825,7 @@
 6	unwaith	unwaith	ADV	adv	_	2	advmod	_	SpaceAfter=No
 7	.	.	PUNCT	punct	_	1	punct	_	SpacesAfter=\n
 
-# sent_id = 902
+# sent_id = 899
 # text = Chwareodd ran bwysig yn hanes Rhufain.
 1	Chwareodd	chwarae	VERB	verb	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 2	ran	rhan	NOUN	noun	Gender=Fem|Mutation=SM|Number=Sing	1	obj	_	_
@@ -18908,7 +18835,7 @@
 6	Rhufain	Rhufain	PROPN	place	Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
 7	.	.	PUNCT	punct	_	1	punct	_	SpacesAfter=\n
 
-# sent_id = 903
+# sent_id = 900
 # text = Ganwyd William Morgan yn Nhŷ Mawr y Wybrnant, ger Penmachno, yn fab i denant ar ystad Gwydir.
 1	Ganwyd	canu	VERB	verb	Mood=Ind|Mutation=SM|Person=0|Tense=Past	0	root	_	_
 2	William	William	PROPN	person	Gender=Masc|Number=Sing	1	obj	_	_
@@ -18931,7 +18858,7 @@
 19	Gwydir	Gwydir	PROPN	place	Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
 20	.	.	PUNCT	punct	_	1	punct	_	SpacesAfter=\n
 
-# sent_id = 904
+# sent_id = 901
 # text = Yng Nghaergrawnt fe astudiodd athroniaeth, mathemateg a Groeg gan raddio'n faglor yn y celfyddydau ym 1568 ac yn feistr ym 1571.
 1	Yng	yn	ADP	prep	_	2	case	_	_
 2	Nghaergrawnt	Caergrawnt	NOUN	noun	Gender=Masc|Mutation=NM|Number=Sing	4	obl	_	_
@@ -18958,7 +18885,7 @@
 23	1571	1571	NUM	num	_	21	nmod	_	SpaceAfter=No
 24	.	.	PUNCT	punct	_	4	punct	_	SpacesAfter=\n
 
-# sent_id = 905
+# sent_id = 902
 # text = Bu Dafydd ap Gwilym yn byw yn y pentref ac mae yna gerdd amdano'i hun yn eglwys Llanbadarn, yn canolbwyntio ar y merched yn y gynulleidfa yn hytrach na'r gwasanaeth.
 1	Bu	bod	VERB	verb	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 2	Dafydd	Dafydd	PROPN	person	_	1	nsubj	_	_
@@ -18988,14 +18915,14 @@
 26	yn	yn	ADP	prep	_	28	case	_	_
 27	y	y	DET	art	_	28	det	_	_
 28	gynulleidfa	cynulleidfa	NOUN	noun	Gender=Fem|Mutation=SM|Number=Sing	22	obl	_	_
-29	yn	yn	PART	pred	_	30	case:pred	_	_
-30	hytrach	hytrach	ADJ	pos	Degree=Pos	28	amod	_	_
+29	yn	yn	ADP	prep	_	33	case	_	_
+30	hytrach	hytrach	ADJ	pos	Degree=Pos	29	fixed	_	_
 31	na	na	ADP	prep	_	33	case	_	SpaceAfter=No
 32	'r	y	DET	art	_	33	det	_	_
-33	gwasanaeth	gwasanaeth	NOUN	noun	Gender=Masc|Number=Sing	30	obl	_	SpaceAfter=No
+33	gwasanaeth	gwasanaeth	NOUN	noun	Gender=Masc|Number=Sing	28	nmod	_	SpaceAfter=No
 34	.	.	PUNCT	punct	_	11	punct	_	SpacesAfter=\n
 
-# sent_id = 906
+# sent_id = 903
 # text = Gwelodd y pentref ddatblygu mawr yn ystod y 90au, gyda archfarchnad Safeway a siopau eraill yn cael ei hadeiladu ar dir fferm Parc yr Afon.
 1	Gwelodd	gweld	VERB	verb	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 2	y	y	DET	art	_	3	det	_	_
@@ -19025,20 +18952,20 @@
 26	Afon	Afon	NOUN	noun	Gender=Fem|Number=Sing	24	nmod	_	SpaceAfter=No
 27	.	.	PUNCT	punct	_	1	punct	_	SpacesAfter=\n
 
-# sent_id = 907
+# sent_id = 904
 # text = Dwi'n wallgo!
 1	Dwi	bod	AUX	aux	Mood=Ind|Number=Sing|Person=1|Tense=Pres	3	cop	_	SpaceAfter=No
 2	'n	yn	PART	pred	_	3	case:pred	_	_
 3	wallgo	gwallgo	ADJ	pos	Degree=Pos|Gender=Masc|Mutation=SM|Number=Sing	0	root	_	SpaceAfter=No
 4	!	!	PUNCT	punct	_	3	punct	_	SpacesAfter=\n
 
-# sent_id = 908
+# sent_id = 905
 # text = Ti yn!
 1	Ti	ti	PRON	indep	Number=Sing|Person=2|PronType=Prs	2	nsubj	_	_
 2	yn	yn	PART	pred	_	0	root	_	SpaceAfter=No
 3	!	!	PUNCT	punct	_	2	punct	_	SpacesAfter=\n
 
-# sent_id = 909
+# sent_id = 906
 # text = Wyt ti'n dod?
 1	Wyt	bod	VERB	verb	Mood=Ind|Number=Sing|Person=2|Tense=Pres	0	root	_	_
 2	ti	ti	PRON	indep	Number=Sing|Person=2|PronType=Prs	1	nsubj	_	SpaceAfter=No
@@ -19046,14 +18973,14 @@
 4	dod	dod	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	1	xcomp	_	SpaceAfter=No
 5	?	?	PUNCT	punct	_	1	punct	_	SpacesAfter=\n
 
-# sent_id = 910
+# sent_id = 907
 # text = Ti'n dod?
 1	Ti	ti	PRON	indep	Number=Sing|Person=2|PronType=Prs	3	nsubj	_	SpaceAfter=No
 2	'n	yn	AUX	impf	_	3	aux	_	_
 3	dod	dod	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	0	root	_	SpaceAfter=No
 4	?	?	PUNCT	punct	_	3	punct	_	SpacesAfter=\n
 
-# sent_id = 911
+# sent_id = 908
 # text = Ydych chi'n mynd yn barod?
 1	Ydych	bod	VERB	verb	Mood=Ind|Number=Plur|Person=2|Tense=Pres	0	root	_	_
 2	chi	chi	PRON	indep	Number=Plur|Person=2|PronType=Prs	1	nsubj	_	SpaceAfter=No
@@ -19063,14 +18990,14 @@
 6	barod	parod	ADJ	pos	Degree=Pos|Mutation=SM|Number=Sing	4	advmod	_	SpaceAfter=No
 7	?	?	PUNCT	punct	_	1	punct	_	SpacesAfter=\n
 
-# sent_id = 912
+# sent_id = 909
 # text = Chi'n mynd?
 1	Chi	chi	PRON	indep	Number=Plur|Person=2|PronType=Prs	3	nsubj	_	SpaceAfter=No
 2	'n	yn	AUX	impf	_	3	aux	_	_
 3	mynd	mynd	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	0	root	_	SpaceAfter=No
 4	?	?	PUNCT	punct	_	3	punct	_	SpacesAfter=\n
 
-# sent_id = 913
+# sent_id = 910
 # text = "Fe wyliais i araith y prif weinidog y prynhawn yma," meddai, cyn ychwanegu nad oedd "eglurder mawr na manylion o unrhyw fath yn ei araith".
 1	"	"	PUNCT	punct	_	3	punct	_	SpaceAfter=No
 2	Fe	fe	PART	aff	_	3	advmod	_	_
@@ -19105,7 +19032,7 @@
 31	"	"	PUNCT	punct	_	21	punct	_	SpaceAfter=No
 32	.	.	PUNCT	punct	_	14	punct	_	SpacesAfter=\n
 
-# sent_id = 914
+# sent_id = 911
 # text = Fe ddaeth i'r amlwg eisoes fod Llywodraeth Prydain yn cynnig nifer o dollau ar hyd y ffin yn lle'r "backstop".
 1	Fe	fe	PART	aff	_	2	advmod	_	_
 2	ddaeth	dod	VERB	verb	Mood=Ind|Mutation=SM|Number=Sing|Person=3|Tense=Past	0	root	_	_
@@ -19125,15 +19052,15 @@
 16	hyd	hyd	ADP	prep	_	15	fixed	_	_
 17	y	y	DET	art	_	18	det	_	_
 18	ffin	ffin	NOUN	noun	Gender=Fem|Number=Sing	11	obl	_	_
-19	yn	yn	ADP	prep	_	20	case	_	_
-20	lle	lle	NOUN	noun	Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
+19	yn	yn	ADP	prep	_	23	case	_	_
+20	lle	lle	NOUN	noun	Gender=Masc|Number=Sing	19	fixed	_	SpaceAfter=No
 21	'r	yn	DET	art	_	23	det	_	_
 22	"	"	PUNCT	punct	_	23	punct	_	SpaceAfter=No
-23	backstop	backstop	NOUN	noun	Gender=Masc|Number=Sing	20	nmod	_	SpaceAfter=No
+23	backstop	backstop	NOUN	noun	Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
 24	"	"	PUNCT	punct	_	23	punct	_	SpaceAfter=No
 25	.	.	PUNCT	punct	_	2	punct	_	SpacesAfter=\n
 
-# sent_id = 915
+# sent_id = 912
 # text = Ond fe gafodd ei wrthod gan lywodraeth Iwerddon
 1	Ond	ond	CCONJ	cconj	_	3	cc	_	_
 2	fe	fe	PART	aff	_	3	advmod	_	_
@@ -19144,7 +19071,7 @@
 7	lywodraeth	llywodraeth	NOUN	noun	Gender=Fem|Mutation=SM|Number=Sing	3	obl:agent	_	_
 8	Iwerddon	Iwerddon	PROPN	place	_	7	nmod	_	SpacesAfter=\n
 
-# sent_id = 916
+# sent_id = 913
 # text = Mae'r Elyrch yn ddi-guro oddi cartref y tymor hwn, ac maen nhw wedi ennill pwyntiau gwerthfawr yn erbyn rhai o'r timau gorau fel Leeds a Bristol City.
 1	Mae	bod	AUX	aux	Mood=Ind|Number=Sing|Person=3|Tense=Pres	5	cop	_	SpaceAfter=No
 2	'r	y	DET	art	_	3	det	_	_
@@ -19178,7 +19105,7 @@
 30	City	City	PROPN	org	Gender=Masc|Number=Sing	29	flat:name	_	SpaceAfter=No
 31	.	.	PUNCT	punct	_	13	punct	_	SpacesAfter=\n
 
-# sent_id = 917
+# sent_id = 914
 # text = Bydd hon yn sicr yn un ohonyn nhw.
 1	Bydd	bod	AUX	aux	Mood=Ind|Number=Sing|Person=3|Tense=Fut	6	cop	_	_
 2	hon	hon	PRON	dem	Gender=Fem|PronType=Dem	6	nsubj	_	_
@@ -19190,7 +19117,7 @@
 8	nhw	hwy	PRON	indep	Number=Plur|Person=3|PronType=Prs	6	nmod	_	SpaceAfter=No
 9	.	.	PUNCT	punct	_	6	punct	_	SpacesAfter=\n
 
-# sent_id = 918
+# sent_id = 915
 # text = Mae gennym ni'r strwythur newydd yma.
 1	Mae	bod	VERB	verb	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
 2	gennym	gan	ADP	cprep	Number=Plur|Person=1	3	case	_	_
@@ -19201,7 +19128,7 @@
 7	yma	yma	ADV	adv	_	1	advmod	_	SpaceAfter=No
 8	.	.	PUNCT	punct	_	1	punct	_	SpacesAfter=\s\n
 
-# sent_id = 919
+# sent_id = 916
 # text = Mae gennym ni'r Cynulliad newydd yma yng Nghymru.
 1	Mae	bod	VERB	verb	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
 2	gennym	gan	ADP	cprep	Number=Plur|Person=1	3	case	_	_
@@ -19214,7 +19141,7 @@
 9	Nghymru	Cymru	PROPN	place	Gender=Fem|Mutation=NM|Number=Sing	1	obl	_	SpaceAfter=No
 10	.	.	PUNCT	punct	_	1	punct	_	SpacesAfter=\n
 
-# sent_id = 920
+# sent_id = 917
 # text = Y cwestiwn nawr ydy: Pam na allwn ni wneud jobyn gwell ohoni?
 1	Y	y	DET	art	_	2	det	_	_
 2	cwestiwn	cwestio	VERB	verb	Mood=Imp|Number=Sing|Person=1	4	nsubj	_	_
@@ -19231,7 +19158,7 @@
 13	ohoni	o	ADP	cprep	Gender=Fem|Number=Sing|Person=3	10	obl	_	SpaceAfter=No
 14	?	?	PUNCT	punct	_	8	punct	_	SpacesAfter=\n
 
-# sent_id = 921
+# sent_id = 918
 # text = Cawsom ein synnu gan y ffaith bod y bacteria yn gallu cynhyrchu cymaint o alcohol.
 1	Cawsom	cael	VERB	verb	Mood=Ind|Number=Plur|Person=1|Tense=Past	0	root	_	_
 2	ein	ein	PRON	dep	Number=Plur|Person=1|Poss=Yes|PronType=Prs	3	obj	_	_
@@ -19250,15 +19177,15 @@
 15	alcohol	alcohol	NOUN	noun	Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
 16	.	.	PUNCT	punct	_	1	punct	_	SpacesAfter=\n
 
-# sent_id = 922
+# sent_id = 919
 # text = Mae hynny'n wir hyd yn oed os dydych chi ddim yn yfed.
 1	Mae	bod	AUX	aux	Mood=Ind|Number=Sing|Person=3|Tense=Pres	4	cop	_	_
 2	hynny	hynny	PRON	dem	Number=Plur|PronType=Dem	4	nsubj	_	SpaceAfter=No
 3	'n	yn	AUX	impf	_	4	aux	_	_
 4	wir	gwir	ADJ	pos	Degree=Pos|Gender=Masc|Mutation=SM|Number=Sing	0	root	_	_
 5	hyd	hyd	NOUN	noun	Gender=Masc|Number=Sing	4	advcl	_	_
-6	yn	yn	ADP	prep	_	7	case	_	_
-7	oed	oed	NOUN	noun	Gender=Masc|Number=Sing	5	nmod	_	_
+6	yn	yn	ADP	prep	_	5	fixed	_	_
+7	oed	oed	NOUN	noun	Gender=Masc|Number=Sing	5	fixed	_	_
 8	os	os	SCONJ	sconj	_	10	mark	_	_
 9-10	dydych	_	_	_	_	_	_	_	_
 9	nid	ni	PART	neg	_	10	advmod	_	_
@@ -19269,7 +19196,7 @@
 14	yfed	yfed	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	10	xcomp	_	SpaceAfter=No
 15	.	.	PUNCT	punct	_	4	punct	_	SpacesAfter=\n
 
-# sent_id = 923
+# sent_id = 920
 # text = Pan mae'r corff yn cael ei orlwytho a methu chwalu'r alcohol sy'n cael ei sy'n cael ei gynhyrchu gan y bacteria yma, rydych yn medru datblygu haint afu brasterog.
 1	Pan	pan	SCONJ	sconj	_	2	mark	_	_
 2	mae	bod	VERB	verb	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	SpaceAfter=No
@@ -19309,16 +19236,16 @@
 35	brasterog	brasterog	NOUN	noun	Gender=Masc|Number=Sing	34	nmod	_	SpaceAfter=No
 36	.	.	PUNCT	punct	_	29	punct	_	SpacesAfter=\n
 
-# sent_id = 924
+# sent_id = 921
 # text = Allech chi helpu plentyn anabl?
-1	Allech	gallu	VERB	verb	Mood=Ind|Mutation=SM|Number=Sing|Person=2|Tense=Imp	0	root	_	_
+1	Allech	gallu	VERB	verb	Mood=Ind|Mutation=SM|Number=Plur|Person=2|Tense=Imp	0	root	_	_
 2	chi	chi	PRON	indep	Number=Plur|Person=2|PronType=Prs	1	nsubj	_	_
 3	helpu	helpu	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	1	xcomp	_	_
 4	plentyn	plentyn	NOUN	noun	Gender=Masc|Number=Sing	3	obj	_	_
 5	anabl	anabl	ADJ	pos	Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	SpaceAfter=No
 6	?	?	PUNCT	punct	_	1	punct	_	SpacesAfter=\n
 
-# sent_id = 925
+# sent_id = 922
 # text = Wrth gwrs, mae llawer o blant anabl eraill a allai elwa o ofal seibiant nad oes arnynt o angenrheidrwydd angen y cymorth arbenigol sy'n cael ei gynnig yn Hafan y Sêr.
 1	Wrth	wrth	ADP	prep	_	4	advcl	_	_
 2	gwrs	cwrs	NOUN	noun	Gender=Masc|Mutation=SM|Number=Sing	1	fixed	_	SpaceAfter=No
@@ -19355,7 +19282,7 @@
 33	Sêr	seren	NOUN	noun	Gender=Fem|Number=Plur	31	nmod	_	SpaceAfter=No
 34	.	.	PUNCT	punct	_	18	punct	_	SpacesAfter=\n
 
-# sent_id = 926
+# sent_id = 923
 # text = Yn benodol, mae'r Cyngor yn awyddus i glywed gan wirfoddolwyr allai helpu trwy fynd â phlentyn allan am y diwrnod, mynd gyda theulu ar eu taith siopa wythnosol neu hyd yn oed gynnig gymorth yn y cartref teuluol.
 1	Yn	yn	PART	pred	_	2	case:pred	_	_
 2	benodol	penodol	ADJ	pos	Degree=Pos|Gender=Masc|Mutation=SM|Number=Sing	8	advmod	_	SpaceAfter=No
@@ -19400,7 +19327,7 @@
 41	teuluol	teuluol	ADJ	pos	Degree=Pos|Gender=Masc|Number=Sing	40	amod	_	SpaceAfter=No
 42	.	.	PUNCT	punct	_	36	punct	_	SpacesAfter=\n
 
-# sent_id = 927
+# sent_id = 924
 # text = Mae'r Cyngor hefyd eisiau clywed gan ddarpar ofalwyr maeth allai gynnig gofal dros nos am gyfnodau byr
 1	Mae	bod	AUX	aux	Mood=Ind|Number=Sing|Person=3|Tense=Pres	5	cop	_	SpaceAfter=No
 2	'r	y	DET	art	_	3	det	_	_
@@ -19421,7 +19348,7 @@
 17	gyfnodau	cyfnod	NOUN	noun	Gender=Masc|Mutation=SM|Number=Plur	12	obl	_	_
 18	byr	byr	NOUN	noun	Gender=Masc|Number=Sing	17	nmod	_	SpacesAfter=\n
 
-# sent_id = 928
+# sent_id = 925
 # text = O bob punt yng nghyllideb Cyngor Gwynedd, mae'r mwyafrif yn dod o grant blynyddol gan Lywodraeth Cymru, gyda'r gweddill yn dod o'r Dreth Cyngor.
 1	O	o	ADP	prep	_	3	case	_	_
 2	bob	pob	ADJ	pos	Degree=Pos|Mutation=SM	3	amod	_	_
@@ -19454,9 +19381,9 @@
 29	Cyngor	Cyngor	NOUN	noun	Gender=Masc|Number=Sing	28	nmod	_	SpaceAfter=No
 30	.	.	PUNCT	punct	_	9	punct	_	SpacesAfter=\n
 
-# sent_id = 929
+# sent_id = 926
 # text = Trowch i dudalen 8 i weld sut mae eich barn chi wedi dylanwadu ar gyllideb Gwynedd.
-1	Trowch	troi	VERB	verb	Mood=Imp|Number=Sing|Person=2	0	root	_	_
+1	Trowch	troi	VERB	verb	Mood=Imp|Number=Plur|Person=2	0	root	_	_
 2	i	i	ADP	prep	_	3	case	_	_
 3	dudalen	tudalen	NOUN	noun	Gender=Fem|Mutation=SM|Number=Sing	1	obl	_	_
 4	8	8	NUM	num	_	3	nmod	_	_
@@ -19474,7 +19401,7 @@
 16	Gwynedd	Gwynedd	PROPN	place	Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
 17	.	.	PUNCT	punct	_	8	punct	_	SpacesAfter=\n
 
-# sent_id = 930
+# sent_id = 927
 # text = Er mwyn osgoi'r sefyllfa hunllefus yma, rydan ni'n pwyso ar y llywodraeth i sicrhau chwarae teg ariannol i holl gynghorau Cymru o'r flwyddyn nesaf ymlaen.
 1	Er	er	ADP	prep	_	2	case	_	_
 2	mwyn	mwyn	NOUN	noun	Gender=Masc|Number=Sing	0	root	_	_
@@ -19509,7 +19436,7 @@
 30	ymlaen	ymlaen	ADV	adv	_	28	advmod	_	SpaceAfter=No
 31	.	.	PUNCT	punct	_	10	punct	_	SpacesAfter=\n
 
-# sent_id = 931
+# sent_id = 928
 # text = Rydw i wedi bod yn aelod o Fwrdd Gweithredol a Chabinet y Cyngor ers 2008, i ddechrau fel Aelod Amgylchedd ac wedyn yn gyfrifol am faes Gofal dros y pedair blynedd diwethaf.
 1-2	Rydw	_	_	_	_	_	_	_	_
 1	Yr	y	PART	aff	_	2	advmod	_	_
@@ -19548,10 +19475,10 @@
 34	diwethaf	diweddar	ADJ	sup	Degree=Sup	33	amod	_	SpaceAfter=No
 35	.	.	PUNCT	punct	_	2	punct	_	SpacesAfter=\n
 
-# sent_id = 932
+# sent_id = 929
 # text = Wrth i mi gamu lawr o'r Cabinet ar ddiwedd y mis, mae'n braf trosglwyddo'r awenau wrth i sawl cynllun cyffrous i wella gwasanaethau gofal i bobl leol gael eu gwireddu.
-1	Wrth	wrth	ADP	prep	_	4	mark	_	_
-2	i	i	ADP	prep	_	3	case	_	_
+1	Wrth	wrth	ADP	prep	_	3	case	_	_
+2	i	i	ADP	prep	_	1	fixed	_	_
 3	mi	mi	PRON	indep	PronType=Prs	4	nsubj	_	_
 4	gamu	camu	NOUN	verbnoun	Mutation=SM|Number=Sing|VerbForm=Vnoun	16	advcl	_	_
 5	lawr	llawr	NOUN	noun	Gender=Masc|Mutation=SM|Number=Sing	4	obj	_	_
@@ -19570,7 +19497,7 @@
 18	'r	yn	DET	art	_	19	det	_	_
 19	awenau	awen	NOUN	noun	Gender=Fem|Number=Sing	17	obj	_	_
 20	wrth	wrth	ADP	prep	_	23	case	_	_
-21	i	i	ADP	prep	_	23	case	_	_
+21	i	i	ADP	prep	_	20	fixed	_	_
 22	sawl	sawl	PRON	pron	PronType=Int	23	det	_	_
 23	cynllun	cynllun	NOUN	noun	Gender=Masc|Number=Sing	17	obl	_	_
 24	cyffrous	cyffrous	ADJ	pos	Degree=Pos	23	amod	_	_
@@ -19586,7 +19513,7 @@
 34	gwireddu	gwireddu	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	32	ccomp	_	SpaceAfter=No
 35	.	.	PUNCT	punct	_	26	punct	_	SpacesAfter=\n
 
-# sent_id = 933
+# sent_id = 930
 # text = Ar y dde mae rhestr o wegamerâu sy'n cael eu cynnal gan y Cyngor ac gan gyrff eraill o amgylch Gwynedd.
 1	Ar	ar	ADP	prep	_	3	case	_	_
 2	y	y	DET	art	_	3	det	_	_
@@ -19612,7 +19539,7 @@
 22	Gwynedd	Gwynedd	PROPN	place	Gender=Masc|Number=Sing	21	nmod	_	SpaceAfter=No
 23	.	.	PUNCT	punct	_	4	punct	_	SpacesAfter=\n
 
-# sent_id = 934
+# sent_id = 931
 # text = Nid oes angen meddalwedd arbenigol i wylio'r gwegamerâu.
 1	Nid	ni	PART	neg	_	3	advmod	_	_
 2	oes	bod	AUX	aux	Mood=Ind|Number=Sing|Person=3|Tense=Pres	3	cop	_	_
@@ -19625,7 +19552,7 @@
 9	gwegamerâu	gwegamera	NOUN	noun	Gender=Masc|Number=Plur	7	obj	_	SpaceAfter=No
 10	.	.	PUNCT	punct	_	3	punct	_	SpacesAfter=\n
 
-# sent_id = 935
+# sent_id = 932
 # text = Os ydych chi wedi ei chael yn anodd i ganfod eiddo fforddiadwy yn lleol yna mae'n bosib y byddech am ymuno efo'r cannoedd o bobl sydd wedi cofrestru ar wefan newydd Tai Teg.
 1	Os	os	SCONJ	sconj	_	2	mark	_	_
 2	ydych	bod	VERB	verb	Mood=Ind|Number=Plur|Person=2|Tense=Pres	0	root	_	_
@@ -19664,7 +19591,7 @@
 35	Teg	teg	ADJ	pos	Degree=Pos|Gender=Masc|Number=Sing	34	amod	_	SpaceAfter=No
 36	.	.	PUNCT	punct	_	18	punct	_	SpacesAfter=\n
 
-# sent_id = 936
+# sent_id = 933
 # text = Mae'r ymdrechion i ennill cydnabyddiaeth a gwarchodaeth ryngwladol i ardaloedd chwareli gogledd-orllewin Cymru yn mynd o nerth i nerth.
 1	Mae	bod	VERB	verb	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	SpaceAfter=No
 2	'r	y	DET	art	_	3	det	_	_
@@ -19690,7 +19617,7 @@
 22	nerth	nerth	NOUN	noun	Gender=Masc|Number=Sing	18	obl	_	SpaceAfter=No
 23	.	.	PUNCT	punct	_	1	punct	_	SpacesAfter=\n
 
-# sent_id = 937
+# sent_id = 934
 # text = Rydan ni wrth ein bodd hefyd efo'r rhaglen Llysgenhadon Ifanc, lle bydd pobl ifanc yn cael cyfle i chwarae rhan yn y gwahanol gynlluniau yn eu cymuned.
 1-2	Rydan	_	_	_	_	_	_	_	_
 1	Yr	y	PART	aff	_	2	advmod	_	_
@@ -19725,7 +19652,7 @@
 30	cymuned	cymuned	NOUN	noun	Gender=Fem|Number=Sing	22	obl	_	SpaceAfter=No
 31	.	.	PUNCT	punct	_	15	punct	_	SpacesAfter=\n
 
-# sent_id = 938
+# sent_id = 935
 # text = Bydd pobl ifanc yn dysgu am hanes lleol ac yn llais i'w tref neu bentref pan fydd syniadau'n cael eu trafod a'u ffurfio.
 1	Bydd	bod	VERB	verb	Mood=Ind|Number=Sing|Person=3|Tense=Fut	0	root	_	_
 2	pobl	pobl	NOUN	noun	Gender=Fem|Number=Sing	1	nsubj	_	_
@@ -19755,7 +19682,7 @@
 26	ffurfio	ffurfio	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	23	conj	_	SpaceAfter=No
 27	.	.	PUNCT	punct	_	18	punct	_	SpacesAfter=\n
 
-# sent_id = 939
+# sent_id = 936
 # text = Mi fyddan nhw hefyd yn cael cyfle i adrodd yn ôl i'w hysgol a'u hardal leol wrth i bethau symud ymlaen.
 1	Mi	mi	PART	aff	_	2	advmod	_	_
 2	fyddan	bod	VERB	verb	Mood=Ind|Mutation=SM|Number=Sing|Person=3|Tense=Fut	0	root	_	_
@@ -19776,13 +19703,13 @@
 17	hardal	ardal	NOUN	noun	Gender=Fem|Mutation=AM|Number=Sing	14	conj	_	_
 18	leol	lleol	ADJ	pos	Degree=Pos|Gender=Fem|Mutation=SM|Number=Sing	17	amod	_	_
 19	wrth	wrth	ADP	prep	_	21	case	_	_
-20	i	i	ADP	prep	_	21	case	_	_
+20	i	i	ADP	prep	_	19	fixed	_	_
 21	bethau	peth	NOUN	noun	Gender=Masc|Mutation=SM|Number=Sing	9	acl	_	_
 22	symud	symud	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	21	acl	_	_
 23	ymlaen	ymlaen	ADV	adv	_	22	advmod	_	SpaceAfter=No
 24	.	.	PUNCT	punct	_	2	punct	_	SpacesAfter=\n
 
-# sent_id = 940
+# sent_id = 937
 # text = Mae'n gyfle gwych iddyn nhw'n bersonol yn ogystal ag i'r gymuned maen nhw'n ei chynrychioli ac i'r prosiect yn gyffredinol.
 1	Mae	bod	AUX	aux	Mood=Ind|Number=Sing|Person=3|Tense=Pres	3	cop	_	SpaceAfter=No
 2	'n	yn	PART	pred	_	3	case:pred	_	_
@@ -19811,7 +19738,7 @@
 25	gyffredinol	cyffredinol	ADJ	pos	Degree=Pos|Gender=Masc|Mutation=SM|Number=Sing	23	amod	_	SpaceAfter=No
 26	.	.	PUNCT	punct	_	3	punct	_	SpacesAfter=\n
 
-# sent_id = 941
+# sent_id = 938
 # text = Os nad ydych yn barod eto i wneud popeth ar-lein, mae'n bosib y byddech am dderbyn eich bil Treth Cyngor ar e-bost.
 1	Os	os	SCONJ	sconj	_	5	mark	_	_
 2	nad	na	PART	neg	_	5	advmod	_	_
@@ -19839,7 +19766,7 @@
 24	e-bost	e-bost	NOUN	noun	Gender=Masc|Number=Sing	18	obl	_	SpaceAfter=No
 25	.	.	PUNCT	punct	_	5	punct	_	SpacesAfter=\n
 
-# sent_id = 942
+# sent_id = 939
 # text = Mae hon yn ffordd gyflym ac effeithiol o dderbyn eich bil.
 1	Mae	bod	AUX	aux	Mood=Ind|Number=Sing|Person=3|Tense=Pres	4	cop	_	_
 2	hon	hon	PRON	dem	Gender=Fem|PronType=Dem	4	nsubj	_	_
@@ -19854,7 +19781,7 @@
 11	bil	bil	NOUN	noun	Gender=Masc|Number=Sing	9	obj	_	SpaceAfter=No
 12	.	.	PUNCT	punct	_	4	punct	_	SpacesAfter=\s\n
 
-# sent_id = 943
+# sent_id = 940
 # text = Gallwch weld y bil a gallwch gadw copi ar ffeil.
 1	Gallwch	gallu	VERB	verb	Mood=Ind|Number=Plur|Person=2|Tense=Fut	0	root	_	_
 2	weld	gweld	NOUN	verbnoun	Mutation=SM|Number=Sing|VerbForm=Vnoun	1	xcomp	_	_
@@ -19868,7 +19795,7 @@
 10	ffeil	ffeil	NOUN	noun	Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No
 11	.	.	PUNCT	punct	_	1	punct	_	SpacesAfter=\s\n
 
-# sent_id = 944
+# sent_id = 941
 # text = Os ydych chi'n cael anhawster dal i fyny gyda'r taliadau Treth Cyngor, cysylltwch â Chyngor Gwynedd ar unwaith i drafod eich sefyllfa.
 1	Os	os	SCONJ	sconj	_	2	mark	_	_
 2	ydych	bod	VERB	verb	Mood=Ind|Number=Plur|Person=2|Tense=Pres	16	advcl	_	_
@@ -19877,15 +19804,15 @@
 5	cael	cael	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	2	xcomp	_	_
 6	anhawster	anhawster	NOUN	noun	Gender=Masc|Number=Sing	5	obj	_	_
 7	dal	dal	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	6	acl	_	_
-8	i	i	ADP	prep	_	9	case	_	_
-9	fyny	fyny	ADV	adv	_	7	advmod	_	_
+8	i	i	ADP	prep	_	7	advmod	_	_
+9	fyny	fyny	ADV	adv	_	8	fixed	_	_
 10	gyda	gyda	ADP	prep	_	12	case	_	SpaceAfter=No
 11	'r	y	DET	art	_	12	det	_	_
 12	taliadau	taliad	NOUN	noun	Gender=Masc|Number=Plur	7	obl	_	_
 13	Treth	treth	NOUN	noun	Gender=Fem|Number=Sing	12	nmod	_	_
 14	Cyngor	Cyngor	NOUN	noun	Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
 15	,	,	PUNCT	punct	_	16	punct	_	_
-16	cysylltwch	cysylltu	VERB	verb	Mood=Imp|Number=Sing|Person=2	0	root	_	_
+16	cysylltwch	cysylltu	VERB	verb	Mood=Imp|Number=Plur|Person=2	0	root	_	_
 17	â	â	ADP	prep	_	18	case	_	_
 18	Chyngor	cyngor	NOUN	noun	Gender=Masc|Mutation=AM|Number=Sing	16	obl	_	_
 19	Gwynedd	Gwynedd	PROPN	place	Gender=Masc|Number=Sing	18	flat	_	_
@@ -19897,17 +19824,17 @@
 25	sefyllfa	sefyllfa	NOUN	noun	Gender=Fem|Number=Sing	23	obj	_	SpaceAfter=No
 26	.	.	PUNCT	punct	_	16	punct	_	SpacesAfter=\n
 
-# sent_id = 945
+# sent_id = 942
 # text = Mae'r trên ar fin cyrraedd.
 1	Mae	bod	VERB	verb	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	SpaceAfter=No
 2	'r	y	DET	art	_	3	det	_	_
 3	trên	trên	NOUN	noun	Gender=Masc|Number=Sing	1	nsubj	_	_
 4	ar	ar	ADP	prep	_	5	case	_	_
 5	fin	min	NOUN	noun	Gender=Masc|Mutation=SM|Number=Sing	1	obl	_	_
-6	cyrraedd	cyrraedd	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	5	nmod	_	SpaceAfter=No
+6	cyrraedd	cyrraedd	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	5	acl	_	SpaceAfter=No
 7	.	.	PUNCT	punct	_	1	punct	_	SpacesAfter=\n
 
-# sent_id = 946
+# sent_id = 943
 # text = Mae'r llyfr hwn ar fenthyg o'r llyfrgell.
 1	Mae	bod	VERB	verb	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	SpaceAfter=No
 2	'r	y	DET	art	_	3	det	_	_
@@ -19920,7 +19847,7 @@
 9	llyfrgell	llyfrgell	NOUN	noun	Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
 10	.	.	PUNCT	punct	_	1	punct	_	SpacesAfter=\n
 
-# sent_id = 947
+# sent_id = 944
 # text = Pwy oedd ar fai am y ddamwain?
 1	Pwy	pwy	PRON	intr	PronType=Int	2	nsubj	_	_
 2	oedd	bod	VERB	verb	Mood=Ind|Number=Sing|Person=3|Tense=Imp	0	root	_	_
@@ -19931,7 +19858,7 @@
 7	ddamwain	damwain	NOUN	noun	Gender=Fem|Mutation=SM|Number=Sing	4	nmod	_	SpaceAfter=No
 8	?	?	PUNCT	punct	_	2	punct	_	SpacesAfter=\n
 
-# sent_id = 948
+# sent_id = 945
 # text = Rhaid i ni fynd gan fy mod ar frys.
 1	Rhaid	rhaid	NOUN	noun	Gender=Masc|Number=Sing	0	root	_	_
 2	i	i	ADP	prep	_	3	case	_	_
@@ -19944,7 +19871,7 @@
 9	frys	brys	NOUN	noun	Gender=Masc|Mutation=SM|Number=Sing	7	obl	_	SpaceAfter=No
 10	.	.	PUNCT	punct	_	1	punct	_	SpacesAfter=\n
 
-# sent_id = 949
+# sent_id = 946
 # text = Canodd y ffôn pan oedd Tom ar ganol ei ginio.
 1	Canodd	canu	VERB	verb	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 2	y	y	DET	art	_	3	det	_	_
@@ -19958,7 +19885,7 @@
 10	ginio	cinio	NOUN	noun	Gender=Masc|Mutation=SM|Number=Sing	8	nmod	_	SpaceAfter=No
 11	.	.	PUNCT	punct	_	5	punct	_	SpacesAfter=\n
 
-# sent_id = 950
+# sent_id = 947
 # text = Rydw i heb weld y ffilm.
 1-2	Rydw	_	_	_	_	_	_	_	_
 1	Yr	y	PART	aff	_	2	advmod	_	_
@@ -19970,7 +19897,7 @@
 7	ffilm	ffilm	NOUN	noun	Gender=Fem|Number=Sing	5	obj	_	SpaceAfter=No
 8	.	.	PUNCT	punct	_	2	punct	_	SpacesAfter=\n
 
-# sent_id = 951
+# sent_id = 948
 # text = Roedd e heb dalu am ei fwyd.
 1-2	Roedd	_	_	_	_	_	_	_	_
 1	Yr	y	PART	aff	_	2	advmod	_	_
@@ -19983,7 +19910,7 @@
 8	fwyd	bwyd	NOUN	noun	Gender=Masc|Mutation=SM|Number=Sing	5	obl	_	SpaceAfter=No
 9	.	.	PUNCT	punct	_	2	punct	_	SpacesAfter=\n
 
-# sent_id = 952
+# sent_id = 949
 # text = Mae o heb ei ddal eto.
 1	Mae	bod	VERB	verb	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
 2	o	e	PRON	indep	Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	nsubj	_	_
@@ -19993,7 +19920,7 @@
 6	eto	eto	ADV	adv	_	5	advmod	_	SpaceAfter=No
 7	.	.	PUNCT	punct	_	1	punct	_	SpacesAfter=\n
 
-# sent_id = 953
+# sent_id = 950
 # text = Roedd hi heb ei gweld e ers talwm.
 1-2	Roedd	_	_	_	_	_	_	_	_
 1	Yr	y	PART	aff	_	2	advmod	_	_
@@ -20007,7 +19934,7 @@
 9	talwm	talwm	NOUN	noun	Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
 10	.	.	PUNCT	punct	_	2	punct	_	SpacesAfter=\n
 
-# sent_id = 954
+# sent_id = 951
 # text = Âi'r dyn â'i gi am dro heibio i'r eglwys bob bore.
 1	Âi	mynd	VERB	verb	Mood=Ind|Number=Sing|Person=3|Tense=Imp	0	root	_	SpaceAfter=No
 2	'r	y	DET	art	_	3	det	_	_
@@ -20025,7 +19952,7 @@
 14	bore	bore	NOUN	noun	Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
 15	.	.	PUNCT	punct	_	1	punct	_	SpacesAfter=\n
 
-# sent_id = 955
+# sent_id = 952
 # text = Dwyt ti ddim yn dal i fwyta.
 1-2	Dwyt	_	_	_	_	_	_	_	_
 1	Nid	ni	PART	neg	_	2	advmod	_	_
@@ -20038,7 +19965,7 @@
 8	fwyta	bwyta	NOUN	verbnoun	Mutation=SM|Number=Sing|VerbForm=Vnoun	6	xcomp	_	SpaceAfter=No
 9	.	.	PUNCT	punct	_	2	punct	_	SpacesAfter=\n
 
-# sent_id = 956
+# sent_id = 953
 # text = Mae Jac i fod yn y gwaith erbyn 3 o'r gloch.
 1	Mae	bod	VERB	verb	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
 2	Jac	Jac	NOUN	noun	Gender=Masc|Number=Sing	1	nsubj	_	_
