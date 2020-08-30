@@ -2291,7 +2291,7 @@
 3	mawr	mawr	ADJ	pos	Degree=Pos	2	amod	_	_
 4	a	a	CCONJ	cconj	_	5	cc	_	_
 5	bach	bach	ADJ	pos	Degree=Pos	3	conj	_	_
-6	ledled	ledled	ADP	prep	Number=Sing	7	case	_	_
+6	ledled	ledled	ADP	prep	_	7	case	_	_
 7	Cymru	Cymru	PROPN	place	Gender=Fem|Number=Sing	2	nmod	_	_
 8	a	a	CCONJ	cconj	_	11	cc	_	_
 9	hefyd	hefyd	ADV	adv	_	11	advmod	_	_
@@ -11380,7 +11380,7 @@
 3	ennyn	ennyn	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	1	ccomp	_	_
 4	brwdfrydedd	brwdfrydedd	NOUN	noun	Gender=Masc|Number=Sing	3	obl	_	_
 5	cynyddol	cynyddol	ADJ	pos	Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
-6	ymhlith	ymhlith	ADP	prep	Gender=Masc|Number=Sing	8	case	_	_
+6	ymhlith	ymhlith	ADP	prep	_	8	case	_	_
 7	y	y	DET	art	_	8	det	_	_
 8	disgyblion	disgybl	NOUN	noun	Gender=Masc|Number=Plur	1	obl	_	_
 9	drwy	drwy	ADP	prep	_	11	mark	_	_
@@ -17481,7 +17481,7 @@
 18	1970au	1970	NOUN	noun	Gender=Masc|Number=Plur	11	obl	_	SpaceAfter=No
 19	,	,	PUNCT	punct	_	26	punct	_	_
 20	a	a	CCONJ	cconj	_	26	cc	_	_
-21	than	tan	ADP	prep	Gender=Masc|Mutation=AM|Number=Sing	26	case	_	_
+21	than	tan	ADP	prep	Mutation=AM	26	case	_	_
 22	yn	yn	ADP	prep	_	23	case	_	_
 23	ddiweddar	diweddar	ADJ	pos	Degree=Pos|Gender=Masc|Mutation=SM|Number=Sing	26	acl	_	_
 24	bu	bod	AUX	aux	Mood=Ind|Number=Sing|Person=3|Tense=Past	26	cop	_	SpaceAfter=No
@@ -17866,7 +17866,7 @@
 9	i	i	ADP	prep	_	10	mark	_	_
 10	gwpla	cwpla	NOUN	verbnoun	Mutation=SM|Number=Sing|VerbForm=Vnoun	4	advcl	_	_
 11	cyn	cyn	ADP	prep	_	14	case	_	_
-12	i	i	ADP	prep	Gender=Masc|Number=Sing	13	advcl	_	_
+12	i	i	ADP	prep	_	13	advcl	_	_
 13	ti	ti	PRON	indep	Gender=Masc|Number=Sing|Person=2|PronType=Prs	14	nsubj	_	_
 14	allu	gallu	NOUN	verbnoun	Mutation=SM|Number=Sing|VerbForm=Vnoun	10	advcl	_	_
 15	dechrau	dechrau	NOUN	noun	Gender=Masc|Number=Sing	14	xcomp	_	SpaceAfter=No
@@ -18774,7 +18774,7 @@
 23	yn	yn	ADP	prep	_	25	case	_	_
 24	ei	ei	PRON	dep	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	25	obj	_	_
 25	darllen	darllen	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	17	xcomp	_	_
-26	gerbron	gerbron	ADP	prep	Gender=Masc|Number=Sing	27	case	_	_
+26	gerbron	gerbron	ADP	prep	_	27	case	_	_
 27	cynulleidfa	cynulleidfa	NOUN	noun	Gender=Fem|Number=Sing	25	obl	_	_
 28	fawr	mawr	ADJ	pos	Degree=Pos|Mutation=SM	27	amod	_	_
 29	yn	yn	ADP	prep	_	30	case	_	_

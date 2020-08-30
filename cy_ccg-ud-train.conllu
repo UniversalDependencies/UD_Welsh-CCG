@@ -1348,7 +1348,7 @@
 9	eisoes	eisoes	ADV	adv	_	11	advmod	_	_
 10	ar	ar	ADP	prep	_	11	case	_	_
 11	gau	cau	NOUN	verbnoun	Mutation=SM|Number=Sing|VerbForm=Vnoun	1	xcomp	_	_
-12	nes	nes	ADP	prep	Gender=Masc|Number=Sing	14	case	_	_
+12	nes	nes	ADP	prep	_	14	case	_	_
 13	4	4	NUM	num	_	14	nummod	_	_
 14	Tachwedd	Tachwedd	NOUN	noun	Gender=Masc|Number=Sing	11	obl	_	_
 15	oherwydd	oherwydd	ADP	prep	_	17	case	_	_
@@ -4554,7 +4554,7 @@
 22	gan	gan	ADP	prep	_	23	case	_	_
 23	genhadon	cennad	NOUN	noun	Gender=Masc|Mutation=SM|Number=Plur	20	obl:agent	_	_
 24	brodorol	brodorol	ADJ	pos	Degree=Pos	23	amod	_	_
-25	ymhlith	ymhlith	ADP	prep	Gender=Masc|Number=Sing	26	case	_	_
+25	ymhlith	ymhlith	ADP	prep	_	26	case	_	_
 26	pobloedd	pobl	NOUN	noun	Gender=Fem|Number=Plur	23	nmod	_	_
 27	Celtaidd	celtaidd	ADJ	pos	Degree=Pos	26	amod	_	_
 28	Prydain	Prydain	PROPN	place	_	26	nmod	_	_
