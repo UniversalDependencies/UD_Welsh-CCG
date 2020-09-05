@@ -11252,7 +11252,7 @@
 14	addysg	addysg	NOUN	noun	Gender=Fem|Number=Sing	13	obj	_	_
 15	cyfrwng	cyfrwng	NOUN	noun	Gender=Masc|Number=Sing	14	nmod	_	_
 16	Cymraeg	Cymraeg	NOUN	noun	Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
-17	.	.	PUNCT	punct	_	1	punct	_	SpacesAfter=\s\n
+17	.	.	PUNCT	punct	_	1	punct	_	SpacesAfter=\n
 
 # sent_id = 544
 # text = Pwysleisir wrth rieni a disgyblion mai Ysgol Gymraeg yw Ysgol Glantaf.
@@ -14343,7 +14343,7 @@
 # sent_id = 720
 # text = Rwy'n siŵr y byddem ni wedi hen weld datrysiad i'r broblem erbyn hyn.
 1-2	Rwy	_	_	_	_	_	_	_	SpaceAfter=No
-1	yr	y	PART	aff	_	4	advmod	_	_
+1	Yr	y	PART	aff	_	4	advmod	_	_
 2	wy	bod	AUX	aux	Mood=Ind|Number=Sing|Person=1|Tense=Pres	4	cop	_	_
 3	'n	yn	PART	pred	_	4	case:pred	_	_
 4	siŵr	siŵr	ADJ	pos	Degree=Pos	0	root	_	_
@@ -14427,7 +14427,7 @@
 1	Efa	Efa	PROPN	person	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 2	,	,	PUNCT	punct	_	4	punct	_	_
 3-4	rwy	_	_	_	_	_	_	_	SpaceAfter=No
-3	r	y	PART	aff	_	4	advmod	_	_
+3	yr	y	PART	aff	_	4	advmod	_	_
 4	wy	bod	VERB	verb	Mood=Ind|Number=Sing|Person=1|Tense=Pres	1	parataxis	_	_
 5	'n	yn	AUX	impf	_	6	aux	_	_
 6	gwybod	gwybod	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	4	xcomp	_	_
@@ -16395,7 +16395,7 @@
 5	eu	eu	PRON	dep	Number=Plur|Person=3|PronType=Prs	6	obj	_	_
 6	gwthio	gwthio	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	4	ccomp	_	_
 7	trwyddo	trwy	ADP	cprep	Gender=Masc|Number=Sing|Person=3	6	obj	_	_
-8	hefyd	hefyd	ADV	adv	_	7	advmod	_	_
+8	hefyd	hefyd	ADV	adv	_	6	advmod	_	_
 9	heb	heb	ADP	prep	_	10	case	_	_
 10	fuddsoddiad	buddsoddiad	NOUN	noun	Gender=Masc|Mutation=SM|Number=Sing	6	obl	_	_
 11	digonol	digonol	NOUN	noun	Gender=Masc|Number=Sing	10	nmod	_	_
