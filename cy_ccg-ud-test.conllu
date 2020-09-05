@@ -4580,7 +4580,7 @@
 9	e	e	PRON	indep	Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	SpaceAfter=No
 10	'n	yn	AUX	impf	_	11	aux	_	_
 11	byw	byw	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	8	xcomp	_	_
-12	ynddo	yn	ADP	cprep	Gender=Masc|Number=Sing|Person=3|VerbForm=Vnoun	11	obl	_	SpaceAfter=No
+12	ynddo	yn	ADP	cprep	Gender=Masc|Number=Sing|Person=3	11	obl	_	SpaceAfter=No
 13	?	?	PUNCT	punct	_	1	punct	_	SpacesAfter=\n
 
 # sent_id = 250
@@ -16250,7 +16250,7 @@
 
 # sent_id = 791
 # text = Ganddyn nhw mae'r arian, ond gennym ni mae'r bobl.
-1	Ganddyn	gan	ADP	cprep	Gender=Masc|Number=Plur|Person=3	2	case	_	_
+1	Ganddyn	gan	ADP	cprep	Number=Plur|Person=3	2	case	_	_
 2	nhw	hwy	PRON	indep	Number=Plur|Person=3|PronType=Prs	3	obl	_	_
 3	mae	bod	VERB	verb	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	SpaceAfter=No
 4	'r	y	DET	art	_	5	det	_	_
@@ -19113,7 +19113,7 @@
 4	sicr	sicr	ADJ	pos	Degree=Pos|Gender=Masc|Number=Sing	6	advmod	_	_
 5	yn	yn	ADP	prep	_	6	case	_	_
 6	un	un	NUM	num	_	0	root	_	_
-7	ohonyn	o	ADP	cprep	Gender=Masc|Number=Plur|Person=3	8	case	_	_
+7	ohonyn	o	ADP	cprep	Number=Plur|Person=3	8	case	_	_
 8	nhw	hwy	PRON	indep	Number=Plur|Person=3|PronType=Prs	6	nmod	_	SpaceAfter=No
 9	.	.	PUNCT	punct	_	6	punct	_	SpacesAfter=\n
 
