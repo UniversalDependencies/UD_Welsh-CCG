@@ -6486,7 +6486,7 @@
 # sent_id = 338
 # text = Mae tri swyddog yn teithio trwy Gymru gyfan yn ymweld ag ysgolion cynradd ac uwchradd er mwyn rhoi arddangosfa o lyfrau a deunyddiau addysgol ac i gasglu archebion.
 1	Mae	bod	VERB	verb	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
-2	tri	tri	NUM	num	_	3	nummod	_	_
+2	tri	tri	NUM	num	Gender=Masc	3	nummod	_	_
 3	swyddog	swyddog	NOUN	noun	Gender=Masc|Number=Sing	1	nsubj	_	_
 4	yn	yn	AUX	impf	_	5	aux	_	_
 5	teithio	teithio	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	1	xcomp	_	_
@@ -10542,7 +10542,7 @@
 22	dilynwch	dilyn	VERB	verb	Mood=Imp|Number=Plur|Person=2	0	root	_	_
 23	y	y	DET	art	_	24	det	_	_
 24	cynllun	cynllun	NOUN	noun	Gender=Masc|Number=Sing	22	obj	_	_
-25	tri	tri	NUM	num	_	26	nummod	_	_
+25	tri	tri	NUM	num	Gender=Masc	26	nummod	_	_
 26	cham	cam	NOUN	noun	Gender=Masc|Mutation=AM|Number=Sing	24	nmod	_	SpaceAfter=No
 27	.	.	PUNCT	punct	_	22	punct	_	SpacesAfter=\n
 
@@ -15934,7 +15934,7 @@
 10	,	,	PUNCT	punct	_	19	punct	_	_
 11	gan	gan	ADP	prep	_	19	mark	_	_
 12	fod	bod	AUX	verbnoun	Mutation=SM|Number=Sing|VerbForm=Vnoun	19	cop	_	_
-13	tri	tri	NUM	num	_	14	nummod	_	_
+13	tri	tri	NUM	num	Gender=Masc	14	nummod	_	_
 14	dosbarth	dosbarth	NOUN	noun	Gender=Masc|Number=Sing	19	nsubj	_	_
 15	a	a	CCONJ	cconj	_	16	cc	_	_
 16	neuadd	neuadd	NOUN	noun	Gender=Fem|Number=Sing	14	conj	_	_
@@ -15975,7 +15975,7 @@
 
 # sent_id = 780
 # text = Mae'r holl waith adeiladu yn dilyn yr holl waith caled gan aelodau Cymdeithas Gymreig Trevelin i werthu darnau o dir er mwyn ariannu'r prosiect.
-1	Mae	bod	VERB	verb	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	SpaceAfter=No|SpacesBefore=\s
+1	Mae	bod	VERB	verb	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	SpaceAfter=No
 2	'r	y	DET	art	_	4	det	_	_
 3	holl	holl	ADJ	pos	Degree=Pos	4	amod	_	_
 4	waith	gwaith	NOUN	noun	Gender=Fem|Mutation=SM|Number=Sing	1	nsubj	_	_
