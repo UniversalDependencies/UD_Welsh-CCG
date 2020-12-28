@@ -2856,7 +2856,7 @@
 # sent_id = 96
 # text = Wel dyna i ni Eisteddfod wych arall wedi mynd a dod!
 1	Wel	wel	ADV	adv	_	2	advmod	_	_
-2	dyna	dyna	ADV	adv	Gender=Masc|Number=Sing	0	root	_	_
+2	dyna	dyna	ADV	adv	_	0	root	_	_
 3	i	i	ADP	prep	_	4	case	_	_
 4	ni	ni	PRON	indep	Number=Plur|Person=1|PronType=Prs	2	obl	_	_
 5	Eisteddfod	eisteddfod	NOUN	noun	Gender=Fem|Number=Sing	2	obj	_	_
@@ -3666,7 +3666,7 @@
 11	disgrifio	disgrifio	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	7	xcomp	_	SpaceAfter=No
 12	'r	y	DET	art	_	13	det	_	_
 13	Eisteddfod	eisteddfod	NOUN	noun	Gender=Fem|Number=Sing	11	obj	_	_
-14	eleni	eleni	ADV	adv	Number=Sing|VerbForm=Vnoun	13	amod	_	_
+14	eleni	eleni	ADV	adv	_	13	amod	_	_
 15	fel	fel	ADP	prep	_	16	case	_	_
 16	un	un	NUM	num	_	11	obl	_	_
 17	hynod	hynod	ADJ	pos	Degree=Pos	18	amod	_	_
@@ -4913,7 +4913,7 @@
 13	ym	yn	ADP	prep	_	14	case	_	_
 14	mis	mis	NOUN	noun	Gender=Masc|Number=Sing	7	obl	_	_
 15	Awst	Awst	NOUN	noun	Gender=Masc|Number=Sing	14	nmod	_	_
-16	eleni	eleni	ADV	adv	Number=Sing|VerbForm=Vnoun	14	advmod	_	_
+16	eleni	eleni	ADV	adv	_	14	advmod	_	_
 17	anfonodd	anfon	VERB	verb	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 18	y	y	DET	art	_	19	det	_	_
 19	Comisiynydd	Comisiynydd	NOUN	noun	Gender=Masc|Number=Sing	17	nsubj	_	_
@@ -6281,7 +6281,7 @@
 34	y	y	DET	art	_	35	det	_	_
 35	bore	bore	NOUN	noun	Gender=Masc|Number=Sing	33	nmod	_	SpaceAfter=No
 36	:	:	PUNCT	punct	_	21	punct	_	_
-37	dim	dim	ADV	adv	Gender=Masc|Number=Sing	38	advmod	_	_
+37	dim	dim	ADV	adv	_	38	advmod	_	_
 38	byd	byd	NOUN	noun	Gender=Masc|Number=Sing	40	nsubj	_	_
 39	yn	yn	PART	pred	_	40	case:pred	_	_
 40	agored	agored	NOUN	noun	Gender=Masc|Number=Sing	2	parataxis	_	_
@@ -7290,7 +7290,7 @@
 # sent_id = 257
 # text = Hefyd lle mae swyddfeydd Cyngor Llyfrau Cymru yma.
 1	Hefyd	hefyd	ADV	adv	_	3	advmod	_	_
-2	lle	lle	ADV	adv	Gender=Masc|Number=Sing	3	advmod	_	_
+2	lle	lle	ADV	adv	_	3	advmod	_	_
 3	mae	bod	VERB	verb	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	swyddfeydd	swyddfa	NOUN	noun	Gender=Fem|Number=Plur	3	nsubj	_	_
 5	Cyngor	cyngor	NOUN	noun	Gender=Masc|Number=Sing	4	nmod	_	_
@@ -7416,7 +7416,7 @@
 # sent_id = 264
 # text = Mae Siân James wedi gwneud enw iddi'i hun fel cantores ac aelod o grwpiau gwerin.
 1	Mae	bod	VERB	verb	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-2	Siân	Siân	PROPN	person	Number=Sing|VerbForm=Vnoun	1	nsubj	_	_
+2	Siân	Siân	PROPN	person	Gender=Fem|Number=Sing	1	nsubj	_	_
 3	James	James	PROPN	person	Gender=Masc|Number=Sing	2	flat:name	_	_
 4	wedi	wedi	AUX	ante	_	5	aux	_	_
 5	gwneud	gwneud	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	1	xcomp	_	_
@@ -8667,7 +8667,7 @@
 11	ferch	merch	NOUN	noun	Gender=Masc|Mutation=SM|Number=Sing	8	obl	_	_
 12	a	a	CCONJ	cconj	_	13	cc	_	_
 13	dewch	dod	VERB	verb	Mood=Ind|Number=Plur|Person=2|Tense=Fut|VerbForm=Fin	1	conj	_	_
-14	draw	traw	ADV	adv	Gender=Masc|Mutation=SM|Number=Sing	13	advmod	_	_
+14	draw	traw	ADV	adv	Mutation=SM	13	advmod	_	_
 15	i	i	ADP	prep	_	16	mark	_	_
 16	wranado	gwranado	NOUN	verbnoun	Mutation=SM|Number=Sing|VerbForm=Vnoun	13	ccomp	_	_
 17-18	arna	_	_	_	_	_	_	_	_
@@ -9130,7 +9130,7 @@
 
 # sent_id = 328
 # text = Lle bendigedig i wneud popeth yn Gymraeg.
-1	Lle	lle	ADV	adv	Gender=Masc|Number=Sing	2	advmod	_	_
+1	Lle	lle	ADV	adv	_	2	advmod	_	_
 2	bendigedig	pendigedig	ADJ	pos	Degree=Pos|Mutation=SM	0	root	_	_
 3	i	i	ADP	prep	_	4	mark	_	_
 4	wneud	gwneud	NOUN	verbnoun	Mutation=SM|Number=Sing|VerbForm=Vnoun	2	advcl	_	_
@@ -9232,7 +9232,7 @@
 3	dwyrain	dwyrain	NOUN	noun	Gender=Masc|Number=Sing	4	obl	_	_
 4	mae	bod	VERB	verb	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	Blaenau	Blaenau	PROPN	place	Gender=Masc|Number=Plur	4	nsubj	_	_
-6	Ffestiniog	Ffestiniog	PROPN	place	Gender=Masc|Number=Sing	5	flat:name	_	_
+6	Ffestiniog	Ffestiniog	PROPN	place	Number=Sing	5	flat:name	_	_
 7	a	a	CCONJ	cconj	_	9	cc	_	SpaceAfter=No
 8	'r	y	DET	art	_	9	det	_	_
 9	Bermo	Bermo	NOUN	noun	Gender=Masc|Number=Sing	5	conj	_	_
@@ -9556,7 +9556,7 @@
 37	yn	yn	ADP	prep	_	39	case	_	_
 38	yr	y	DET	art	_	39	det	_	_
 39	Eisteddfod	eisteddfod	NOUN	noun	Gender=Fem|Number=Sing	32	nmod	_	_
-40	eleni	eleni	ADV	adv	Number=Sing|VerbForm=Vnoun	39	amod	_	_
+40	eleni	eleni	ADV	adv	_	39	amod	_	_
 41	yn	yn	PART	pred	_	42	case:pred	_	_
 42	uwch	uchel	ADJ	cmp	Degree=Cmp	30	ccomp	_	_
 43	nag	na	ADP	prep	_	44	case	_	_
@@ -10729,7 +10729,7 @@
 14	e	e	PRON	indep	Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	_
 15	fod	bod	AUX	verbnoun	Mutation=SM|Number=Sing|VerbForm=Vnoun	19	cop	_	_
 16	yn	yn	PART	pred	_	19	case:pred	_	_
-17	llawer	llawer	ADV	adv	Gender=Masc|Number=Sing	19	advmod	_	_
+17	llawer	llawer	ADV	adv	_	19	advmod	_	_
 18	iawn	iawn	ADV	adv	_	17	amod	_	_
 19	craffach	craff	ADJ	cmp	Degree=Cmp	12	acl	_	SpaceAfter=No
 20	,	,	PUNCT	punct	_	21	punct	_	_
@@ -11571,7 +11571,7 @@
 6	ysgol	ysgol	NOUN	noun	Gender=Fem|Number=Sing	3	nmod	_	_
 7	leol	lleol	ADJ	pos	Degree=Pos|Mutation=SM	6	amod	_	_
 8	gweithiodd	gweithio	VERB	verb	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
-9	gartref	cartref	ADV	adv	Gender=Masc|Mutation=SM|Number=Sing	8	advmod	_	_
+9	gartref	cartref	ADV	adv	Mutation=SM	8	advmod	_	_
 10	ar	ar	ADP	prep	_	11	case	_	_
 11	fferm	fferm	NOUN	noun	Gender=Masc|Number=Sing	8	obl	_	_
 12	ei	ei	PRON	dep	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	13	nmod:poss	_	_
@@ -13445,7 +13445,7 @@
 26	Nantlle	Nantlle	PROPN	place	Gender=Masc|Number=Sing	25	nmod	_	_
 27	a	a	CCONJ	cconj	_	28	cc	_	_
 28	Blaenau	Blaenau	NOUN	noun	Gender=Masc|Number=Sing	16	conj	_	_
-29	Ffestiniog	Ffestiniog	PROPN	place	Gender=Masc|Number=Sing	28	flat:name	_	SpaceAfter=No
+29	Ffestiniog	Ffestiniog	PROPN	place	Number=Sing	28	flat:name	_	SpaceAfter=No
 30	,	,	PUNCT	punct	_	33	punct	_	_
 31	lle	lle	ADV	adv	_	33	advmod	_	_
 32-33	roedd	_	_	_	_	_	_	_	_
@@ -13592,7 +13592,7 @@
 20	Y	y	DET	art	_	21	det	_	_
 21	Maes	maes	NOUN	noun	Gender=Masc|Number=Sing	17	obl	_	SpaceAfter=No
 22	"	"	PUNCT	punct	_	21	punct	_	_
-23	lle	lle	ADV	adv	Gender=Masc|Number=Sing	25	advmod	_	_
+23	lle	lle	ADV	adv	_	25	advmod	_	_
 24	y	y	DET	art	_	25	det	_	_
 25	cynhelid	cynhelwi	VERB	verb	Mood=Cnd|Person=0|Tense=Imp|VerbForm=Fin	21	acl	_	_
 26	y	y	DET	art	_	27	det	_	_
@@ -15459,7 +15459,7 @@
 6	hon	hon	PRON	dem	Gender=Fem|PronType=Dem	3	det	_	_
 7	ym	yn	ADP	prep	_	8	case	_	_
 8	Mro	bro	NOUN	noun	Gender=Masc|Mutation=NM|Number=Sing	3	nmod	_	_
-9	Ffestiniog	Ffestiniog	PROPN	place	Gender=Masc|Number=Sing	8	flat	_	_
+9	Ffestiniog	Ffestiniog	PROPN	place	Number=Sing	8	flat	_	_
 10	wedi	wedi	AUX	ante	_	13	aux	_	_
 11	bod	bod	AUX	verbnoun	Number=Sing|VerbForm=Vnoun	13	cop	_	_
 12	yn	yn	PART	pred	_	13	case:pred	_	_
@@ -15479,7 +15479,7 @@
 26	nad	na	PART	neg	_	27	advmod	_	_
 27	ydy	bod	VERB	verb	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	ccomp	_	_
 28	hi	hi	PRON	indep	Gender=Fem|Number=Sing|Person=3|PronType=Prs	27	nsubj	_	_
-29	byth	byth	ADV	adv	Gender=Masc|Number=Sing	27	advmod	_	_
+29	byth	byth	ADV	adv	_	27	advmod	_	_
 30	yn	yn	AUX	impf	_	31	aux	_	_
 31	stopio	stopio	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	27	xcomp	_	_
 32	glawio	glawio	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	31	obj	_	_
@@ -15512,7 +15512,7 @@
 7	aml	aml	ADV	adv	_	5	advmod	_	_
 8	am	am	ADP	prep	_	9	case	_	_
 9	Flaenau	Blaenau	PROPN	place	Gender=Masc|Mutation=SM	2	obl	_	_
-10	Ffestiniog	Ffestiniog	PROPN	place	Number=Sing|VerbForm=Vnoun	9	flat:name	_	_
+10	Ffestiniog	Ffestiniog	PROPN	place	Number=Sing	9	flat:name	_	_
 11	yw	bod	AUX	aux	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
 12	mai	mai	SCONJ	sconj	_	13	mark	_	_
 13	defaid	dafad	NOUN	noun	Gender=Fem|Number=Plur	0	root	_	_
@@ -16388,7 +16388,7 @@
 17	'r	y	DET	art	_	18	det	_	_
 18	rheiny	rhain	PRON	dem	Number=Plur|PronType=Dem	13	nmod	_	_
 19	ddaeth	dod	VERB	verb	Mood=Ind|Mutation=SM|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	18	acl:relcl	_	_
-20	gynt	cynt	ADV	adv	Gender=Masc|Mutation=SM|Number=Sing	19	advmod	_	SpaceAfter=No
+20	gynt	cynt	ADV	adv	Mutation=SM	19	advmod	_	SpaceAfter=No
 21	.	.	PUNCT	punct	_	8	punct	_	SpacesAfter=\n
 
 # sent_id = 645
@@ -16826,7 +16826,7 @@
 21	gynulleidfa	cynulleidfa	NOUN	noun	Gender=Masc|Mutation=SM|Number=Sing	16	obl	_	_
 22	iau	ifanc	ADJ	cmp	Degree=Cmp	21	amod	_	_
 23	a	a	CCONJ	cconj	_	25	cc	_	_
-24	llai	llai	ADV	adv	Gender=Masc|Number=Plur	25	advmod	_	_
+24	llai	llai	ADV	adv	_	25	advmod	_	_
 25	rhugl	rhugl	ADJ	pos	Degree=Pos	21	amod	_	SpaceAfter=No
 26	"	"	PUNCT	punct	_	21	punct	_	SpaceAfter=No
 27	.	.	PUNCT	punct	_	1	punct	_	SpacesAfter=\n
@@ -17795,7 +17795,7 @@
 
 # sent_id = 691
 # text = Draw ym Mangladesh, mae dros 4 miliwn o bobl yn gweithio mewn ffatrïoedd ffasiwn yn gwneud dillad sy'n cael eu gwerthu ledled y byd.
-1	Draw	draw	ADV	adv	Gender=Masc|Mutation=SM|Number=Sing	5	advmod	_	_
+1	Draw	traw	ADV	adv	Mutation=SM	5	advmod	_	_
 2	ym	yn	ADP	prep	_	3	case	_	_
 3	Mangladesh	Bangladesh	PROPN	place	Mutation=NM	1	appos	_	SpaceAfter=No
 4	,	,	PUNCT	punct	_	5	punct	_	_
