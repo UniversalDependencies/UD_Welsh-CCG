@@ -3818,7 +3818,7 @@
 9	wythnos	wythnos	NOUN	noun	Gender=Fem|Number=Sing	7	obl	_	_
 10	yma	yma	ADV	adv	_	9	amod	_	_
 11	gan	gan	ADP	prep	_	12	case	_	_
-12	Brifysgol	prifysgol	NOUN	noun	Gender=Fem|Mutation=SM|Number=Sing	7	obl:agent	_	_
+12	Brifysgol	prifysgol	NOUN	noun	Gender=Fem|Mutation=SM|Number=Sing	7	nmod:agent	_	_
 13	Bangor	Bangor	PROPN	place	Number=Sing	12	flat	_	_
 14	yn	yn	AUX	impf	_	15	aux	_	_
 15	edrych	edrych	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	1	xcomp	_	_
@@ -5699,7 +5699,7 @@
 17	feirniadaeth	beirniadaeth	NOUN	noun	Gender=Fem|Mutation=SM|Number=Sing	13	obl	_	_
 18	gan	gan	ADP	prep	_	20	case	_	_
 19	ei	ei	PRON	dep	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	20	nmod:poss	_	_
-20	wrthwynebwyr	gwrthwynebwr	NOUN	noun	Gender=Masc|Mutation=SM|Number=Plur	13	obl:agent	_	SpaceAfter=No
+20	wrthwynebwyr	gwrthwynebwr	NOUN	noun	Gender=Masc|Mutation=SM|Number=Plur	13	nmod:agent	_	SpaceAfter=No
 21	.	.	PUNCT	punct	_	1	punct	_	SpacesAfter=\n
 
 # sent_id = 303
@@ -5737,7 +5737,7 @@
 30	ei	ei	PRON	dep	Gender=Masc|Number=Sing|Person=3|PronType=Prs	31	obj	_	_
 31	adnabod	adnabod	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	29	ccomp	_	_
 32	gan	gan	ADP	prep	_	33	case	_	_
-33	sefydliadau	sefydliad	NOUN	noun	Gender=Masc|Number=Plur	31	obl:agent	_	_
+33	sefydliadau	sefydliad	NOUN	noun	Gender=Masc|Number=Plur	31	nmod:agent	_	_
 34	rhyngwladol	rhyngwladol	ADJ	pos	Degree=Pos	33	amod	_	_
 35	megis	megis	CCONJ	cconj	_	37	cc	_	_
 36	y	y	DET	art	_	37	det	_	_
@@ -7392,7 +7392,7 @@
 4	'r	y	DET	art	_	5	det	_	_
 5	mynachlogydd	mynachlogydd	NOUN	noun	Gender=Masc|Number=Sing	3	obj	_	_
 6	gan	gan	ADP	prep	_	7	case	_	_
-7	Harri	Harri	PROPN	person	_	3	obl:agent	_	_
+7	Harri	Harri	PROPN	person	_	3	nmod:agent	_	_
 8	VIII	Viii	NUM	num	_	7	flat:name	_	_
 9	o	o	ADP	prep	_	10	case	_	_
 10	Loegr	Lloegr	PROPN	place	Gender=Fem|Mutation=SM|Number=Sing	7	nmod	_	SpaceAfter=No
@@ -9287,7 +9287,7 @@
 8	Garnedd	Garnedd	PROPN	place	Gender=Masc|Number=Sing	5	obl	_	_
 9	Llywelyn	Llywelyn	PROPN	place	_	8	flat:name	_	_
 10	gan	gan	ADP	prep	_	11	case	_	_
-11	Fwlch	Bwlch	PROPN	place	Gender=Masc|Mutation=SM|Number=Sing	5	obl:agent	_	_
+11	Fwlch	Bwlch	PROPN	place	Gender=Masc|Mutation=SM|Number=Sing	5	nmod:agent	_	_
 12	Eryl	Eryl	PROPN	place	Gender=Masc|Number=Sing	11	flat:name	_	_
 13	Farchog	marchog	ADJ	pos	Degree=Pos|Mutation=SM|Number=Sing	12	amod	_	SpaceAfter=No
 14	,	,	PUNCT	punct	_	16	punct	_	_
@@ -10650,7 +10650,7 @@
 16	eich	eich	PRON	dep	Number=Plur|Person=2|Poss=Yes|PronType=Prs	17	obj	_	_
 17	targedu	targedu	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	15	ccomp	_	_
 18	gan	gan	ADP	prep	_	19	case	_	_
-19	werthwyr	gwerthwr	NOUN	noun	Gender=Masc|Mutation=SM|Number=Plur	17	obl:agent	_	_
+19	werthwyr	gwerthwr	NOUN	noun	Gender=Masc|Mutation=SM|Number=Plur	17	nmod:agent	_	_
 20	digywilydd	digywilydd	ADJ	pos	Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	SpaceAfter=No
 21	,	,	PUNCT	punct	_	22	punct	_	_
 22	dilynwch	dilyn	VERB	verb	Mood=Imp|Number=Plur|Person=2|VerbForm=Fin	0	root	_	_
@@ -13625,7 +13625,7 @@
 12	ei	ei	PRON	dep	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	13	obj	_	_
 13	drefnu	trefnu	NOUN	verbnoun	Mutation=SM|Number=Sing|VerbForm=Vnoun	11	ccomp	_	_
 14	gan	gan	ADP	prep	_	15	case	_	_
-15	fudiad	mudiad	NOUN	noun	Gender=Masc|Mutation=SM|Number=Sing	6	obl:agent	_	_
+15	fudiad	mudiad	NOUN	noun	Gender=Masc|Mutation=SM|Number=Sing	13	nmod:agent	_	_
 16	Pawb	pawb	NOUN	noun	Gender=Masc|Number=Sing	15	nmod	_	_
 17	Dan	tan	ADP	prep	Mutation=SM	19	case	_	_
 18	Un	un	NUM	num	_	19	nummod	_	_
@@ -14034,7 +14034,7 @@
 4	ei	ei	PRON	dep	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
 5	gasglu	casglu	NOUN	verbnoun	Mutation=SM|Number=Sing|VerbForm=Vnoun	1	ccomp	_	_
 6	gan	gan	ADP	prep	_	7	case	_	_
-7	John	John	PROPN	person	_	5	obl:agent	_	_
+7	John	John	PROPN	person	_	5	nmod:agent	_	_
 8	Owen	Owen	PROPN	person	_	7	flat:name	_	_
 9	o	o	ADP	prep	_	10	case	_	_
 10	Ddwyran	Dwyran	NOUN	noun	Gender=Masc|Mutation=SM|Number=Sing	5	obl	_	_
@@ -14069,7 +14069,7 @@
 5	eu	eu	PRON	dep	Number=Plur|Person=3|PronType=Prs	6	obj	_	_
 6	ysgrifennu	ysgrifennu	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	1	xcomp	_	_
 7	gan	gan	ADP	prep	_	8	case	_	_
-8	John	John	PROPN	person	_	6	obl:agent	_	_
+8	John	John	PROPN	person	_	6	nmod:agent	_	_
 9	Howel	Howel	PROPN	person	Gender=Masc|Number=Sing	8	flat:name	_	_
 10	(	(	PUNCT	punct	_	11	punct	_	SpaceAfter=No
 11	1774	1774	NUM	num	_	9	nmod	_	SpaceAfter=No
@@ -14713,7 +14713,7 @@
 9	ei	ei	PRON	dep	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
 10	dargedu	targedu	NOUN	verbnoun	Mutation=SM|Number=Sing|VerbForm=Vnoun	8	ccomp	_	_
 11	gan	gan	ADP	prep	_	12	case	_	_
-12	hacwyr	hacwyr	NOUN	noun	Gender=Masc|Number=Sing	10	obl:agent	_	_
+12	hacwyr	hacwyr	NOUN	noun	Gender=Masc|Number=Sing	10	nmod:agent	_	_
 13	bob	pob	ADJ	pos	Degree=Pos|Mutation=SM	14	amod	_	_
 14	dydd	dydd	NOUN	noun	Gender=Masc|Number=Sing	10	advcl	_	SpaceAfter=No
 15	.	.	PUNCT	punct	_	4	punct	_	SpacesAfter=\n
@@ -19247,7 +19247,7 @@
 4	ei	ei	PRON	dep	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
 5	wrthod	gwrthod	NOUN	verbnoun	Mutation=SM|Number=Sing|VerbForm=Vnoun	3	ccomp	_	_
 6	gan	gan	ADP	prep	_	7	case	_	_
-7	lywodraeth	llywodraeth	NOUN	noun	Gender=Fem|Mutation=SM|Number=Sing	3	obl:agent	_	_
+7	lywodraeth	llywodraeth	NOUN	noun	Gender=Fem|Mutation=SM|Number=Sing	5	nmod:agent	_	_
 8	Iwerddon	Iwerddon	PROPN	place	_	7	nmod	_	SpacesAfter=\n
 
 # sent_id = 913
@@ -19352,7 +19352,7 @@
 3	synnu	synnu	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	1	ccomp	_	_
 4	gan	gan	ADP	prep	_	6	case	_	_
 5	y	y	DET	art	_	6	det	_	_
-6	ffaith	ffaith	NOUN	noun	Gender=Fem|Number=Sing	1	obl:agent	_	_
+6	ffaith	ffaith	NOUN	noun	Gender=Fem|Number=Sing	3	nmod:agent	_	_
 7	bod	bod	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	6	acl	_	_
 8	y	y	DET	art	_	9	det	_	_
 9	bacteria	bacteria	NOUN	noun	Gender=Masc|Number=Sing	7	nsubj	_	_

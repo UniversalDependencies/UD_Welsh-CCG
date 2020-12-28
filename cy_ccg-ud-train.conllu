@@ -15437,7 +15437,6 @@
 4	lywydd	llywydd	NOUN	noun	Gender=Masc|Mutation=SM|Number=Sing	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	punct	_	4	punct	_	SpacesAfter=\n
 
-# newdoc id = c20.txt.clean
 # sent_id = 615
 # text = Mae Blaenau Ffestiniog yn lle diddorol iawn.
 1	Mae	bod	AUX	aux	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
