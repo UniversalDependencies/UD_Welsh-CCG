@@ -623,7 +623,7 @@
 # sent_id = 26
 # text = Ers pedair blynedd mae dileu Cymraeg Ail Iaith wedi bod yn bolisi Llywodraeth, ond ymddengys nad ydych fel corff wedi gwneud dim byd i symud yr agenda ymlaen a gwireddu'r amcan.
 1	Ers	ers	ADP	prep	_	3	case	_	_
-2	pedair	pedwar	NUM	num	Gender=Fem|Number=Sing	3	nummod	_	_
+2	pedair	pedwar	NUM	num	Gender=Fem	3	nummod	_	_
 3	blynedd	blynedd	NOUN	noun	Gender=Fem|Number=Sing	4	obl	_	_
 4	mae	bod	VERB	verb	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	dileu	dileu	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	4	nsubj	_	_
@@ -1136,7 +1136,7 @@
 24	ôl	ôl	NOUN	noun	Gender=Masc|Number=Sing	22	obl	_	_
 25	at	at	ADP	prep	_	28	case	_	_
 26	y	y	DET	art	_	28	det	_	_
-27	52	52	NUM	num	Gender=Masc|Number=Sing	28	nummod	_	SpaceAfter=No
+27	52	52	NUM	num	Gender=Masc	28	nummod	_	SpaceAfter=No
 28	%	%	SYM	sym	_	22	obl	_	_
 29	a	a	CCONJ	cconj	_	30	cc	_	_
 30	dweud	dweud	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	18	conj	_	_
@@ -6320,7 +6320,7 @@
 2	ar	ar	ADP	prep	_	3	case	_	_
 3	ôl	ôl	NOUN	noun	Gender=Masc|Number=Sing	23	obl	_	_
 4	tri	tri	NUM	num	Gender=Masc	5	nummod	_	_
-5	chan	cant	NUM	num	Gender=Masc|Mutation=AM|Number=Sing	6	nummod	_	_
+5	chan	cant	NUM	num	Gender=Masc|Mutation=AM	6	nummod	_	_
 6	milltir	milltir	NOUN	noun	Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
 7	,	,	PUNCT	punct	_	9	punct	_	_
 8	a	a	CCONJ	cconj	_	9	cc	_	_
@@ -7855,7 +7855,7 @@
 9	chweched	chweched	ADJ	ord	Degree=Pos	10	amod	_	_
 10	ornest	ornest	NOUN	noun	Gender=Masc|Number=Sing	7	obj	_	_
 11	a	a	CCONJ	cconj	_	12	cc	_	_
-12	deugain	deugain	NUM	num	Gender=Masc|Number=Sing	10	conj	_	_
+12	deugain	deugain	NUM	num	_	10	conj	_	_
 13	yn	yn	PART	pred	_	14	case:pred	_	_
 14	olynol	olynol	ADJ	pos	Degree=Pos	7	advmod	_	SpaceAfter=No
 15	.	.	PUNCT	punct	_	1	punct	_	SpacesAfter=\n
@@ -8969,7 +8969,7 @@
 # text = Yn y chwe mis cyntaf ei swydd, ymchwiliodd y Comisiynydd newydd, Aled Roberts, i lai na 40% o'r cwynion a dderbynnir ganddo - bron hanner lefel ei ragflaenydd.
 1	Yn	yn	ADP	prep	_	4	case	_	_
 2	y	y	DET	art	_	4	det	_	_
-3	chwe	chwech	NUM	num	Gender=Masc|Number=Sing	4	nummod	_	_
+3	chwe	chwech	NUM	num	_	4	nummod	_	_
 4	mis	mis	NOUN	noun	Gender=Masc|Number=Sing	9	obl	_	_
 5	cyntaf	cynnar	ADJ	sup	Degree=Sup	4	amod	_	_
 6	ei	ei	PRON	dep	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
@@ -9099,7 +9099,7 @@
 28	y	y	DET	art	_	29	det	_	_
 29	Llywodraeth	llywodraeth	NOUN	noun	Gender=Fem|Number=Sing	27	nmod	_	_
 30	o	o	ADP	prep	_	31	case	_	_
-31	filiwn	miliwn	NUM	num	Gender=Fem|Mutation=SM|Number=Sing	27	nmod	_	_
+31	filiwn	miliwn	NUM	num	Mutation=SM	27	nmod	_	_
 32	o	o	ADP	prep	_	33	case	_	_
 33	siaradwyr	siaradwr	NOUN	noun	Gender=Masc|Number=Plur	31	nmod	_	_
 34	erbyn	erbyn	ADP	prep	_	35	case	_	_
@@ -13400,7 +13400,7 @@
 6	hyd	hyd	ADP	prep	_	7	case	_	_
 7	ddechrau	dechrau	NOUN	noun	Gender=Masc|Mutation=SM|Number=Sing	1	obl	_	SpaceAfter=No
 8	'r	y	DET	art	_	10	det	_	_
-9	18	18	NUM	num	Gender=Masc|Number=Sing	10	nummod	_	SpaceAfter=No
+9	18	18	NUM	num	_	10	nummod	_	SpaceAfter=No
 10	g	canrif	NOUN	noun	Gender=Masc|Mutation=SM|Number=Sing	7	nmod	_	SpaceAfter=No
 11	,	,	PUNCT	punct	_	13	punct	_	_
 12	yna	yna	ADV	adv	_	13	advmod	_	_
@@ -13410,7 +13410,7 @@
 16	hyd	hyd	ADP	prep	_	17	case	_	_
 17	ddiwedd	diwedd	NOUN	noun	Gender=Masc|Mutation=SM|Number=Sing	13	obl	_	_
 18	y	y	DET	art	_	20	det	_	_
-19	19	19	NUM	num	Gender=Masc|Number=Sing	20	nummod	_	SpaceAfter=No
+19	19	19	NUM	num	_	20	nummod	_	SpaceAfter=No
 20	g	canrif	NOUN	noun	Gender=Masc|Mutation=SM|Number=Sing	17	nmod	_	SpaceAfter=No
 21	.	.	PUNCT	punct	_	13	punct	_	SpacesAfter=\n
 
@@ -13784,7 +13784,7 @@
 # sent_id = 508
 # text = Dyma bump o raeadrau Eryri mae'n rhaid i chi eu gweld.
 1	Dyma	dyma	ADV	adv	_	2	advmod	_	_
-2	bump	pump	NUM	num	Gender=Fem|Mutation=SM|Number=Sing	0	root	_	_
+2	bump	pump	NUM	num	Mutation=SM	0	root	_	_
 3	o	o	ADP	prep	_	4	case	_	_
 4	raeadrau	rhaeadr	NOUN	noun	Gender=Masc|Mutation=SM|Number=Plur	2	nmod	_	_
 5	Eryri	Eryri	PROPN	place	Gender=Masc|Number=Sing	4	nmod	_	_
@@ -16324,10 +16324,10 @@
 8	ei	ei	PRON	dep	Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	obj	_	_
 9	defnyddio	defnyddio	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	7	ccomp	_	_
 10	rhwng	rhwng	ADP	prep	_	11	case	_	_
-11	10	10	NUM	num	Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+11	10	10	NUM	num	Gender=Masc	9	obl	_	SpaceAfter=No
 12	yb	yb	NOUN	noun	Gender=Masc|Number=Sing	11	appos	_	_
 13	a	a	CCONJ	cconj	_	14	cc	_	_
-14	4	4	NUM	num	Gender=Masc|Number=Sing	11	conj	_	SpaceAfter=No
+14	4	4	NUM	num	Gender=Masc	11	conj	_	SpaceAfter=No
 15	yp	yp	NOUN	noun	Gender=Masc|Number=Sing	14	appos	_	_
 16	er	er	ADP	prep	_	17	case	_	_
 17	mwyn	mwyn	NOUN	noun	Gender=Masc|Number=Sing	9	obl	_	_
@@ -17409,7 +17409,7 @@
 11	ail	ail	ADJ	ord	Degree=Pos	12	amod	_	_
 12	hanner	hanner	NOUN	noun	Gender=Masc|Number=Sing	5	obl	_	_
 13	y	y	DET	art	_	15	det	_	_
-14	bedwaredd	pedwaredd	NUM	num	Gender=Fem|Mutation=SM|Number=Sing	15	nummod	_	_
+14	bedwaredd	pedwaredd	NUM	num	Gender=Fem|Mutation=SM	15	nummod	_	_
 15	ganrif	canrif	NOUN	noun	Gender=Fem|Mutation=SM|Number=Sing	12	nmod	_	_
 16	ar	ar	ADP	prep	_	17	case	_	_
 17	bymtheg	bymtheg	NOUN	noun	Gender=Masc|Number=Sing	15	nmod	_	_
