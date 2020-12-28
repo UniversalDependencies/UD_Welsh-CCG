@@ -1433,7 +1433,7 @@
 19	wedi	wedi	AUX	ante	_	20	aux	_	_
 20	niweidio	niweidio	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	17	xcomp	_	_
 21	gallu	gallu	NOUN	noun	Gender=Masc|Number=Sing	20	obj	_	SpaceAfter=No
-22	'r	y	DET	art	Gender=Masc|Number=Sing	23	det	_	_
+22	'r	y	DET	art	_	23	det	_	_
 23	adran	adran	NOUN	noun	Gender=Fem|Number=Sing	21	nmod	_	_
 24	i	i	ADP	prep	_	25	mark	_	_
 25	ddenu	denu	NOUN	verbnoun	Mutation=SM|Number=Sing|VerbForm=Vnoun	20	advcl	_	_
