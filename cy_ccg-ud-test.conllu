@@ -3540,7 +3540,7 @@
 4	ffrae	ffrae	NOUN	noun	Gender=Fem|Number=Sing	2	nsubj	_	_
 5	ar	ar	ADP	prep	_	6	case	_	_
 6	Sul	Sul	NOUN	noun	Gender=Masc|Number=Sing	2	obl	_	_
-7	cyntaf	cynnar	ADJ	ord	Degree=Ord|NumType=Ord	6	amod	_	_
+7	cyntaf	cynnar	ADJ	ord	Degree=Pos|NumType=Ord	6	amod	_	_
 8	y	y	DET	art	_	9	det	_	_
 9	brifwyl	prifwyl	NOUN	noun	Gender=Fem|Mutation=SM|Number=Sing	6	nmod	_	_
 10	yng	yn	ADP	prep	_	11	case	_	_
@@ -9959,7 +9959,7 @@
 10	un	un	NUM	num	_	11	nummod	_	_
 11	reilffordd	rheilffordd	NOUN	noun	Gender=Fem|Mutation=SM|Number=Sing	8	obj	_	_
 12	yn	yn	ADP	prep	_	13	case	_	_
-13	Llangefni	Llangefni	PROPN	place	Number=Plur|Person=1|PronType=Prs	8	obl	_	SpaceAfter=No
+13	Llangefni	Llangefni	PROPN	place	Number=Sing	8	obl	_	SpaceAfter=No
 14	.	.	PUNCT	punct	_	2	punct	_	SpacesAfter=\n
 
 # sent_id = 491
@@ -15621,7 +15621,7 @@
 17	gyfer	cyfer	NOUN	noun	Gender=Masc|Mutation=SM|Number=Sing	15	nmod	_	_
 18	ysgolion	ysgol	NOUN	noun	Gender=Fem|Number=Plur	17	nmod	_	_
 19	ardaloedd	ardal	NOUN	noun	Gender=Fem|Number=Plur	18	nmod	_	_
-20	Llangefni	Llangefni	PROPN	place	Number=Plur|Person=1|PronType=Prs	19	nmod	_	SpaceAfter=No
+20	Llangefni	Llangefni	PROPN	place	Number=Sing	19	nmod	_	SpaceAfter=No
 21	,	,	PUNCT	punct	_	22	punct	_	_
 22	Seiriol	Seiriol	NOUN	noun	Gender=Masc|Number=Sing	20	conj	_	_
 23	ac	a	CCONJ	cconj	_	24	cc	_	_
