@@ -4717,8 +4717,8 @@
 20	ferch	merch	NOUN	noun	Gender=Fem|Mutation=SM|Number=Sing	15	appos	_	_
 21	o	o	ADP	prep	_	22	case	_	_
 22	Dir	tir	NOUN	noun	Gender=Masc|Mutation=SM|Number=Sing	20	nmod	_	_
-23	Na	na	PART	neg	Foreign=Yes	22	advmod	_	_
-24	n-Og	N-og	PROPN	place	Foreign=Yes	22	flat:name	_	SpaceAfter=No
+23	Na	an	DET	art	Foreign=Yes	24	det	_	_
+24	n-Og	N-og	PROPN	place	Foreign=Yes	22	nmod	_	SpaceAfter=No
 25	,	,	PUNCT	punct	_	1	punct	_	_
 26	yw	bod	AUX	aux	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
 27	Nia	Nia	PROPN	person	_	1	nsubj	_	_
