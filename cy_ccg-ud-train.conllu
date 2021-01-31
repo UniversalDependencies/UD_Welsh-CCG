@@ -17752,7 +17752,7 @@
 9	ym	yn	ADP	prep	_	10	case	_	_
 10	myd	byd	NOUN	noun	Gender=Masc|Mutation=NM|Number=Sing	5	nmod	_	_
 11	ffasiwn	ffasiwn	NOUN	noun	Gender=Masc|Number=Sing	10	amod	_	_
-12	ni	ni	DET	indeppr	Number=Plur|Person=1|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+12	ni	ni	PRON	indep	Number=Plur|Person=1|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
 13	yma	yma	ADV	adv	_	15	advmod	_	_
 14	yng	yn	ADP	prep	_	15	case	_	_
 15	Nghymru	Cymru	PROPN	place	Gender=Fem|Mutation=NM|Number=Sing	5	nmod	_	SpaceAfter=No
