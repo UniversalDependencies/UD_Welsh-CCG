@@ -1643,7 +1643,7 @@
 
 # sent_id = 95
 # text = Gallai'r gwyntoedd achosi anafiadau a pheryglu bywydau, meddai'r Swyddfa Dywydd.
-1	Gallai	gallu	VERB	verb	Mood=Cnd|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+1	Gallai	gallu	VERB	verb	Mood=Cnd|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	ccomp	_	SpaceAfter=No
 2	'r	y	DET	art	_	3	det	_	_
 3	gwyntoedd	gwynt	NOUN	noun	Gender=Masc|Number=Plur	1	nsubj	_	_
 4	achosi	achosi	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	1	xcomp	_	_
@@ -1652,7 +1652,7 @@
 7	pheryglu	peryglu	NOUN	verbnoun	Mutation=AM|Number=Sing|VerbForm=Vnoun	5	conj	_	_
 8	bywydau	bywyd	NOUN	noun	Gender=Masc|Number=Plur	7	obj	_	SpaceAfter=No
 9	,	,	PUNCT	punct	_	10	punct	_	_
-10	meddai	medd	VERB	verb	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	ccomp	_	SpaceAfter=No
+10	meddai	medd	VERB	verb	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
 11	'r	y	DET	art	_	12	det	_	_
 12	Swyddfa	swyddfa	NOUN	noun	Gender=Fem|Number=Sing	10	nsubj	_	_
 13	Dywydd	tywydd	NOUN	noun	Gender=Masc|Mutation=SM|Number=Sing	12	flat:name	_	SpaceAfter=No
@@ -7098,7 +7098,7 @@
 # sent_id = 363
 # text = Nag oes, does dim arian gen i.
 1	Nag	na	ADP	prep	_	2	case	_	_
-2	oes	oes	NOUN	noun	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+2	oes	bod	VERB	verb	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 3	,	,	PUNCT	punct	_	7	punct	_	_
 4-5	does	_	_	_	_	_	_	_	_
 4	nid	ni	PART	neg	_	7	advmod	_	_
@@ -13181,28 +13181,28 @@
 # sent_id = 646
 # text = Does dim arian ganddo fe.
 1-2	Does	_	_	_	_	_	_	_	_
-1	Nid	ni	PART	neg	_	3	advmod	_	_
-2	oes	bod	AUX	aux	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
-3	dim	dim	NOUN	noun	Gender=Masc|Number=Sing	0	root	_	_
-4	arian	arian	NOUN	noun	Gender=Masc|Number=Sing	3	nmod	_	_
+1	Nid	ni	PART	neg	_	4	advmod	_	_
+2	oes	bod	AUX	aux	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	dim	dim	ADV	adv	_	4	advmod	_	_
+4	arian	arian	NOUN	noun	Gender=Masc|Number=Sing	0	root	_	_
 5-6	ganddo	_	_	_	_	_	_	_	_
 5	gan	gan	ADP	iprep	_	6	case	_	_
-6	e	e	PRON	indep	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obl	_	_
+6	e	e	PRON	indep	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obl	_	_
 7	fe	e	PRON	indep	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	compound:redup	_	SpaceAfter=No
-8	.	.	PUNCT	punct	_	3	punct	_	SpacesAfter=\n
+8	.	.	PUNCT	punct	_	4	punct	_	SpacesAfter=\n
 
 # sent_id = 647
 # text = Does dim gwaith ganddo fo.
 1-2	Does	_	_	_	_	_	_	_	_
-1	Nid	ni	PART	neg	_	3	advmod	_	_
-2	oes	bod	AUX	aux	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
-3	dim	dim	NOUN	noun	Gender=Masc|Number=Sing	0	root	_	_
-4	gwaith	gwaith	NOUN	noun	Gender=Masc|Number=Sing	3	nmod	_	_
+1	Nid	ni	PART	neg	_	4	advmod	_	_
+2	oes	bod	AUX	aux	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	dim	dim	ADV	adv	_	4	advmod	_	_
+4	gwaith	gwaith	NOUN	noun	Gender=Masc|Number=Sing	0	root	_	_
 5-6	ganddo	_	_	_	_	_	_	_	_
 5	gan	gan	ADP	iprep	_	6	case	_	_
-6	e	e	PRON	indep	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obl	_	_
+6	e	e	PRON	indep	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obl	_	_
 7	fo	e	PRON	indep	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	compound:redup	_	SpaceAfter=No
-8	.	.	PUNCT	punct	_	3	punct	_	SpacesAfter=\n
+8	.	.	PUNCT	punct	_	4	punct	_	SpacesAfter=\n
 
 # sent_id = 648
 # text = Doedd hi ddim yn gweld yr eglwys.
@@ -16443,7 +16443,7 @@
 13	â	â	ADP	prep	_	15	case	_	SpaceAfter=No
 14	'n	ein	PRON	dep	Number=Plur|Person=1|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
 15	symudiad	symudiad	NOUN	noun	Gender=Masc|Number=Sing	12	obl	_	_
-16	yna	yna	ADV	adv	_	19	advmod	_	_
+16	yna	yna	ADV	adv	_	12	advmod	_	_
 17-18	does	_	_	_	_	_	_	_	_
 17	nid	ni	PART	neg	_	19	advmod	_	_
 18	oes	bod	AUX	aux	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	_
@@ -18023,10 +18023,10 @@
 # sent_id = 852
 # text = Does dim aros am y tudalenau gwybodaeth i gwpla cyn i ti allu dechrau'r gosod!
 1-2	Does	_	_	_	_	_	_	_	_
-1	Nid	ni	PART	neg	_	3	advmod	_	_
-2	oes	bod	AUX	aux	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
-3	dim	dim	NOUN	noun	Gender=Masc|Number=Sing	0	root	_	_
-4	aros	aros	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	3	nmod	_	_
+1	Nid	ni	PART	neg	_	4	advmod	_	_
+2	oes	bod	AUX	aux	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	dim	dim	ADV	adv	_	4	advmod	_	_
+4	aros	aros	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	0	root	_	_
 5	am	am	ADP	prep	_	7	case	_	_
 6	y	y	DET	art	_	7	det	_	_
 7	tudalenau	tudalen	NOUN	noun	Gender=Masc|Number=Plur	4	obl	_	_
@@ -18040,7 +18040,7 @@
 15	dechrau	dechrau	NOUN	noun	Gender=Masc|Number=Sing	14	xcomp	_	SpaceAfter=No
 16	'r	yn	DET	art	_	17	det	_	_
 17	gosod	gosod	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	15	xcomp	_	SpaceAfter=No
-18	!	!	PUNCT	punct	_	3	punct	_	SpacesAfter=\n
+18	!	!	PUNCT	punct	_	4	punct	_	SpacesAfter=\n
 
 # sent_id = 853
 # text = Mae gosodwr yn rhoi siawns i di lawrlwytho updates a galluogi MP3 codecs i gael ei osod.

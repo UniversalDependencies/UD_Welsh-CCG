@@ -2256,10 +2256,10 @@
 # sent_id = 78
 # text = Does dim rhaid ateb galwadau annifyr rhai sydd eisiau gwerthu pethau.
 1-2	Does	_	_	_	_	_	_	_	_
-1	Nid	ni	PART	neg	_	3	advmod	_	_
-2	oes	bod	AUX	aux	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
-3	dim	dim	NOUN	noun	Gender=Masc|Number=Sing	0	root	_	_
-4	rhaid	rhaid	NOUN	noun	Gender=Masc|Number=Sing	3	nmod	_	_
+1	Nid	ni	PART	neg	_	4	advmod	_	_
+2	oes	bod	AUX	aux	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	dim	dim	ADV	adv	_	4	advmod	_	_
+4	rhaid	rhaid	NOUN	noun	Gender=Masc|Number=Sing	0	root	_	_
 5	ateb	ateb	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	4	acl	_	_
 6	galwadau	galwad	NOUN	noun	Gender=Masc|Number=Plur	5	obj	_	_
 7	annifyr	annifyr	NOUN	noun	Gender=Masc|Number=Sing	6	nmod	_	_
@@ -16281,12 +16281,12 @@
 # sent_id = 641
 # text = Does dim awgrym ar hyn o bryd faint o dyrbinau all gael eu codi ond mae'r cwmni wedi sicrhau hawliau ar gyfer ardal 106 cilomedr sgwâr.
 1-2	Does	_	_	_	_	_	_	_	_
-1	Nid	ni	PART	neg	_	3	advmod	_	_
-2	oes	bod	AUX	aux	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
-3	dim	dim	NOUN	noun	Gender=Masc|Number=Sing	0	root	_	_
-4	awgrym	awgrym	NOUN	noun	Gender=Masc|Number=Sing	3	nmod	_	_
+1	Nid	ni	PART	neg	_	4	advmod	_	_
+2	oes	bod	AUX	aux	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	dim	dim	ADV	adv	_	4	advmod	_	_
+4	awgrym	awgrym	NOUN	noun	Gender=Masc|Number=Sing	0	root	_	_
 5	ar	ar	ADP	prep	_	6	case	_	_
-6	hyn	hyn	PRON	dem	Number=Plur|PronType=Dem	3	nmod	_	_
+6	hyn	hyn	PRON	dem	Number=Plur|PronType=Dem	4	nmod	_	_
 7	o	o	ADP	prep	_	8	case	_	_
 8	bryd	bryd	NOUN	noun	Gender=Masc|Number=Sing	6	nmod	_	_
 9	faint	maint	NOUN	noun	Gender=Fem|Mutation=SM|Number=Sing	8	nmod	_	_
@@ -16297,7 +16297,7 @@
 14	eu	eu	PRON	dep	Number=Plur|Person=3|PronType=Prs	15	obj	_	_
 15	codi	codi	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	13	ccomp	_	_
 16	ond	ond	CCONJ	cconj	_	17	cc	_	_
-17	mae	bod	VERB	verb	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	SpaceAfter=No
+17	mae	bod	VERB	verb	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	SpaceAfter=No
 18	'r	y	DET	art	_	19	det	_	_
 19	cwmni	cwmni	NOUN	noun	Gender=Masc|Number=Sing	17	nsubj	_	_
 20	wedi	wedi	AUX	ante	_	21	aux	_	_
