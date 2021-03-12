@@ -112,7 +112,7 @@
 1	Mae	bod	VERB	verb	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	gan	gan	ADP	prep	_	4	case	_	_
 3	yr	y	DET	art	_	4	det	_	_
-4	Ariannin	Ariannin	PROPN	place	Number=Sing	1	obl:agent	_	_
+4	Ariannin	Ariannin	PROPN	place	Number=Sing	1	obl	_	_
 5	adnoddau	adnodd	NOUN	noun	Gender=Masc|Number=Plur	1	nsubj	_	_
 6	naturiol	naturiol	ADJ	pos	Degree=Pos	5	amod	_	_
 7	gwerthfawr	gwerthfawr	ADJ	pos	Degree=Pos	5	amod	_	SpaceAfter=No
@@ -134,7 +134,7 @@
 # text = Mae gan gerddoriaeth Cymru hanes hir, ond ychydig iawn o wybodaeth fanwl sydd gennym cyn y 18 g pan ddechreuodd hynafiaethwyr ymddiddori yn y pwnc.
 1	Mae	bod	VERB	verb	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	gan	gan	ADP	prep	_	3	case	_	_
-3	gerddoriaeth	cerddoriaeth	NOUN	noun	Gender=Fem|Mutation=SM|Number=Sing	1	obl:agent	_	_
+3	gerddoriaeth	cerddoriaeth	NOUN	noun	Gender=Fem|Mutation=SM|Number=Sing	1	obl	_	_
 4	Cymru	Cymru	PROPN	place	Gender=Fem|Number=Sing	3	nmod	_	_
 5	hanes	hanes	NOUN	noun	Gender=Masc|Number=Sing	1	nsubj	_	_
 6	hir	hir	ADJ	pos	Degree=Pos	5	amod	_	SpaceAfter=No
@@ -976,13 +976,13 @@
 
 # sent_id = 47
 # text = Oes eisiau bwyd ar y plant?
-1	Oes	bod	AUX	aux	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
-2	eisiau	eisiau	NOUN	noun	Gender=Masc|Number=Sing	0	root	_	_
+1	Oes	bod	VERB	verb	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	eisiau	eisiau	NOUN	noun	Gender=Masc|Number=Sing	1	nsubj	_	_
 3	bwyd	bwyd	NOUN	noun	Gender=Masc|Number=Sing	2	nmod	_	_
 4	ar	ar	ADP	prep	_	6	case	_	_
 5	y	y	DET	art	_	6	det	_	_
-6	plant	plentyn	NOUN	noun	Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
-7	?	?	PUNCT	punct	_	2	punct	_	SpacesAfter=\n
+6	plant	plentyn	NOUN	noun	Gender=Masc|Number=Plur	1	obl	_	SpaceAfter=No
+7	?	?	PUNCT	punct	_	1	punct	_	SpacesAfter=\n
 
 # sent_id = 48
 # text = Darllenwch y llyfryn yn ofalus.
@@ -2804,7 +2804,7 @@
 2	oes	oes	NOUN	noun	Gender=Fem|Number=Sing	0	root	_	_
 3-4	arnaf	_	_	_	_	_	_	_	_
 3	ar	ar	ADP	iprep	_	4	case	_	_
-4	i	i	PRON	indep	Number=Sing|Person=1|PronType=Prs	5	nmod	_	_
+4	i	i	PRON	indep	Number=Sing|Person=1|PronType=Prs	2	obl	_	_
 5	eisiau	eisiau	NOUN	noun	Gender=Masc|Number=Sing	2	nsubj	_	_
 6	cael	cael	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	5	xcomp	_	_
 7	fy	i	PRON	dep	Number=Sing|Person=1|PronType=Prs	8	obj	_	_
@@ -4851,17 +4851,17 @@
 2	croeso	croeso	NOUN	noun	Gender=Masc|Number=Sing	1	nsubj	_	_
 3	i	i	ADP	prep	_	4	case	_	_
 4	bawb	pawb	NOUN	noun	Gender=Masc|Mutation=SM|Number=Sing	2	nmod	_	SpaceAfter=No
-5	,	,	PUNCT	punct	_	8	punct	_	_
-6	nid	ni	PART	neg	_	8	advmod	_	_
-7	oes	bod	AUX	aux	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
-8	rhaid	rhaid	NOUN	noun	Gender=Masc|Number=Sing	1	parataxis	_	_
+5	,	,	PUNCT	punct	_	7	punct	_	_
+6	nid	ni	PART	neg	_	7	advmod	_	_
+7	oes	bod	VERB	verb	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	parataxis	_	_
+8	rhaid	rhaid	NOUN	noun	Gender=Masc|Number=Sing	7	nsubj	_	_
 9	bod	bod	AUX	verbnoun	Number=Sing|VerbForm=Vnoun	11	cop	_	_
 10	yn	yn	PART	pred	_	11	case:pred	_	_
 11	aelod	aelod	NOUN	noun	Gender=Masc|Number=Sing	8	acl	_	_
 12	o	o	ADP	prep	_	14	case	_	SpaceAfter=No
 13	'r	y	DET	art	_	14	det	_	_
 14	Gymdeithas	cymdeithas	NOUN	noun	Gender=Fem|Mutation=SM|Number=Sing	11	nmod	_	SpaceAfter=No
-15	.	.	PUNCT	punct	_	8	punct	_	SpacesAfter=\n
+15	.	.	PUNCT	punct	_	7	punct	_	SpacesAfter=\n
 
 # sent_id = 258
 # text = Cysylltwch gyda ni i ddarganfod pryd a ble mae'r cyfarfod nesaf yn cael ei gynnal.
@@ -5882,7 +5882,7 @@
 20	datrys	datrys	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	30	advcl	_	_
 21	y	y	DET	art	_	22	det	_	_
 22	problemau	problem	NOUN	noun	Gender=Masc|Number=Plur	20	obj	_	_
-23	a	a	CCONJ	cconj	_	24	cc	_	_
+23	a	a	PRON	rel	PronType=Rel	24	nsubj	_	_
 24	oedd	bod	VERB	verb	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	22	acl:relcl	_	_
 25-26	ganddynt	_	_	_	_	_	_	_	SpaceAfter=No
 25	gan	gan	ADP	iprep	_	26	case	_	_
@@ -7067,33 +7067,33 @@
 
 # sent_id = 360
 # text = Oes arian gennyt ti?
-1	Oes	bod	AUX	aux	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
-2	arian	arian	NOUN	noun	Gender=Masc|Number=Sing	0	root	_	_
+1	Oes	bod	VERB	verb	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	arian	arian	NOUN	noun	Gender=Masc|Number=Sing	1	nsubj	_	_
 3-4	gennyt	_	_	_	_	_	_	_	_
 3	gan	gan	ADP	iprep	_	4	case	_	_
-4	ti	ti	PRON	indep	Number=Sing|Person=2|PronType=Prs	2	obl	_	_
+4	ti	ti	PRON	indep	Number=Sing|Person=2|PronType=Prs	1	obl	_	_
 5	ti	ti	PRON	indep	Number=Sing|Person=2|PronType=Prs	4	compound:redup	_	SpaceAfter=No
-6	?	?	PUNCT	punct	_	2	punct	_	SpacesAfter=\n
+6	?	?	PUNCT	punct	_	1	punct	_	SpacesAfter=\n
 
 # sent_id = 361
 # text = Oes plant gennych chi?
-1	Oes	bod	AUX	aux	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
-2	plant	plentyn	NOUN	noun	Gender=Masc|Number=Plur	0	root	_	_
+1	Oes	bod	VERB	verb	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	plant	plentyn	NOUN	noun	Gender=Masc|Number=Plur	1	nsubj	_	_
 3-4	gennych	_	_	_	_	_	_	_	_
 3	gan	gan	ADP	iprep	_	4	case	_	_
-4	chi	chi	PRON	indep	Number=Plur|Person=2|PronType=Prs	2	obl	_	_
+4	chi	chi	PRON	indep	Number=Plur|Person=2|PronType=Prs	1	obl	_	_
 5	chi	chi	PRON	indep	Number=Plur|Person=2|PronType=Prs	4	compound:redup	_	SpaceAfter=No
-6	?	?	PUNCT	punct	_	2	punct	_	SpacesAfter=\n
+6	?	?	PUNCT	punct	_	1	punct	_	SpacesAfter=\n
 
 # sent_id = 362
 # text = Oes lwc ganddo fo?
-1	Oes	bod	AUX	aux	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
-2	lwc	lwc	NOUN	noun	Gender=Fem|Number=Sing	0	root	_	_
+1	Oes	bod	VERB	verb	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	lwc	lwc	NOUN	noun	Gender=Fem|Number=Sing	1	nsubj	_	_
 3-4	ganddo	_	_	_	_	_	_	_	_
 3	gan	gan	ADP	iprep	_	4	case	_	_
-4	e	e	PRON	indep	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obl	_	_
+4	e	e	PRON	indep	Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	obl	_	_
 5	fo	ef	PRON	indep	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	compound:redup	_	SpaceAfter=No
-6	?	?	PUNCT	punct	_	2	punct	_	SpacesAfter=\n
+6	?	?	PUNCT	punct	_	1	punct	_	SpacesAfter=\n
 
 # sent_id = 363
 # text = Nag oes, does dim arian gen i.
@@ -13144,13 +13144,13 @@
 
 # sent_id = 642
 # text = Oes arian ganddi hi?
-1	Oes	bod	AUX	aux	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
-2	arian	arian	NOUN	noun	Gender=Masc|Number=Sing	0	root	_	_
+1	Oes	bod	VERB	verb	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	arian	arian	NOUN	noun	Gender=Masc|Number=Sing	1	nsubj	_	_
 3-4	ganddi	_	_	_	_	_	_	_	_
 3	gan	gan	ADP	iprep	_	4	case	_	_
-4	hi	hi	PRON	indep	Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	obl	_	_
+4	hi	hi	PRON	indep	Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	obl	_	_
 5	hi	hi	PRON	indep	Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	compound:redup	_	SpaceAfter=No
-6	?	?	PUNCT	punct	_	2	punct	_	SpacesAfter=\n
+6	?	?	PUNCT	punct	_	1	punct	_	SpacesAfter=\n
 
 # sent_id = 643
 # text = Fydd arian gennyn ni?
@@ -13164,12 +13164,12 @@
 
 # sent_id = 644
 # text = Oes lwc ganddi?
-1	Oes	bod	AUX	aux	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
-2	lwc	lwc	NOUN	noun	Gender=Fem|Number=Sing	0	root	_	_
+1	Oes	bod	AUX	aux	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	lwc	lwc	NOUN	noun	Gender=Fem|Number=Sing	1	nsubj	_	_
 3-4	ganddi	_	_	_	_	_	_	_	SpaceAfter=No
 3	gan	gan	ADP	iprep	_	4	case	_	_
-4	hi	hi	PRON	indep	Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	obl	_	_
-5	?	?	PUNCT	punct	_	2	punct	_	SpacesAfter=\n
+4	hi	hi	PRON	indep	Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	obl	_	_
+5	?	?	PUNCT	punct	_	1	punct	_	SpacesAfter=\n
 
 # sent_id = 645
 # text = Mae hi ar ysgrifennu llythyr.
