@@ -1138,7 +1138,6 @@
 # sent_id = 57
 # text = Gwelir siâp strydoedd Canol Oesol y dref o hyn mewn strydoedd ger y Castell ar ben uchaf Aberystwyth.
 # en = One can see the outline of the medieavel streets of the town in the streets next to tha castle on A's upside
-# COMMENT: check attachment "o hyn"
 1	Gwelir	gweld	VERB	verb	Mood=Ind|Person=0|Tense=Fut|VerbForm=Fin	0	root	_	_
 2	siâp	siâp	NOUN	noun	Gender=Masc|Number=Sing	1	obj	_	_
 3	strydoedd	stryd	NOUN	noun	Gender=Fem|Number=Plur	2	nmod	_	_
@@ -3290,7 +3289,6 @@
 
 # sent_id = 173
 # text = Mae e'n siŵr o ddod os addawodd e.
-# COMMENT: check "o ddod"
 1	Mae	bod	AUX	aux	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
 2	e	ef	PRON	indep	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	SpaceAfter=No
 3	'n	yn	PART	pred	_	4	case:pred	_	_
