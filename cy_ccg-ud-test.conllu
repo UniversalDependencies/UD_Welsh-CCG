@@ -1592,7 +1592,7 @@
 8	y	y	DET	art	_	9	det	_	_
 9	ddaear	daear	NOUN	noun	Gender=Fem|Mutation=SM|Number=Sing	7	nmod	_	_
 10	a	a	PRON	rel	PronType=Rel	11	obj	_	_
-11	elwir	elwa	VERB	verb	Mood=Ind|Person=0|Tense=Fut|VerbForm=Fin	9	acl	_	_
+11	elwir	elwa	VERB	verb	Mood=Ind|Person=0|Tense=Fut|VerbForm=Fin	9	acl:relcl	_	_
 12	yn	yn	PART	pred	_	13	case:pred	_	_
 13	gyfandiroedd	cyfandir	NOUN	noun	Gender=Masc|Mutation=SM|Number=Plur	11	obj	_	SpaceAfter=No
 14	.	.	PUNCT	punct	_	11	punct	_	SpacesAfter=\n
@@ -2659,7 +2659,7 @@
 2	ôl	ôl	NOUN	noun	Gender=Masc|Number=Sing	8	obl	_	_
 3	yr	y	DET	art	_	4	det	_	_
 4	hyn	hyn	PRON	dem	Number=Plur|PronType=Dem	2	nmod	_	_
-5	a	a	PRON	rel	PronType=Rel	6	nsubj	_	_
+5	a	a	PRON	rel	PronType=Rel	6	obj	_	_
 6	ddeallaf	deall	VERB	verb	Mood=Ind|Mutation=SM|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	4	acl:relcl	_	SpaceAfter=No
 7	,	,	PUNCT	punct	_	8	punct	_	_
 8	ceir	cael	VERB	verb	Mood=Ind|Person=0|Tense=Fut|VerbForm=Fin	0	root	_	_
@@ -3390,7 +3390,7 @@
 3	deddfau	deddf	NOUN	noun	Gender=Fem|Number=Plur	1	obj	_	_
 4	penyd	penyd	NOUN	noun	Gender=Masc|Number=Sing	3	nmod	_	_
 5	a	a	PRON	rel	PronType=Rel	6	obj	_	_
-6	osodwyd	gosod	VERB	verb	Mood=Ind|Mutation=SM|Person=0|Tense=Past|VerbForm=Fin	3	acl	_	_
+6	osodwyd	gosod	VERB	verb	Mood=Ind|Mutation=SM|Person=0|Tense=Past|VerbForm=Fin	3	acl:relcl	_	_
 7	ar	ar	ADP	prep	_	9	case	_	_
 8	y	y	DET	art	_	9	det	_	_
 9	Cymry	Cymro	NOUN	noun	Gender=Masc|Number=Plur	6	obl	_	_
@@ -6303,7 +6303,7 @@
 14	caiff	cael	VERB	verb	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	12	acl:relcl	_	_
 15	y	y	DET	art	_	16	det	_	_
 16	gwaith	gwaith	NOUN	noun	Gender=Masc|Number=Sing	14	nsubj	_	_
-17	a	a	PRON	rel	PronType=Rel	18	nsubj	_	_
+17	a	a	PRON	rel	PronType=Rel	18	obj	_	_
 18	wnawn	gwneud	VERB	verb	Mood=Ind|Mutation=SM|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	16	acl:relcl	_	_
 19	ei	ef	PRON	dep	Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	obj	_	_
 20	wobrwyo	gwobrwyo	NOUN	verbnoun	Mutation=SM|Number=Sing|VerbForm=Vnoun	18	xcomp	_	SpaceAfter=No
@@ -9134,7 +9134,7 @@
 12	,	,	PUNCT	punct	_	15	punct	_	_
 13	ac	a	CCONJ	cconj	_	15	cc	_	_
 14	a	a	PRON	rel	PronType=Rel	15	obj	_	_
-15	nodir	nodi	VERB	verb	Mood=Ind|Person=0|Tense=Fut|VerbForm=Fin	6	conj	_	_
+15	nodir	nodi	VERB	verb	Mood=Ind|Person=0|Tense=Fut|VerbForm=Fin	4	acl:relcl	_	_
 16	ar	ar	ADP	prep	_	18	case	_	_
 17	y	y	DET	art	_	18	det	_	_
 18	map	map	NOUN	noun	Gender=Masc|Number=Sing	15	obl	_	_
@@ -11161,7 +11161,7 @@
 12	,	,	PUNCT	punct	_	14	punct	_	_
 13	pa	pa	ADJ	pos	Degree=Pos	14	amod	_	_
 14	un	un	NUM	num	_	2	parataxis	_	_
-15	a	a	PRON	rel	PronType=Rel	16	nsubj	_	_
+15	a	a	PART	aff	_	16	obj	_	_
 16	ydych	bod	VERB	verb	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	14	acl:relcl	_	_
 17	wedi	wedi	AUX	ante	_	18	aux	_	_
 18	canu	canu	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	16	xcomp	_	_
@@ -12064,8 +12064,8 @@
 9	blodau	blodyn	NOUN	noun	Gender=Masc|Number=Plur	7	nsubj	_	SpaceAfter=No
 10	'n	yn	AUX	impf	_	11	aux	_	_
 11	ymddangos	ymddangos	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	7	xcomp	_	_
-12	a	a	PRON	rel	PronType=Rel	13	obj	_	_
-13	gall	gallu	VERB	verb	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	11	ccomp	_	_
+12	a	a	CCONJ	cconj	_	13	cc	_	_
+13	gall	gallu	VERB	verb	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	7	conj	_	_
 14	eu	hwy	PRON	dep	Number=Plur|Person=3|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
 15	lliwiau	lliw	NOUN	noun	Gender=Masc|Number=Plur	13	nsubj	_	_
 16	nhw	hwy	PRON	indep	Number=Plur|Person=3|Poss=Yes|PronType=Prs	15	nmod:redup	_	_
@@ -16707,7 +16707,7 @@
 3	pedwar	pedwar	NUM	num	Gender=Masc	4	nummod	_	_
 4	darn	darn	NOUN	noun	Gender=Masc|Number=Sing	9	obl	_	_
 5	bach	bach	ADJ	pos	Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
-6	a	a	PRON	rel	PronType=Rel	7	nsubj	_	_
+6	a	a	PRON	rel	PronType=Rel	7	obj	_	_
 7	ddyfynnais	dyfynnu	VERB	verb	Mood=Ind|Mutation=SM|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	4	acl:relcl	_	SpaceAfter=No
 8	,	,	PUNCT	punct	_	9	punct	_	_
 9	mae	bod	VERB	verb	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_

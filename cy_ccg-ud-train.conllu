@@ -3542,7 +3542,7 @@
 5	am	am	ADP	prep	_	6	case	_	_
 6	weithlu	gweithlu	NOUN	noun	Gender=Masc|Mutation=SM|Number=Sing	2	obl	_	_
 7	a	a	PRON	rel	PronType=Rel	8	nsubj	_	_
-8	all	gallu	VERB	verb	Mood=Ind|Mutation=SM|Number=Plur|Person=2|Tense=Fut|VerbForm=Fin	6	acl:relcl	_	_
+8	all	gallu	VERB	verb	Mood=Ind|Mutation=SM|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	6	acl:relcl	_	_
 9	ddefnyddio	defnyddio	NOUN	verbnoun	Mutation=SM|Number=Sing|VerbForm=Vnoun	8	xcomp	_	SpaceAfter=No
 10	'r	y	DET	art	_	11	det	_	_
 11	Gymraeg	Cymraeg	NOUN	noun	Gender=Fem|Mutation=SM|Number=Sing	9	obj	_	_
@@ -4898,12 +4898,12 @@
 # sent_id = 175
 # text = Yn ôl rhagor o ddogfennau a ryddhawyd drwy geisiadau rhyddid gwybodaeth, ym mis Awst eleni anfonodd y Comisiynydd lythyr at Weinidog y Gymraeg yn brolio ei fod yn cynnal llai o ymchwiliadau i gwynion gan ddweud ei fod "ddiolchgar" i'r Gweinidog am ei "harweiniad ar y mater".
 1	Yn	yn	ADP	prep	_	2	case	_	_
-2	ôl	ôl	NOUN	noun	Gender=Masc|Number=Sing	7	obl	_	_
+2	ôl	ôl	NOUN	noun	Gender=Masc|Number=Sing	17	advcl	_	_
 3	rhagor	rhagor	NOUN	noun	Gender=Masc|Number=Sing	2	nmod	_	_
 4	o	o	ADP	prep	_	5	case	_	_
 5	ddogfennau	dogfen	NOUN	noun	Gender=Fem|Mutation=SM|Number=Plur	3	nmod	_	_
 6	a	a	PRON	rel	PronType=Rel	7	obj	_	_
-7	ryddhawyd	rhyddhau	VERB	verb	Mood=Ind|Mutation=SM|Person=0|Tense=Past|VerbForm=Fin	17	advcl	_	_
+7	ryddhawyd	rhyddhau	VERB	verb	Mood=Ind|Mutation=SM|Person=0|Tense=Past|VerbForm=Fin	5	acl:relcl	_	_
 8	drwy	drwy	ADP	prep	_	9	case	_	_
 9	geisiadau	ceisiad	NOUN	noun	Gender=Masc|Mutation=SM|Number=Plur	7	obl	_	_
 10	rhyddid	rhyddid	NOUN	noun	Gender=Masc|Number=Sing	9	nmod	_	_
@@ -11292,7 +11292,7 @@
 15	yn	yn	PART	pred	_	16	case:pred	_	_
 16	uwch	uchel	ADJ	cmp	Degree=Cmp	4	ccomp	_	_
 17	nag	na	ADP	prep	_	19	case	_	_
-18	a	a	PRON	rel	PronType=Rel	19	obj	_	_
+18	a	a	PART	aff	_	19	obj	_	_
 19	werthfawrogwyd	gwerthfawrogi	VERB	verb	Mood=Ind|Mutation=SM|Person=0|Tense=Past|VerbForm=Fin	16	conj	_	SpaceAfter=No
 20	.	.	PUNCT	punct	_	2	punct	_	SpacesAfter=\n
 
@@ -11671,7 +11671,7 @@
 12	o	o	ADP	prep	_	13	case	_	_
 13	Frwydr	brwydr	NOUN	noun	Gender=Masc|Mutation=SM|Number=Sing	11	nmod	_	_
 14	Passchendaele	Passchendaele	PROPN	place	Gender=Masc|Number=Sing	13	nmod	_	_
-15	a	a	PRON	rel	PronType=Rel	16	obj	_	_
+15	a	a	CCONJ	cconj	_	16	cc	_	_
 16	elwir	galw	VERB	verb	Mood=Ind|Person=0|Tense=Fut|VerbForm=Fin	5	conj	_	_
 17	hefyd	hefyd	ADV	adv	_	16	advmod	_	_
 18	yn	yn	PART	pred	_	20	case:pred	_	_
@@ -18606,7 +18606,7 @@
 # sent_id = 718
 # text = Ond a ydym wedi rhoi'r un lefel o ofal a sylw i'n hiechyd meddwl a'n lles?
 1	Ond	ond	CCONJ	cconj	_	3	cc	_	_
-2	a	a	PRON	rel	PronType=Rel	3	nsubj	_	_
+2	a	a	PART	int	_	3	nsubj	_	_
 3	ydym	bod	VERB	verb	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	wedi	wedi	AUX	ante	_	5	aux	_	_
 5	rhoi	rhoi	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	3	xcomp	_	SpaceAfter=No
