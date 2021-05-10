@@ -8143,41 +8143,43 @@
 # sent_id = 400
 # text = Dwi'n gobeithio y cewch eich gwefreiddio, fel y ces innau ar fy nhaith danteithiol; dim ond detholiad bychain yw'r lluniau hyn, ac nid pob delwedd a gyrhaeddodd y llyfr.
 # text[eng] = I hope you will be thrilled, as I was on my delicate journey; these photos are just a small selection, and not all images that arrived in the book.
-1	Dwi	bod	VERB	verb	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-2	'n	yn	AUX	impf	_	3	aux	_	_
-3	gobeithio	gobeithio	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	1	xcomp	_	_
-4	y	y	PART	aff	_	5	advmod	_	_
-5	cewch	cael	VERB	verb	Mood=Ind|Number=Plur|Person=2|Tense=Fut|VerbForm=Fin	3	ccomp	_	_
-6	eich	chi	PRON	dep	Number=Plur|Person=2|PronType=Prs	7	obj	_	_
-7	gwefreiddio	gwefreiddio	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	5	ccomp	_	SpaceAfter=No
-8	,	,	PUNCT	punct	_	11	punct	_	_
-9	fel	fel	CCONJ	cconj	_	11	cc	_	_
-10	y	y	DET	art	_	11	det	_	_
-11	ces	cael	VERB	verb	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	7	acl	_	_
-12	innau	i	PRON	contr	Number=Sing|Person=1|PronType=Emp	11	nsubj	_	_
-13	ar	ar	ADP	prep	_	15	case	_	_
-14	fy	i	PRON	dep	Number=Sing|Person=1|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
-15	nhaith	taith	NOUN	noun	Gender=Fem|Mutation=NM|Number=Sing	11	obl	_	_
-16	danteithiol	danteithiol	ADJ	pos	Degree=Pos	15	amod	_	SpaceAfter=No
-17	;	;	PUNCT	punct	_	20	punct	_	_
-18	dim	dim	ADV	adv	_	20	advmod	_	_
-19	ond	ond	CCONJ	cconj	_	18	fixed	_	_
-20	detholiad	detholiad	NOUN	noun	Gender=Masc|Number=Sing	1	parataxis	_	_
-21	bychain	bychan	ADJ	pos	Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	_
-22	yw	bod	AUX	aux	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	SpaceAfter=No
-23	'r	y	DET	art	_	24	det	_	_
-24	lluniau	llun	NOUN	noun	Gender=Masc|Number=Plur	20	nsubj	_	_
-25	hyn	hyn	PRON	dem	Number=Plur|PronType=Dem	24	det	_	SpaceAfter=No
-26	,	,	PUNCT	punct	_	30	punct	_	_
-27	ac	a	CCONJ	cconj	_	30	cc	_	_
-28	nid	ni	PART	neg	_	30	advmod	_	_
-29	pob	pob	ADJ	pos	Degree=Pos	30	amod	_	_
-30	delwedd	delwedd	NOUN	noun	Gender=Fem|Number=Sing	20	conj	_	_
-31	a	a	PRON	rel	PronType=Rel	32	nsubj	_	_
-32	gyrhaeddodd	cyrraedd	VERB	verb	Mood=Ind|Mutation=SM|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	30	acl:relcl	_	_
-33	y	y	DET	art	_	34	det	_	_
-34	llyfr	llyfr	NOUN	noun	Gender=Masc|Number=Sing	32	obj	_	SpaceAfter=No
-35	.	.	PUNCT	punct	_	20	punct	_	SpacesAfter=\n
+1-2	Dwi	_	_	_	_	_	_	_	SpaceAfter=No
+1	dw	bod	VERB	verb	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	i	i	PRON	indep	Number=Sing|Person=1|PronType=Prs	1	nsubj	_	_
+3	'n	yn	AUX	impf	_	4	aux	_	_
+4	gobeithio	gobeithio	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	1	xcomp	_	_
+5	y	y	PART	aff	_	6	advmod	_	_
+6	cewch	cael	VERB	verb	Mood=Ind|Number=Plur|Person=2|Tense=Fut|VerbForm=Fin	4	ccomp	_	_
+7	eich	chi	PRON	dep	Number=Plur|Person=2|PronType=Prs	8	obj	_	_
+8	gwefreiddio	gwefreiddio	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	6	ccomp	_	SpaceAfter=No
+9	,	,	PUNCT	punct	_	12	punct	_	_
+10	fel	fel	CCONJ	cconj	_	12	cc	_	_
+11	y	y	DET	art	_	12	det	_	_
+12	ces	cael	VERB	verb	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	8	acl	_	_
+13	innau	i	PRON	contr	Number=Sing|Person=1|PronType=Emp	12	nsubj	_	_
+14	ar	ar	ADP	prep	_	16	case	_	_
+15	fy	i	PRON	dep	Number=Sing|Person=1|Poss=Yes|PronType=Prs	16	nmod:poss	_	_
+16	nhaith	taith	NOUN	noun	Gender=Fem|Mutation=NM|Number=Sing	12	obl	_	_
+17	danteithiol	danteithiol	ADJ	pos	Degree=Pos	16	amod	_	SpaceAfter=No
+18	;	;	PUNCT	punct	_	21	punct	_	_
+19	dim	dim	ADV	adv	_	21	advmod	_	_
+20	ond	ond	CCONJ	cconj	_	19	fixed	_	_
+21	detholiad	detholiad	NOUN	noun	Gender=Masc|Number=Sing	1	parataxis	_	_
+22	bychain	bychan	ADJ	pos	Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	_
+23	yw	bod	AUX	aux	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	cop	_	SpaceAfter=No
+24	'r	y	DET	art	_	25	det	_	_
+25	lluniau	llun	NOUN	noun	Gender=Masc|Number=Plur	21	nsubj	_	_
+26	hyn	hyn	PRON	dem	Number=Plur|PronType=Dem	25	det	_	SpaceAfter=No
+27	,	,	PUNCT	punct	_	31	punct	_	_
+28	ac	a	CCONJ	cconj	_	31	cc	_	_
+29	nid	ni	PART	neg	_	31	advmod	_	_
+30	pob	pob	ADJ	pos	Degree=Pos	31	amod	_	_
+31	delwedd	delwedd	NOUN	noun	Gender=Fem|Number=Sing	21	conj	_	_
+32	a	a	PRON	rel	PronType=Rel	33	nsubj	_	_
+33	gyrhaeddodd	cyrraedd	VERB	verb	Mood=Ind|Mutation=SM|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	31	acl:relcl	_	_
+34	y	y	DET	art	_	35	det	_	_
+35	llyfr	llyfr	NOUN	noun	Gender=Masc|Number=Sing	33	obj	_	SpaceAfter=No
+36	.	.	PUNCT	punct	_	21	punct	_	SpacesAfter=\n
 
 # sent_id = 401
 # text = Mae'n bleser gen i felly gynnig oriel drawiadol i chi.
@@ -13455,28 +13457,32 @@
 # sent_id = 614
 # text = Dwi wedi rhoi'r llyfr i'r llyfrgell.
 # text[eng] = I've given the book to the library.
-1	Dwi	bod	VERB	verb	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
-2	wedi	wedi	AUX	ante	_	3	aux	_	_
-3	rhoi	rhoi	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	1	xcomp	_	SpaceAfter=No
-4	'r	y	DET	art	_	5	det	_	_
-5	llyfr	llyfr	NOUN	noun	Gender=Masc|Number=Sing	3	obj	_	_
-6	i	i	ADP	prep	_	8	case	_	SpaceAfter=No
-7	'r	y	DET	art	_	8	det	_	_
-8	llyfrgell	llyfrgell	NOUN	noun	Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
-9	.	.	PUNCT	punct	_	1	punct	_	SpacesAfter=\n
+1-2	Dwi	_	_	_	_	_	_	_	_
+1	dw	bod	VERB	verb	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	i	i	PRON	indep	Number=Sing|Person=1|PronType=Prs	1	nsubj	_	_
+3	wedi	wedi	AUX	ante	_	4	aux	_	_
+4	rhoi	rhoi	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	1	xcomp	_	SpaceAfter=No
+5	'r	y	DET	art	_	6	det	_	_
+6	llyfr	llyfr	NOUN	noun	Gender=Masc|Number=Sing	4	obj	_	_
+7	i	i	ADP	prep	_	9	case	_	SpaceAfter=No
+8	'r	y	DET	art	_	9	det	_	_
+9	llyfrgell	llyfrgell	NOUN	noun	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+10	.	.	PUNCT	punct	_	1	punct	_	SpacesAfter=\n
 
 # sent_id = 615
 # text = Dwi'n rhoi'r llyfr i'r llyfrgell.
 # text[eng] = I give the book to the library.
-1	Dwi	bod	VERB	verb	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-2	'n	yn	AUX	impf	_	3	aux	_	_
-3	rhoi	rhoi	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	1	xcomp	_	SpaceAfter=No
-4	'r	y	DET	art	_	5	det	_	_
-5	llyfr	llyfr	NOUN	noun	Gender=Masc|Number=Sing	3	obj	_	_
-6	i	i	ADP	prep	_	8	case	_	SpaceAfter=No
-7	'r	y	DET	art	_	8	det	_	_
-8	llyfrgell	llyfrgell	NOUN	noun	Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
-9	.	.	PUNCT	punct	_	1	punct	_	SpacesAfter=\n
+1-2	Dwi	_	_	_	_	_	_	_	SpaceAfter=No
+1	dw	bod	VERB	verb	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	i	i	PRON	indep	Number=Sing|Person=1|PronType=Prs	1	nsubj	_	_
+3	'n	yn	AUX	impf	_	4	aux	_	_
+4	rhoi	rhoi	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	1	xcomp	_	SpaceAfter=No
+5	'r	y	DET	art	_	6	det	_	_
+6	llyfr	llyfr	NOUN	noun	Gender=Masc|Number=Sing	4	obj	_	_
+7	i	i	ADP	prep	_	9	case	_	SpaceAfter=No
+8	'r	y	DET	art	_	9	det	_	_
+9	llyfrgell	llyfrgell	NOUN	noun	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+10	.	.	PUNCT	punct	_	1	punct	_	SpacesAfter=\n
 
 # sent_id = 616
 # text = Ydw'n gweithio'n gyflym?
@@ -13515,12 +13521,14 @@
 # sent_id = 619
 # text = Dwi ddim ar ennill arian.
 # text[eng] = I'm not on earning money.
-1	Dwi	bod	VERB	verb	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
-2	ddim	dim	PART	neg	Mutation=SM	1	advmod	_	_
-3	ar	ar	AUX	post	_	4	aux	_	_
-4	ennill	ennill	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	1	xcomp	_	_
-5	arian	arian	NOUN	noun	Gender=Masc|Number=Sing	4	obj	_	SpaceAfter=No
-6	.	.	PUNCT	punct	_	1	punct	_	SpacesAfter=\n
+1-2	Dwi	_	_	_	_	_	_	_	_
+1	dw	bod	VERB	verb	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	i	i	PRON	indep	Number=Sing|Person=1|PronType=Prs	1	nsubj	_	_
+3	ddim	dim	PART	neg	Mutation=SM	1	advmod	_	_
+4	ar	ar	AUX	post	_	5	aux	_	_
+5	ennill	ennill	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	1	xcomp	_	_
+6	arian	arian	NOUN	noun	Gender=Masc|Number=Sing	5	obj	_	SpaceAfter=No
+7	.	.	PUNCT	punct	_	1	punct	_	SpacesAfter=\n
 
 # sent_id = 620
 # text = Mi wnes i weithio.
@@ -20026,10 +20034,12 @@
 # sent_id = 904
 # text = Dwi'n wallgo!
 # text[eng] = I'm crazy!
-1	Dwi	bod	AUX	aux	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	cop	_	SpaceAfter=No
-2	'n	yn	PART	pred	_	3	case:pred	_	_
-3	wallgo	gwallgo	ADJ	pos	Degree=Pos|Gender=Masc|Mutation=SM|Number=Sing	0	root	_	SpaceAfter=No
-4	!	!	PUNCT	punct	_	3	punct	_	SpacesAfter=\n
+1-2	Dwi	_	_	_	_	_	_	_	SpaceAfter=No
+1	dw	bod	AUX	aux	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	cop	_	_
+2	i	i	PRON	indep	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+3	'n	yn	PART	pred	_	4	case:pred	_	_
+4	wallgo	gwallgo	ADJ	pos	Degree=Pos|Gender=Masc|Mutation=SM|Number=Sing	0	root	_	SpaceAfter=No
+5	!	!	PUNCT	punct	_	4	punct	_	SpacesAfter=\n
 
 # sent_id = 905
 # text = Ti yn!
