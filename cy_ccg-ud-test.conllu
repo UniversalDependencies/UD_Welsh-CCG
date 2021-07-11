@@ -2086,9 +2086,9 @@
 11-12	ganddo	_	_	_	_	_	_	_	_
 11	gan	gan	ADP	iprep	_	12	case	_	_
 12	e	e	PRON	indep	Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	obl	_	_
-13	fwy	mawr	ADJ	cmp	Degree=Cmp|Mutation=SM	15	amod	_	_
+13	fwy	mawr	ADJ	cmp	Degree=Cmp|Mutation=SM	10	nsubj	_	_
 14	o	o	ADP	prep	_	15	case	_	_
-15	gryfderau	cryfder	NOUN	noun	Gender=Masc|Mutation=SM|Number=Plur	10	nsubj	_	_
+15	gryfderau	cryfder	NOUN	noun	Gender=Masc|Mutation=SM|Number=Plur	13	nmod	_	_
 16	a	a	CCONJ	cconj	_	17	cc	_	_
 17	chyfleoedd	cyfle	NOUN	noun	Gender=Masc|Mutation=AM|Number=Plur	15	conj	_	_
 18	na	na	ADP	prep	_	20	case	_	SpaceAfter=No
