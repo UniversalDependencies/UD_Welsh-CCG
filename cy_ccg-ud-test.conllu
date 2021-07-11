@@ -135,7 +135,7 @@
 20	.	.	PUNCT	punct	_	5	punct	_	SpacesAfter=\n
 
 # sent_id = 5
-# text = Mae gan gerddoriaeth Cymru hanes hir, ond ychydig iawn o wybodaeth fanwl sydd gennym cyn y 18 g pan ddechreuodd hynafiaethwyr ymddiddori yn y pwnc.
+# text = Mae gan gerddoriaeth Cymru hanes hir, ond ychydig iawn o wybodaeth fanwl sydd gennym cyn y 18g pan ddechreuodd hynafiaethwyr ymddiddori yn y pwnc.
 # text[eng] = Welsh music has a long history, but we have very little detailed information before the 18 g when antiquaries began to take an interest in the subject.
 1	Mae	bod	VERB	verb	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	gan	gan	ADP	prep	_	3	case	_	_
@@ -156,7 +156,7 @@
 16	ni	ni	PRON	indep	Number=Plur|Person=1|PronType=Prs	14	obl	_	_
 17	cyn	cyn	ADP	prep	_	20	case	_	_
 18	y	y	DET	art	_	20	det	_	_
-19	18	18	ADJ	ord	Degree=Pos|NumType=Ord	20	amod	_	_
+19	18	18fed	ADJ	ord	Degree=Pos|NumType=Ord	20	amod	_	SpaceAfter=No
 20	g	canrif	NOUN	noun	Abbr=Yes|Gender=Masc|Mutation=SM|Number=Sing	12	nmod	_	_
 21	pan	pan	SCONJ	sconj	_	22	mark	_	_
 22	ddechreuodd	dechrau	VERB	verb	Mood=Ind|Mutation=SM|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	20	acl	_	_
@@ -3530,12 +3530,12 @@
 10	o	o	ADP	prep	_	11	case	_	_
 11	ddiwedd	diwedd	NOUN	noun	Gender=Masc|Mutation=SM|Number=Sing	4	nmod	_	_
 12	y	y	DET	art	_	14	det	_	_
-13	13	13	NUM	num	_	14	nummod	_	_
+13	13	13fed	ADJ	ord	Degree=Pos|NumType=Ord	14	amod	_	_
 14	ganrif	canrif	NOUN	noun	Gender=Fem|Mutation=SM|Number=Sing	11	nmod	_	_
 15	hyd	hyd	ADP	prep	_	16	case	_	_
 16	ddiwedd	diwedd	NOUN	noun	Gender=Masc|Mutation=SM|Number=Sing	4	nmod	_	_
 17	y	y	DET	art	_	19	det	_	_
-18	15	15	NUM	num	_	19	nummod	_	_
+18	15	15fed	ADJ	ord	Degree=Pos|NumType=Ord	19	amod	_	_
 19	ganrif	canrif	NOUN	noun	Gender=Fem|Mutation=SM|Number=Sing	16	nmod	_	SpaceAfter=No
 20	.	.	PUNCT	punct	_	1	punct	_	SpacesAfter=\n
 
@@ -9596,7 +9596,7 @@
 20	.	.	PUNCT	punct	_	2	punct	_	SpacesAfter=\n
 
 # sent_id = 465
-# text = Daeth y gwledydd hyn yn annibynnol dros ystod eang o amser, gan gychwyn yn y 17g (Portiwgal).
+# text = Daeth y gwledydd hyn yn annibynnol dros ystod eang o amser, gan gychwyn yn y 17 g (Portiwgal).
 # text[eng] = These countries became independent over a wide range of time, starting in the 17th century (Portugal).
 1	Daeth	dod	VERB	verb	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 2	y	y	DET	art	_	3	det	_	_
@@ -9612,13 +9612,14 @@
 12	,	,	PUNCT	punct	_	14	punct	_	_
 13	gan	gan	ADP	prep	_	14	mark	_	_
 14	gychwyn	cychwyn	NOUN	verbnoun	Mutation=SM|Number=Sing|VerbForm=Vnoun	8	acl	_	_
-15	yn	yn	ADP	prep	_	17	case	_	_
-16	y	y	DET	art	_	17	det	_	_
-17	17g	17g	NOUN	noun	Gender=Masc|Number=Sing	14	obl	_	_
-18	(	(	PUNCT	punct	_	19	punct	_	SpaceAfter=No
-19	Portiwgal	Portiwgal	PROPN	place	_	17	appos	_	SpaceAfter=No
-20	)	)	PUNCT	punct	_	19	punct	_	SpaceAfter=No
-21	.	.	PUNCT	punct	_	1	punct	_	SpacesAfter=\n
+15	yn	yn	ADP	prep	_	18	case	_	_
+16	y	y	DET	art	_	18	det	_	_
+17	17	17fed	ADJ	ord	Degree=Pos|NumType=Ord	18	amod	_	_
+18	g	canrif	NOUN	noun	Abbr=Yes|Gender=Masc|Mutation=SM|Number=Sing	14	obl	_	_
+19	(	(	PUNCT	punct	_	20	punct	_	SpaceAfter=No
+20	Portiwgal	Portiwgal	PROPN	place	_	18	appos	_	SpaceAfter=No
+21	)	)	PUNCT	punct	_	20	punct	_	SpaceAfter=No
+22	.	.	PUNCT	punct	_	1	punct	_	SpacesAfter=\n
 
 # sent_id = 466
 # text = Mae'n gwahanu yr IJsselmeer oddi wrth y Waddenzee ac yn cysylltu taleithiau Noord-Holland a Friesland ar hyd y briffordd Rijksweg 7.

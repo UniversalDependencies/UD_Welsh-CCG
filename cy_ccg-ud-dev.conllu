@@ -2795,7 +2795,7 @@
 6	hyd	hyd	ADP	prep	_	7	case	_	_
 7	ddechrau	dechrau	NOUN	noun	Gender=Masc|Mutation=SM|Number=Sing	1	obl	_	SpaceAfter=No
 8	'r	y	DET	art	_	10	det	_	_
-9	18	18	NUM	num	_	10	nummod	_	SpaceAfter=No
+9	18	18fed	ADJ	ord	Degree=Pos|NumType=Ord	10	amod	_	SpaceAfter=No
 10	g	canrif	NOUN	noun	Abbr=Yes|Gender=Masc|Mutation=SM|Number=Sing	7	nmod	_	SpaceAfter=No
 11	,	,	PUNCT	punct	_	13	punct	_	_
 12	yna	yna	ADV	adv	_	13	advmod	_	_
@@ -2805,7 +2805,7 @@
 16	hyd	hyd	ADP	prep	_	17	case	_	_
 17	ddiwedd	diwedd	NOUN	noun	Gender=Masc|Mutation=SM|Number=Sing	13	obl	_	_
 18	y	y	DET	art	_	20	det	_	_
-19	19	19	NUM	num	_	20	nummod	_	SpaceAfter=No
+19	19	19fed	ADJ	ord	Degree=Pos|NumType=Ord	20	amod	_	SpaceAfter=No
 20	g	canrif	NOUN	noun	Abbr=Yes|Gender=Masc|Mutation=SM|Number=Sing	17	nmod	_	SpaceAfter=No
 21	.	.	PUNCT	punct	_	13	punct	_	SpacesAfter=\n
 
@@ -2964,10 +2964,11 @@
 5	adeiladu	adeiladu	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	4	nmod	_	_
 6	llongau	llong	NOUN	noun	Gender=Masc|Number=Plur	5	obj	_	_
 7	llewyrchus	llewyrchus	ADJ	pos	Degree=Pos	6	amod	_	_
-8	yn	yn	ADP	prep	_	10	case	_	_
-9	y	y	DET	art	_	10	det	_	_
-10	19g	19g	NOUN	noun	Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
-11	.	.	PUNCT	punct	_	2	punct	_	SpacesAfter=\n
+8	yn	yn	ADP	prep	_	11	case	_	_
+9	y	y	DET	art	_	11	det	_	_
+10	19	19fed	ADJ	ord	Degree=Pos|NumType=Ord	11	amod	_	SpaceAfter=No
+11	g	canrif	NOUN	noun	Abbr=Yes|Gender=Masc|Mutation=SM|Number=Sing	2	obl	_	SpaceAfter=No
+12	.	.	PUNCT	punct	_	2	punct	_	SpacesAfter=\n
 
 # sent_id = 104
 # text = Tyfodd i fod yn dref marchnad i Lŷn gyfan, fel y tystia'r safle a adwaenir fel "Y Maes" lle y cynhelid y ffeiriau, a "Stryd Moch".
@@ -7000,7 +7001,7 @@
 11	ail	ail	ADJ	ord	Degree=Pos|NumType=Ord	12	amod	_	_
 12	hanner	hanner	NOUN	noun	Gender=Masc|Number=Sing	5	obl	_	_
 13	y	y	DET	art	_	15	det	_	_
-14	bedwaredd	pedwaredd	NUM	num	Gender=Fem|Mutation=SM	15	nummod	_	_
+14	bedwaredd	pedwerydd	ADJ	ord	Degree=Pos|Gender=Fem|Mutation=SM|NumType=Ord	15	amod	_	_
 15	ganrif	canrif	NOUN	noun	Gender=Fem|Mutation=SM|Number=Sing	12	nmod	_	_
 16	ar	ar	ADP	prep	_	17	case	_	_
 17	bymtheg	pymtheg	NUM	num	Mutation=SM	15	nmod	_	_
@@ -9518,7 +9519,7 @@
 10	seddi	sedd	NOUN	noun	Gender=Fem|Number=Plur	8	nmod	_	_
 11	a	a	CCONJ	cconj	_	12	cc	_	_
 12	chael	cael	NOUN	verbnoun	Mutation=AM|Number=Sing|VerbForm=Vnoun	7	conj	_	_
-13	77,571	77,571	NUM	num	_	12	obj	_	SpaceAfter=No
+13	77,571	77571	NUM	num	_	12	obj	_	SpaceAfter=No
 14	o	o	ADP	prep	_	15	case	_	_
 15	bleidleisiau	pleidlais	NOUN	noun	Gender=Masc|Mutation=SM|Number=Plur	13	nmod	_	_
 16	yn	yn	ADP	prep	_	18	case	_	_
