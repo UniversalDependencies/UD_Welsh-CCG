@@ -8739,7 +8739,7 @@
 17	felly	felly	ADV	adv	_	18	advmod	_	_
 18	mae	bod	VERB	verb	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	_
 19	lot	lot	NOUN	noun	Gender=Masc|Number=Sing	18	nsubj	_	_
-20	mwy	mawr	ADJ	cmp	Degree=Cmp	19	amod	_	_
+20	mwy	mawr	ADJ	cmp	Degree=Cmp	19	nmod	_	_
 21	o	o	ADP	prep	_	22	case	_	_
 22	amser	amser	NOUN	noun	Gender=Masc|Number=Sing	19	nmod	_	_
 23	gyda	gyda	ADP	prep	_	24	case	_	_

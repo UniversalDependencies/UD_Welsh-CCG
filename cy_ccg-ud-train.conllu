@@ -7257,7 +7257,7 @@
 # text[eng] = Many more Welsh books have been published and dozens of Welsh-language newspapers have been established throughout Wales.
 1	Cyhoeddwyd	cyhoeddi	VERB	verb	Mood=Ind|Person=0|Tense=Past|VerbForm=Fin	0	root	_	_
 2	llawer	llawer	NOUN	noun	Gender=Masc|Number=Sing	1	obj	_	_
-3	mwy	mawr	ADJ	cmp	Degree=Cmp	2	amod	_	_
+3	mwy	mawr	ADJ	cmp	Degree=Cmp	2	nmod	_	_
 4	o	o	ADP	prep	_	5	case	_	_
 5	lyfrau	llyfr	NOUN	noun	Gender=Masc|Mutation=SM|Number=Plur	3	nmod	_	_
 6	Cymraeg	Cymraeg	ADJ	pos	Degree=Pos	5	amod	_	_
@@ -8685,7 +8685,7 @@
 # text = Angen mwy o wybodaeth?
 # text[eng] = Need more information?
 1	Angen	angen	NOUN	noun	Gender=Masc|Number=Sing	0	root	_	_
-2	mwy	mawr	ADJ	cmp	Degree=Cmp	1	amod	_	_
+2	mwy	mawr	ADJ	cmp	Degree=Cmp	1	nmod	_	_
 3	o	o	ADP	prep	_	4	case	_	_
 4	wybodaeth	gwybodaeth	NOUN	noun	Gender=Fem|Mutation=SM|Number=Sing	1	nmod	_	SpaceAfter=No
 5	?	?	PUNCT	punct	_	1	punct	_	SpacesAfter=\n
