@@ -11467,7 +11467,7 @@
 8	ti	ti	PRON	indep	Number=Sing|Person=2|PronType=Prs	6	obl	_	_
 9	chdi	ti	PRON	indep	Number=Sing|Person=2|PronType=Prs	8	compound:redup	_	_
 10	trwy	trwy	ADP	prep	_	11	case	_	_
-11	dydd	dydd	NOUN	noun	Gender=Masc|Number=Sing	6	advmod	_	SpaceAfter=No
+11	dydd	dydd	NOUN	noun	Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
 12	.	.	PUNCT	punct	_	1	punct	_	SpacesAfter=\n
 
 # sent_id = cy_ccg_train:00419
