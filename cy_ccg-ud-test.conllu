@@ -5658,7 +5658,7 @@
 7	tan	tan	ADP	prep	_	8	mark	_	_
 8	ddechrau	dechrau	NOUN	noun	Gender=Masc|Mutation=SM|Number=Sing	5	acl	_	SpaceAfter=No
 9	'r	y	DET	art	_	11	det	_	_
-10	19eg	19eg	ADP	prep	_	11	case	_	_
+10	19eg	19eg	ADJ	ord	Degree=Pos|NumType=Ord	11	amod	_	_
 11	ganrif	canrif	NOUN	noun	Gender=Fem|Mutation=SM|Number=Sing	8	nmod	_	SpaceAfter=No
 12	.	.	PUNCT	punct	_	5	punct	_	SpacesAfter=\n
 
