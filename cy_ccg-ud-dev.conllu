@@ -8268,7 +8268,7 @@
 13-14	wrthym	_	_	_	_	_	_	_	_
 13	wrth	wrth	ADP	iprep	_	14	case	_	_
 14	ni	ni	PRON	indep	Number=Plur|Person=1|PronType=Prs	12	obl	_	_
-15	fod	bod	NOUN	verbnoun	Mutation=SM|Number=Sing|VerbForm=Vnoun	12	advcl	_	_
+15	fod	bod	NOUN	verbnoun	Mutation=SM|Number=Sing|VerbForm=Vnoun	12	ccomp	_	_
 16	hunan-stigma	hunan-stigma	NOUN	noun	Gender=Masc|Number=Sing	15	nsubj	_	_
 17	wedi	wedi	AUX	ante	_	18	aux	_	_
 18	cynyddu	cynyddu	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	15	xcomp	_	SpaceAfter=No

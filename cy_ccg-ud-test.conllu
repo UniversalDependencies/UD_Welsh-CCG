@@ -3767,7 +3767,7 @@
 10	wedi	wedi	AUX	ante	_	11	aux	_	_
 11	dweud	dweud	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	8	xcomp	_	_
 12	eu	hwy	PRON	dep	Number=Plur|Person=3|PronType=Prs	13	nsubj	_	_
-13	bod	bod	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	11	advcl	_	_
+13	bod	bod	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	11	ccomp	_	_
 14	yn	yn	AUX	impf	_	15	aux	_	_
 15	gallu	gallu	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	13	xcomp	_	_
 16	siarad	siarad	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	15	xcomp	_	_
@@ -17893,13 +17893,13 @@
 12	teimlad	teimlad	NOUN	noun	Gender=Masc|Number=Sing	2	parataxis	_	_
 13	gwell	da	ADJ	cmp	Degree=Cmp|Gender=Masc|Number=Sing	12	amod	_	_
 14	na	na	ADP	prep	_	15	case	_	_
-15	chwarae	chwarae	NOUN	noun	Gender=Masc|Number=Sing	12	nmod	_	_
-16	darn	darn	NOUN	noun	Gender=Masc|Number=Sing	15	nmod	_	_
+15	chwarae	chwarae	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	12	nmod	_	_
+16	darn	darn	NOUN	noun	Gender=Masc|Number=Sing	15	obj	_	_
 17	gwych	gwych	ADJ	pos	Degree=Pos	16	amod	_	_
 18	o	o	ADP	prep	_	19	case	_	_
-19	gerddoriaeth	cerddoriaeth	NOUN	noun	Gender=Fem|Mutation=SM|Number=Sing	15	nmod	_	_
+19	gerddoriaeth	cerddoriaeth	NOUN	noun	Gender=Fem|Mutation=SM|Number=Sing	16	nmod	_	_
 20	i	i	ADP	prep	_	21	case	_	_
-21	gynulleidfa	cynulleidfa	NOUN	noun	Gender=Fem|Mutation=SM|Number=Sing	15	nmod	_	SpaceAfter=No
+21	gynulleidfa	cynulleidfa	NOUN	noun	Gender=Fem|Mutation=SM|Number=Sing	15	obl	_	SpaceAfter=No
 22	.	.	PUNCT	punct	_	12	punct	_	SpacesAfter=\n
 
 # sent_id = cy_ccg_test:00818
