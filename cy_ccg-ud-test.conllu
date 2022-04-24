@@ -976,7 +976,7 @@
 2	i	i	PRON	indep	Number=Sing|Person=1|PronType=Prs	1	nsubj	_	SpaceAfter=No
 3	'n	yn	AUX	impf	_	4	aux	_	_
 4	gadael	gadael	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	1	xcomp	_	_
-5	cyn	cyn	ADP	prep	_	8	case	_	_
+5	cyn	cyn	ADP	prep	_	8	mark	_	_
 6	i	i	ADP	prep	_	7	case	_	_
 7	ti	ti	PRON	indep	Number=Sing|Person=2|PronType=Prs	8	nsubj	_	_
 8	gyrraedd	cyrraedd	NOUN	verbnoun	Mutation=SM|Number=Sing|VerbForm=Vnoun	4	advcl	_	SpaceAfter=No
@@ -18882,7 +18882,7 @@
 8	gwybodaeth	gwybodaeth	NOUN	noun	Gender=Fem|Number=Sing	7	nmod	_	_
 9	i	i	ADP	prep	_	10	mark	_	_
 10	gwpla	cwpla	NOUN	verbnoun	Mutation=SM|Number=Sing|VerbForm=Vnoun	4	advcl	_	_
-11	cyn	cyn	ADP	prep	_	14	case	_	_
+11	cyn	cyn	ADP	prep	_	14	mark	_	_
 12	i	i	ADP	prep	_	13	advcl	_	_
 13	ti	ti	PRON	indep	Gender=Masc|Number=Sing|Person=2|PronType=Prs	14	nsubj	_	_
 14	allu	gallu	NOUN	verbnoun	Mutation=SM|Number=Sing|VerbForm=Vnoun	10	advcl	_	_
