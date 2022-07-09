@@ -4873,10 +4873,9 @@
 21	ym	yn	ADP	prep	_	22	case	_	_
 22	Mae	bae	NOUN	noun	Gender=Masc|Mutation=NM|Number=Sing	19	nmod	_	_
 23	Colwyn	Colwyn	PROPN	place	Gender=Masc|Number=Sing	22	flat	_	_
-24	am	am	ADP	prep	_	26	case	_	_
-25	3.	3.	NUM	num	NumForm=Combi|NumType=Card	26	nummod	_	SpaceAfter=No
-26	30	30	NUM	num	NumForm=Digit|NumType=Card	22	nmod	_	SpaceAfter=No
-27	.	.	PUNCT	punct	_	5	punct	_	SpacesAfter=\n
+24	am	am	ADP	prep	_	25	case	_	_
+25	3.30	3.30	NUM	num	NumForm=Combi|NumType=Card	22	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	punct	_	5	punct	_	SpacesAfter=\n
 
 # sent_id = cy_ccg_train:00168
 # text = Dyw union leoliadau'r digwyddiadau hyn ddim wedi'u datgelu chwaith.
