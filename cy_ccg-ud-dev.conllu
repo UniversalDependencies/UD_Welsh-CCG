@@ -501,7 +501,7 @@
 1	Brexit	Brexit	PROPN	event	Gender=Masc|Number=Sing	4	nsubj	_	_
 2	yw	bod	AUX	aux	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	SpaceAfter=No
 3	'r	y	DET	art	_	4	det	_	_
-4	broses	proses	NOUN	noun	Gender=Masc|Mutation=SM|Number=Sing	0	root	_	_
+4	broses	proses	NOUN	noun	Gender=Fem|Mutation=SM|Number=Sing	0	root	_	_
 5	wleidyddol	gwleidyddol	ADJ	pos	Degree=Pos|Mutation=SM	4	amod	_	_
 6	ryfeddaf	rhyfedd	ADJ	sup	Degree=Sup|Mutation=SM	4	amod	_	_
 7	i	i	ADP	prep	_	8	case	_	_
@@ -1122,7 +1122,7 @@
 9	e	e	PRON	indep	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	obl	_	_
 10	yn	yn	ADP	prep	_	12	case	_	_
 11	y	y	DET	art	_	12	det	_	_
-12	Beibl	Beibl	NOUN	noun	Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No
+12	Beibl	Beibl	NOUN	noun	Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
 13	,	,	PUNCT	punct	_	16	punct	_	_
 14	mewn	mewn	ADP	prep	_	16	case	_	_
 15	hen	hen	ADJ	pos	Degree=Pos	16	amod	_	_
@@ -4039,7 +4039,7 @@
 6	ddi-enw	di-enw	NOUN	noun	Gender=Masc|Mutation=SM|Number=Sing	5	nmod	_	_
 7	i	i	ADP	prep	_	9	case	_	SpaceAfter=No
 8	'r	y	DET	art	_	9	det	_	_
-9	Dinesydd	dinesydd	NOUN	noun	Gender=Fem|Number=Sing	4	obl	_	_
+9	Dinesydd	dinesydd	NOUN	noun	Gender=Masc|Number=Sing	4	obl	_	_
 10	am	am	ADP	prep	_	11	case	_	_
 11	helyntion	helynt	NOUN	noun	Gender=Masc|Number=Plur	4	obl	_	_
 12	y	y	DET	art	_	13	det	_	_
@@ -6078,12 +6078,12 @@
 28	ar	ar	ADP	prep	_	29	case	_	_
 29	gyfer	cyfer	NOUN	noun	Gender=Masc|Mutation=SM|Number=Sing	25	obl	_	_
 30	ei	hi	PRON	dep	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	31	nmod:poss	_	_
-31	drafft	drafft	NOUN	noun	Gender=Fem|Number=Sing	29	nmod	_	_
+31	drafft	drafft	NOUN	noun	Gender=Masc|Number=Sing	29	nmod	_	_
 32	terfynol	terfynol	ADJ	pos	Degree=Pos	31	amod	_	SpaceAfter=No
 33	,	,	PUNCT	punct	_	36	punct	_	_
 34	a	a	CCONJ	cconj	_	36	cc	_	SpaceAfter=No
 35	'r	y	DET	art	_	36	det	_	_
-36	drafft	drafft	NOUN	noun	Gender=Fem|Number=Sing	31	conj	_	_
+36	drafft	drafft	NOUN	noun	Gender=Masc|Number=Sing	31	conj	_	_
 37	bydd	bod	VERB	verb	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	36	acl:relcl	_	_
 38	yn	yn	AUX	impf	_	39	aux	_	_
 39	ymddangos	ymddangos	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	37	xcomp	_	_
