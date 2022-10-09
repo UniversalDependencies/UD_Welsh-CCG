@@ -1983,7 +1983,6 @@
 # sent_id = cy_ccg_test:00105
 # text = Rydym wedi paratoi taflen ddwyieithog yn arbennig ar gyfer dysgwyr a'u tiwtoriaid.
 # text_eng = We have produced a bilingual leaflet especially for learners and their tutors.
-# We have prepared a bilingual leaflet specially for learners and their tutors
 1-2	Rydym	_	_	_	_	_	_	_	_
 1	yr	y	PART	aff	_	2	advmod	_	_
 2	ydym	bod	VERB	verb	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -2627,7 +2626,6 @@
 # sent_id = cy_ccg_test:00135
 # text = Erbyn hynny, bydd mis wedi pasio ers diwedd yr ŵyl yng Nghaerdydd, ac mae trefnwyr yn awyddus i glywed eich barn ar nifer o agweddau.
 # text_eng = By then, a month has passed since the end of the festival in Cardiff, and organizers are keen to hear your views on a number of aspects.
-# i + verbnoun: case or mark ?
 1	Erbyn	erbyn	ADP	prep	_	2	case	_	_
 2	hynny	hyn	PRON	dem	Number=Plur|PronType=Dem	4	obl	_	SpaceAfter=No
 3	,	,	PUNCT	punct	_	4	punct	_	_
@@ -5044,7 +5042,6 @@
 # sent_id = cy_ccg_test:00255
 # text = Mae tua 350000 o bobl yn cerdded i gopa'r Wyddfa bob blwyddyn, a thua 60000 arall yn cyrraedd y copa ar y trên bach.
 # text_eng = Around 350000 people walk to the summit of Snowdon every year, and another 60000 reach the summit by train.
-# COMMENT ellipsis of "sydd" for "yn cyrraedd"
 1	Mae	bod	VERB	verb	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	tua	tua	ADP	prep	_	3	case	_	_
 3	350000	350000	NUM	num	NumForm=Digit|NumType=Card	1	nsubj	_	_
@@ -5995,7 +5992,6 @@
 # sent_id = cy_ccg_test:00303
 # text = Cafodd ei dderbyn (yn answyddogol) fel y dull rhyngwladol o fesur amser a dyddiadau ers degawdau yn y byd cyfathrebu, teithio a diwydiant, a chaiff ei adnabod gan sefydliadau rhyngwladol megis y Cenhedloedd Unedig.
 # text_eng = It has been (unofficially) accepted as the international method of measuring time and dates for decades in the world of communication, travel and industry, and is recognized by international organizations such as the United Nations.
-# OK
 1	Cafodd	cael	VERB	verb	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 2	ei	hi	PRON	dep	Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
 3	dderbyn	derbyn	NOUN	verbnoun	Mutation=SM|Number=Sing|VerbForm=Vnoun	1	ccomp	_	_
@@ -6062,7 +6058,6 @@
 # sent_id = cy_ccg_test:00305
 # text = Roedd porthladd Caerdydd yn cael ei adnabod fel "Tiger Bay", ac ar un adeg hon oedd un o borthladdoedd prysuraf y byd.
 # text_eng = The port of Cardiff was known as "Tiger Bay", and was once one of the busiest ports in the world.
-# OK
 1-2	Roedd	_	_	_	_	_	_	_	_
 1	yr	y	PART	aff	_	2	advmod	_	_
 2	oedd	bod	VERB	verb	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
@@ -9021,7 +9016,6 @@
 # sent_id = cy_ccg_test:00443
 # text = Mae'r Llywodraeth wedi bod cystal â'i gair, ac yr wyf yn ddiolchgar bod John Griffiths wedi gallu sicrhau'r buddsoddiad ychwanegol hwnnw.
 # text_eng = The Government has been good at its word, and I am grateful that John Griffiths was able to secure that additional investment.
-# TOSO: cystal
 1	Mae	bod	VERB	verb	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 2	'r	y	DET	art	_	3	det	_	_
 3	Llywodraeth	llywodraeth	NOUN	noun	Gender=Fem|Number=Sing	1	nsubj	_	_
