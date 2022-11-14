@@ -5,113 +5,118 @@
        fused is the number of tokens that are split to two or more syntactic words
        The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
   <size>
-    <total><sentences>2338</sentences><tokens>44268</tokens><words>45011</words><fused>741</fused></total>
-    <train><sentences>976</sentences><tokens>18522</tokens><words>18862</words><fused>340</fused></train>
+    <total><sentences>2473</sentences><tokens>47747</tokens><words>48530</words><fused>781</fused></total>
+    <train><sentences>1111</sentences><tokens>22001</tokens><words>22381</words><fused>380</fused></train>
     <dev><sentences>409</sentences><tokens>8991</tokens><words>9123</words><fused>131</fused></dev>
     <test><sentences>953</sentences><tokens>16755</tokens><words>17026</words><fused>270</fused></test>
   </size>
-  <lemmas unique="4463" /><!-- y, yn, bod, ., i, ,, a, o, ar, ef, ni, wedi, hwy, cael, am -->
-  <forms unique="6740" /><!-- yn, ., i, ,, y, 'r, o, a, 'n, yr, mae, ar, wedi, ei, ac -->
-  <fusions unique="153" /><!-- roedd, rydym, does, iddo, rydw, dwi, iddi, rwy, ati, rydyn, roeddwn, ganddo, doedd, rydych, gennym -->
+  <lemmas unique="4641" /><!-- y, yn, bod, ., i, ,, a, o, ar, ef, ni, wedi, hwy, cael, am -->
+  <forms unique="7017" /><!-- yn, ., i, ,, y, 'r, o, a, yr, 'n, mae, ar, wedi, ei, ac -->
+  <fusions unique="154" /><!-- roedd, rydym, does, iddo, rydw, dwi, iddi, rwy, roeddwn, rydyn, ati, doedd, ganddo, gennym, rydych -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="15">
-    <tag name="ADJ">3068</tag><!-- mawr, Cymraeg, pob, da, newydd, arall, cynnar, lleol, cenedlaethol, prif -->
-    <tag name="ADP">6005</tag><!-- i, o, yn, ar, am, gan, â, mewn, gyda, fel -->
-    <tag name="ADV">1060</tag><!-- hefyd, yma, yna, iawn, dim, dyma, felly, ymlaen, mor, allan -->
-    <tag name="AUX">2675</tag><!-- yn, bod, wedi, ar, newydd, am, heb -->
-    <tag name="CCONJ">1305</tag><!-- a, ond, neu, na, ai, ag, oni, onid, achos, mai -->
-    <tag name="DET">2800</tag><!-- y, pa, an, The -->
-    <tag name="NOUN">13676</tag><!-- bod, cael, ôl, dod, iaith, mynd, gwneud, ysgol, Cymraeg, peth -->
-    <tag name="NUM">588</tag><!-- un, dau, tri, pedwar, chwech, 4, pump, ugain, 2019, 500 -->
-    <tag name="PART">1961</tag><!-- yn, y, ni, na, dim, fe, mi, a, yna, ai -->
-    <tag name="PRON">3081</tag><!-- ef, i, hwy, ni, hi, chi, hyn, ti, a, e -->
-    <tag name="PROPN">1713</tag><!-- Cymru, Bangor, Gwynedd, Caerdydd, Eryri, Lloegr, Aberystwyth, Jones, Ewrop, Môn -->
-    <tag name="PUNCT">4194</tag><!-- ., ,, ", ?, –, (, ), !, -, : -->
-    <tag name="SCONJ">220</tag><!-- pan, os, mai, pe, achos, wedi, taw, oherwydd, tra, a -->
-    <tag name="SYM">23</tag><!-- %, £ -->
-    <tag name="VERB">2642</tag><!-- bod, cael, gallu, dod, gwneud, gweld, dylu, mynd, dweud, darfod -->
+    <tag name="ADJ">3322</tag><!-- mawr, Cymraeg, pob, da, newydd, arall, cynnar, lleol, cenedlaethol, agos -->
+    <tag name="ADP">6502</tag><!-- i, o, yn, ar, am, gan, â, mewn, gyda, fel -->
+    <tag name="ADV">1134</tag><!-- hefyd, yma, yna, iawn, dim, dyma, felly, ymlaen, mor, heddiw -->
+    <tag name="AUX">2857</tag><!-- yn, bod, wedi, ar, am, newydd, heb -->
+    <tag name="CCONJ">1431</tag><!-- a, ond, neu, na, ai, ag, oni, onid, achos, canys -->
+    <tag name="DET">3051</tag><!-- y, pa, an, The -->
+    <tag name="NOUN">14768</tag><!-- bod, cael, ôl, iaith, dod, mynd, ysgol, gwneud, blwyddyn, Cymraeg -->
+    <tag name="NUM">639</tag><!-- un, dau, tri, pedwar, chwech, 4, pump, ugain, 2019, tair -->
+    <tag name="PART">2083</tag><!-- yn, y, ni, na, dim, fe, mi, a, yna, ai -->
+    <tag name="PRON">3257</tag><!-- ef, hwy, i, ni, hi, chi, hyn, a, ti, e -->
+    <tag name="PROPN">1919</tag><!-- Cymru, Bangor, Gwynedd, Caerdydd, Eryri, Lloegr, Aberystwyth, Jones, Iwerddon, Ewrop -->
+    <tag name="PUNCT">4493</tag><!-- ., ,, ", ?, –, (, ), !, -, : -->
+    <tag name="SCONJ">232</tag><!-- pan, os, mai, pe, achos, wedi, taw, oherwydd, tra, a -->
+    <tag name="SYM">35</tag><!-- %, £, m -->
+    <tag name="VERB">2807</tag><!-- bod, cael, gallu, dod, gwneud, gweld, dylu, mynd, dweud, darfod -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="38">
+  <feats unique="43">
     <feat name="Abbr" value="Yes" upos="ADV,NOUN,PROPN">48</feat><!-- BBC, g, UE, DU, UDA, b, A487, A55, AC, BBC1 -->
-    <feat name="Degree" value="Cmp" upos="ADJ">150</feat><!-- mwy, fwy, bellach, uwch, well, nes, gwell, hŷn, ehangach, amlach -->
-    <feat name="Degree" value="Equ" upos="ADJ">29</feat><!-- ogystal, cystal, belled, gryfed, gynted, gystal, rhated -->
-    <feat name="Degree" value="Pos" upos="ADJ">2684</feat><!-- newydd, Cymraeg, bob, Gymraeg, eraill, lleol, arall, pob, mawr, fawr -->
-    <feat name="Degree" value="Sup" upos="ADJ">205</feat><!-- cyntaf, mwyaf, nesaf, gyntaf, fwyaf, gorau, uchaf, diwethaf, olaf, gwaethaf -->
-    <feat name="Foreign" value="Yes" upos="ADJ,DET,NOUN,PROPN">18</feat><!-- the, Bay, From, Horizon, Iron, Jubilee, Lady, Na, Nation, New -->
-    <feat name="Gender" value="Fem" upos="ADJ,NOUN,NUM,PRON,PROPN">3476</feat><!-- hi, Cymru, iaith, ysgol, Gymraeg, ei, Nghymru, rhan, wythnos, Eisteddfod -->
-    <feat name="Gender" value="Masc" upos="ADJ,NOUN,NUM,PRON,PROPN">8692</feat><!-- ei, ôl, e, 'i, nifer, cyngor, gwaith, gyfer, mwyn, rhaid -->
-    <feat name="Mood" value="Cnd" upos="AUX,VERB">150</feat><!-- byddai, dylai, fyddai, ddylai, allai, gallai, gellid, byddech, arferai, adnabyddid -->
+    <feat name="Degree" value="Cmp" upos="ADJ">162</feat><!-- mwy, fwy, bellach, well, uwch, nes, gwell, hŷn, ehangach, amlach -->
+    <feat name="Degree" value="Equ" upos="ADJ">30</feat><!-- ogystal, cystal, belled, gryfed, gynted, gystal, rhated -->
+    <feat name="Degree" value="Pos" upos="ADJ">2909</feat><!-- newydd, Cymraeg, Gymraeg, bob, lleol, eraill, arall, pob, fawr, mawr -->
+    <feat name="Degree" value="Sup" upos="ADJ">221</feat><!-- cyntaf, mwyaf, nesaf, gyntaf, uchaf, diwethaf, fwyaf, gorau, olaf, gwaethaf -->
+    <feat name="Foreign" value="Yes" upos="ADJ,DET,NOUN,PROPN">27</feat><!-- na, the, Bay, Conradh, Croí, Electric, From, Féile, Gaeilge, Horizon -->
+    <feat name="Gender" value="Fem" upos="ADJ,NOUN,NUM,PRON,PROPN">3788</feat><!-- hi, Cymru, iaith, Gymraeg, ysgol, ei, Nghymru, Eisteddfod, rhan, ardal -->
+    <feat name="Gender" value="Masc" upos="ADJ,NOUN,NUM,PRON,PROPN">9446</feat><!-- ei, ôl, e, 'i, nifer, gwaith, gyfer, cyngor, mwyn, rhaid -->
+    <feat name="Mood" value="Cnd" upos="AUX,VERB">154</feat><!-- byddai, dylai, fyddai, ddylai, allai, gallai, gellid, byddech, arferai, adnabyddid -->
     <feat name="Mood" value="Imp" upos="VERB">76</feat><!-- peidiwch, dewch, Paid, cofiwch, ewch, Edrychwn, Rho, Ymunwch, cysylltwch, dywedwch -->
-    <feat name="Mood" value="Ind" upos="AUX,VERB">3212</feat><!-- mae, oedd, yw, sy, sydd, bydd, fydd, oes, ydych, ydw -->
-    <feat name="Mood" value="Sub" upos="AUX,VERB">10</feat><!-- fo, gweler, baech, bof, sylwer, ystyrier -->
-    <feat name="Mutation" value="AM" upos="ADJ,ADP,ADV,NOUN,NUM,PRON,PROPN,SCONJ,VERB">429</feat><!-- chael, phobl, chynnal, chafodd, chymorth, phlant, chadw, chymunedau, hangen, hannog -->
-    <feat name="Mutation" value="NM" upos="ADJ,AUX,DET,NOUN,PROPN,VERB">289</feat><!-- Nghymru, mod, Mangor, Nghaerdydd, mlynedd, mae, mhob, Mlaenau, Ngwynedd, nghanolfan -->
-    <feat name="Mutation" value="SM" upos="ADJ,ADP,ADV,AUX,DET,NOUN,NUM,PART,PRON,PROPN,VERB">5112</feat><!-- fod, Gymraeg, ddim, gael, fydd, bob, gyfer, ddod, wneud, fynd -->
-    <feat name="Number" value="Plur" upos="ADJ,AUX,NOUN,PRON,PROPN,VERB">3665</feat><!-- eu, ni, chi, ein, nhw, hyn, eich, hynny, ydych, hwy -->
-    <feat name="Number" value="Sing" upos="ADJ,AUX,NOUN,PRON,PROPN,VERB">17669</feat><!-- mae, ei, oedd, bod, i, hi, yw, Cymru, fod, sy -->
-    <feat name="NumType" value="Ord" upos="ADJ">93</feat><!-- cyntaf, ail, gyntaf, trydydd, drydedd, 19, 18, 19eg, chweched, drydydd -->
-    <feat name="Person" value="0" upos="VERB">269</feat><!-- ceir, sefydlwyd, gellir, cafwyd, rhoddwyd, welir, agorwyd, cynhelir, gellid, gweler -->
-    <feat name="Person" value="1" upos="AUX,PRON,VERB">1200</feat><!-- i, ni, ein, fy, ydw, ydym, fi, dw, mi, 'n -->
-    <feat name="Person" value="2" upos="AUX,PRON,VERB">711</feat><!-- chi, ti, eich, ydych, chdi, dy, 'ch, wyt, oeddet, byddwch -->
-    <feat name="Person" value="3" upos="AUX,PRON,VERB">3776</feat><!-- mae, ei, oedd, hi, yw, eu, sy, e, sydd, bydd -->
-    <feat name="Poss" value="Yes" upos="PRON">759</feat><!-- ei, ein, eu, fy, eich, 'i, 'n, 'u, 'w, 'ch -->
-    <feat name="PronType" value="Dem" upos="PRON">277</feat><!-- hyn, hynny, hwn, hon, hwnnw, honno, rhain, rheiny, hwnna, hynna -->
+    <feat name="Mood" value="Ind" upos="AUX,VERB">3425</feat><!-- mae, oedd, yw, sy, sydd, bydd, fydd, oes, ydych, bu -->
+    <feat name="Mood" value="Sub" upos="AUX,VERB">11</feat><!-- fo, gweler, baech, bai, bof, sylwer, ystyrier -->
+    <feat name="Mutation" value="AM" upos="ADJ,ADP,ADV,NOUN,NUM,PRON,PROPN,SCONJ,VERB">459</feat><!-- chael, phobl, chynnal, chafodd, chymorth, hiaith, phlant, Chymreig, chadw, chymunedau -->
+    <feat name="Mutation" value="NM" upos="ADJ,AUX,DET,NOUN,PROPN,VERB">312</feat><!-- Nghymru, mod, mlynedd, Mangor, Nghaerdydd, Ngwynedd, mae, mhob, Mhrifysgol, Mlaenau -->
+    <feat name="Mutation" value="SM" upos="ADJ,ADP,ADV,AUX,DET,NOUN,NUM,PART,PRON,PROPN,VERB">5519</feat><!-- fod, Gymraeg, ddim, gael, fydd, gyfer, bob, wneud, ddod, fynd -->
+    <feat name="Number" value="Plur" upos="ADJ,AUX,NOUN,PRON,PROPN,VERB">3904</feat><!-- eu, ni, chi, ein, nhw, hyn, eich, hynny, hwy, ydych -->
+    <feat name="Number" value="Sing" upos="ADJ,AUX,NOUN,PRON,PROPN,VERB">19075</feat><!-- mae, ei, oedd, bod, i, hi, yw, Cymru, fod, sy -->
+    <feat name="NumForm" value="Combi" upos="NUM">11</feat><!-- 16.5m, 1974-1996, 2021-22, 25.8, 3.3, 3.30, 4-8, 5.9m, 5m, 7.30 -->
+    <feat name="NumForm" value="Digit" upos="NUM">305</feat><!-- 4, 2019, 2020, 50, 500, 7, 100, 11, 1961, 1962 -->
+    <feat name="NumForm" value="Roman" upos="NUM">4</feat><!-- I, VIII -->
+    <feat name="NumForm" value="Word" upos="NUM">312</feat><!-- un, dau, ddau, chwe, tair, tri, ddwy, pedair, dwy, bymtheg -->
+    <feat name="NumType" value="Card" upos="NUM">635</feat><!-- un, 4, dau, ddau, chwe, tair, tri, ddwy, pedair, dwy -->
+    <feat name="NumType" value="Ord" upos="ADJ">99</feat><!-- cyntaf, ail, gyntaf, trydydd, drydedd, 19, 17, 18, 19eg, 21ain -->
+    <feat name="Person" value="0" upos="VERB">291</feat><!-- sefydlwyd, ceir, gellir, cafwyd, rhoddwyd, agorwyd, welir, gweler, cynhelir, gellid -->
+    <feat name="Person" value="1" upos="AUX,PRON,VERB">1245</feat><!-- i, ni, ein, fy, ydw, ydym, fi, dw, mi, oeddwn -->
+    <feat name="Person" value="2" upos="AUX,PRON,VERB">721</feat><!-- chi, ti, eich, ydych, chdi, dy, 'ch, wyt, oeddet, byddwch -->
+    <feat name="Person" value="3" upos="AUX,PRON,VERB">4051</feat><!-- mae, ei, oedd, hi, eu, yw, sy, sydd, bydd, e -->
+    <feat name="Poss" value="Yes" upos="PRON">805</feat><!-- ei, ein, eu, fy, eich, 'i, 'n, 'u, 'w, 'ch -->
+    <feat name="PronType" value="Dem" upos="PRON">301</feat><!-- hyn, hynny, hwn, hon, hwnnw, rhain, honno, rheiny, hwnna, hynna -->
     <feat name="PronType" value="Emp" upos="PRON">6</feat><!-- ninnau, hwythau, innau, yntau -->
-    <feat name="PronType" value="Ind" upos="PRON">71</feat><!-- rhai, pawb, bawb, rai, phawb -->
-    <feat name="PronType" value="Int" upos="PRON">50</feat><!-- pwy, sawl, Beth, Hwn, ai, naill -->
-    <feat name="PronType" value="Prs" upos="PRON">2499</feat><!-- ei, i, hi, eu, ni, chi, e, ein, nhw, fy -->
-    <feat name="PronType" value="Rcp" upos="PRON">37</feat><!-- hun, hunain, hunan -->
-    <feat name="PronType" value="Rel" upos="PRON">141</feat><!-- a -->
-    <feat name="Tense" value="Fut" upos="AUX,VERB">543</feat><!-- bydd, fydd, gall, ceir, byddwch, gallwch, gellir, byddaf, ddaw, caiff -->
-    <feat name="Tense" value="Imp" upos="AUX,VERB">490</feat><!-- oedd, byddai, oeddwn, dylai, fyddai, meddai, ddylai, oeddet, oedden, oeddech -->
-    <feat name="Tense" value="Past" upos="AUX,VERB">708</feat><!-- bu, fu, cafodd, ddaru, ddaeth, daeth, aeth, dywedodd, sefydlwyd, gafodd -->
+    <feat name="PronType" value="Ind" upos="PRON">72</feat><!-- rhai, pawb, bawb, rai, phawb -->
+    <feat name="PronType" value="Int" upos="PRON">52</feat><!-- pwy, sawl, Beth, Hwn, ai, naill -->
+    <feat name="PronType" value="Prs" upos="PRON">2632</feat><!-- ei, i, hi, eu, ni, chi, e, ein, nhw, fy -->
+    <feat name="PronType" value="Rcp" upos="PRON">45</feat><!-- hun, hunain, hunan -->
+    <feat name="PronType" value="Rel" upos="PRON">149</feat><!-- a -->
+    <feat name="Tense" value="Fut" upos="AUX,VERB">580</feat><!-- bydd, fydd, gall, ceir, byddwch, byddaf, gallwch, gellir, ddaw, caiff -->
+    <feat name="Tense" value="Imp" upos="AUX,VERB">523</feat><!-- oedd, byddai, oeddwn, dylai, fyddai, meddai, ddylai, oeddet, oedden, oeddech -->
+    <feat name="Tense" value="Past" upos="AUX,VERB">745</feat><!-- bu, fu, cafodd, ddaru, ddaeth, daeth, sefydlwyd, aeth, dywedodd, gafodd -->
     <feat name="Tense" value="Pqp" upos="AUX,VERB">11</feat><!-- baswn, Basai, Fasai, Gallasai, bawn, ddylase, ddylaswn, dylasai, dylaswn -->
-    <feat name="Tense" value="Pres" upos="AUX,VERB">1631</feat><!-- mae, yw, sy, sydd, oes, ydych, ydw, ydym, dw, ydyn -->
-    <feat name="VerbForm" value="Fin" upos="AUX,VERB">3211</feat><!-- mae, oedd, yw, bydd, fydd, oes, ydych, bu, ydw, ydym -->
-    <feat name="VerbForm" value="FinRel" upos="AUX,VERB">245</feat><!-- sy, sydd, maent, ydw -->
-    <feat name="VerbForm" value="Vnoun" upos="AUX,NOUN">4272</feat><!-- bod, fod, cael, gael, mynd, dod, ddod, wneud, fynd, gwneud -->
+    <feat name="Tense" value="Pres" upos="AUX,VERB">1742</feat><!-- mae, yw, sy, sydd, oes, ydych, ydw, ydym, dw, ydyn -->
+    <feat name="VerbForm" value="Fin" upos="AUX,VERB">3402</feat><!-- mae, oedd, yw, bydd, fydd, oes, ydych, bu, ydw, ydym -->
+    <feat name="VerbForm" value="FinRel" upos="AUX,VERB">272</feat><!-- sy, sydd, allem, maent, ydw -->
+    <feat name="VerbForm" value="Vnoun" upos="AUX,NOUN">4570</feat><!-- bod, fod, cael, gael, mynd, dod, wneud, ddod, fynd, gwneud -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
   <deps unique="39">
-    <dep name="acl">772</dep>
-    <dep name="acl:relcl">493</dep>
-    <dep name="advcl">702</dep>
-    <dep name="advmod">2463</dep>
-    <dep name="amod">2084</dep>
-    <dep name="appos">229</dep>
-    <dep name="aux">1725</dep>
-    <dep name="case">5094</dep>
-    <dep name="case:pred">964</dep>
-    <dep name="cc">1283</dep>
-    <dep name="ccomp">738</dep>
+    <dep name="acl">836</dep>
+    <dep name="acl:relcl">530</dep>
+    <dep name="advcl">756</dep>
+    <dep name="advmod">2622</dep>
+    <dep name="amod">2267</dep>
+    <dep name="appos">252</dep>
+    <dep name="aux">1841</dep>
+    <dep name="case">5512</dep>
+    <dep name="case:pred">1039</dep>
+    <dep name="cc">1407</dep>
+    <dep name="ccomp">785</dep>
     <dep name="compound">6</dep>
-    <dep name="compound:redup">122</dep>
-    <dep name="conj">1561</dep>
-    <dep name="cop">872</dep>
-    <dep name="csubj">37</dep>
-    <dep name="det">2936</dep>
+    <dep name="compound:redup">127</dep>
+    <dep name="conj">1714</dep>
+    <dep name="cop">936</dep>
+    <dep name="csubj">39</dep>
+    <dep name="det">3196</dep>
     <dep name="discourse">5</dep>
     <dep name="expl">4</dep>
-    <dep name="fixed">260</dep>
-    <dep name="flat">189</dep>
-    <dep name="flat:name">291</dep>
+    <dep name="fixed">281</dep>
+    <dep name="flat">197</dep>
+    <dep name="flat:name">317</dep>
     <dep name="iobj">1</dep>
-    <dep name="mark">958</dep>
-    <dep name="nmod">4004</dep>
+    <dep name="mark">1037</dep>
+    <dep name="nmod">4433</dep>
     <dep name="nmod:agent">27</dep>
-    <dep name="nmod:poss">620</dep>
-    <dep name="nmod:redup">105</dep>
-    <dep name="nsubj">2476</dep>
-    <dep name="nummod">275</dep>
-    <dep name="obj">2283</dep>
-    <dep name="obl">2761</dep>
-    <dep name="obl:agent">27</dep>
+    <dep name="nmod:poss">661</dep>
+    <dep name="nmod:redup">108</dep>
+    <dep name="nsubj">2625</dep>
+    <dep name="nummod">302</dep>
+    <dep name="obj">2455</dep>
+    <dep name="obl">2974</dep>
+    <dep name="obl:agent">29</dep>
     <dep name="orphan">2</dep>
-    <dep name="parataxis">74</dep>
-    <dep name="punct">4194</dep>
-    <dep name="root">2338</dep>
+    <dep name="parataxis">78</dep>
+    <dep name="punct">4493</dep>
+    <dep name="root">2473</dep>
     <dep name="vocative">1</dep>
-    <dep name="xcomp">2035</dep>
+    <dep name="xcomp">2162</dep>
   </deps>
 </treebank>
