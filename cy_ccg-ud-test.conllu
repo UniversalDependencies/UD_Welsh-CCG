@@ -876,14 +876,14 @@
 7	heddiw	heddiw	ADV	adv	_	5	advmod	_	SpaceAfter=No
 8	,	,	PUNCT	punct	_	10	punct	_	_
 9	y	y	DET	art	_	10	det	_	_
-10	cwbl	cwbl	NOUN	noun	Gender=Masc|Number=Sing	5	obj	_	_
+10	cwbl	cwbl	NOUN	noun	Gender=Masc|Number=Sing	1	parataxis	_	_
 11	a	a	PRON	rel	PronType=Rel	12	nsubj	_	_
 12	erys	aros	VERB	verb	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	10	acl:relcl	_	_
 13	o	o	ADP	prep	_	15	case	_	SpaceAfter=No
 14	'r	y	DET	art	_	15	det	_	_
 15	castell	castell	NOUN	noun	Gender=Masc|Number=Sing	12	obl	_	_
 16	ag	a	CCONJ	cconj	_	17	cc	_	_
-17	adeiladwyd	adeiladu	VERB	verb	Mood=Ind|Person=0|Tense=Past|VerbForm=Fin	5	conj	_	_
+17	adeiladwyd	adeiladu	VERB	verb	Mood=Ind|Person=0|Tense=Past|VerbForm=Fin	10	acl	_	_
 18	ar	ar	ADP	prep	_	20	case	_	_
 19	y	y	DET	art	_	20	det	_	_
 20	safle	safle	NOUN	noun	Gender=Masc|Number=Sing	17	obl	_	_
@@ -1680,7 +1680,7 @@
 10	a	a	PRON	rel	PronType=Rel	11	obj	_	_
 11	elwir	elwa	VERB	verb	Mood=Ind|Person=0|Tense=Fut|VerbForm=Fin	9	acl:relcl	_	_
 12	yn	yn	PART	pred	_	13	case:pred	_	_
-13	gyfandiroedd	cyfandir	NOUN	noun	Gender=Masc|Mutation=SM|Number=Plur	11	obj	_	SpaceAfter=No
+13	gyfandiroedd	cyfandir	NOUN	noun	Gender=Masc|Mutation=SM|Number=Plur	11	obl	_	SpaceAfter=No
 14	.	.	PUNCT	punct	_	11	punct	_	SpacesAfter=\n
 
 # sent_id = cy_ccg_test:00092
@@ -6069,7 +6069,7 @@
 8	adnabod	adnabod	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	6	ccomp	_	_
 9	fel	fel	ADP	prep	_	11	case	_	_
 10	"	"	PUNCT	punct	_	11	punct	_	SpaceAfter=No
-11	Tiger	Tiger	PROPN	place	Foreign=Yes|Number=Sing	8	obj	_	_
+11	Tiger	Tiger	PROPN	place	Foreign=Yes|Number=Sing	8	acl	_	_
 12	Bay	Bay	PROPN	place	Foreign=Yes|Gender=Masc|Number=Sing	11	flat:name	_	SpaceAfter=No
 13	"	"	PUNCT	punct	_	11	punct	_	SpaceAfter=No
 14	,	,	PUNCT	punct	_	21	punct	_	_
@@ -9626,7 +9626,7 @@
 6	oddi	oddi	ADP	prep	_	9	case	_	_
 7	wrth	wrth	ADP	prep	_	6	fixed	_	_
 8	y	y	DET	art	_	9	det	_	_
-9	Waddenzee	Waddenzee	PROPN	place	Gender=Masc|Number=Sing	3	obj	_	_
+9	Waddenzee	Waddenzee	PROPN	place	Gender=Masc|Number=Sing	3	obl	_	_
 10	ac	a	CCONJ	cconj	_	12	cc	_	_
 11	yn	yn	AUX	impf	_	12	aux	_	_
 12	cysylltu	cysylltu	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	3	conj	_	_
@@ -10588,7 +10588,7 @@
 1	Yn	yn	PART	pred	_	2	case:pred	_	_
 2	ogystal	gogystal	ADJ	eq	Degree=Equ|Mutation=SM	4	advmod	_	_
 3	â	â	ADP	prep	_	4	case	_	_
-4	byrbrydau	byrbryd	NOUN	noun	Gender=Fem|Number=Plur	11	obj	_	_
+4	byrbrydau	byrbryd	NOUN	noun	Gender=Fem|Number=Plur	7	acl	_	_
 5	iach	iach	ADJ	pos	Degree=Pos	4	amod	_	SpaceAfter=No
 6	,	,	PUNCT	punct	_	7	punct	_	_
 7	mae	bod	VERB	verb	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -15332,14 +15332,14 @@
 27	gwneud	gwneud	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	26	nmod	_	_
 28	dim	dim	NOUN	noun	Gender=Masc|Number=Sing	27	obj	_	_
 29	-	-	PUNCT	punct	_	30	punct	_	_
-30	ystyrir	ystyrio	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	27	obj	_	_
+30	ystyrir	ystyrio	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	11	parataxis	_	_
 31	eich	chi	PRON	dep	Number=Plur|Person=2|Poss=Yes|PronType=Prs	32	nsubj	_	_
 32	bod	bod	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	30	ccomp	_	_
 33	wedi	wedi	AUX	ante	_	34	aux	_	_
 34	rhoi	rhoi	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	32	xcomp	_	_
 35	eich	chi	PRON	dep	Number=Plur|Person=2|Poss=Yes|PronType=Prs	36	nmod:poss	_	_
 36	cydsyniad	cydsyniad	NOUN	noun	Gender=Masc|Number=Sing	34	obj	_	SpaceAfter=No
-37	.	.	PUNCT	punct	_	11	punct	_	SpacesAfter=\n
+37	.	.	PUNCT	punct	_	30	punct	_	SpacesAfter=\n
 
 # sent_id = cy_ccg_test:00726
 # text = Unwaith iddi ddod yn amlwg eich bod am fod yn absennol am fwy na 13 wythnos bydd eich Budd-dal Tai a Threth Cyngor yn peidio.
@@ -17344,7 +17344,7 @@
 6	gwthio	gwthio	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	4	ccomp	_	_
 7-8	trwyddo	_	_	_	_	_	_	_	_
 7	trwy	trwy	ADP	iprep	_	8	case	_	_
-8	e	e	PRON	indep	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obj	_	_
+8	e	e	PRON	indep	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obl	_	_
 9	hefyd	hefyd	ADV	adv	_	6	advmod	_	_
 10	heb	heb	ADP	prep	_	11	case	_	_
 11	fuddsoddiad	buddsoddiad	NOUN	noun	Gender=Masc|Mutation=SM|Number=Sing	6	obl	_	_
@@ -18783,7 +18783,7 @@
 6	cael	cael	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	1	xcomp	_	_
 7	ei	ef	PRON	dep	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	obj	_	_
 8	ryddhau	rhyddhau	NOUN	verbnoun	Mutation=SM|Number=Sing|VerbForm=Vnoun	6	ccomp	_	_
-9	heddi	heddiw	ADV	adv	_	8	obj	_	SpaceAfter=No
+9	heddi	heddiw	ADV	adv	_	8	advmod	_	SpaceAfter=No
 10	.	.	PUNCT	punct	_	1	punct	_	SpacesAfter=\n
 
 # sent_id = cy_ccg_test:00849
