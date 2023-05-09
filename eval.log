@@ -1,10 +1,10 @@
 Running the following version of UD tools:
-commit 13e6b709a8bc643c3f902800321a7beda46feb8d
+commit 04abe686385f14a9a6f68784bd723a6b60ded594
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun Nov 13 22:03:41 2022 +0100
+Date:   Tue May 9 00:14:39 2023 +0200
 Evaluating the following revision of UD_Welsh-CCG:
-commit aa2334331973f6e4a694fe59da56f6b6ae0cff46
-Merge: 524ae71 a1bbe51
+commit ae9e19c70d8f2c4bbc808e69c3a50e05d30aeca3
+Merge: d766622 3adc957
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Size: counted 48530 of 48530 words (nodes).
 Size: min(0, log((N/1000)**2)) = 7.76436432683425.
@@ -20,15 +20,15 @@ Features: source of annotation (from README) factor is 0.8.
 Universal relations: 31 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
 Udapi:
-               TOTAL       3166
-Udapi: found 3166 bugs.
+               TOTAL       3146
+Udapi: found 3146 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 48530 words.
 Genres: found 5 out of 17 known.
-validate.py --lang cy --max-err=10 UD_Welsh-CCG/cy_ccg-ud-dev.conllu
+/net/work/people/zeman/unidep/tools/validate.py --lang cy --max-err=10 UD_Welsh-CCG/cy_ccg-ud-dev.conllu
 *** PASSED ***
-validate.py --lang cy --max-err=10 UD_Welsh-CCG/cy_ccg-ud-test.conllu
+/net/work/people/zeman/unidep/tools/validate.py --lang cy --max-err=10 UD_Welsh-CCG/cy_ccg-ud-test.conllu
 *** PASSED ***
-validate.py --lang cy --max-err=10 UD_Welsh-CCG/cy_ccg-ud-train.conllu
+/net/work/people/zeman/unidep/tools/validate.py --lang cy --max-err=10 UD_Welsh-CCG/cy_ccg-ud-train.conllu
 *** PASSED ***
 Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
@@ -37,8 +37,8 @@ Validity: 1
 (weight=0.256410256410256) * (score{size}=0.562003430438429) = 0.144103443702161
 (weight=0.0512820512820513) * (score{split}=0.67) = 0.0343589743589744
 (weight=0.0769230769230769) * (score{tags}=0.705882352941177) = 0.0542986425339367
-(weight=0.307692307692308) * (score{udapi}=0.347620028848135) = 0.106960008876349
+(weight=0.307692307692308) * (score{udapi}=0.351741191015866) = 0.108228058774113
 (weight=0.0769230769230769) * (score{udeprels}=0.837837837837838) = 0.0644490644490645
-(TOTAL score=0.549871491386549) * (availability=1) * (validity=1) = 0.549871491386549
-STARS = 2.5
-UD_Welsh-CCG	0.549871491386549	2.5
+(TOTAL score=0.551139541284313) * (availability=1) * (validity=1) = 0.551139541284313
+STARS = 3
+UD_Welsh-CCG	0.551139541284313	3
