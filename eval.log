@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 04abe686385f14a9a6f68784bd723a6b60ded594
+commit e9726a6a7d6913193d90edb45a4cb549235c5b16
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue May 9 00:14:39 2023 +0200
+Date:   Sat Nov 4 17:10:55 2023 +0100
 Evaluating the following revision of UD_Welsh-CCG:
-commit ae9e19c70d8f2c4bbc808e69c3a50e05d30aeca3
-Merge: d766622 3adc957
+commit c33151b590183575f674e49c20afccd7ffffd63b
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Tue May 9 12:32:54 2023 +0200
 Size: counted 48530 of 48530 words (nodes).
 Size: min(0, log((N/1000)**2)) = 7.76436432683425.
 Size: maximum value 13.815511 is for 1000000 words or more.
