@@ -615,7 +615,7 @@
 15	yn	yn	PART	pred	_	16	case:pred	_	_
 16	uwch	uchel	ADJ	cmp	Degree=Cmp	4	ccomp	_	_
 17	nag	na	ADP	prep	_	19	case	_	_
-18	a	a	PART	aff	_	19	obj	_	_
+18	a	a	PART	aff	_	19	advmod	_	_
 19	werthfawrogwyd	gwerthfawrogi	VERB	verb	Mood=Ind|Mutation=SM|Person=0|Tense=Past|VerbForm=Fin	16	conj	_	SpaceAfter=No
 20	.	.	PUNCT	punct	_	2	punct	_	SpacesAfter=\n
 
