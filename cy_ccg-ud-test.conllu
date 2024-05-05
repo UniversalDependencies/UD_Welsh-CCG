@@ -1513,7 +1513,7 @@
 7	pobl	pobl	NOUN	noun	Gender=Fem|Number=Sing	6	nsubj	_	_
 8	yn	yn	AUX	impf	_	9	aux	_	_
 9	meddwl	meddwl	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	6	xcomp	_	_
-10	gyntaf	cynnar	ADJ	ord	Degree=Sup|Mutation=SM	9	advmod	_	_
+10	gyntaf	cynnar	ADJ	ord	Degree=Sup|Mutation=SM|NumType=Ord	9	advmod	_	_
 11-12	amdani	_	_	_	_	_	_	_	SpaceAfter=No
 11	am	am	ADP	iprep	_	12	case	_	_
 12	hi	hi	PRON	indep	Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	obl	_	_
@@ -3313,7 +3313,7 @@
 13	mynd	mynd	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	12	ccomp	_	_
 14	adre	adref	ADV	adv	_	13	advmod	_	SpaceAfter=No
 15	'n	yn	PART	pred	_	16	case:pred	_	_
-16	gynnar	cynnar	ADJ	ord	Degree=Sup|Mutation=SM	13	advmod	_	SpaceAfter=No
+16	gynnar	cynnar	ADJ	ord	Degree=Sup|Mutation=SM|NumType=Ord	13	advmod	_	SpaceAfter=No
 17	.	.	PUNCT	punct	_	1	punct	_	SpacesAfter=\n
 
 # sent_id = cy_ccg_test:00165
@@ -4521,7 +4521,7 @@
 2	y	y	DET	art	_	3	det	_	_
 3	bws	bws	NOUN	noun	Gender=Masc|Number=Sing	1	nsubj	_	_
 4	yn	yn	PART	pred	_	5	case:pred	_	_
-5	gynnar	cynnar	ADJ	ord	Degree=Sup|Mutation=SM	1	advmod	_	SpaceAfter=No
+5	gynnar	cynnar	ADJ	ord	Degree=Sup|Mutation=SM|NumType=Ord	1	advmod	_	SpaceAfter=No
 6	.	.	PUNCT	punct	_	1	punct	_	SpacesAfter=\n
 
 # sent_id = cy_ccg_test:00223
@@ -4538,7 +4538,7 @@
 8	bws	bws	NOUN	noun	Gender=Masc|Number=Sing	9	nsubj	_	_
 9	fynd	mynd	NOUN	verbnoun	Mutation=SM|Number=Sing|VerbForm=Vnoun	5	advcl	_	_
 10	yn	yn	PART	pred	_	11	case:pred	_	_
-11	gynnar	cynnar	ADJ	ord	Degree=Sup|Mutation=SM	9	advmod	_	SpaceAfter=No
+11	gynnar	cynnar	ADJ	ord	Degree=Sup|Mutation=SM|NumType=Ord	9	advmod	_	SpaceAfter=No
 12	.	.	PUNCT	punct	_	5	punct	_	SpacesAfter=\n
 
 # sent_id = cy_ccg_test:00224
@@ -7161,7 +7161,7 @@
 3	yn	yn	ADP	prep	_	4	case	_	_
 4	ôl	ôl	NOUN	noun	Gender=Masc|Number=Sing	2	obl	_	_
 5	yn	yn	PART	pred	_	6	case:pred	_	_
-6	gyntaf	cynnar	ADJ	ord	Degree=Sup|Mutation=SM	2	advmod	_	_
+6	gyntaf	cynnar	ADJ	ord	Degree=Sup|Mutation=SM|NumType=Ord	2	advmod	_	_
 7	ar	ar	ADP	prep	_	8	case	_	_
 8	hanes	hanes	NOUN	noun	Gender=Masc|Number=Sing	2	obl	_	_
 9	datganoli	datganoli	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	8	nmod	_	_
@@ -9322,7 +9322,7 @@
 6	'r	y	DET	art	_	7	det	_	_
 7	Gymraeg	Cymraeg	NOUN	noun	Gender=Fem|Mutation=SM|Number=Sing	5	obj	_	_
 8	yn	yn	PART	pred	_	9	case:pred	_	_
-9	gyntaf	cynnar	ADJ	ord	Degree=Sup|Mutation=SM	5	advmod	_	SpaceAfter=No
+9	gyntaf	cynnar	ADJ	ord	Degree=Sup|Mutation=SM|NumType=Ord	5	advmod	_	SpaceAfter=No
 10	,	,	PUNCT	punct	_	11	punct	_	_
 11	penderfynodd	penderfynu	VERB	verb	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 12	y	y	DET	art	_	13	det	_	_
@@ -10588,7 +10588,7 @@
 1	Yn	yn	PART	pred	_	2	case:pred	_	_
 2	ogystal	gogystal	ADJ	eq	Degree=Equ|Mutation=SM	4	advmod	_	_
 3	â	â	ADP	prep	_	4	case	_	_
-4	byrbrydau	byrbryd	NOUN	noun	Gender=Fem|Number=Plur	7	acl	_	_
+4	byrbrydau	byrbryd	NOUN	noun	Gender=Fem|Number=Plur	7	advcl	_	_
 5	iach	iach	ADJ	pos	Degree=Pos	4	amod	_	SpaceAfter=No
 6	,	,	PUNCT	punct	_	7	punct	_	_
 7	mae	bod	VERB	verb	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -17992,7 +17992,7 @@
 9	o	o	ADP	prep	_	11	case	_	_
 10	fy	i	PRON	dep	Number=Sing|Person=1|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
 11	ngigs	gig	NOUN	noun	Gender=Masc|Mutation=NM|Number=Plur	5	obl	_	_
-12	cynta	cynnar	ADJ	ord	Degree=Sup|Gender=Masc|Number=Sing	11	amod	_	_
+12	cynta	cynnar	ADJ	ord	Degree=Sup|Gender=Masc|Number=Sing|NumType=Ord	11	amod	_	_
 13	ers	ers	ADP	prep	_	14	case	_	_
 14	bod	bod	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	11	acl	_	_
 15	'ma	yma	ADV	adv	_	14	advmod	_	SpaceAfter=No
@@ -18816,7 +18816,7 @@
 # text = Yn gyntaf, mae menu sain wedi cael newidiadau er mwyn ddangos Rhythmbox yn canu caneuon mewn menu gyda botomau nôl, canu ac ymlaen.
 # text_en = First, an audio menu has undergone changes to show Rhythmbox singing songs in a menu with buttons back, singing and on.
 1	Yn	yn	PART	pred	_	2	case:pred	_	_
-2	gyntaf	cynnar	ADJ	ord	Degree=Sup|Mutation=SM	4	advmod	_	SpaceAfter=No
+2	gyntaf	cynnar	ADJ	ord	Degree=Sup|Mutation=SM|NumType=Ord	4	advmod	_	SpaceAfter=No
 3	,	,	PUNCT	punct	_	4	punct	_	_
 4	mae	bod	VERB	verb	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	menu	menu	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	4	xcomp	_	_
