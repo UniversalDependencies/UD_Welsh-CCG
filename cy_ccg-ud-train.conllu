@@ -1788,7 +1788,7 @@
 19	yn	yn	PART	pred	_	20	case:pred	_	_
 20	unig	unig	ADJ	pos	Degree=Pos	18	advmod	_	_
 21	yr	y	DET	art	_	22	det	_	_
-22	oeddem	bod	VERB	verb	Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	17	nmod	_	SpaceAfter=No
+22	oeddem	bod	VERB	verb	Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	17	acl	_	SpaceAfter=No
 23	,	,	PUNCT	punct	_	26	punct	_	_
 24	ond	ond	CCONJ	cconj	_	26	cc	_	_
 25	ein	ni	PRON	dep	Number=Plur|Person=1|Poss=Yes|PronType=Prs	26	nsubj	_	_
@@ -11145,7 +11145,7 @@
 2	ti	ti	PRON	indep	Number=Sing|Person=2|PronType=Prs	1	nsubj	_	SpaceAfter=No
 3	'r	y	DET	art	_	4	det	_	_
 4	tecst	tecst	NOUN	noun	Gender=Masc|Number=Sing	1	obj	_	_
-5	nes	gwneud	VERB	verb	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	4	nmod	_	_
+5	nes	gwneud	VERB	verb	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	4	acl:relcl	_	_
 6	i	i	PRON	indep	Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
 7	yrru	gyrru	NOUN	verbnoun	Mutation=SM|Number=Sing|VerbForm=Vnoun	5	xcomp	_	_
 8	i	i	ADP	prep	_	9	case	_	_
@@ -23210,7 +23210,7 @@
 12	Eisteddfod	eisteddfod	NOUN	noun	Gender=Fem|Number=Sing	10	nmod	_	_
 13	Genedlaethol	cenedlaethol	ADJ	pos	Degree=Pos|Mutation=SM	12	amod	_	_
 14	yn	yn	ADP	prep	_	15	case	_	_
-15	Nhregaron	Cegaron	PROPN	place	Gender=Fem|Mutation=NM|Number=Sing	7	nmod	_	_
+15	Nhregaron	Tregaron	PROPN	place	Gender=Fem|Mutation=NM|Number=Sing	7	nmod	_	_
 16	ddydd	dydd	NOUN	noun	Gender=Masc|Mutation=SM|Number=Sing	7	nmod	_	_
 17	Iau	Iau	NOUN	noun	Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
 18	,	,	PUNCT	punct	_	19	punct	_	_
