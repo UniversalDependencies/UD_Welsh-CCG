@@ -565,7 +565,7 @@
 24	gyd	cyd	NOUN	noun	Gender=Masc|Mutation=SM|Number=Sing	22	nmod	_	_
 25	fydd	bod	AUX	aux	Mood=Ind|Mutation=SM|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	26	cop	_	_
 26	naill	naill	PRON	intr	Gender=Masc|Number=Sing|PronType=Int	16	acl	_	_
-27	ai	ai	CCONJ	cconj	_	29	cc	_	_
+27	ai	ai	CCONJ	cconj	_	26	fixed	_	_
 28	ail	ail	ADJ	ord	Degree=Pos|NumType=Ord	29	amod	_	_
 29	refferendwm	refferendwm	NOUN	noun	Gender=Masc|Number=Sing	26	conj	_	_
 30	neu	neu	CCONJ	cconj	_	31	cc	_	_
@@ -733,7 +733,7 @@
 23	olaf	ôl	ADJ	sup	Degree=Sup	22	amod	_	_
 24	i	i	ADP	prep	_	25	mark	_	_
 25	gael	cael	NOUN	verbnoun	Mutation=SM|Number=Sing|VerbForm=Vnoun	22	acl	_	_
-26	ei	hi	PRON	dep	Gender=Fem|Number=Sing|Person=3|PronType=Prs	27	obj	_	_
+26	ei	ef	PRON	dep	Gender=Masc|Number=Sing|Person=3|PronType=Prs	27	obj	_	_
 27	alw	galw	NOUN	verbnoun	Mutation=SM|Number=Sing|VerbForm=Vnoun	25	ccomp	_	SpaceAfter=No
 28	'n	yn	PART	pred	_	29	case:pred	_	_
 29	Dywysog	tywysog	NOUN	noun	Gender=Masc|Mutation=SM|Number=Sing	27	obl	_	_
@@ -5877,7 +5877,7 @@
 5	yn	yn	AUX	impf	_	6	aux	_	_
 6	gallu	gallu	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	1	xcomp	_	_
 7	cael	cael	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	6	ccomp	_	_
-8	ei	ef	PRON	dep	Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	obj	_	_
+8	ei	hi	PRON	dep	Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	obj	_	_
 9	defnyddio	defnyddio	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	7	ccomp	_	_
 10	rhwng	rhwng	ADP	prep	_	11	case	_	_
 11	10	10	NUM	num	NumForm=Digit|NumType=Card	9	obl	_	SpaceAfter=No
@@ -6058,7 +6058,7 @@
 9	wnaethpwyd	gwneud	VERB	verb	Mood=Ind|Mutation=SM|Person=0|Tense=Past|VerbForm=Fin	7	acl:relcl	_	_
 10	tra	tra	SCONJ	sconj	_	13	mark	_	SpaceAfter=No
 11	'n	yn	AUX	impf	_	13	aux	_	_
-12	ei	ef	PRON	dep	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	13	obj	_	_
+12	ei	hi	PRON	dep	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	13	obj	_	_
 13	hymarfer	ymarfer	NOUN	verbnoun	Mutation=AM|Number=Sing|VerbForm=Vnoun	9	xcomp	_	_
 14	gyda	gyda	ADP	prep	_	15	case	_	_
 15	chopi	copi	NOUN	noun	Gender=Masc|Mutation=AM|Number=Sing	13	obl	_	_
@@ -6183,7 +6183,7 @@
 25	a	a	CCONJ	cconj	_	26	cc	_	_
 26	diwylliannol	diwylliannol	ADJ	pos	Degree=Pos	23	conj	_	_
 27	o	o	ADP	prep	_	29	case	_	SpaceAfter=No
-28	'i	ef	PRON	dep	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	29	obj	_	_
+28	'i	hi	PRON	dep	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	29	obj	_	_
 29	chynnal	cynnal	NOUN	verbnoun	Mutation=AM|Number=Sing|VerbForm=Vnoun	23	xcomp	_	SpaceAfter=No
 30	.	.	PUNCT	punct	_	21	punct	_	SpacesAfter=\n
 
@@ -6463,7 +6463,7 @@
 15	gwlad	gwlad	NOUN	noun	Gender=Fem|Number=Sing	13	nsubj	_	_
 16	yn	yn	AUX	impf	_	17	aux	_	_
 17	cael	cael	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	13	xcomp	_	_
-18	ei	ef	PRON	dep	Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	obj	_	_
+18	ei	hi	PRON	dep	Gender=Fem|Number=Sing|Person=3|PronType=Prs	19	obj	_	_
 19	llywodraethu	llywodraethu	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	17	ccomp	_	SpaceAfter=No
 20	.	.	PUNCT	punct	_	13	punct	_	SpacesAfter=\n
 
@@ -7062,7 +7062,7 @@
 # text = Agor ei drysau yn 1884...
 # text_en = Opening its doors in 1884 ...
 1	Agor	agor	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	0	root	_	_
-2	ei	ef	PRON	dep	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
+2	ei	hi	PRON	dep	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
 3	drysau	drws	NOUN	noun	Gender=Masc|Number=Plur	1	obl	_	_
 4	yn	yn	ADP	prep	_	5	case	_	_
 5	1884	1884	NUM	num	NumForm=Digit|NumType=Card	1	obl	_	SpaceAfter=No
@@ -7567,7 +7567,7 @@
 3	Pantycelyn	Pantycelyn	PROPN	place	Gender=Masc|Number=Sing	2	flat	_	_
 4	yn	yn	AUX	impf	_	5	aux	_	_
 5	ailagor	ailagor	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	1	xcomp	_	_
-6	ei	ef	PRON	dep	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+6	ei	hi	PRON	dep	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
 7	drysau	drws	NOUN	noun	Gender=Masc|Number=Plur	5	obj	_	_
 8	i	i	ADP	prep	_	9	case	_	_
 9	fyfyrwyr	myfyriwr	NOUN	noun	Gender=Masc|Mutation=SM|Number=Plur	5	obl	_	_
@@ -7963,7 +7963,7 @@
 23	buddiannau	buddiant	NOUN	noun	Gender=Masc|Number=Plur	22	obj	_	_
 24	Cymru	Cymru	PROPN	place	Gender=Fem|Number=Sing	23	nmod	_	_
 25	a	a	CCONJ	cconj	_	27	cc	_	SpaceAfter=No
-26	'i	ef	PRON	dep	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	27	nmod:poss	_	_
+26	'i	hi	PRON	dep	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	27	nmod:poss	_	_
 27	phobl	pobl	NOUN	noun	Gender=Fem|Mutation=AM|Number=Sing	23	conj	_	SpaceAfter=No
 28	.	.	PUNCT	punct	_	6	punct	_	SpacesAfter=\n
 
@@ -10715,7 +10715,7 @@
 # text = Ond ei phrif swmp o waith dros y blynyddoedd diwethaf, gwaith eto a roddodd bleser amheuthun iddi, oedd storïo a sgriptio Pobol y Cwm.
 # text_en = But her main work over the last few years, which again gave her immense pleasure, was the storytelling and scripting of Pobol y Cwm.
 1	Ond	ond	CCONJ	cconj	_	4	cc	_	_
-2	ei	ef	PRON	dep	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
+2	ei	hi	PRON	dep	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
 3	phrif	prif	ADJ	pos	Degree=Pos|Mutation=AM	4	amod	_	_
 4	swmp	swmp	NOUN	noun	Gender=Masc|Number=Sing	21	csubj	_	_
 5	o	o	ADP	prep	_	6	case	_	_
@@ -10839,7 +10839,7 @@
 4	fwyaf	mawr	ADJ	sup	Degree=Sup	3	amod	_	_
 5	Cymru	Cymru	PROPN	place	Gender=Fem|Number=Sing	3	nmod	_	_
 6	a	a	CCONJ	cconj	_	8	cc	_	SpaceAfter=No
-7	'i	ef	PRON	dep	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+7	'i	hi	PRON	dep	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
 8	phrifddinas	prifddinas	NOUN	noun	Gender=Masc|Mutation=AM|Number=Sing	3	conj	_	SpaceAfter=No
 9	.	.	PUNCT	punct	_	3	punct	_	SpacesAfter=\n
 
