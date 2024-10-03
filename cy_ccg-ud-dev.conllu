@@ -562,7 +562,7 @@
 21	tebygol	tebygol	ADJ	pos	Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	_
 22	hyn	hyn	PRON	dem	Number=Plur|PronType=Dem	19	det	_	_
 23	i	i	ADP	prep	_	24	case	_	_
-24	gyd	cyd	NOUN	noun	Gender=Masc|Mutation=SM|Number=Sing	22	nmod	_	_
+24	gyd	cyd	NOUN	noun	Gender=Masc|Mutation=SM|Number=Sing	19	nmod	_	_
 25	fydd	bod	AUX	aux	Mood=Ind|Mutation=SM|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	26	cop	_	_
 26	naill	naill	PRON	intr	Gender=Masc|Number=Sing|PronType=Int	16	acl	_	_
 27	ai	ai	CCONJ	cconj	_	26	fixed	_	_

@@ -6412,7 +6412,7 @@
 62	thîn	tîn	NOUN	noun	Gender=Masc|Mutation=AM|Number=Sing	60	nmod	_	_
 63	i	i	ADP	prep	_	64	case	_	_
 64	gwsmeriaid	cwsmeriad	NOUN	noun	Gender=Masc|Mutation=SM|Number=Plur	57	obl	_	_
-65	cynta	cynnar	ADJ	ord	Degree=Sup	64	acl	_	SpaceAfter=No
+65	cynta	cynnar	ADJ	ord	Degree=Sup|NumType=Ord	64	acl	_	SpaceAfter=No
 66	'r	y	DET	art	_	67	det	_	_
 67	dydd	dydd	NOUN	noun	Gender=Masc|Number=Sing	64	nmod	_	SpaceAfter=No
 68	.	.	PUNCT	punct	_	40	punct	_	SpacesAfter=\n
@@ -7305,7 +7305,7 @@
 4	ar	ar	ADP	prep	_	5	case	_	_
 5	ddydd	dydd	NOUN	noun	Gender=Masc|Mutation=SM|Number=Sing	1	obl	_	_
 6	Sadwrn	Sadwrn	NOUN	noun	Gender=Masc|Number=Sing	5	nmod	_	_
-7	cynta	cynnar	ADJ	ord	Degree=Sup	6	amod	_	SpaceAfter=No
+7	cynta	cynnar	ADJ	ord	Degree=Sup|NumType=Ord	6	amod	_	SpaceAfter=No
 8	'r	y	DET	art	_	9	det	_	_
 9	mis	mis	NOUN	noun	Gender=Masc|Number=Sing	5	nmod	_	_
 10	(	(	PUNCT	punct	_	12	punct	_	SpaceAfter=No
@@ -27570,10 +27570,10 @@
 29	geiriau	gair	NOUN	noun	Gender=Masc|Number=Plur	28	nmod	_	_
 30	syml	syml	ADJ	pos	Degree=Pos	29	amod	_	_
 31	Cymraeg	Cymraeg	ADJ	pos	Degree=Pos	29	amod	_	_
-32	ac	a	CCONJ	cconj	_	34	cc	_	_
+32	ac	a	CCONJ	cconj	_	35	cc	_	_
 33	yn	yn	PART	pred	_	34	case:pred	_	_
-34	enwedig	enwedig	ADJ	pos	Degree=Pos	27	conj	_	_
-35	rhai	rhai	PRON	pron	PronType=Ind	34	det	_	_
+34	enwedig	enwedig	ADJ	pos	Degree=Pos	35	advmod	_	_
+35	rhai	rhai	PRON	pron	PronType=Ind	27	conj	_	_
 36	sylfaenol	sylfaenol	ADJ	pos	Degree=Pos	35	amod	_	_
 37	yn	yn	ADP	prep	_	39	case	_	_
 38	eu	hwy	PRON	dep	Number=Plur|Person=3|Poss=Yes|PronType=Prs	39	nmod:poss	_	_
