@@ -290,7 +290,7 @@
 4	gor-bwysleisio	gor-bwysleisio	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	3	nmod	_	_
 5	pa	pa	DET	det	_	7	det	_	_
 6	mor	mor	ADV	adv	_	7	advmod	_	_
-7	beryglus	peryglus	ADJ	pos	Degree=Pos|Mutation=SM	4	advmod	_	_
+7	beryglus	peryglus	ADJ	pos	Degree=Pos|Mutation=SM	4	advcl	_	_
 8	yw	bod	AUX	aux	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
 9	hyn	hyn	PRON	dem	Number=Plur|PronType=Dem	7	nsubj	_	SpaceAfter=No
 10	,	,	PUNCT	punct	_	13	punct	_	_
@@ -6796,7 +6796,7 @@
 13	o	o	ADP	prep	_	14	case	_	_
 14	weithwyr	gweithwr	NOUN	noun	Gender=Masc|Mutation=SM|Number=Plur	12	nmod	_	_
 15	allweddol	allweddol	ADJ	pos	Degree=Pos	14	amod	_	_
-16	orfod	gorfod	NOUN	verbnoun	Mutation=SM|Number=Sing|VerbForm=Vnoun	7	nmod	_	_
+16	orfod	gorfod	NOUN	verbnoun	Mutation=SM|Number=Sing|VerbForm=Vnoun	7	acl	_	_
 17	hunan-ynysu	hunan-ynysu	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	16	xcomp	_	SpaceAfter=No
 18	,	,	PUNCT	punct	_	20	punct	_	_
 19	ar	ar	ADP	prep	_	20	case	_	_
@@ -7379,7 +7379,7 @@
 4	ddim	dim	PART	neg	Mutation=SM	2	advmod	_	_
 5	yn	yn	AUX	impf	_	6	aux	_	_
 6	gorfod	gorfod	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	2	xcomp	_	_
-7	egluro	egluro	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	6	obj	_	_
+7	egluro	egluro	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	6	ccomp	_	_
 8	i	i	ADP	prep	_	9	case	_	_
 9	chi	chi	PRON	indep	Number=Plur|Person=2|PronType=Prs	7	nsubj	_	_
 10	fod	bod	AUX	verbnoun	Mutation=SM|Number=Sing|VerbForm=Vnoun	15	cop	_	_

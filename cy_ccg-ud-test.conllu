@@ -807,7 +807,7 @@
 9	gamau	cam	NOUN	noun	Gender=Masc|Mutation=SM|Number=Plur	7	nmod	_	_
 10	i	i	ADP	prep	_	11	mark	_	_
 11	sicrhau	sicrhau	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	9	acl	_	_
-12	bod	bod	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	11	obj	_	_
+12	bod	bod	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	11	acl	_	_
 13	mwy	mawr	ADJ	cmp	Degree=Cmp	12	nsubj	_	_
 14	o	o	ADP	prep	_	15	case	_	_
 15	elfennau	elfen	NOUN	noun	Gender=Fem|Number=Plur	13	nmod	_	_
@@ -1844,7 +1844,7 @@
 9-10	ichi	_	_	_	_	_	_	_	_
 9	i	i	ADP	iprep	_	10	case	_	_
 10	chi	chi	PRON	indep	Number=Plur|Person=2|PronType=Prs	11	nsubj	_	_
-11	astudio	astudio	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	8	nmod	_	_
+11	astudio	astudio	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	8	acl	_	_
 12	un	un	NUM	num	NumForm=Word|NumType=Card	11	obj	_	_
 13	o	o	ADP	prep	_	14	case	_	_
 14	ieithoedd	iaith	NOUN	noun	Gender=Fem|Number=Plur	12	nmod	_	_
@@ -2085,7 +2085,7 @@
 11-12	ganddo	_	_	_	_	_	_	_	_
 11	gan	gan	ADP	iprep	_	12	case	_	_
 12	e	e	PRON	indep	Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	obl	_	_
-13	fwy	mawr	ADJ	cmp	Degree=Cmp|Mutation=SM	10	nsubj	_	_
+13	fwy	mawr	ADJ	cmp	Degree=Cmp|Mutation=SM	10	obj	_	_
 14	o	o	ADP	prep	_	15	case	_	_
 15	gryfderau	cryfder	NOUN	noun	Gender=Masc|Mutation=SM|Number=Plur	13	nmod	_	_
 16	a	a	CCONJ	cconj	_	17	cc	_	_
@@ -4413,7 +4413,7 @@
 9	heb	heb	ADP	prep	_	12	case	_	_
 10	i	i	ADP	prep	_	11	case	_	_
 11	chi	chi	PRON	indep	Number=Plur|Person=2|PronType=Prs	12	nsubj	_	_
-12	gael	cael	NOUN	verbnoun	Mutation=SM|Number=Sing|VerbForm=Vnoun	3	obl	_	_
+12	gael	cael	NOUN	verbnoun	Mutation=SM|Number=Sing|VerbForm=Vnoun	3	advcl	_	_
 13	caniatâd	caniatâd	NOUN	noun	Gender=Masc|Number=Sing	12	obj	_	SpaceAfter=No
 14	.	.	PUNCT	punct	_	1	punct	_	SpacesAfter=\n
 
@@ -6283,7 +6283,7 @@
 40	rhan	rhan	NOUN	noun	Gender=Fem|Number=Sing	37	nmod	_	_
 41	fwyaf	mawr	ADJ	sup	Degree=Sup	40	amod	_	_
 42	o	o	ADP	prep	_	43	case	_	_
-43	Gymru	Cymru	PROPN	place	Gender=Fem|Mutation=SM|Number=Sing	40	nsubj	_	SpaceAfter=No
+43	Gymru	Cymru	PROPN	place	Gender=Fem|Mutation=SM|Number=Sing	40	nmod	_	SpaceAfter=No
 44	.	.	PUNCT	punct	_	14	punct	_	SpacesAfter=\n
 
 # sent_id = cy_ccg_test:00312
@@ -9428,7 +9428,7 @@
 1	"	"	PUNCT	punct	_	3	punct	_	SpaceAfter=No
 2-3	Rydan	_	_	_	_	_	_	_	_
 2	yr	y	PART	aff	_	3	advmod	_	_
-3	ydan	bod	VERB	verb	Mood=Ind|Mutation=SM|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	obj	_	_
+3	ydan	bod	VERB	verb	Mood=Ind|Mutation=SM|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	ccomp	_	_
 4	ni	ni	PRON	indep	Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
 5	wedi	wedi	AUX	ante	_	6	aux	_	_
 6	cyrraedd	cyrraedd	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	3	xcomp	_	_
@@ -19092,7 +19092,7 @@
 11	angen	angen	NOUN	noun	Gender=Masc|Number=Sing	5	advcl	_	_
 12	i	i	ADP	prep	_	13	case	_	_
 13	chi	chi	PRON	indep	Number=Plur|Person=2|PronType=Prs	14	nsubj	_	_
-14	ysgrifennu	ysgrifennu	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	11	nmod	_	_
+14	ysgrifennu	ysgrifennu	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	11	acl	_	_
 15	yn	yn	PART	pred	_	16	case:pred	_	_
 16	Gymraeg	Cymraeg	ADJ	pos	Degree=Pos|Mutation=SM	14	advmod	_	SpaceAfter=No
 17	,	,	PUNCT	punct	_	19	punct	_	_
