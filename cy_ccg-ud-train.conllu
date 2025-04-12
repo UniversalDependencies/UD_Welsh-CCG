@@ -240,12 +240,12 @@
 8	pnawn	pnawn	NOUN	noun	Gender=Masc|Number=Sing	6	conj	_	_
 9	neu	neu	CCONJ	cconj	_	10	cc	_	_
 10	ddiwrnod	diwrnod	NOUN	noun	Gender=Masc|Mutation=SM|Number=Sing	6	conj	_	_
-11	naill	naill	ADJ	pos	Degree=Pos|ExtPos=ADJ	10	amod	_	_
+11	naill	naill	CCONJ	pos	ExtPos=CCONJ	14	cc	_	_
 12	ai	ai	CCONJ	cconj	_	11	fixed	_	_
 13	fel	fel	ADP	prep	_	14	case	_	_
 14	stiwardiaid	stiward	NOUN	noun	Gender=Masc|Number=Plur	6	conj	_	SpaceAfter=No
 15	,	,	PUNCT	punct	_	16	punct	_	_
-16	actorion	actor	NOUN	noun	Gender=Masc|Number=Plur	14	appos	_	_
+16	actorion	actor	NOUN	noun	Gender=Masc|Number=Plur	14	conj	_	_
 17	(	(	PUNCT	punct	_	19	punct	_	SpaceAfter=No
 18	dim	dim	ADV	adv	_	19	advmod	_	_
 19	angen	angen	NOUN	noun	Gender=Masc|Number=Sing	16	appos	_	_
@@ -255,7 +255,7 @@
 23	)	)	PUNCT	punct	_	19	punct	_	_
 24	neu	neu	CCONJ	cconj	_	26	cc	_	_
 25	i	i	ADP	prep	_	26	mark	_	_
-26	edrych	edrych	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	3	conj	_	_
+26	edrych	edrych	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	14	conj	_	_
 27	ar	ar	ADP	prep	_	28	case	_	_
 28	ôl	ôl	NOUN	noun	Gender=Masc|Number=Sing	26	obl	_	_
 29	y	y	DET	art	_	31	det	_	_
