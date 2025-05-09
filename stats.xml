@@ -15,11 +15,11 @@
   <fusions unique="161" /><!-- roedd, rydym, does, iddo, rydw, dwi, rydyn, iddi, rwy, roeddwn, ati, doedd, ganddo, gennym, rydych -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="15">
-    <tag name="ADJ">3602</tag><!-- mawr, Cymraeg, pob, da, newydd, cynnar, arall, lleol, cenedlaethol, prif -->
+    <tag name="ADJ">3599</tag><!-- mawr, Cymraeg, pob, da, newydd, cynnar, arall, lleol, cenedlaethol, prif -->
     <tag name="ADP">7049</tag><!-- i, o, yn, ar, am, gan, â, mewn, gyda, fel -->
     <tag name="ADV">1221</tag><!-- hefyd, yma, yna, iawn, dim, mor, felly, dyma, ymlaen, heddiw -->
     <tag name="AUX">3046</tag><!-- yn, bod, wedi, ar, am, newydd, heb -->
-    <tag name="CCONJ">1555</tag><!-- a, ond, neu, na, ai, ag, oni, onid, achos, canys -->
+    <tag name="CCONJ">1558</tag><!-- a, ond, neu, na, ai, naill, ag, oni, onid, achos -->
     <tag name="DET">3308</tag><!-- y, pa, an, The -->
     <tag name="NOUN">15994</tag><!-- bod, cael, ôl, iaith, dod, mynd, Cymraeg, ysgol, blwyddyn, gwneud -->
     <tag name="NUM">689</tag><!-- un, dau, tri, pedwar, chwech, 4, pump, 2019, ugain, deg -->
@@ -32,12 +32,18 @@
     <tag name="VERB">2985</tag><!-- bod, cael, gallu, dod, gwneud, gweld, dylu, mynd, dweud, darfod -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="43">
+  <feats unique="49">
     <feat name="Abbr" value="Yes" upos="ADV,NOUN,PROPN">48</feat><!-- BBC, g, UE, DU, UDA, b, A487, A55, AC, BBC1 -->
     <feat name="Degree" value="Cmp" upos="ADJ">184</feat><!-- mwy, fwy, bellach, well, uwch, gwell, nes, hŷn, ehangach, pellach -->
     <feat name="Degree" value="Equ" upos="ADJ">30</feat><!-- ogystal, cystal, belled, gryfed, gynted, gystal, rhated -->
-    <feat name="Degree" value="Pos" upos="ADJ">3143</feat><!-- Cymraeg, newydd, Gymraeg, bob, lleol, eraill, pob, arall, genedlaethol, mawr -->
+    <feat name="Degree" value="Pos" upos="ADJ">3140</feat><!-- Cymraeg, newydd, Gymraeg, bob, lleol, eraill, pob, arall, genedlaethol, mawr -->
     <feat name="Degree" value="Sup" upos="ADJ">245</feat><!-- mwyaf, cyntaf, nesaf, gyntaf, uchaf, diwethaf, fwyaf, gorau, olaf, bennaf -->
+    <feat name="ExtPos" value="ADJ" upos="ADJ">4</feat><!-- ambell, newydd -->
+    <feat name="ExtPos" value="ADP" upos="ADP,ADV">187</feat><!-- ar, o, wrth, oddi, yn, er, hyd, i, ynglŷn, ger -->
+    <feat name="ExtPos" value="ADV" upos="ADP,ADV,DET,NOUN,PART,SCONJ">84</feat><!-- hyd, dim, wrth, fodd, i, o, yn, ba, beth, Ble -->
+    <feat name="ExtPos" value="AUX" upos="AUX">6</feat><!-- ar -->
+    <feat name="ExtPos" value="CCONJ" upos="CCONJ">3</feat><!-- naill -->
+    <feat name="ExtPos" value="PRON" upos="PRON">1</feat><!-- naill -->
     <feat name="Foreign" value="Yes" upos="ADJ,DET,NOUN,PROPN">28</feat><!-- na, the, Bay, Conradh, Croí, Electric, From, Féile, Gaeilge, Horizon -->
     <feat name="Gender" value="Fem" upos="ADJ,NOUN,NUM,PRON,PROPN">4137</feat><!-- hi, Cymru, iaith, ei, Gymraeg, ysgol, Eisteddfod, Nghymru, rhan, llywodraeth -->
     <feat name="Gender" value="Masc" upos="ADJ,NOUN,NUM,PRON,PROPN">10138</feat><!-- ei, ôl, e, nifer, gwaith, 'i, gyfer, mwyn, cyngor, hwn -->
@@ -51,11 +57,11 @@
     <feat name="Number" value="Plur" upos="ADJ,AUX,NOUN,PRON,PROPN,VERB">4245</feat><!-- eu, ni, chi, ein, nhw, hyn, eich, hynny, hwy, ydych -->
     <feat name="Number" value="Sing" upos="ADJ,AUX,NOUN,PRON,PROPN,VERB">20491</feat><!-- mae, ei, bod, oedd, i, hi, yw, Cymru, fod, sy -->
     <feat name="NumForm" value="Combi" upos="NUM">13</feat><!-- 16.5m, 17.8, 1974-1996, 2021-22, 25.8, 3.3, 3.30, 4-8, 5.9m, 5m -->
-    <feat name="NumForm" value="Digit" upos="NUM">335</feat><!-- 4, 2019, 10, 200, 2020, 50, 500, 7, 100, 11 -->
+    <feat name="NumForm" value="Digit" upos="NUM">336</feat><!-- 4, 2019, 10, 200, 2020, 50, 500, 7, 100, 11 -->
     <feat name="NumForm" value="Roman" upos="NUM">4</feat><!-- I, VIII -->
-    <feat name="NumForm" value="Word" upos="NUM">330</feat><!-- un, chwe, dau, ddau, ddwy, tri, tair, pedair, dwy, bymtheg -->
-    <feat name="NumType" value="Card" upos="NUM">685</feat><!-- un, chwe, 4, dau, ddau, ddwy, tri, tair, pedair, 2019 -->
-    <feat name="NumType" value="Ord" upos="ADJ">112</feat><!-- cyntaf, ail, gyntaf, trydydd, drydedd, 19, cynta, gynnar, 17, 18 -->
+    <feat name="NumForm" value="Word" upos="NUM">333</feat><!-- un, chwe, dau, ddau, ddwy, tri, tair, pedair, dwy, bymtheg -->
+    <feat name="NumType" value="Card" upos="NUM">689</feat><!-- un, chwe, 4, dau, ddau, ddwy, tri, tair, pedair, 2019 -->
+    <feat name="NumType" value="Ord" upos="ADJ">114</feat><!-- cyntaf, ail, gyntaf, trydydd, drydedd, 19, bedwaredd, cynta, gynnar, 17 -->
     <feat name="Person" value="0" upos="VERB">302</feat><!-- sefydlwyd, ceir, gellir, cafwyd, rhoddwyd, agorwyd, welir, cynhelir, gweler, cynhaliwyd -->
     <feat name="Person" value="1" upos="AUX,PRON,VERB">1336</feat><!-- i, ni, ein, fy, ydw, ydym, fi, dw, mi, 'n -->
     <feat name="Person" value="2" upos="AUX,PRON,VERB">764</feat><!-- chi, ti, eich, ydych, 'ch, chdi, dy, wyt, byddwch, oeddet -->
@@ -79,17 +85,17 @@
   </feats>
   <!-- Statistics of universal dependency relations. -->
   <deps unique="39">
-    <dep name="acl">917</dep>
+    <dep name="acl">923</dep>
     <dep name="acl:relcl">560</dep>
-    <dep name="advcl">827</dep>
-    <dep name="advmod">2828</dep>
-    <dep name="amod">2452</dep>
-    <dep name="appos">268</dep>
+    <dep name="advcl">825</dep>
+    <dep name="advmod">2844</dep>
+    <dep name="amod">2448</dep>
+    <dep name="appos">267</dep>
     <dep name="aux">1966</dep>
-    <dep name="case">5959</dep>
+    <dep name="case">5958</dep>
     <dep name="case:pred">1114</dep>
-    <dep name="cc">1527</dep>
-    <dep name="ccomp">844</dep>
+    <dep name="cc">1530</dep>
+    <dep name="ccomp">848</dep>
     <dep name="compound">6</dep>
     <dep name="compound:redup">139</dep>
     <dep name="conj">1875</dep>
@@ -103,14 +109,14 @@
     <dep name="flat:name">341</dep>
     <dep name="iobj">1</dep>
     <dep name="mark">1136</dep>
-    <dep name="nmod">4834</dep>
+    <dep name="nmod">4832</dep>
     <dep name="nmod:agent">27</dep>
     <dep name="nmod:poss">706</dep>
     <dep name="nmod:redup">113</dep>
-    <dep name="nsubj">2814</dep>
-    <dep name="nummod">329</dep>
-    <dep name="obj">2633</dep>
-    <dep name="obl">3213</dep>
+    <dep name="nsubj">2808</dep>
+    <dep name="nummod">330</dep>
+    <dep name="obj">2630</dep>
+    <dep name="obl">3202</dep>
     <dep name="obl:agent">31</dep>
     <dep name="orphan">2</dep>
     <dep name="parataxis">88</dep>
