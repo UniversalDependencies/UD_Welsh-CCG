@@ -880,7 +880,7 @@
 8	symudodd	symud	VERB	verb	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	conj	_	_
 9	y	y	DET	art	_	10	det	_	_
 10	teulu	teulu	NOUN	noun	Gender=Masc|Number=Sing	8	obj	_	_
-11	fferm	fferm	NOUN	noun	Gender=Fem|Number=Sing	8	obj	_	_
+11	fferm	fferm	NOUN	noun	Gender=Fem|Number=Sing	10	nmod	_	_
 12	Yr	y	DET	art	_	13	det	_	_
 13	Ysgwrn	Ysgwrn	PROPN	place	Gender=Fem|Number=Sing	11	nmod	_	_
 14	pan	pan	SCONJ	sconj	_	15	mark	_	_

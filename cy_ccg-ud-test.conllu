@@ -15002,7 +15002,7 @@
 36	eu	hwy	PRON	dep	Number=Plur|Person=3|Poss=Yes|PronType=Prs	37	nmod:poss	_	_
 37	plant	plentyn	NOUN	noun	Gender=Masc|Number=Plur	35	obj	_	_
 38	eu	hwy	PRON	dep	Number=Plur|Person=3|Poss=Yes|PronType=Prs	39	nmod:poss	_	_
-39	hunain	hun	PRON	refl	Number=Plur|PronType=Rcp	35	obj	_	SpaceAfter=No
+39	hunain	hun	PRON	refl	Number=Plur|PronType=Rcp	35	obl	_	SpaceAfter=No
 40	.	.	PUNCT	punct	_	20	punct	_	SpacesAfter=\n
 
 # sent_id = cy_ccg_test:00712
