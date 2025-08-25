@@ -58,7 +58,7 @@
 # sent_id = cy_ccg_train:00004
 # text = Pa Arlywydd Ffrengig a ymwelodd ag Eisteddfod Genedlaethol?
 # text_en = Which French President visited the Cardiff National Eisteddfod?
-1	Pa	pa	DET	det	PronType=Art	2	det	_	_
+1	Pa	pa	DET	det	PronType=Rel	2	det	_	_
 2	Arlywydd	Arlywydd	NOUN	noun	Gender=Masc|Number=Sing	0	root	_	_
 3	Ffrengig	Ffrengig	ADJ	pos	Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
 4	a	a	PRON	rel	PronType=Rel	5	nsubj	_	_
@@ -109,7 +109,7 @@
 # sent_id = cy_ccg_train:00007
 # text = Pa gantores bop Gymraeg a Chernyweg a fagwyd yn Despenser Street?
 # text_en = Which Welsh and Cornish pop singer grew up in Despenser Street?
-1	Pa	pa	DET	det	PronType=Art	2	det	_	_
+1	Pa	pa	DET	det	PronType=Rel	2	det	_	_
 2	gantores	cantores	NOUN	noun	Gender=Masc|Mutation=SM|Number=Sing	0	root	_	_
 3	bop	pop	NOUN	noun	Gender=Masc|Mutation=SM|Number=Sing	2	nmod	_	_
 4	Gymraeg	Cymraeg	ADJ	pos	Degree=Pos|Gender=Fem|Mutation=SM	2	amod	_	_
@@ -2247,7 +2247,7 @@
 9	i	i	PRON	indep	Number=Sing|Person=1|PronType=Prs	8	nsubj	_	SpaceAfter=No
 10	'n	yn	AUX	impf	_	11	aux	_	_
 11	meddwl	meddwl	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	8	xcomp	_	_
-12	pa	pa	DET	det	PronType=Art	14	det	_	_
+12	pa	pa	DET	det	PronType=Rel	14	det	_	_
 13	mor	mor	ADV	adv	_	14	advmod	_	_
 14	braf	braf	ADJ	pos	Degree=Pos|Gender=Masc|Number=Sing	11	advcl	_	_
 15	byddai	bod	AUX	aux	Mood=Cnd|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	cop	_	_
@@ -4056,7 +4056,7 @@
 # sent_id = cy_ccg_train:00140
 # text = P'un a'i esgyn i ucheldiroedd Yr Wyddfa yw eich uchelgais neu gerdded ar un o lwybrau hamddenol yr arfordir, rydych yn siwr o gael golygfeydd godidog a thirlun amrywiol.
 # text_en = Whether it's climbing to the highlands of Snowdon or taking a stroll along a leisurely coastal path, you're bound to get spectacular views and a varied landscape.
-1	P'	pa	DET	det	PronType=Art	2	det	_	SpaceAfter=No
+1	P'	pa	DET	det	PronType=Rel	2	det	_	SpaceAfter=No
 2	un	un	NUM	num	NumForm=Word|NumType=Card	12	nsubj	_	_
 3	a	a	PRON	rel	PronType=Rel	5	obj	_	SpaceAfter=No
 4	'i	ef	PRON	dep	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	nmod:redup	_	_
@@ -5200,7 +5200,7 @@
 6	lygaid	llygad	NOUN	noun	Gender=Masc|Mutation=SM|Number=Plur	3	obl	_	_
 7	ei	ef	PRON	dep	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
 8	hun	hun	PRON	refl	Number=Sing|PronType=Rcp	6	nmod	_	_
-9	pa	pa	DET	det	PronType=Art	11	det	_	_
+9	pa	pa	DET	det	PronType=Rel	11	det	_	_
 10	mor	mor	ADV	adv	_	11	advmod	_	_
 11	weithgar	gweithgar	ADJ	pos	Degree=Pos|Gender=Masc|Mutation=SM|Number=Sing	3	advcl	_	_
 12	ac	a	CCONJ	cconj	_	13	cc	_	_
@@ -9474,7 +9474,7 @@
 6	beth	peth	NOUN	noun	Gender=Masc|Mutation=SM|Number=Sing	2	appos	_	_
 7	am	am	ADP	prep	_	8	case	_	_
 8	edrych	edrych	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	6	acl	_	_
-9	pa	pa	DET	det	PronType=Art	10	det	_	_
+9	pa	pa	DET	det	PronType=Rel	10	det	_	_
 10	weithgareddau	gweithgaredd	NOUN	noun	Gender=Masc|Mutation=SM|Number=Plur	8	obl	_	_
 11	sydd	bod	VERB	verb	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
 12	gan	gan	ADP	prep	_	14	case	_	_
@@ -10406,7 +10406,7 @@
 14	er	er	ADP	prep	_	15	case	_	_
 15	enghraifft	enghraifft	NOUN	noun	Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
 16	,	,	PUNCT	punct	_	15	punct	_	_
-17	pa	pa	DET	det	PronType=Art	19	det	_	_
+17	pa	pa	DET	det	PronType=Rel	19	det	_	_
 18	mor	mor	ADV	adv	_	19	advmod	_	_
 19	aml	aml	ADV	adv	_	21	advmod	_	_
 20	y	y	PART	aff	_	21	advmod	_	_
@@ -11466,7 +11466,7 @@
 8	ei	ef	PRON	dep	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
 9	les	lles	NOUN	noun	Gender=Masc|Mutation=SM|Number=Sing	7	nsubj	_	SpaceAfter=No
 10	,	,	PUNCT	punct	_	12	punct	_	_
-11	pa	pa	DET	det	PronType=Art	12	det	_	_
+11	pa	pa	DET	det	PronType=Rel	12	det	_	_
 12	les	lles	NOUN	noun	Gender=Masc|Mutation=SM|Number=Sing	14	nsubj	_	_
 13	yw	bod	AUX	aux	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
 14	Undeb	undeb	NOUN	noun	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
@@ -16261,7 +16261,7 @@
 # sent_id = cy_ccg_train:00652
 # text = Pa fath o aderyn ydi o?
 # text_en = What kind of bird is it?
-1	Pa	pa	DET	art	PronType=Art	2	det	_	_
+1	Pa	pa	DET	det	PronType=Rel	2	det	_	_
 2	fath	math	NOUN	noun	Gender=Masc|Mutation=SM|Number=Sing	0	root	_	_
 3	o	o	ADP	prep	_	2	case	_	_
 4	aderyn	aderyn	NOUN	noun	Gender=Masc|Number=Sing	2	nmod	_	_
@@ -16295,7 +16295,7 @@
 # text = I ba raddau y mae rhaglenni teledu ar fai?
 # text_en = To what extent are television programs to blame?
 1	I	i	ADP	prep	_	3	case	_	_
-2	ba	pa	DET	art	Mutation=SM|PronType=Art	3	det	_	_
+2	ba	pa	DET	det	Mutation=SM|PronType=Rel	3	det	_	_
 3	raddau	gradd	NOUN	noun	Gender=Masc|Mutation=SM|Number=Plur	5	obl	_	_
 4	y	y	PART	aff	_	5	advmod	_	_
 5	mae	bod	VERB	verb	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -16477,7 +16477,7 @@
 11	pwy	pwy	PRON	intr	PronType=Int	2	conj	_	_
 12	a	a	PRON	rel	PronType=Rel	13	nsubj	_	_
 13	ŵyr	gwybod	VERB	verb	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	11	acl:relcl	_	_
-14	pa	pa	DET	det	PronType=Art	15	det	_	_
+14	pa	pa	DET	det	PronType=Rel	15	det	_	_
 15	amodau	amod	NOUN	noun	Gender=Masc|Number=Plur	13	obj	_	_
 16	rhyfedd	rhyfedd	ADJ	pos	Degree=Pos	15	amod	_	_
 17	ac	a	CCONJ	cconj	_	18	cc	_	_
@@ -16599,7 +16599,7 @@
 2	yn	yn	AUX	impf	_	3	aux	_	_
 3	rhyfeddu	rhyfeddu	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	1	xcomp	_	_
 4	at	at	ADP	prep	_	7	case	_	_
-5	ba	pa	DET	det	Mutation=SM|PronType=Art	7	det	_	_
+5	ba	pa	DET	det	Mutation=SM|PronType=Rel	7	det	_	_
 6	mor	mor	ADV	adv	_	7	advmod	_	_
 7	wych	gwych	ADJ	pos	Degree=Pos|Mutation=SM	3	ccomp	_	_
 8	y	y	PART	aff	_	7	advmod	_	_
@@ -18209,7 +18209,7 @@
 16	ydych	bod	AUX	aux	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	18	cop	_	_
 17	yn	yn	PART	pred	_	18	case:pred	_	_
 18	ansicr	ansicr	ADJ	pos	Degree=Pos	26	advcl	_	_
-19	pa	pa	DET	det	PronType=Art	20	det	_	_
+19	pa	pa	DET	det	PronType=Rel	20	det	_	_
 20	ddogfennau	dogfen	NOUN	noun	Gender=Masc|Mutation=SM|Number=Plur	18	obl	_	_
 21	yr	y	PART	aff	_	24	advmod	_	_
 22	ydych	bod	AUX	aux	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	24	cop	_	_
@@ -22885,7 +22885,7 @@
 # sent_id = cy_ccg_train:00964
 # text = Pa un ai mantais ai anfantais i ddynion fyddai bod heb iaith o gwbl?
 # text_en = Whether it would be an advantage or a disadvantage for men to have no language at all?
-1	Pa	pa	DET	det	PronType=Art	2	det	_	_
+1	Pa	pa	DET	det	PronType=Rel	2	det	_	_
 2	un	un	NUM	num	NumForm=Word|NumType=Card	9	nsubj	_	_
 3	ai	ai	CCONJ	cconj	_	4	cc	_	_
 4	mantais	mantais	NOUN	noun	Gender=Masc|Number=Sing	2	conj	_	_
@@ -27924,7 +27924,7 @@
 2	chi	chi	PRON	indep	Number=Plur|Person=2|PronType=Prs	1	nsubj	_	SpaceAfter=No
 3	'n	yn	AUX	impf	_	4	aux	_	_
 4	pendroni	pendroni	NOUN	verbnoun	Number=Sing|VerbForm=Vnoun	1	xcomp	_	_
-5	pa	pa	DET	det	PronType=Art	6	det	_	_
+5	pa	pa	DET	det	PronType=Rel	6	det	_	_
 6	anrheg	anrheg	NOUN	noun	Gender=Masc|Number=Sing	4	obj	_	_
 7	Nadolig	Nadolig	NOUN	noun	Gender=Masc|Number=Sing	6	nmod	_	_
 8	i	i	ADP	prep	_	10	mark	_	SpaceAfter=No
