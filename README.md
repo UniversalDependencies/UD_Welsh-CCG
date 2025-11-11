@@ -84,6 +84,7 @@ If you use this treebank in your work, please cite:
 Data available since: UD v2.4
 License: CC BY-SA 4.0
 Includes text: yes
+Parallel: no
 Genre: grammar-examples wiki nonfiction fiction news
 Lemmas: converted from manual
 UPOS: converted from manual
